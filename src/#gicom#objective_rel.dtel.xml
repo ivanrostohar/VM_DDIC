@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/OBJECTIVE_REL</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>XFELD</DOMNAME>
+    <DOMNAME>ABAP_BOOLEAN</DOMNAME>
     <HEADLEN>55</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>20</SCRLEN2>
@@ -17,6 +17,7 @@
     <SCRTEXT_L>Target reaching relevant flag</SCRTEXT_L>
     <DTELMASTER>D</DTELMASTER>
     <REFKIND>D</REFKIND>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
@@ -24,11 +25,11 @@
    <DD04_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
-     <DDTEXT>Zielerreichungsrelevant Flag</DDTEXT>
-     <REPTEXT>Zielerreichungsrelevant</REPTEXT>
-     <SCRTEXT_S>Ziel. rel.</SCRTEXT_S>
-     <SCRTEXT_M>Zielerreichungsrelev</SCRTEXT_M>
-     <SCRTEXT_L>Zielerreichungsrelevant</SCRTEXT_L>
+     <DDTEXT>Target reaching relevant flag</DDTEXT>
+     <REPTEXT>Target reaching relevant flag</REPTEXT>
+     <SCRTEXT_S>Tar. Rel.</SCRTEXT_S>
+     <SCRTEXT_M>Target reaching rel.</SCRTEXT_M>
+     <SCRTEXT_L>Target reaching relevant flag</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>
