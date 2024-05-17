@@ -1,0 +1,2 @@
+# VM_DDIC
+/GICOM/VM_DDIC Package 
