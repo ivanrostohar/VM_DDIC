@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/WB2_COCO_DET_REL_CONTR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/WB2_COCO_DET_REL_CONTR</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>CC Determination Relevance in Pricing (Condition Contract)</DDTEXT>
+    <REPTEXT>Relevant for Contract Determination</REPTEXT>
+    <SCRTEXT_L>Relevant for Contract Determination</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>CONTRACT_DETERM_RELEVANT</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>KK-Ermittlungsrelevanz in der Preisfindung (KondKontrakt)</DDTEXT>
+     <REPTEXT>Für Kontraktermittlung relevant</REPTEXT>
+     <SCRTEXT_L>Für Kontraktermittlung relevant</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Pertinent pr déterm. contrat ds détermin. prix (contr.cond.)</DDTEXT>
+     <REPTEXT>Pertinent pour détermination de contrat</REPTEXT>
+     <SCRTEXT_L>Pertinent pour détermination de contrat</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Istotność ustalania kontr. war. w ustal. cen (kont. war.)</DDTEXT>
+     <REPTEXT>Istotne dla ustalania kontraktu</REPTEXT>
+     <SCRTEXT_L>Istotne dla ustalania kontraktu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Relevância p/determ.CC na determ.preço (contrato condição)</DDTEXT>
+     <REPTEXT>Relev.p/determinação do contrato</REPTEXT>
+     <SCRTEXT_L>Relev.p/determinação do contrato</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Relevante p.determinación CC en determ.precios (contr.cond.)</DDTEXT>
+     <REPTEXT>Relevante para determ.contrato</REPTEXT>
+     <SCRTEXT_L>Relevante para determ.contrato</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_COCO_DET_REL_CONTR</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_COCO_DET_REL_CONTR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Steuert, ob der Konditionskontrakt für die Konditionskontraktermittlung</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in der Preisfindung relevant ist.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie &lt;LS&gt;Aus dem Customizing&lt;/&gt; wählen, wertet das System die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entsprechende &lt;DS:DE.WB2_COCO_DETERMINATION_REL&gt;Einstellung aus der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Konditionskontraktart&lt;/&gt; aus und wenn Sie eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Konditionskontrakt-Prozessvariante angegeben haben, wertet es auch die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entsprechende &lt;DS:DE.WB2_COCO_DETERM_REL_PROC_VAR&gt;Einstellung aus dieser</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Prozessvariante&lt;/&gt; aus. Wenn Sie einen der anderen Parameterwerte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>auswählen, überschreiben Sie diese Einstellungen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_COCO_DET_REL_CONTR</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00010</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_COCO_DET_REL_CONTR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Controls whether the condition contract is relevant for condition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contract determination in pricing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you choose &lt;LS&gt;From Customizing&lt;/&gt;, the system evaluates the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>   &lt;DS:DE.WB2_COCO_DETERMINATION_REL&gt;setting from the condition contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type&lt;/&gt;, and if you have specified a condition contract process variant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;(&gt;,&lt;)&gt; it also evaluates the corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>  &lt;DS:DE.WB2_COCO_DETERM_REL_PROC_VAR&gt;setting from this process variant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;. If you choose any of the other parameter values&lt;(&gt;,&lt;)&gt; you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>overwrite these settings.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_COCO_DET_REL_CONTR</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_COCO_DET_REL_CONTR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cette zone pilote si le contrat de conditions est pertinent pour la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>détermination du contrat de conditions dans la détermination du prix.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Si vous sélectionnez &lt;LS&gt;Du Customizing&lt;/&gt;, le système évalue l&apos;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:DE.WB2_COCO_DETERMINATION_REL&gt;option correspondante à partir du type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de contrat de conditions&lt;/&gt;, et si vous avez indiqué une variante de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processus de contrat de conditions, il évalue également l&apos;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;DS:DE.WB2_COCO_DETERM_REL_PROC_VAR&gt;option correspondante à partir de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cette variante de processus&lt;/&gt;. Si vous sélectionnez l&apos;une des autres</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>valeurs de paramètre, vous écrasez ces options.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_COCO_DET_REL_CONTR</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_COCO_DET_REL_CONTR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Controla se o contrato de condição é relevante para a determinação do</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contrato de condição na determinação de preço.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Se você selecionar &lt;LS&gt;Do customizing&lt;/&gt;, o sistema avalia a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.WB2_COCO_DETERMINATION_REL&gt;configuração do tipo de contrato de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condição&lt;/&gt; correspondente e, se indicou uma variante de processo de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contrato de condição, também avalia a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.WB2_COCO_DETERM_REL_PROC_VAR&gt;configuração desta variante de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processo&lt;/&gt; correspondente. Se você selecionar qualquer um dos outros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>valores de parâmetros, você sobregrava estas configurações.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_COCO_DET_REL_CONTR</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00009</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_COCO_DET_REL_CONTR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Controla si el contrato de condición es relevante para la determinación</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>del contrato de condición en la determinación de precio.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Si selecciona &lt;LS&gt;Desde el Customizing&lt;/&gt;, el sistema evalúa la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>correspondiente   &lt;DS:DE.WB2_COCO_DETERMINATION_REL&gt;opción del tipo de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contrato de condición&lt;/&gt;, y si ha especificado una variante de proceso</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de contrato de condición, también evalúa la correspondiente</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE> &lt;DS:DE.WB2_COCO_DETERM_REL_PROC_VAR&gt;opción desde esta variante del</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>proceso&lt;/&gt;. Si selecciona si cualquiera de los otros valores de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parámetro, sobrescriba estas opciones.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

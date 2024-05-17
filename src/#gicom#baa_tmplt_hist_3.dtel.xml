@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/BAA_TMPLT_HIST_3</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>STRING</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>BAA Template History 3</DDTEXT>
+    <REPTEXT>History 3</REPTEXT>
+    <SCRTEXT_S>Hist. 3</SCRTEXT_S>
+    <SCRTEXT_M>History 3</SCRTEXT_M>
+    <SCRTEXT_L>History 3</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>BAA Template Historie 3</DDTEXT>
+     <REPTEXT>Historie 3</REPTEXT>
+     <SCRTEXT_S>Hist. 3</SCRTEXT_S>
+     <SCRTEXT_M>Historie 3</SCRTEXT_M>
+     <SCRTEXT_L>Historie 3</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

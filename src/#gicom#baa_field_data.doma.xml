@@ -1,0 +1,841 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GICOM/BAA_FIELD_DATA</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Data source of total business (field name)</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VALUE</DOMVALUE_L>
+     <DDTEXT>Agreement value</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CHANGE_REL</DOMVALUE_L>
+     <DDTEXT>Relative change to previous year</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VALUE_QTY</DOMVALUE_L>
+     <DDTEXT>Agreement value (amount)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>REFERENCE</DOMVALUE_L>
+     <DDTEXT>Reference base</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MIN_VALUE</DOMVALUE_L>
+     <DDTEXT>Minimum value</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MAX_VALUE</DOMVALUE_L>
+     <DDTEXT>Maximum value</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE</DOMVALUE_L>
+     <DDTEXT>Relative value of reference base</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>EARNINGS</DOMVALUE_L>
+     <DDTEXT>Agreement earnings</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MULTIPLIER</DOMVALUE_L>
+     <DDTEXT>multiplier</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_LIM_VAL</DOMVALUE_L>
+     <DDTEXT>Limited Validity</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>EARNING_GC</DOMVALUE_L>
+     <DDTEXT>Earning of agreement (group curr)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_ADD</DOMVALUE_L>
+     <DDTEXT>Additive Agreement</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_SCALES</DOMVALUE_L>
+     <DDTEXT>Scale steps existing</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_MAN_BASE</DOMVALUE_L>
+     <DDTEXT>Manual reference base</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE2</DOMVALUE_L>
+     <DDTEXT>Relative value of reference base 2</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_COND</DOMVALUE_L>
+     <DDTEXT>Conditional Agreement</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_TARGET</DOMVALUE_L>
+     <DDTEXT>Target relevance (row)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC</DOMVALUE_L>
+     <DDTEXT>Calculation relevance (row)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_FAVORITE</DOMVALUE_L>
+     <DDTEXT>Favorite (row)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_SND</DOMVALUE_L>
+     <DDTEXT>Multiple sender</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_RCV</DOMVALUE_L>
+     <DDTEXT>Multiple receiver</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC_PND</DOMVALUE_L>
+     <DDTEXT>Pending Calculation</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Datenquelle im Gesamtengagement (Feldname)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Source de données dans l’activité totale (nom du champ)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Źródło danych całej działalności (nazwa pola)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Fonte de dados da operação total (nome do campo)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Fuente de datos de la operación total (nombre de campo)</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VALUE</DOMVALUE_L>
+     <DDTEXT>Vereinbarungswert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VALUE</DOMVALUE_L>
+     <DDTEXT>Valeur de l’accord</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VALUE</DOMVALUE_L>
+     <DDTEXT>Wartość umowy</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VALUE</DOMVALUE_L>
+     <DDTEXT>Valor do acordo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VALUE</DOMVALUE_L>
+     <DDTEXT>Valor del acuerdo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CHANGE_REL</DOMVALUE_L>
+     <DDTEXT>Relative Änderung des Vereinbarungswerts ggü. Vorjahr</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CHANGE_REL</DOMVALUE_L>
+     <DDTEXT>Modification relative par rapport à l’année précédente</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CHANGE_REL</DOMVALUE_L>
+     <DDTEXT>Zmiana względem roku poprzedniego</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CHANGE_REL</DOMVALUE_L>
+     <DDTEXT>Modificação relativa para o ano anterior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CHANGE_REL</DOMVALUE_L>
+     <DDTEXT>Cambio relativo al año anterior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VALUE_QTY</DOMVALUE_L>
+     <DDTEXT>Vereinbarungswert (Mengeneinheit)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VALUE_QTY</DOMVALUE_L>
+     <DDTEXT>Valeur de l’accord (montant)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VALUE_QTY</DOMVALUE_L>
+     <DDTEXT>Wartość umowy (kwota)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VALUE_QTY</DOMVALUE_L>
+     <DDTEXT>Valor do acordo (montante)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VALUE_QTY</DOMVALUE_L>
+     <DDTEXT>Valor del acuerdo (importe)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>REFERENCE</DOMVALUE_L>
+     <DDTEXT>Bezugsbasis</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>REFERENCE</DOMVALUE_L>
+     <DDTEXT>Base de référence</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>REFERENCE</DOMVALUE_L>
+     <DDTEXT>Podstawa odniesienia</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>REFERENCE</DOMVALUE_L>
+     <DDTEXT>Base de referência</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>REFERENCE</DOMVALUE_L>
+     <DDTEXT>Base de referencia</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>MIN_VALUE</DOMVALUE_L>
+     <DDTEXT>Deckelungsbetrag Minimum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>MIN_VALUE</DOMVALUE_L>
+     <DDTEXT>Valeur minimale</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>MIN_VALUE</DOMVALUE_L>
+     <DDTEXT>Wartość minimalna</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>MIN_VALUE</DOMVALUE_L>
+     <DDTEXT>Valor mínimo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>MIN_VALUE</DOMVALUE_L>
+     <DDTEXT>Valor mínimo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>MAX_VALUE</DOMVALUE_L>
+     <DDTEXT>Deckelungsbetrag Maximum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>MAX_VALUE</DOMVALUE_L>
+     <DDTEXT>Valeur maximale</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>MAX_VALUE</DOMVALUE_L>
+     <DDTEXT>Wartość maksymalna</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>MAX_VALUE</DOMVALUE_L>
+     <DDTEXT>Valor máximo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>MAX_VALUE</DOMVALUE_L>
+     <DDTEXT>Valor máximo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE</DOMVALUE_L>
+     <DDTEXT>Anteil an Bezugsbasis</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE</DOMVALUE_L>
+     <DDTEXT>Valeur relative de la base de référence</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE</DOMVALUE_L>
+     <DDTEXT>Wartość względem podstawy odniesienia</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE</DOMVALUE_L>
+     <DDTEXT>Valor relativo da base de referência</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE</DOMVALUE_L>
+     <DDTEXT>Valor relativo de la base de referencia</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>EARNINGS</DOMVALUE_L>
+     <DDTEXT>Ertrag der Vereinbarung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>EARNINGS</DOMVALUE_L>
+     <DDTEXT>Gains d’accord</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>EARNINGS</DOMVALUE_L>
+     <DDTEXT>Zarobki z umowy</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>EARNINGS</DOMVALUE_L>
+     <DDTEXT>Resultado do acordo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>EARNINGS</DOMVALUE_L>
+     <DDTEXT>Beneficios del acuerdo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>MULTIPLIER</DOMVALUE_L>
+     <DDTEXT>Multiplikator</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>MULTIPLIER</DOMVALUE_L>
+     <DDTEXT>multiplicateur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>MULTIPLIER</DOMVALUE_L>
+     <DDTEXT>mnożnik</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>MULTIPLIER</DOMVALUE_L>
+     <DDTEXT>multiplicador</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>MULTIPLIER</DOMVALUE_L>
+     <DDTEXT>multiplicador</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_LIM_VAL</DOMVALUE_L>
+     <DDTEXT>Eingeschränkte Gültigkeit</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_LIM_VAL</DOMVALUE_L>
+     <DDTEXT>Validité limitée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_LIM_VAL</DOMVALUE_L>
+     <DDTEXT>Ograniczona ważność</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_LIM_VAL</DOMVALUE_L>
+     <DDTEXT>Validade limitada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_LIM_VAL</DOMVALUE_L>
+     <DDTEXT>Validez limitada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>EARNING_GC</DOMVALUE_L>
+     <DDTEXT>Ertrag der Vereinbarung (Konzernwährung)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>EARNING_GC</DOMVALUE_L>
+     <DDTEXT>Gain de l’accord (groupe actuel)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>EARNING_GC</DOMVALUE_L>
+     <DDTEXT>Zarobek z umowy (waluta grupy)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>EARNING_GC</DOMVALUE_L>
+     <DDTEXT>Resultado do acordo (moeda do grupo)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>EARNING_GC</DOMVALUE_L>
+     <DDTEXT>Beneficio del acuerdo (moneda de grupo)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_ADD</DOMVALUE_L>
+     <DDTEXT>Additive Vereinbarung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_ADD</DOMVALUE_L>
+     <DDTEXT>Accord additif</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_ADD</DOMVALUE_L>
+     <DDTEXT>Umowa dodatkowa</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_ADD</DOMVALUE_L>
+     <DDTEXT>Acordo aditivo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_ADD</DOMVALUE_L>
+     <DDTEXT>Acuerdo adicional</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_SCALES</DOMVALUE_L>
+     <DDTEXT>Staffelstufen vorhanden</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_SCALES</DOMVALUE_L>
+     <DDTEXT>Étapes de l’échelle existante</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_SCALES</DOMVALUE_L>
+     <DDTEXT>Istniejące kroki skali</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_SCALES</DOMVALUE_L>
+     <DDTEXT>Existem etapas de escala</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_SCALES</DOMVALUE_L>
+     <DDTEXT>Pasos de escala existentes</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_MAN_BASE</DOMVALUE_L>
+     <DDTEXT>Manuelle Bezugsbasis</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_MAN_BASE</DOMVALUE_L>
+     <DDTEXT>Base de référence manuelle</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_MAN_BASE</DOMVALUE_L>
+     <DDTEXT>Ręczna podstawa odniesienia</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_MAN_BASE</DOMVALUE_L>
+     <DDTEXT>Base de referência manual</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_MAN_BASE</DOMVALUE_L>
+     <DDTEXT>Base de referencia manual</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE2</DOMVALUE_L>
+     <DDTEXT>Anteil an Bezugsbasis2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE2</DOMVALUE_L>
+     <DDTEXT>Valeur relative de la base de référence 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE2</DOMVALUE_L>
+     <DDTEXT>Wartość względem podstawy odniesienia 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE2</DOMVALUE_L>
+     <DDTEXT>Valor relativo da base de referência 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>REL_BASE2</DOMVALUE_L>
+     <DDTEXT>Valor relativo de la base de referencia 2</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_COND</DOMVALUE_L>
+     <DDTEXT>Bedingte Vereinbarung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_COND</DOMVALUE_L>
+     <DDTEXT>Accord conditionnel</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_COND</DOMVALUE_L>
+     <DDTEXT>Umowa warunkowa</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_COND</DOMVALUE_L>
+     <DDTEXT>Acordo condicional</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_COND</DOMVALUE_L>
+     <DDTEXT>Acuerdo condicional</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_TARGET</DOMVALUE_L>
+     <DDTEXT>Zielerreichungsrelevant (Zeile)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_TARGET</DOMVALUE_L>
+     <DDTEXT>Pertinence de la cible (rangée)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_TARGET</DOMVALUE_L>
+     <DDTEXT>Trafność docelowa (wiersz)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_TARGET</DOMVALUE_L>
+     <DDTEXT>Relevância destino (linha)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_TARGET</DOMVALUE_L>
+     <DDTEXT>Relevancia de destino (fila)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC</DOMVALUE_L>
+     <DDTEXT>Kalkulationsrelevant (Zeile)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC</DOMVALUE_L>
+     <DDTEXT>Pertinence du calcul (rangée)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC</DOMVALUE_L>
+     <DDTEXT>Trafność obliczeń (wiersz)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC</DOMVALUE_L>
+     <DDTEXT>Relevância do cálculo (linha)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC</DOMVALUE_L>
+     <DDTEXT>Relevancia de cálculo (fila)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_FAVORITE</DOMVALUE_L>
+     <DDTEXT>Favorit (Zeile)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_FAVORITE</DOMVALUE_L>
+     <DDTEXT>Favoris (rangée)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_FAVORITE</DOMVALUE_L>
+     <DDTEXT>Ulubione (wiersz)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_FAVORITE</DOMVALUE_L>
+     <DDTEXT>Favorito (linha)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_FAVORITE</DOMVALUE_L>
+     <DDTEXT>Favorito (fila)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_SND</DOMVALUE_L>
+     <DDTEXT>Multiple Sender</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_SND</DOMVALUE_L>
+     <DDTEXT>Expéditeur multiple</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_SND</DOMVALUE_L>
+     <DDTEXT>wielu nadawców</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_SND</DOMVALUE_L>
+     <DDTEXT>vários emissores</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_SND</DOMVALUE_L>
+     <DDTEXT>varios emisores</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_RCV</DOMVALUE_L>
+     <DDTEXT>Multiple Empfänger</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_RCV</DOMVALUE_L>
+     <DDTEXT>Récepteur multiple</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_RCV</DOMVALUE_L>
+     <DDTEXT>wielu odbiorców</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_RCV</DOMVALUE_L>
+     <DDTEXT>vários destinatários</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_MULT_RCV</DOMVALUE_L>
+     <DDTEXT>varios receptores</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC_PND</DOMVALUE_L>
+     <DDTEXT>Ausstehende Bewertung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC_PND</DOMVALUE_L>
+     <DDTEXT>Calcul en attente</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC_PND</DOMVALUE_L>
+     <DDTEXT>Oczekiwanie na obliczenie</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC_PND</DOMVALUE_L>
+     <DDTEXT>Cálculo pendente</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>X_CALC_PND</DOMVALUE_L>
+     <DDTEXT>Pendiente de cálculo</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

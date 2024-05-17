@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/STATUS_AGRMT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/STATUS_AGRMT</DOMNAME>
+    <HEADLEN>06</HEADLEN>
+    <SCRLEN1>06</SCRLEN1>
+    <SCRLEN2>06</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>Status of agreement</DDTEXT>
+    <REPTEXT>Status</REPTEXT>
+    <SCRTEXT_S>Status</SCRTEXT_S>
+    <SCRTEXT_M>Status</SCRTEXT_M>
+    <SCRTEXT_L>Agreementstatus</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Status der Vereinbarung</DDTEXT>
+     <REPTEXT>Status</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status</SCRTEXT_M>
+     <SCRTEXT_L>Vereinbarungsstatus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Statut d’un accord</DDTEXT>
+     <REPTEXT>Statut</REPTEXT>
+     <SCRTEXT_S>Statut</SCRTEXT_S>
+     <SCRTEXT_M>Statut</SCRTEXT_M>
+     <SCRTEXT_L>Statut accord</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Stan umowy</DDTEXT>
+     <REPTEXT>Stan</REPTEXT>
+     <SCRTEXT_S>Stan</SCRTEXT_S>
+     <SCRTEXT_M>Stan</SCRTEXT_M>
+     <SCRTEXT_L>Stan umowy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Status do acordo</DDTEXT>
+     <REPTEXT>Status</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status</SCRTEXT_M>
+     <SCRTEXT_L>Status do acordo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Estado de un acuerdo</DDTEXT>
+     <REPTEXT>Estado</REPTEXT>
+     <SCRTEXT_S>Estado</SCRTEXT_S>
+     <SCRTEXT_M>Estado</SCRTEXT_M>
+     <SCRTEXT_L>Estado del acuerdo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

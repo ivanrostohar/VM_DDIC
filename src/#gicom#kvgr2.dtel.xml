@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/KVGR2</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/KVGR2</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>04</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Customer Group 2</DDTEXT>
+    <REPTEXT>Grp2</REPTEXT>
+    <SCRTEXT_S>Cust.Grp.2</SCRTEXT_S>
+    <SCRTEXT_M>Customer Grp 2</SCRTEXT_M>
+    <SCRTEXT_L>Customer Group 2</SCRTEXT_L>
+    <APPLCLASS>VP</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>CUST_GRP2</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kundengruppe 2</DDTEXT>
+     <REPTEXT>Grp2</REPTEXT>
+     <SCRTEXT_S>KundGrp. 2</SCRTEXT_S>
+     <SCRTEXT_M>Kundengruppe 2</SCRTEXT_M>
+     <SCRTEXT_L>Kundengruppe 2</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Groupe de clients 2</DDTEXT>
+     <REPTEXT>Grp2</REPTEXT>
+     <SCRTEXT_S>Grpe clts2</SCRTEXT_S>
+     <SCRTEXT_M>Grpe clients 2</SCRTEXT_M>
+     <SCRTEXT_L>Groupe de clients 2</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Gr. klientów 2</DDTEXT>
+     <REPTEXT>Grp2</REPTEXT>
+     <SCRTEXT_S>Gr.klien.2</SCRTEXT_S>
+     <SCRTEXT_M>Gr. klientów 2</SCRTEXT_M>
+     <SCRTEXT_L>Gr. klientów 2</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Grupo de clientes 2</DDTEXT>
+     <REPTEXT>Grp2</REPTEXT>
+     <SCRTEXT_S>Grp.clnt.2</SCRTEXT_S>
+     <SCRTEXT_M>Grp.clientes 2</SCRTEXT_M>
+     <SCRTEXT_L>Grupo de clientes 2</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Grupo de clientes 2</DDTEXT>
+     <REPTEXT>Gr.2</REPTEXT>
+     <SCRTEXT_S>GrpClient2</SCRTEXT_S>
+     <SCRTEXT_M>Gr.clientes 2</SCRTEXT_M>
+     <SCRTEXT_L>Grupo de clientes 2</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

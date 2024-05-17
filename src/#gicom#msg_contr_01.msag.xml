@@ -1,0 +1,4953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages contracts</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Status change not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Variant status change not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&quot;Valid to&quot; date is less than &quot;valid from&quot; date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>E-mail address &apos;&amp;1&apos; is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Contract type is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>&quot;Valid from&quot; date for variant &amp; is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>&quot;Valid to&quot; date for variant &amp; is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Contract description for variant &apos;&amp;&apos; is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Contract language is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Process level for variant &apos;&amp;&apos; is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Authority of negotiation is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Range of validity for variant &apos;&amp;&apos; is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Contract runtime and schedule model for variant &apos;&amp;&apos; is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>No variants existing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Date of termination is outside of contract validity</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Date of termination should be a future date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Contract runtime and schedule model &apos;&amp;1&apos; is unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Settling company code &apos;&amp;1&apos; is not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Date of cancellation is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Contract type &apos;&amp;1&apos; is invalid or unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Settling period is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Contract runtime and schedule model is unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Type of authorization is undefined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>No authority for negotiator &apos;&amp;1&apos; to create contracts from &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>No contract types found for range of validity &apos;&amp;1&apos; and process level &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Variant &apos;&amp;1&apos; requested for approval</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Change of status successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Error while saving data of variant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>No authorization for editing contract</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Saving contract was failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>No authorization for process level &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Authorization checktype is not defined in customizing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Negotiator &apos;&amp;1&apos; has no authorization for contract type &apos;&amp;2&apos; creation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>No contract types available for range of validity &amp;1 and process level &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Contract type &amp;1 not valid for range of validity &amp;2 and process level &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Lawsuit for contract &apos;&amp;1&apos; was resolved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Contract was terminated per &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Termination date &apos;&amp;1&apos; has been declined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Contract was canceled per &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Cancelation date &apos;&amp;1&apos; has been declined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>An error occurred by updating the table &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>No authorization for creating a contract</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Error while approving contract &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Error while declining contract &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Error while setting contract invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Error while declining variant &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Error while terminating variant &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Contract was set in lawsuit with file no &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>An error occurred by saving a new contract. Reason Variant No.: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Error while deleting variant(s)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Error while deleting contract(s)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>No new variant for invalid contract allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>No new variant for interrupted contract allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Contract has already been canceled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>No document for contract language &apos;&amp;1&apos; found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Error while creating contract variant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Error while creating variant. Reason: No contract id</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>An error occurred by saving new contract: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>An error occurred by saving new variant: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>An error occurred by reading contract: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>An error occurred by reading variant(s): &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Contract variant &apos;&amp;1&apos; activated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Revision of variant &apos;&amp;1&apos; is released</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Activation of variant &apos;&amp;1&apos; was rejected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>An error occurred by reading contract by partner: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Contract has already been set invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Contract has been set invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>No authorization for authority of negotiations</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>No authorization for range of validities</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>No authorization for level of processes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>No authorization for contract types</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>No contracts for partner found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>An error occurred by reading dynamic appendix values: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Agreement model is unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Error while deleting agreements for contract &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>An error occurred while deleting dynamic appendix values: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Error while saving contract relations</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>Predecessor &amp;1 status needs to be active</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>Contract types of selected contracts do not match (&amp;1, &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Authorities of negotiation of selected contracts do not match (&amp;1, &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>The requested operation is not allowed in respect to the object&apos;s status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>An internal error occured while accessing the database table(s)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Contract &apos;Valid from&apos; before validity begin of settling company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Agreement model &apos;&amp;1&apos; not supported</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Contract &amp;1 currently blocked by user &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>Contract &amp;1 could not be unlocked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Some parameters of the contract &amp;1 are invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Setting contract invalid was rejected by &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>There is already a variant in status &apos;in release&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Can not copy variant with initial variant number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Product group &apos;&amp;1&apos; is unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>Authority of negotiation &apos;&amp;1&apos; is unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Range of validity &apos;&amp;1&apos; is unknown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>Variant was corrected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>Termination date is the same as the valid to</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>User &apos;&amp;1&apos; has no authorization for contract type &apos;&amp;2&apos; creation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>Agreement model &apos;&amp;1&apos;, operator focus &amp;2 not supported</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Agreement model is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Payment target day is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Operator focus is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Contract type &amp;1 already exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Range of validity &apos;&amp;1&apos; is not included in authority of negotiation &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Partner &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Successor cannot start before predecessor &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Predecessor &amp;1: Agreement &amp;2 &gt; end of contract. Valid-from not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>106</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>No authorization to copy a rejected variant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>No authorization for correcting the contract</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>No authorization for setting variant &apos;&amp;1&apos; of contract &apos;&amp;2&apos; in release</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>No authorization for deleting the variant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>No authorization for updating the variant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>No authorization for creating a contract variant</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Contact Person not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>Company code must be allowed at agreement non-transactional</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>Settlement company code must be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Org.Model settlement company code not allowed at the moment</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>Cancelation not allowed - contract is currently in the approval process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Invalidation not allowed - contract is currently in the approval process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Termination not allowed - contract is currently in the approval process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>Request for invalidation approval started</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>Request for termination approval started (termination date: &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>Request for cancelation approval started (cancelation date: &amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>Due to missing authorization, not all contracts are displayed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Negotiator &apos;&amp;1&apos; has no authority for ROV &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>No contracts available for selection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>Action aborted, no data was changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>There are no variants for the contract &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>&amp;1 Contracts changed and &amp;2 file entries generated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>Simulation: &amp;1 Contracts would be changed and &amp;2 file entries generated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Error when creating the file entry, contract/variant: &amp;1/&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>&amp;1 Do you want to change Buyer/AON for the selected &amp;2 contract(s)?</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>Error by updating the table /gicom/cntr, Id = &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>Error: No data for the business partner &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>No authorization negotiator &apos;&amp;1&apos;: contract type &apos;&amp;2&apos;, process level &apos;&amp;3&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>No authorization negotiator &apos;&amp;1&apos;: aon &apos;&amp;2&apos;, rov &apos;&amp;3&apos;, contract type &apos;&amp;4&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>Negotiator &apos;&amp;1&apos; has no authorization for AON &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>Variant was corrected: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>&quot;Valid From&quot; is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>&quot;Valid Until&quot; is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>Description is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>There is a not released variant / addendum.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>Only active agrmts of contract &amp;1 &amp;2 are taken into account</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>Ranges of validity of selected contracts do not match (&amp;1, &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>144</MSGNR>
+     <TEXT>Termination cancelled because of active successor (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>Successor in preparation found (&amp;1). Please remove it manually</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>Contract &amp;1 Variant &amp;2 Correction started in background</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>Contract &amp;1 Variant &amp;2 Correction ended successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>Successor Creation started in background</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>Successor Creation ended successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Parallel Correction Handling is currently not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Parallel Successor Handling is currently not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Error during contract determination</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>Contact Person &amp;1 &amp;2 is inactive</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>The contract language can not be changed for a contract in this status.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>Contract &amp;1 has no contract type.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>Copy mode &amp;1 is here not supported</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>Cancellation date must be filled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>Termination date must be filled</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <STEXT>Nachrichten Verträge</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <STEXT>Messages de contrats</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <STEXT>Komunikaty — kontrakty</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <STEXT>Mensagens contratos</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_CONTR_01</ARBGB>
+     <STEXT>Contratos de mensajes</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Statuswechsel nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Arbeitsstatuswechsel nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>&quot;Gültig bis&quot;-Datum ist kleiner als &quot;Gültig von&quot;-Datum</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>E-Mail-Adresse &quot;&amp;1&quot; ist nicht gültig</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Vertragstyp fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>&quot;Gültig ab&quot;-Datum der Variante &amp; fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>&quot;Gültig von&quot;-Datum der Variante &amp; fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Bezeichnung der Variante &amp; fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Vertragssprache fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Prozessebene der Variante &quot;&amp;&quot; fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Hoheitsgebiet fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Geltungsbereich der Variante &quot;&amp;&quot; fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Vertragslaufzeit und Planungsmodell der Variante &quot;&amp;&quot; fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Keine Varianten vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Terminierungsdatum liegt nicht innerhalb der Vertragsgültigkeit</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Terminierungsdatum muss in der Zukunft liegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Vertrags- und Laufzeitmodell &quot;&amp;1&quot; ist unbekannt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Abrechnender Buchungskreis &quot;&amp;1&quot; ist nicht gültig</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Angegebenes Kündigungsdatum ist ungültig</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Vertragstyp &quot;&amp;1&quot; ist ungültig oder unbekannt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Abrechnungsintervall fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Vertragslaufzeit/Fristenmodell ist unbekannt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Berechtigungsprüfungsart ist im Customizing nicht definiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Verhandler &quot;&amp;1&quot; hat keine Berechtigung Verträge von &quot;&amp;2&quot; anzulegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Keine Vertragstypen zum Geltungsbereich &amp;1 und Prozessebene &amp;2 vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Variante &apos;&amp;1&apos; wurde zur Freigabe gegeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Statusänderung erfolgreich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Fehler beim Speichern der Variantendaten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Keine Berechtigung den Vertrag zu ändern</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Fehler beim Speichern des Vertrages</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Keine Berechtigung für Prozessebene &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Berechtigungsprüfungsart ist im Customizing nicht definiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Verhandler &amp;1 hat keine Berechtigung Verträge von Typ &amp;2 anzulegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Keine Vertragstypen zum Geltungsbereich &amp;1 und Prozessebene &amp;2 vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Vertragstyp &amp;1 nicht definiert für Geltungsbereich &amp;2 und Prozessebene &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Rechtsstreit für Vertrag &amp;1 wurde beigelegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Vertrag wurde zum &amp;1 terminiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Terminierungsdatum &amp;1 wurde abgelehnt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Vertrag wurde zum &apos;&amp;1&apos; gekündigt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Kündigungsdatum &amp;1 wurde abgelehnt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Ein Fehler ist beim Updaten der Tabelle &amp;1 aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Keine Berechtigung zum Anlegen eines Vertrages</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Fehler bei Freigabe des Vertrages &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Fehler bei Ablehnung des Vertrages &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Fehler beim Invalidieren des Vertrages</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Fehler beim Ablehnen der Variante &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Fehler beim Terminieren der Variante &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Vertrag wurde unter AZ &amp;1 in Rechtsstreit gesetzt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Ein Fehler ist beim Speichern aufgetreten. Grund Variantennr. :&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Fehler beim Löschen der Variante(n)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Fehler beim Löschen des Vertrages/der Verträge</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Keine neue Variante für ungültigen Vertrag möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Keine neue Variante für ausgesetzten Vertrag möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Vertrag wurde bereits gekündigt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Kein Hauptdokument für Vertragssprache &amp;1 vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Fehler beim Erstellen einer Vertragsvariante</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Fehler beim Erstellen einer Variante, da die Vertrags-ID fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Fehler beim Speichern des neuen Vertrages aufgetreten: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Fehler beim Seichern einer neuen Variante aufgetreten: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Fehler beim Lesen des Vertrages &amp;1 aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Fehler beim Lesen der Variante(n) &amp;1 aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Vertragsvariante &apos;&amp;1&apos; wurde aktiviert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Modifikation der Variante &apos;&amp;1&apos; wurde freigegeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Aktivierung der Variante &apos;&amp;1&apos; wurde abgelehnt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Fehler beim Lesen eines Vertrages zum Partner: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Vertrag wurde bereits ungültig gesetzt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Vertrag wurde ungültig gesetzt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Keine Berechtigung für Hoheitsgebiete</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Keine Berechtigung für Geltungsbereiche</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Keine Berechtigung für Prozessebene</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Keine Berechtigung für Vertragstypen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Keine Verträge zum Partner gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Fehler beim Lesen der Werte des dyn. Anhangs aufgetreten: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Vertragslaufzeit/Fristenmodell ist unbekannt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Fehler beim Löschen der Vereinbarungen zu Vertrag &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Fehler beim Löschen der Werte des dyn. Anhangs aufgetreten: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Fehler beim Speichern der Vertragsbeziehungen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Vorgänger &amp;1 muss im Status &apos;aktiv&apos; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Vertragstypen der ausgewählten Verträge stimmen nicht überein (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Hoheitsgebiete der ausgewählten Verträge stimmen nicht überein (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Gewünschte Operation ist in diesem Status nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Ein interner Fehler ist beim Zugriff auf die Tabelle(n) aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Vertrag &quot;Gültig von&quot; vor Gültigkeitsbeginn des abrechn. Buchungskreises</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Vereinbarungsmodell &amp;1 wird nicht unterstützt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Vertrag &amp;1 ist aktuell durch Benutzer &amp;2 gesperrt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Vertrag &amp;1 konnte nicht entsperrt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Einige Parameter des Vertrages &amp;1 sind ungültig</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Ungültigsetzen des Vertrages wurde abgelehnt von &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Es existiert bereits eine Variante im Status &apos;in Freigabe&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Kopieren der Variante aufgrund initialer Variantennummer nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>&amp;1 ist keine Produktgruppe</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>&amp;1 ist kein Hoheitsgebiet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>&amp;1 ist kein Geltungsbereich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Variante wurde korrigiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Terminierungsdatum ist gleich dem gültig bis Datum</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Benutzer &apos;&amp;1&apos; hat keine Berechtigung Verträge vom Typ &apos;&amp;2&apos; anzulegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Vereinbarungsmodell &amp;1, Operatorfokus &amp;2 nicht unterstützt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Vereinbarungsmodell fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Zahlungsziel ist ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Operatorfokus fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Kontraktart &amp;1 bereits vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Geltungsbereich &apos;&amp;1&apos; ist nicht im Hoheitsgebiet &apos;&amp;2&apos; enthalten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Partner &amp;1 nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Nachfolger kann nicht vor dem Vorgänger &amp;1 beginnen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Vorgänger &amp;1: Vereinbarung &amp;2 &gt; Vertragsende. Gültig-von nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Keine Berechtigung zum Kopieren einer abgelehnten Variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Keine Berechtigung zur Korrektur des Vertrages</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Keine Berechtigung zur Freigabe der Variante &apos;&amp;1&apos; des Vertrages &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Keine Berechtigung zum Löschen der Variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Keine Berechtigung zur Änderung der Variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Keine Berechtigung zur Erstellung einer Vertragsvariante</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Kontaktperson konnte nicht gefunden werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Buchungskreis muss für die Vereinbarung erlaubt sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Abr. Buchungskreis muss gepflegt sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Abr. Buchungskreis der OrgEinheit momentan nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Kündigung nicht erlaubt - Vertrag befindet sich bereits in einer Freigabe</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Aktion nicht erlaubt - Vertrag befindet sich bereits in einer Freigabe</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Terminrg. nicht erlaubt - Vertrag befindet sich bereits in einer Freigabe</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Freigabe zur Ungültigsetzung des Vertrages gestartet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Terminierung des Vertrages zum &amp;1 wurde zur Freigabe gegeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Kündigung des Vertrages zum &amp;1 wurde zur Freigabe gegeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>Aufgrund fehlender Berechtigungen werden nicht alle Verträge angezeigt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Verhandler &apos;&amp;1&apos; hat für den Geltungsbereich &apos;&amp;2&apos; keine Berechtigung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Zur Selektion keine Verträge vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Aktion abgebrochen, es wurden keine Daten verändert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Es existieren keine Varianten zum Vertrag &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>&amp;1 Verträge geändert und &amp;2 Akteneinträge erzeugt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Simulation: &amp;1 Verträge würden geändert und &amp;2 Akteneinträge erzeugt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Fehler bei Erstellen des Akteneintrages, Vertrag/Variante: &amp;1/&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>&amp;1 Wollen Sie den Käufer/AON für die selektierten &amp;2 Verträge ändern?</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Fehler bei Update der Tabelle /gicom/cntr, Id = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Fehler: Keine Daten zum Geschäftspartner &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Keine Berechtigung Verhandler &apos;&amp;1&apos;: Vertragstyp &apos;&amp;2&apos;, Prozessebene &apos;&amp;3&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Keine Berechtigung Verhandler &apos;&amp;1&apos;: HHG &apos;&amp;2&apos;, GB &apos;&amp;3&apos;, Vertragstyp &apos;&amp;4&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Verhandler &apos;&amp;1&apos; hat keine Berechtigung für HHG &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Variante wurde Korrigiert: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>&quot;Gültig ab&quot; enthält keinen gültigen Wert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>&quot;Gültig Bis&quot; enthält keinen gültigen Wert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Beschreibung ist nicht gefüllt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Es existiert ein nicht veröffentlichtes addeddum / variante.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Nur aktive Vereinbarungen des Vertrages &amp;1 &amp;2 werden berücksichtigt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Geltungsbereiche der ausgewählten Verträge passen nicht zusammen (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Terminierung aufgrund aktivem Nachfolger abgebrochen (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Nachfolger in Vorbereitung gefunden (&amp;1). Bitte manuell löschen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Vertrag &amp;1 Variante &amp;2 Korrektur wurde im Hintergrund gestartet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Vertrag &amp;1 Variante &amp;2 Korrektur wurde erfolgreich beendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Nachfolger Erstellung wurde im Hintergrund gestartet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Nachfolger Erstellung wurde erfolgreich beendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Parallele Korrekturverarbeitung ist derzeit nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Parallele Nachfolgerverarbeitung ist derzeit nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Fehler bei der Vereinbarungsermittlung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>Kontaktperson ist inaktiv</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>Die Vertragssprache kann in diesem Status nicht geändert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>Vertrag &amp;1 hat keine Vertragsart.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>Kopiermodus &amp;1 nicht unterstützt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>Kündigungsdatum muss gefüllt sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>Terminierungsdatum muss gefüllt sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Modification de statut non autorisée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>La modification de statut de la variante n’est pas autorisée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>La date « valable jusqu’à » est inf. à la date « valable à partir du »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>L’adresse e-mail « &amp;1 » n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Le type de contrat est manquant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>La date de début de validité pour la variante &amp; est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>La date de fin de validité pour la variante &amp; est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>La description du contrat pour la variante « &amp; » est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>La langue du contrat est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Le niveau de traitement pour la variante « &amp; » est manquant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>L’autorité de négociation est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>La plage de validité de la variante « &amp; » est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Le mod. exécu. et calendrier contrat pour vari. « &amp; » est manquant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Aucune variante existante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>La date de résiliation est en dehors de la validité du contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>La date de résiliation devrait être une date future</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>La durée exéc. contrat et modèle calendrier « &amp;1 » sont inconnus</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Le code de l’entreprise du décompte « &amp;1 » n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>La date d’annulation n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Le type de contrat « &amp;1 » n’est pas valide ou est inconnu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>La période de décompte est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Le modèle d’exéc et de calendrier du contrat est inconnu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Le type d’autorisation est indéfini</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Aucune autori. pour négoc. « &amp;1 » à créer contrats à partir de « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Aucun type cont. trouvé pour plage val. « &amp;1 » et niv. traitement « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Variante « &amp;1 » demandée pour approbation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Modification de statut réussi</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Erreur lors de la sauvegarde des données de la variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Aucune autorisation pour éditer le contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>La sauvegarde du contrat a échoué</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Aucune autorisation pour le niveau de traitement « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Le type contrôle autorisation n’est pas défini dans la personnalisation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Le négoci. « &amp;1 » n’a pas l’autorisation de créer type de contrat « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Aucun type cont. dispo. pour plage val. « &amp;1 » et niv. traitement « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Le type contr. &amp;1 n’est pas valide pour plage vali. &amp;2 et niv. trait. &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Le litige concernant le contrat « &amp;1 » a été résolu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Le contrat a été résilié par « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>La date de résiliation « &amp;1 » a été rejetée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Le contrat a été annulé par « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>La date d’annulation « &amp;1 » a été rejetée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Une erreur s’est produite lors de la mise à jour du tableau « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Aucune autorisation pour la création d’un contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Erreur lors de l’approbation du contrat « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Erreur lors du refus du contrat « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Erreur lors de l’établissement d’un contrat invalide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Erreur lors du refus de la variante « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Erreur lors de la résiliation de la variante « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Le contrat a été établi dans un procès avec le numéro de dossier « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Erreur produite lors sauveg. nouveau contrat. No motif variante : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Erreur lors de la suppression de variante(s)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Erreur lors de la suppression de contrat(s)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Aucune nouvelle variante n’est autorisée pour un contrat invalide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Aucune nouvelle variante n’est autorisée pour un contrat interrompu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Le contrat a déjà été annulé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Aucun document pour la langue du contrat « &amp;1 » n’a été trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Erreur lors de la création d’une variante de contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Erreur lors de la création de variante. Motif : Aucun ID du contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Une erreur s’est produite lors de la sauvegarde du nouveau contrat : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Une erreur s’est produite lors de sauvegarde de nouvelle variante : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Une erreur s’est produite lors de la lecture du contrat : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Une erreur s’est produite lors de la lecture de variante(s) : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>La variante du contrat « &amp;1 » est activée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>La révision de la variante « &amp;1 » est publiée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>L’activation de la variante « &amp;1 » a été rejetée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Une erreur s’est produite lors de lecture contrat par partenaire : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Le contrat a déjà été invalidé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Le contrat a été invalidé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Aucune autorisation pour l’autorité des négociations</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Aucune autorisation pour la plage des validités</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Aucune autorisation pour le niveau des traitements</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Aucune autorisation pour les types de contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Aucun contrat pour le partenaire trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Une erreur s’est produite lors de lecture valeurs annexe dynamique : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Le modèle d’accord est inconnu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Erreur lors de la suppression d’accords pour le contrat « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Une erreur s’est produite lors suppression valeurs annexes dyna. : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Erreur lors de la sauvegarde des relations contractuelles</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Le statut du prédécesseur &amp;1 doit être actif</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Les types contrat contrats sélectionnés ne correspondent pas (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Les autor. négociation contrats sélectionnés ne corresp. pas (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Opération demandée non autorisée en ce qui concerne statut objet</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Une erreur interne s’est produite lors accès tableau(x) de base données</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Le contrat « Valable de » est antér. au début vali. du code entrep. déc.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Le modèle de contrat « &amp;1 » n’est pas pris en charge</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Contrat &amp;1 actuellement bloqué par l’utilisateur « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Le contrat &amp;1 n’a pas pu être déverrouillé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Certains paramètres du contrat &amp;1 ne sont pas valides</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>La définition d’un contrat invalide a été rejetée par « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Il existe déjà une variante dont statut est « en cours de publication »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Impossible de copier la variante avec le numéro de variante initial</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Le groupe de produits « &amp;1 » est inconnu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>L’autorité de négociation « &amp;1 » est inconnue</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>La plage de validité « &amp;1 » est inconnue</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>La variante a été corrigée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>La date de résiliation est la même que la date de fin de validité.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>L’utilisateur « &amp;1 » n’a pas autorisation de créer type de contrat « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Modèle d’accord « &amp;1 », objectif opérateur &amp;2 non pris en charge</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Le modèle d’accord est manquant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Le jour cible de paiement n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>L’objectif de l’opérateur est manquant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Le type de contrat &amp;1 existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>La plage vali. « &amp;1 » n’est pas incluse dans autorité négociation « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Partenaire &amp;1 non trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Le successeur ne peut pas commencer avant le prédécesseur &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Prédécesseur &amp;1 : Accord &amp;2 &gt; fin contrat. Début de validité impossible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Aucune autorisation pour copier une variante rejetée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Aucune autorisation pour corriger le contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Aucune autori. pour mettre variante « &amp;1 » contrat « &amp;2 » dans publi.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Aucune autorisation pour la suppression de la variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Aucune autorisation pour mettre à jour la variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Aucune autorisation pour créer une variante de contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Personne de contact non trouvée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Le code de l’entreprise doit être autorisée à l’accord non transactionnel</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Le code de l’entreprise du décompte doit être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Le code entrep. déco. mod. d’org. n’est pas autorisée pour le moment</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Annulation non autorisée – le contrat est actuellement en approbation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Invalidation non autorisée – le contrat est actuellement en approbation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Résiliation non autorisée – le contrat est actuellement en approbation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Demande d’approbation d’invalidation commencée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Demande d’approbation de résiliation commencée (date de résiliation : &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Demande d’approbation d’annulation commencée (date d’annulation : &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>En raison autorisation manquante, tous les contrats ne sont pas affichés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Le négociateur « &amp;1 » n’a aucune autorité sur le ROV « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Aucun contrat disponible pour la sélection</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Action interrompue, aucune donnée n’a été modifiée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Il n’y a pas de variantes pour le contrat &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>&amp;1 contrats ont été modifiés et &amp;2 entrées fichier ont été générées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Simulation : &amp;1 contrats seraient modifiés et &amp;2 entrées fichier générées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Erreur lors de la création de l’entrée fichier, contrat/variante : &amp;1/&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>&amp;1 Voulez-vous changer d’acheteur/AON pour contrats &amp;2 sélectionnés ?</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Erreur en mettant à jour le tableau /gicom/cntr, Id = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Erreur : Aucune donnée pour le négociateur « &amp;1 ».</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Aucun négociateur autori. « &amp;1 » : type cont. « &amp;2 », niv. trait. « &amp;3 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Aucun négoci. autori. « &amp;1 » : AON « &amp;2 », ROV « &amp;3 », type contr. « &amp;4 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Le négociateur « &amp;1 » n’a aucune autorisation sur le AON « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>La variante a été corrigée : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>« Valide de » n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>« Valide jusqu’à » n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>La description est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Il existe une variante/un addendum non publié.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Seuls les accords actifs du contrat &amp;1 &amp;2 sont pris en compte</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Les plages validité contrats sélectionnés ne correspondent pas (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Résiliation annulée à cause d’un successeur actif (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Successeur en préparation trouvé (&amp;1). Veuillez le supprimer manuellement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Correction du contrat &amp;1, variante &amp;2 lancée en arrière-plan</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Correction du contrat &amp;1, variante &amp;2 terminée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>La création du successeur a commencé en arrière-plan</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>La création du successeur s’est terminée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>La gestion de la correction parallèle est actuellement impossible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>La gestion de la correction du successeur est actuellement impossible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Erreur lors de la détermination du contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>La personne de contact &amp;1 &amp;2 est inactive</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>La langue contrat ne peut pas être modifiée pour contrat dans cet état.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>Le contrat &amp;1 n’a pas de type de contrat.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>Le mode de copie &amp;1 n’est pas pris en charge.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>La date d’annulation doit être renseignée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>La date de résiliation doit être renseignée</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Zmiana stanu nie jest dozwolona</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Zmiana stanu wariantu nie jest dozwolona</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Data „Obowiązuje do” jest wcześniejsza niż data „Obowiązuje od”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Adres e-mail „&amp;1” jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Brak typu kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Brak daty „Obowiązuje od” dla wariantu &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Brak daty „Obowiązuje do” dla wariantu &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Brak opisu kontraktu dla wariantu „&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Brak języka kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Brak poziomu procesu dla wariantu „&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Brak centrum autoryzacji negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Brak zakresu ważności dla wariantu „&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Brak czasu wykonywania kontraktu i modelu harmonogramu dla wariantu „&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Brak wariantów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Data rozwiązania jest poza okresem obowiązywania kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Data rozwiązania powinna być datą przyszłą</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Czas wykonywania kontraktu i model harmonogramu „&amp;1” są nieznane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Kod firmy rozliczenia „&amp;1” jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Data anulowania jest nieprawidłowa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Typ kontraktu „&amp;1” jest nieprawidłowy lub nieznany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Brak okresu rozliczeniowego</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Czas wykonywania kontraktu i model harmonogramu są nieznane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Typ autoryzacji jest niezdefiniowany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Brak uprawnień negocjatora „&amp;1” do tworzenia kontraktów na podstawie „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Nie znaleziono typów kontr. dla zakr. ważn. „&amp;1” i poziomu procesu „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Zgłoszono prośbę o zatwierdzenie wariantu „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Stan został zmieniony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Błąd podczas zapisywania danych wariantu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Brak autoryzacji do edycji kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Nie udało się zapisać kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Brak autoryzacji dla poziomu procesu „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Typ kontroli autoryzacji nie jest zdefiniowany w dostosowaniu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Negocjator „&amp;1” nie ma autoryzacji do tworzenia typu kontraktu „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Brak typów kontr. dost. dla zakr. ważn. &amp;1 i poziomu procesu &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Typ kontraktu &amp;1 nie jest dozw. dla zakr. ważn. &amp;2 i poziomu procesu &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Spór sądowy dotyczący kontraktu „&amp;1” został rozwiązany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Kontrakt został wypowiedziany na podstawie „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Data wypowiedzenia „&amp;1” została odrzucona</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Kontrakt został anulowany na podstawie „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Data anulowania „&amp;1” została odrzucona</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Wystąpił błąd podczas aktualizowania tabeli „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Brak autoryzacji do utworzenia kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Błąd podczas zatwierdzania kontraktu „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Błąd podczas odrzucania kontraktu „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Błąd podczas ustawiania kontraktu jako nieważnego</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Błąd podczas odrzucania wariantu „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Błąd podczas wypowiadania wariantu „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Kontrakt został ustawiony w pozwie z plikiem nr „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Wystąpił błąd podczas zapisywania nowego kontr. Nr war. przycz.: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Błąd podczas usuwania wariantów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Błąd podczas usuwania kontraktów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Nie są dozwolone nowe warianty nieważnego kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Nie są dozwolone nowe warianty zerwanego kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Kontrakt został już anulowany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Nie znaleziono dokumentu dla języka kontraktu „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Błąd podczas tworzenia wariantu kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Błąd podczas tworzenia wariantu. Przyczyna: Brak identyfikatora kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Wystąpił błąd podczas zapisywania nowego kontraktu: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Wystąpił błąd podczas zapisywania nowego wariantu: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Wystąpił błąd podczas odczytywania kontraktu: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Wystąpił błąd podczas odczytywania wariantów: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Wariant kontraktu „&amp;1” został uaktywniony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Wersja wariantu „&amp;1” została zwolniona</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Aktywacja wariantu „&amp;1” została odrzucona</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Wystąpił błąd podczas odczytywania kontraktu przez partnera: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Kontrakt został już unieważniony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Kontrakt został unieważniony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Brak autoryzacji dla centrum autoryzacji negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Brak autoryzacji dla zakresu ważności</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Brak autoryzacji dla poziomu procesów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Brak autoryzacji dla typów kontraktów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Nie znaleziono kontraktów dla partnera</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Wystąpił błąd podczas odczytywania wartości dodatku dynamicznego: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Model umowy jest nieznany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Błąd podczas usuwania umów dla kontraktu „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Wystąpił błąd podczas usuwania wartości dodatku dynamicznego: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Błąd podczas zapisywania relacji kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Poprzednik &amp;1 musi mieć stan aktywny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Typy wybranych kontraktów nie pasują do siebie (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Centra aut. neg. wybranych kontraktów nie pasują do siebie (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Żądana operacja nie jest dozwolona ze względu na stan obiektu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Wystąpił błąd wewnętrzny podczas uzyskiwania dostępu do tabel bazy danych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Data „Obow. od” kontraktu wcześn. niż pocz. ważn. rozliczania kodu firmy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Model umowy „&amp;1” nie jest obsługiwany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Kontrakt &amp;1 jest obecnie zablokowany przez użytkownika „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Nie udało się odblokować kontraktu &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Niektóre parametry kontraktu &amp;1 są nieprawidłowe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Ustawienie kontraktu jako nieważnego zostało odrzucone przez „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Istnieje już wariant o stanie „W trakcie zwalniania”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Nie można skopiować wariantu z początkowym numerem wariantu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Grupa produktów „&amp;1” jest nieznana</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Centrum autoryzacji negocjacji &amp;1 jest nieznane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Zakres ważności „&amp;1” jest nieznany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Wariant został poprawiony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Data wypowiedzenia jest taka sama jak data Obowiązuje do</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Użytkownik „&amp;1” nie ma autoryzacji do tworzenia typu kontraktu „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Model umowy „&amp;1” ani centrum uwagi operatora &amp;2 nie są obsługiwane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Brak modelu umowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Nieprawidłowy dzień docelowy płatności</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Brak centrum uwagi operatora</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Typ kontraktu &amp;1 już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Centrum autoryzacji negocjacji „&amp;2” nie obejmuje zakresu ważności „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Nie znaleziono partnera &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Następca nie może zaczynać się przed poprzednikiem &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Poprz. &amp;1: Umowa &amp;2 &gt; koniec kontr. Data „Obowiązuje od” niemożliwa.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Brak autoryzacji do kopiowania odrzuconego wariantu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Brak autoryzacji do poprawiania kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Brak autoryz. do ust. wariantu „&amp;1” kontr. „&amp;2” jako W trakcie zwalniania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Brak autoryzacji do usunięcia wariantu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Brak autoryzacji do aktualizowania wariantu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Brak autoryzacji do utworzenia wariantu kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Nie znaleziono osoby kontaktowej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Kod firmy musi być dozwolony w umowie nietransakcyjnej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Kod firmy rozliczeniowej musi być zachowywany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Kod firmy rozlicz. modelu org. jest w tej chwili niedozwolony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Anulowanie niedozwolone — kontrakt jest obecnie w trakcie zatwierdzania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Unieważnienie niedozwolone — kontrakt jest obecnie w trakcie zatw.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Wypowiedzenie niedozwolone — kontrakt jest obecnie w trakcie zatw.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Rozpoczęto składanie wniosku o zatwierdzenia unieważnienia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Rozpoczęto składanie wniosku o wypowiedzenie (data wypowiedzenia: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Rozpoczęto składanie wniosku o anulowanie (data anulowania: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>Ze względu na brak autoryzacji nie wszystkie kontrakty są wyświetlane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Negocjator „&amp;1” nie ma uprawnień do ZW „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Brak kontraktów dostępnych do wyboru</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Działanie zostało przerwane, żadne dane nie zostały zmienione</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Brak wariantów kontraktu &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Zmieniono kontr. w liczbie &amp;1 i wygenerowano poz. plików w liczbie &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Symulacja: Zmien. by kontr. (&amp;1) i wygener. by poz. pl. (&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Błąd podczas tworzenia pozycji pliku, kontrakt/wariant: &amp;1/&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>&amp;1 Czy chcesz zmienić nabywcę/CAN dla wybranych kontraktów (&amp;2)?</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Błąd podczas aktualizowania tabeli /gicom/cntr, id = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Błąd: Brak danych dla partnera biznesowego &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Brak neg. autoryz. „&amp;1”: typ kontraktu „&amp;2”, poziom procesu „&amp;3”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Brak negocjatora autoryzacji „&amp;1”: can „&amp;2”, zw „&amp;3”, typ kontraktu „&amp;4”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Negocjator „&amp;1” nie ma uprawnień do CAN „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Wariant został poprawiony: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Data „Obowiązuje od” jest nieprawidłowa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Data „Obowiązuje do” jest nieprawidłowa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Brak opisu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Nie ma wydanego wariantu/aneksu.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Uwzględniane są tylko aktywne uzgodnienia kontraktu &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Zakresy ważności wybranych kontraktów nie pasują do siebie (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Wypowiedzenie anulowano z powodu aktywnego następcy (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Znaleziono następcę w przygotowaniu (&amp;1). Usuń go ręcznie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Korekta kontraktu &amp;1 wersja &amp;2 została uruchomiona w tle</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Korekta kontraktu &amp;1 wersja &amp;2 została pomyślnie zakończona</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Tworzenie następcy zostało rozpoczęte w tle</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Tworzenie następcy zostało pomyślnie zakończone</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Równoległa obsługa korekt nie jest aktualnie możliwa.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Równoległa obsługa następców nie jest aktualnie możliwa.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Błąd podczas określania kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>Osoba kontaktowa &amp;1 &amp;2 jest nieaktywna</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>Nie można zmienić języka kontraktu, który ma ten status.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>Kontrakt &amp;1 nie ma typu kontraktu.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>Tryb kopiowania &amp;1 jest tutaj nieobsługiwany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>Należy wprowadzić datę anulowania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>Należy wprowadzić datę zakończenia</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Modificação de status não permitida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Variante de status não permitida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>A data “Válido até” é anterior à data “Válido de”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>O endereço de e-mail “&amp;1” é inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>O tipo de contrato está em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>A data “Válido de” está em falta para a variante “&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>A data “Válido até” está em falta para a variante “&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>A descrição do contrato está em falta para a variante “&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>O idioma do contrato está em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>O nível do processo está em falta para a variante “&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>A autorização de negociação está em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>O intervalo de validade está em falta para a variante “&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Período valid. contrato e modelo progr. em falta p/ var. “&amp;”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Não há variantes</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Data de encerramento fora da validade do contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Data de encerramento deve ser uma data futura</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Período valid. contrato e modelo progr. “&amp;1” desconhecidos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>A empresa liquidadora “&amp;1” não é válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>A data do cancelamento é inválida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>O tipo de contrato “&amp;1” é inválido ou desconhecido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>O período de liquidação está em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Período validade contrato e modelo programação desconhecidos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Tipo de autorização indefinido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Comprador “&amp;1” sem autorização para criar contratos de “&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Nenh. TpCont. encontr. p/ IntVal. “&amp;1” e nível processo “&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Solicitação de aprovação variante “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Status modificado com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Erro ao salvar dados da variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Sem autorização para editar contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Erro ao salvar contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Sem autorização para nível do processo “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Tipo de verificação de autorização não definido no customizing</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Comprador “&amp;1” sem autorização p/ criar tipo contrato “&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Nenh. TpCont. disponível p/ IntVal. &amp;1 e nível processo &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>TpCont. &amp;1 inválido p/ IntValidade &amp;2 e nível processo &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Processo judicial para contrato “&amp;1” resolvido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>O contrato foi rescindido por “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>A data da rescisão “&amp;1” foi recusada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>O contrato foi cancelado por “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>A data do cancelamento “&amp;1” foi recusada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Ocorreu um erro ao atualizar a tabela “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Sem autorização para criar um contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Erro ao aprovar o contrato “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Erro ao recusar o contrato “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Erro ao definir o contrato comom inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Erro ao recusar a variante “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Erro ao cancelar a variante “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Contrato definido no processo judicial com nº arquivo “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Ocorreu um erro ao salvar um novo contrato. Nº da variante de motivo: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Erro ao eliminar variante(s)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Erro ao eliminar contrato(s)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Não são permitidas novas variantes para contrato inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Não são permitidas novas variantes p/ contrato interrompido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>O contrato já foi cancelado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Nenhum documento encontrado para idioma do contrato “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Erro ao criar variante de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Erro ao criar variante. Motivo: nenhum ID de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Ocorreu um erro ao salvar novo contrato: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Ocorreu um erro ao salvar nova variante: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Ocorreu um erro ao ler contrato: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Ocorreu um erro ao ler variante(s): &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Variante de contrato “&amp;1” ativada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Revisão da variante “&amp;1” liberada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Ativação da variante “&amp;1” recusada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Ocorreu um erro na leitura do contrato por parceiro: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>O contrato já foi definido como inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>O contrato foi definido como inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Sem autorização para autorização de negociações</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Sem autorização para intervalo de validades</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Sem autorização para nível de processos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Sem autorização para tipos de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Nenhum contrato encontrado para parceiro</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Ocorreu um erro ao ler valores de anexo dinâmico: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>O modelo de acordo é desconhecido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Erro ao eliminar acordos para o contrato “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Ocorreu um erro ao eliminar valores de anexo dinâmico: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Erro ao salvar relações de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>O status precedente &amp;1 precisa estar ativo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Os tipos dos contratos selecionados são diferentes</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Autoriz. negociações dos contratos selecion. são diferentes</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>A operação solicitada não é permitida devido ao status obj.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Ocorreu um erro interno ao acessar tabela(s) de banco dados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>“Válido de” do contrato anterior ao início val. da EmprLiq.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Modelo de acordo “&amp;1” não suportado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Contrato &amp;1 bloqueado pelo usuário “&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>O contrato &amp;1 não foi desbloqueado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Alguns parâmetros do contrato &amp;1 são inválidos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Definição do contrato como inválido recusada por “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Já existe uma variante no status “Em liberação”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Não é possível copiar variante com nº de variante em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>O grupo de artigos “&amp;1” é desconhecido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>A autorização de negociação “&amp;1” é desconhecida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>O intervalo de validade “&amp;1” é desconhecido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>A variante foi corrigida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>A data de rescisão é a mesma que “Válido até”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Usuário “&amp;1” sem autorização p/ criar tipo contrato “&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Modelo de acordo “&amp;1”, foco operador &amp;2 não suportado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>O modelo de acordo está em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>O dia do prazo de pagamento é inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Foco operador em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>O tipo de contrato &amp;1 já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>InterValid. “&amp;1” não incluído na autorização negociação “&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Parceiro &amp;1 não encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>O sucessor não pode começar antes do predecessor &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Pr. &amp;1: o ac. &amp;2 está com. após o f. do c. N. é p. u. e. d. c. in. da v.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Sem autorização para copiar uma variante recusada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Sem autorização para corrigir um contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Sem autoriz. p/ definir var. “&amp;1” contrato “&amp;2” em liberação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Sem autorização para eliminar a variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Sem autorização para atualizar a variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Sem autorização para criar uma variante de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Pessoa de contato não encontrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>A empresa deve ser permitida no acordo não transacional</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>A empresa da liquidação deve ser atualizada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Empresa liq. modelo organizacional não permitida no momento</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Cancelamento não permitido - contrato em processo aprovação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Invalidação não permitida - contrato em processo aprovação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Rescisão não permitida - contrato em processo aprovação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Solicitação de aprovação de invalidação iniciada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Solic. aprovação de rescisão iniciada (data rescisão: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Solic. aprovação de cancelamento iniciada (data canc.: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>Por falta autorização, não serão exibidos todos os contratos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Comprador &quot;&amp;1&quot; sem autorização para ROV &quot;&amp;2&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Não há contratos para seleção</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Ação cancelada, dados não modificados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Não há variantes para o contrato &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>&amp;1 contratos modificados e &amp;2 entradas de arquivo geradas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Simulação: &amp;1 contratos seriam modif. e &amp;2 entradas arquivo, geradas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Erro ao criar entrada de arquivo, contrato/variante: &amp;1/&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>&amp;1 Modificar o comprador para &amp;2 contrato(s) selecionado(s)?</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Erro ao atualizar a tabela /gicom/cntr, ID = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Erro: não há dados para o parceiros de negócios &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Comprador sem autorização &quot;&amp;1&quot;: tipo contrato &quot;&amp;2&quot;, nível processo &quot;&amp;3&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Comprador sem autorização &quot;&amp;1&quot;: aon &quot;&amp;2&quot;, rov &quot;&amp;3&quot;, tipo contrato &apos;&amp;4&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>O comprador &quot;&amp;1&quot; não tem autorização para a autoridade de negociação &quot;&amp;2&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Variante corrigida: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Valor inválido de início da validade</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Valor inválido de término da validade</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Descrição em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Não há variante/anexo liberado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Apenas acordos ativos do contrato &amp;1 &amp;2 são considerados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Intervalos de validade dos contratos selecionados diferentes(&amp; 1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Encerramento cancelado devido a sucessor ativo (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Sucessor em preparação encontrado (&amp;1). Remova-o manualmente</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Correção de contrato &amp;1 variante &amp;2 iniciada em background</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Correção de contrato &amp;1 variante &amp;2 finalizada com sucesso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Criação de sucessor iniciada em background</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Criação de sucessor finalizada com sucesso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>O processamento paralelo de correções não é possível atualmente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>O processamento paralelo de sucessores não é possível atualmente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Erro durante determinação do contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>Pessoa de contato &amp;1 &amp;2 inativa</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>Não é possível modificar o idioma de um contrato nesse status.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>Contrato &amp;1 não tem tipo de contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>O modo de cópia &amp;1 não é suportado aqui</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>O campo Data de cancelamento deve ser preenchido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>O campo Data de encerramento deve ser preenchido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Cambio de estado no permitido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Cambio de estado de variante no permitido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>La fecha ‘Válido hasta’ es inferior a la fecha ‘Válido desde’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>La dirección de correo electrónico ‘&amp;1’ no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Falta la clase de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Falta la fecha ‘Válido desde’ para la variante ‘&amp;’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Falta la fecha ‘Válido hasta’ para la variante ‘&amp;’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Falta la descripción del contrato para la variante ‘&amp;’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Falta el idioma del contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Falta el nivel de proceso para la variante ‘&amp;’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Falta la autoridad de negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Falta el ámbito de validez para la variante ‘&amp;’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Faltan el tiempo de ejecución del contrato y el modelo de horario</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>No existen variantes</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>La fecha de rescisión está fuera de la validez del contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>La fecha de rescisión debe ser una fecha futura</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Tiempo de ejecución del contrato y modelo de horario ‘&amp;1’ desconocidos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>La sociedad de liquidación ‘&amp;1’ no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>La fecha de cancelación no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>La clase de contrato ‘&amp;1’ no es válida o es desconocida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Falta el período de liquidación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Tiempo de ejecución del contrato y modelo de horario desconocidos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>La clase de autorización no está definida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>El comprador ‘&amp;1’ no tiene autorización para crear contratos desde ‘&amp;2’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>No hay cl.contrato p.ámbito de validez ‘&amp;1’ y nivel de proceso ‘&amp;2’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Se ha solicitado la aprobación de la variante ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>El estado se ha modificado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Error al grabar los datos de la variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Sin autorización para editar el contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>No se ha podido grabar el contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Sin autorización en el nivel de proceso ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Clase de verificación de la autorización no definida en el Customizing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>El comprador ‘&amp;1’ no tiene autorización para crear la cl.contrato ‘&amp;2’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>No hay cl.contrato p.ámbito de validez ‘&amp;1’ y nivel de proceso ‘&amp;2’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Cl.contrato &amp;1 no válida p.ámbito de validez ‘&amp;2’ y nivel de proceso ‘&amp;3’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>El juicio del contrato ‘&amp;1 se ha resulto</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Contrato finalizado por ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Fecha de rescisión del contrato ‘&amp;1’ rechazada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Contrato cancelado por ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Fecha de cancelación ‘&amp;1’ rechazada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Se ha producido un error al actualizar la tabla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Sin autorización para crear un contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Error al aprobar el contrato ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Error al rechazar el contrato ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Error al fijar un contrato como inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Error al rechazar la variante ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Error al finalizar la variante ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>El contrato se ha fijado en el juicio con el fichero núm.’&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Se ha produc. un error al grabar un nuevo contrato. Nº variante mot.: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Error al borrar variante(s)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Error al borrar contrato(s)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Ninguna variante nueva permitida para el contrato inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Ninguna variante nueva permitida para el contrato interrumpido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>El contrato ya se ha cancelado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>No existe ningún documento para el idioma del contrato ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Error al crear la variante de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Error al crear la variante Motivo: Ningún ID de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Se ha producido un error al grabar un nuevo contrato: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Se ha producido un error al grabar una nueva variante: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Se ha producido un error al leer un contrato: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Se ha producido un error al leer variante(s): &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Variante de contrato ‘&amp;1’ activada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>La revisión de la variante ‘&amp;1’ se ha liberado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>La activación de la variante ‘&amp;1’ se ha rechazado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Error cuando el interlocutor ha intentado leer el contrato &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>El contrato ya se ha fijado como no válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>El contrato se ha fijado como no válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Sin autorización para la autoridad de negociaciones</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Sin autorización para el ámbito de validez</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Sin autorización para el nivel de procesos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Sin autorización para las clases de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>No hay contratos para el interlocutor</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Se ha producido un error al leer el los valores de anexo: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Modelo de acuerdo desconocido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Error al borrar los acuerdos del contrato ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Se ha producido un error al borrar los valores de anexo: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Se ha producido un error al grabar las relaciones de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>El estado del predecesor &amp;1 debe estar activo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Las clases de contrato de los contratos seleccionados no coinciden</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>La autoridad de negociaciones de los contratos seleccionados no coinciden</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>La operación deseada no está permitida en cuanto al estado del objeto</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Error interno al acceder a la(s) tabla(s) de la base de datos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Contrato ‘Válido desde’ antes del inicio de validez de la soc.liquidación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Modelo de acuerdo ‘&amp;1’ no soportado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>El contrato &amp;1 está actualmente bloqueado por el usuario ‘&amp;2’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>El contrato &amp;1 no se ha podido desbloquear</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Algunos parámetros del contrato &amp;1 no son válidos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>‘&amp;1’ no permite fijar el contrato como no válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Ya existe una variante en el estado ‘en liberación’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>No se puede copiar la variante con el número de variante inicial</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Grupo de artículo ‘&amp;1’ desconocido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Autoridad de negociación ‘&amp;1’ desconocida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Rango de validez ‘&amp;1’ desconocido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>La variante se ha corregido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>La fecha de rescisión es la misma que la de Válido hasta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>El usuario ‘&amp;1’ no tiene autorización para crear la cl.contrato ‘&amp;2’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Modelo de acuerdo ‘&amp;1’, foco de operado &amp;2 no soportado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Falta el modelo de acuerdo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Día del plazo de pago no válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Falta el foco de operador</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>La clase de contrato &amp;1 ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Ámbito de validez ‘&amp;1’ no incluido en la autoridad de negociación ‘&amp;2’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>No se ha encontrado el interlocutor &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>El sucesor no puede iniciarse antes que el predecesor &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Predecesor &amp;1: acuerdo &amp;2 &gt; fin del contr. No se admite Inicio de val.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Sin autorización para copiar una variante rechazada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Sin autorización para corregir un contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Sin autorización p.fijar la variante ‘&amp;1’ del contrato ‘&amp;2’ en liberación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Sin autorización para borrar la variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Sin autorización para actualizar la variante</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Sin autorización para crear una variante de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>No se ha encontrado una persona de contacto</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>La sociedad debe estar permitido en el acuerdo no transaccional</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>La sociedad de liquidación debe actualizarse</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Soc.líquidación del modelo de organización no permitida actualmente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Cancelación no permitida; el contrato está en el proceso de aprobación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Invalidación no permitida; el contrato está en el proceso de aprobación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Rescisión no permitida; el contrato está en el proceso de aprobación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Solicitud para la aprobación de invalidación iniciada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Solicitud para la aprob. de rescisión iniciada (fecha de rescisión: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Solicitud para aprob. de cancelación iniciada (fecha de cancelación: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>Dado que falta autorización, no se muestran todos los contratos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>El comprador ‘&amp;1’ no tiene autorización para ROV &apos;&amp;2’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Ningún contrato disponible para la selección</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Acción abortada; no se ha modificado ningún dato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>No existen variantes para el contrato &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>&amp;1 contratos modificados y &amp;2 entrada del fichero generadas</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Simulación: Es probable que se modif.&amp;1 contr.y se gen.&amp;2 entr.fichero</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Error al crear entrada del fichero, contrato/variante: &amp;1/&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>¿&amp;1 desea modificar el comprador de los &amp;2 contratos seleccionados?</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Error al actualizar la tabla /gicom/cntr, Id = &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Error: No existen datos para el interlocutor comercial &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Sin autor.p.comprador &apos;&amp;1&apos;: clase de contrato &apos;&amp;2&apos;, nivel de proceso &apos;&amp;3&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Sin autor.p.comprador &apos;&amp;1&apos;: aon &apos;&amp;2&apos;, rov &apos;&amp;3&apos;, cl.contrato &apos;&amp;4&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>El comprador &amp;1 no tiene autorización para AON &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>La variante se ha corregido: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Falta Inicio de validez</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Falta Fin de validez</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Falta la descripción</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Ninguna versión o anexo emitida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Solo se consideran los acuerdos de contrato activos &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Los rangos de validez de los contr. seleccionados no coinciden (&amp;1, &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Finalización cancelada porque existe un sucesor activo (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Se ha encontrado un sucesor en preparación (&amp;1). Elimínelo manualmente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Corrección de variante &amp;2 de contrato &amp;1 iniciada en segundo plano</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Corrección de variante &amp;2 de contrato &amp;1 finalizada con éxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Creación de sucesor iniciada en segundo plano</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Creación de sucesor finalizada con éxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Actualmente no es posible tratar correcciones en paralelo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Actualmente no es posible tratar sucesores en paralelo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Se ha producido un error durante la determinación del contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>La persona de contacto &amp;1 &amp;2 se encuentra inactiva</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>El idioma de contrato no puede modificarse en un contrato en este estado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>El contrato &amp;1 no tiene clase de contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>No se admite el modo de copia &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>Debe rellenarse la fecha de cancelación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>Debe rellenarse la fecha de finalización</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

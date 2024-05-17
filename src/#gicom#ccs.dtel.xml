@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>43</HEADLEN>
+    <SCRLEN1>03</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>37</SCRLEN3>
+    <DDTEXT>Transfer to CCM</DDTEXT>
+    <REPTEXT>Transfer to CCM</REPTEXT>
+    <SCRTEXT_S>CCM</SCRTEXT_S>
+    <SCRTEXT_M>Transfer to CCM</SCRTEXT_M>
+    <SCRTEXT_L>Transfer to CCM</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Übertragung Vertrag nach CCS</DDTEXT>
+     <REPTEXT>Übertragung Vertrag nach CCM</REPTEXT>
+     <SCRTEXT_S>CCM</SCRTEXT_S>
+     <SCRTEXT_M>Vertrag nach CCM</SCRTEXT_M>
+     <SCRTEXT_L>Vertrag nach CCM</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/NGR_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/NGR_ID</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Negotiation round ID</DDTEXT>
+    <REPTEXT>Negotiation round ID</REPTEXT>
+    <SCRTEXT_S>Neg Rnd ID</SCRTEXT_S>
+    <SCRTEXT_M>Negotiation round ID</SCRTEXT_M>
+    <SCRTEXT_L>Negotiation round ID</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verhandlungsrunden ID</DDTEXT>
+     <REPTEXT>Verhandlungsrunden ID</REPTEXT>
+     <SCRTEXT_S>VHR ID</SCRTEXT_S>
+     <SCRTEXT_M>Verhandlungsrund. ID</SCRTEXT_M>
+     <SCRTEXT_L>Verhandlungsrunden ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>ID du cycle de négociation</DDTEXT>
+     <REPTEXT>ID du cycle de négociation</REPTEXT>
+     <SCRTEXT_S>ID cy. né.</SCRTEXT_S>
+     <SCRTEXT_M>ID cycle négoc.</SCRTEXT_M>
+     <SCRTEXT_L>ID du cycle de négociation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Identyfikator rundy negocjacji</DDTEXT>
+     <REPTEXT>Identyfikator rundy negocjacji</REPTEXT>
+     <SCRTEXT_S>ID run neg</SCRTEXT_S>
+     <SCRTEXT_M>Id. rundy negocjacji</SCRTEXT_M>
+     <SCRTEXT_L>Identyfikator rundy negocjacji</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>ID da rodada de negociações</DDTEXT>
+     <REPTEXT>ID da rodada de negociações</REPTEXT>
+     <SCRTEXT_S>ID RodNeg.</SCRTEXT_S>
+     <SCRTEXT_M>ID rodada negoc.</SCRTEXT_M>
+     <SCRTEXT_L>ID da rodada de negociações</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID ronda neg.cons.</DDTEXT>
+     <REPTEXT>ID ronda neg.cons.</REPTEXT>
+     <SCRTEXT_S>ID RdNgCon</SCRTEXT_S>
+     <SCRTEXT_M>ID ronda neg.cons.</SCRTEXT_M>
+     <SCRTEXT_L>ID ronda neg.cons.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

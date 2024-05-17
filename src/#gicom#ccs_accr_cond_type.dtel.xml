@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_ACCR_COND_TYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>KSCHL</DOMNAME>
+    <HEADLEN>17</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>17</SCRLEN3>
+    <DDTEXT>CCM CndType for accrual</DDTEXT>
+    <REPTEXT>CCM Accr.-CndTye</REPTEXT>
+    <SCRTEXT_S>AccrCndTyp</SCRTEXT_S>
+    <SCRTEXT_M>Accr.-CndType</SCRTEXT_M>
+    <SCRTEXT_L>CCM Accr.-CndTye</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>CCM KoArt für Rückstellung</DDTEXT>
+     <REPTEXT>CCM Rückst.-Koart</REPTEXT>
+     <SCRTEXT_S>Rück.KoArt</SCRTEXT_S>
+     <SCRTEXT_M>Rückst.-Koart</SCRTEXT_M>
+     <SCRTEXT_L>CCM Rückst.-Koart</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

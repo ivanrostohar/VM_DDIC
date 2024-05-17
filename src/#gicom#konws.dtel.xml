@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/KONWS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>WAERS</DOMNAME>
+    <MEMORYID>FWS</MEMORYID>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>05</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Scale Currency</DDTEXT>
+    <REPTEXT>ScCur</REPTEXT>
+    <SCRTEXT_S>Scale Curr</SCRTEXT_S>
+    <SCRTEXT_M>Scale Currency</SCRTEXT_M>
+    <SCRTEXT_L>Scale Currency</SCRTEXT_L>
+    <APPLCLASS>VF</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Staffelwährung</DDTEXT>
+     <REPTEXT>StWäh</REPTEXT>
+     <SCRTEXT_S>StaffWährg</SCRTEXT_S>
+     <SCRTEXT_M>Staffelwährg</SCRTEXT_M>
+     <SCRTEXT_L>Staffelwaehrung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Moeda da escala</DDTEXT>
+     <REPTEXT>MoedE</REPTEXT>
+     <SCRTEXT_S>MoedEscala</SCRTEXT_S>
+     <SCRTEXT_M>Moeda escala</SCRTEXT_M>
+     <SCRTEXT_L>Moeda da escala</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Moneda de la escala</DDTEXT>
+     <REPTEXT>MonEs</REPTEXT>
+     <SCRTEXT_S>Mon.Escala</SCRTEXT_S>
+     <SCRTEXT_M>Moneda escala</SCRTEXT_M>
+     <SCRTEXT_L>Moneda de la escala</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/KONWS</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00018</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/KONWS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Gibt eine Währung für eine &lt;GL:pricing_scale&gt;Preisstaffel&lt;/&gt; in einem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:condition_record&gt;Konditionssatz&lt;/&gt; an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn eine Preisstaffel auf einem Wert statt einer Menge basiert, können</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie eine Währung für den Wert angeben. In der Standardversion des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SAP-Systems ist dieses Feld nur in Konditionssätzen für folgende</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Abschläge relevant:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Preisgruppe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Preisgruppe/Materialgruppe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie gewähren Kunden in einem bestimmten Land einen Preisgruppenabschlag.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Wenn Sie einen Konditionssatz für diesen Abschlag anlegen und Werte in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Preisstaffel eingeben, können Sie auch die entsprechende</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Fremdwährung eingeben. Bei der Preisfindung berechnet das System dann</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>die Abschläge auf der Grundlage der Staffelwerte in der Fremdwährung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Der Abschlagsbetrag wird dann in die Währung umgerechnet, die Sie im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verkaufsbeleg verwenden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;NOTE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Wenn Sie eine Währung in dieses Feld eingegeben und den Konditionssatz</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gesichert haben, können Sie die Währung nicht ändern, ohne den</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Konditionssatz zu löschen und neu anzulegen.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/KONWS</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00017</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/KONWS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Specifies a currency for a &lt;GL:pricing_scale&gt;pricing scale&lt;/&gt; in a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;GL:condition_record&gt;condition record&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If a pricing scale is based on a value instead of a quantity, you can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>specify a currency for the value. In the standard version of the SAP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>System, this field is only relevant in condition records for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following discounts:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Price group</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Price group/Material pricing group</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You apply a price group discount to customers in a particular foreign</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>country. When you create a condition record for this discount and enter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>values in the pricing scale, you can also enter the corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>foreign currency. During pricing, the system then calculates discounts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>based on scale values in the foreign currency. The discount amount is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>then converted into the currency you are using in the sales document.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;NOTE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>After you enter a currency in this field and save the condition record,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>you cannot change the currency without deleting the record and creating</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>it again.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/KONWS</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00018</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/KONWS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Indica uma moeda para uma &lt;GL:pricing_scale&gt;escala de preços&lt;/&gt; em um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:condition_record&gt;registro de condições&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Se uma escala de preços é baseada em um valor em vez de uma quantidade,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>você pode indicar uma moeda para o valor. Na versão padrão do sistema da</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SAP, este campo só é relevante em registros de condições para os</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>seguintes descontos:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Grupo de preço</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Grupo de preço/grupo de materiais</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Você aplica um desconto para grupo de preço a clientes em um determinado</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>país estrangeiro. Quando você cria um registro de condições para este</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>desconto e insere valores na escala de preços, pode também inserir o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>país estrangeiro correspondente. Durante a determinação do preço, o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sistema calcula os descontos com base em escalas de valores na moeda</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>estrangeira. O montante do desconto é depois convertido na moeda que</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>você está usando no documento de vendas.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;NOTE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Depois de inserir uma moeda neste campo e gravar o registro de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condições, você não pode modificar a moeda sem eliminar o registro e</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>criá-lo de novo.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/KONWS</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00019</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/KONWS</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Especifica una moneda para una escala de precios en un registro de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condición.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Si una escala de precios está basada en un valor en vez de en una</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cantidad, puede especificar una moneda para el valor. En la versión</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>estándar del sistema SAP, este campo solo es relevante en registros de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condición para los siguientes descuentos:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Grupo de precios</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Grupo de precios/Grupo de materiales</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Un descuento de grupo de precios se aplica a los clientes de un país</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(extranjero) concreto. Cuando se crea un registro de condición para este</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>descuento y se introducen valores en la escala de precios, se puede</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>introducir también la moneda extranjera correspondiente. Durante la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determinación de precios, el sistema calculará los descuentos basándose</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>en valores de escala en la moneda extranjera. El importe del descuento</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>se convierte a continuación a la moneda que se está utilizando en el</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documento de ventas.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;NOTE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Una vez introducida una moneda en este campo y grabado el registro de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condición, no se puede modificar la moneda sin borrar el registro y</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>volver a crearlo.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

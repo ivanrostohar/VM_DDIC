@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/X_CNTR_SENDER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>06</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>15</SCRLEN3>
+    <DDTEXT>Supplier contracts (agreement model &apos;&apos; empty)</DDTEXT>
+    <REPTEXT>Contract Sender</REPTEXT>
+    <SCRTEXT_S>Cntr S</SCRTEXT_S>
+    <SCRTEXT_M>Cntr Sender</SCRTEXT_M>
+    <SCRTEXT_L>Contract Sender</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Lieferantenverträge (Vereinbarungsmodell &apos;&apos; leer)</DDTEXT>
+     <REPTEXT>Vertrag Sender</REPTEXT>
+     <SCRTEXT_S>Vtrg S</SCRTEXT_S>
+     <SCRTEXT_M>Vtrg Sender</SCRTEXT_M>
+     <SCRTEXT_L>Vertrag Sender</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Contrats du fournisseur (modèle accord vide)</DDTEXT>
+     <REPTEXT>Expédi. contrat</REPTEXT>
+     <SCRTEXT_S>E cont</SCRTEXT_S>
+     <SCRTEXT_M>Expé. cont.</SCRTEXT_M>
+     <SCRTEXT_L>Expédi. contrat</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Kontrakty z dostawcami (model umowy „pusty”)</DDTEXT>
+     <REPTEXT>Nad. kontraktu</REPTEXT>
+     <SCRTEXT_S>NadK</SCRTEXT_S>
+     <SCRTEXT_M>Nad. kontr.</SCRTEXT_M>
+     <SCRTEXT_L>Nad. kontraktu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Contratos de fornecedor (modelo de acordo em branco)</DDTEXT>
+     <REPTEXT>Em. do contr.</REPTEXT>
+     <SCRTEXT_S>EContr</SCRTEXT_S>
+     <SCRTEXT_M>Em. contr.</SCRTEXT_M>
+     <SCRTEXT_L>Em. do contr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Contratos proveedor (modelo de acuerdo &quot; vacío)</DDTEXT>
+     <REPTEXT>Contrato emisor</REPTEXT>
+     <SCRTEXT_S>C. em.</SCRTEXT_S>
+     <SCRTEXT_M>Contr. em.</SCRTEXT_M>
+     <SCRTEXT_L>Contrato emisor</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

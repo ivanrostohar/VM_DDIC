@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/NUMBER_MANUAL_SETTL_DOC</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/WB2_NUMBER_SETTL_DOCS</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>26</SCRLEN3>
+    <DDTEXT>Rebates: Number of manual settlement documents</DDTEXT>
+    <REPTEXT>Man. Docs</REPTEXT>
+    <SCRTEXT_S>Man. Docs</SCRTEXT_S>
+    <SCRTEXT_M>Manual Documents</SCRTEXT_M>
+    <SCRTEXT_L>Number of manual documents</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Rabatte: Anzahl der Belege für manuelle Abrechnung</DDTEXT>
+     <REPTEXT>Man.Belege</REPTEXT>
+     <SCRTEXT_S>Man.Belege</SCRTEXT_S>
+     <SCRTEXT_M>Manuelle Belege</SCRTEXT_M>
+     <SCRTEXT_L>Anzahl manueller Belege</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

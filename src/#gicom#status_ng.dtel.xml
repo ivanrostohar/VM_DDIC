@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/STATUS_NG</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/STATUS_NG</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Negotiation status</DDTEXT>
+    <REPTEXT>Negotiation status</REPTEXT>
+    <SCRTEXT_S>Neg.status</SCRTEXT_S>
+    <SCRTEXT_M>Negotiation status</SCRTEXT_M>
+    <SCRTEXT_L>Negotiation status</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verhandlungsstatus</DDTEXT>
+     <REPTEXT>Verhandlungsstatus</REPTEXT>
+     <SCRTEXT_S>VH Status</SCRTEXT_S>
+     <SCRTEXT_M>Verhandlungsstatus</SCRTEXT_M>
+     <SCRTEXT_L>Verhndlungsstatus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Statut de la négociation</DDTEXT>
+     <REPTEXT>Statut de la négociation</REPTEXT>
+     <SCRTEXT_S>Statut nég</SCRTEXT_S>
+     <SCRTEXT_M>Statut négociation</SCRTEXT_M>
+     <SCRTEXT_L>Statut de la négociation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Stan negocjacji</DDTEXT>
+     <REPTEXT>Stan negocjacji</REPTEXT>
+     <SCRTEXT_S>Stan neg.</SCRTEXT_S>
+     <SCRTEXT_M>Stan negocjacji</SCRTEXT_M>
+     <SCRTEXT_L>Stan negocjacji</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Status da negociação</DDTEXT>
+     <REPTEXT>Status da negociação</REPTEXT>
+     <SCRTEXT_S>Stat. neg.</SCRTEXT_S>
+     <SCRTEXT_M>Status da negociação</SCRTEXT_M>
+     <SCRTEXT_L>Status da negociação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Estado de negociación</DDTEXT>
+     <REPTEXT>Estado de negociación</REPTEXT>
+     <SCRTEXT_S>Est.neg.</SCRTEXT_S>
+     <SCRTEXT_M>Estado de negoci.</SCRTEXT_M>
+     <SCRTEXT_L>Estado de negociación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

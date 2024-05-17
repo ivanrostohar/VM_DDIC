@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/WCB_KBRUE_BAPI</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BAPICURR</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Accrual Amount</DDTEXT>
+    <REPTEXT>Accruals</REPTEXT>
+    <SCRTEXT_S>Accruals</SCRTEXT_S>
+    <SCRTEXT_M>Accruals</SCRTEXT_M>
+    <SCRTEXT_L>Accruals</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Rückstellungsbetrag</DDTEXT>
+     <REPTEXT>Rückstellungen</REPTEXT>
+     <SCRTEXT_S>Rückstell.</SCRTEXT_S>
+     <SCRTEXT_M>Rückstellungen</SCRTEXT_M>
+     <SCRTEXT_L>Rückstellungen</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Montant de la provision</DDTEXT>
+     <REPTEXT>Provisions</REPTEXT>
+     <SCRTEXT_S>Provisions</SCRTEXT_S>
+     <SCRTEXT_M>Provisions</SCRTEXT_M>
+     <SCRTEXT_L>Provisions</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Kwota rozliczenia międzyokresowego</DDTEXT>
+     <REPTEXT>Rozliczenia międzyokresowe</REPTEXT>
+     <SCRTEXT_S>Roz.międz.</SCRTEXT_S>
+     <SCRTEXT_M>Rozlicz. międzyokr.</SCRTEXT_M>
+     <SCRTEXT_L>Rozliczenia międzyokresowe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Montante de delimitação</DDTEXT>
+     <REPTEXT>Delimitações</REPTEXT>
+     <SCRTEXT_S>Delims.</SCRTEXT_S>
+     <SCRTEXT_M>Delimitações</SCRTEXT_M>
+     <SCRTEXT_L>Delimitações</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Importe de la provisión</DDTEXT>
+     <REPTEXT>Provisiones</REPTEXT>
+     <SCRTEXT_S>Provis.</SCRTEXT_S>
+     <SCRTEXT_M>Provisiones</SCRTEXT_M>
+     <SCRTEXT_L>Provisiones</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

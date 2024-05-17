@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_EXTENSION_CALENDAR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>WFCID</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>27</SCRLEN3>
+    <DDTEXT>Calendar for Contract Extension</DDTEXT>
+    <REPTEXT>Calendar Contract Extension</REPTEXT>
+    <SCRTEXT_S>Cal.Exten.</SCRTEXT_S>
+    <SCRTEXT_M>Calendar Extension</SCRTEXT_M>
+    <SCRTEXT_L>Calendar Contract Extension</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>EXTENSION_CALENDAR</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kalender für Kontraktverlängerung</DDTEXT>
+     <REPTEXT>Kalender - Kontraktverlängerung</REPTEXT>
+     <SCRTEXT_S>Kal. Verl.</SCRTEXT_S>
+     <SCRTEXT_M>Kalender Verläng.</SCRTEXT_M>
+     <SCRTEXT_L>Kalender - Kontraktverläng.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_DATE_GRANT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DATE_GRANT</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Grant date</DDTEXT>
+    <REPTEXT>Gr.date</REPTEXT>
+    <SCRTEXT_S>Gr.date</SCRTEXT_S>
+    <SCRTEXT_M>Gr.date</SCRTEXT_M>
+    <SCRTEXT_L>Grant Date</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Gewährungszeitpunkt</DDTEXT>
+     <REPTEXT>Gew.zt.pkt.</REPTEXT>
+     <SCRTEXT_S>Gew.zt.pkt</SCRTEXT_S>
+     <SCRTEXT_M>Gew.zt.pkt.</SCRTEXT_M>
+     <SCRTEXT_L>Gewährungszeitpunkt</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

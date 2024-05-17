@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_SPERRENZR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>X</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Copy of SPERRENZR - Lock all Documents</DDTEXT>
+    <REPTEXT>Lock all Documents</REPTEXT>
+    <SCRTEXT_S>Lock Docs</SCRTEXT_S>
+    <SCRTEXT_M>Lock Documents</SCRTEXT_M>
+    <SCRTEXT_L>Lock all Documents</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>ENQUEUEALL</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Alle Belege sperren</DDTEXT>
+     <REPTEXT>Alle Belege sperren</REPTEXT>
+     <SCRTEXT_S>Bel.sperr.</SCRTEXT_S>
+     <SCRTEXT_M>Belege sperren</SCRTEXT_M>
+     <SCRTEXT_L>Alle Belege sperren</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

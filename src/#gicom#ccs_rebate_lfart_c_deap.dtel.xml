@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_REBATE_LFART_C_DEAP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CCS_WFART</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Settl. Doc. Type for Delta Settlement for Customer as AP</DDTEXT>
+    <REPTEXT>Settlement Doc. Type (Accounts Payable)</REPTEXT>
+    <SCRTEXT_S>DeltSettAP</SCRTEXT_S>
+    <SCRTEXT_M>DeltSett Customer AP</SCRTEXT_M>
+    <SCRTEXT_L>Settl. Doc. Type DeltaSett. Cust. AP</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>AbrechnBelegart für DeltaAbrechn. für Kunden als Kreditoren</DDTEXT>
+     <REPTEXT>Abrechnungsbelegart (Kreditoren)</REPTEXT>
+     <SCRTEXT_S>DeltaAb.Kr</SCRTEXT_S>
+     <SCRTEXT_M>DeltaAb. Kunde Kred.</SCRTEXT_M>
+     <SCRTEXT_L>AbrBelegart DeltaAbr. Kunde als Kreditor</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo doc.liquidação p/liquidação delta p/cliente como CF</DDTEXT>
+     <REPTEXT>Tipo doc.liquidação (contab.forns.)</REPTEXT>
+     <SCRTEXT_S>LiqdDeltCF</SCRTEXT_S>
+     <SCRTEXT_M>Liquid.delta clnt.CF</SCRTEXT_M>
+     <SCRTEXT_L>Tp.doc.liquid.p/liquid.delta cliente CF</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase documento p.liquidación delta p.cliente como acreedor</DDTEXT>
+     <REPTEXT>Clase documento liquidación (acreedores)</REPTEXT>
+     <SCRTEXT_S>LiqDeltAcr</SCRTEXT_S>
+     <SCRTEXT_M>Liq.delta clte.acr.</SCRTEXT_M>
+     <SCRTEXT_L>Cl.doc.p.liquidación delta clte.acreedor</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

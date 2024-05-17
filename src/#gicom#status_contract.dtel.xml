@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/STATUS_CONTRACT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/STATUS_CONTRACT</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Contract status</DDTEXT>
+    <REPTEXT>Status</REPTEXT>
+    <SCRTEXT_S>Status</SCRTEXT_S>
+    <SCRTEXT_M>Status</SCRTEXT_M>
+    <SCRTEXT_L>Contract status</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Vertragsstatus</DDTEXT>
+     <REPTEXT>Status</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status</SCRTEXT_M>
+     <SCRTEXT_L>Vertragsstatus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Statut du contrat</DDTEXT>
+     <REPTEXT>Statut</REPTEXT>
+     <SCRTEXT_S>Statut</SCRTEXT_S>
+     <SCRTEXT_M>Statut</SCRTEXT_M>
+     <SCRTEXT_L>Statut du contrat</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Stan kontraktu</DDTEXT>
+     <REPTEXT>Stan</REPTEXT>
+     <SCRTEXT_S>Stan</SCRTEXT_S>
+     <SCRTEXT_M>Stan</SCRTEXT_M>
+     <SCRTEXT_L>Stan kontraktu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Status do contrato</DDTEXT>
+     <REPTEXT>Status</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status</SCRTEXT_M>
+     <SCRTEXT_L>Status do contrato</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Estado del contrato</DDTEXT>
+     <REPTEXT>Estado</REPTEXT>
+     <SCRTEXT_S>Estado</SCRTEXT_S>
+     <SCRTEXT_M>Estado</SCRTEXT_M>
+     <SCRTEXT_L>Estado del contrato</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Group of Split Criteria Used for Total Amounts as per Split</DDTEXT>
+    <REPTEXT>Amount Fields Split Criteria Group</REPTEXT>
+    <SCRTEXT_S>Group</SCRTEXT_S>
+    <SCRTEXT_M>Amount Fields SC Grp</SCRTEXT_M>
+    <SCRTEXT_L>Amount Fields Split Criteria Group</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verwendete Splitkriteriengruppe für Gesamtbetrag gemäß Split</DDTEXT>
+     <REPTEXT>Betragsfelder mit Splitkriteriengruppe</REPTEXT>
+     <SCRTEXT_S>Gruppe</SCRTEXT_S>
+     <SCRTEXT_M>BetrFeld.SplitkrtGrp</SCRTEXT_M>
+     <SCRTEXT_L>Betragsfelder mit Splitkriteriengruppe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Gpe critères de fractionmt pr montants totaux selon fract.</DDTEXT>
+     <REPTEXT>Zones de montant avec groupe de critères fractionnement</REPTEXT>
+     <SCRTEXT_S>Groupe</SCRTEXT_S>
+     <SCRTEXT_M>ZonesMont. groupe CF</SCRTEXT_M>
+     <SCRTEXT_L>Zones montant avec grpe critères fract.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Grupa kryteriów podziału używana dla sum wg podziału</DDTEXT>
+     <REPTEXT>Pola kwoty z grupą kryteriów podziału</REPTEXT>
+     <SCRTEXT_S>Grupa</SCRTEXT_S>
+     <SCRTEXT_M>Pol.kw.z gr.kr.podz.</SCRTEXT_M>
+     <SCRTEXT_L>Pola kwoty z grupą kryteriów podziału</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Grp.crits.partição utilizados p/monts.totais segundo part.</DDTEXT>
+     <REPTEXT>Campos de montante grupo de critérios de partição</REPTEXT>
+     <SCRTEXT_S>Grupo</SCRTEXT_S>
+     <SCRTEXT_M>CposMont.GrpCrtsPart</SCRTEXT_M>
+     <SCRTEXT_L>Campos montante grupo critérios partição</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Grupo de criterios de partición utiliz.p.impor.tot.como par.</DDTEXT>
+     <REPTEXT>Campos importe grupo de criterios partición</REPTEXT>
+     <SCRTEXT_S>Grupo</SCRTEXT_S>
+     <SCRTEXT_M>CamposImpte Gr CrPar</SCRTEXT_M>
+     <SCRTEXT_L>Campos importe grupo criterios partición</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00029</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Steuert, welche Splitkriterien das System anwendet, um den Betrag für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC&gt;Zielkonditionsart für Gesamtbetrag gemäß</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Splitkriterien&lt;/&gt; und für &lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC_2&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>Zielkonditionsart f. Gesamtbetrag gemäß Splitkrit., 2. Seite&lt;/&gt; zu</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ermitteln.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zweck dieser Gruppe für Splitkriterien ist es, die Anzahl der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>erforderlichen Customizing-Objekte (Profile für die Umsatzermittlung und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Konditionskontraktarten) zu reduzieren, falls Sie verschiedene</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Splitkriterien zur Ermittlung des Gesamtbetrags pro Splitkriterium</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verwenden möchten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Diese Steuerung umfasst drei Schritte.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sie definieren Gruppen für Splitkriterien zu Gesamtbeträge pro Split.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>In der Dialogstruktur zu &lt;LS&gt;Betragsfelder - Splitkriterien&lt;/&gt; eines</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.WB2_BUSVOLTAB_ID&gt;Profils für die Umsatzermittlung&lt;/&gt; ordnen Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>verschiedene Splitkriterien zu einer Gruppe von Splitkriterien im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zusammenhang mit den Zielkonditionsarten für den Gesamtbetrag pro</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Splitkriterium auf der ersten und zweiten Seite eines Abrechnungsbelegs</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zu.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Wenn Sie einen neuen Konditionskontrakt zu einer Konditionskontraktart</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>anlegen, die ein solches Profil verwendet, geben Sie die Spli</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>tkriteriengruppe auf der Registerkarte &lt;LS&gt;Abrechnungsdaten&lt;/&gt; im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Konditionskontraktkopf an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Hinweis: Das Eingabefeld für die Splitkriteriengruppe erscheint nur,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wenn das dazugehörige Profil für die Umsatzermittlung Splitkrit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>eriengruppen enthält.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Zusammenfassung: Im Abrechnungslauf für den Konditionskontrakt verwendet</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>das System diese Splitkriterien zur Ermittlung des Gesamtbetrags pro</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Splitkriterium, das Sie zur Splitkriteriengruppe im</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Konditionskontraktkopf zugeordnet haben.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00029</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Controls which split criteria the system applies to determine the amount</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC&gt;Target Condition Type for Total Amount</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>as per Split Criteria&lt;/&gt; and for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>  &lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC_2&gt;Target Condition Type Total Amount as</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>per Split, Second Side&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The purpose of this group of split criteria is to reduce the number of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>required customizing objects (profiles for business volume determination</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and condition contract types) in case that you want to use different</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>split criteria for the determination of the total amount as per split</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>criteria.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The control involves three steps.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>You define groups of split criteria used for total amounts as per split.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>In the &lt;LS&gt;Amount Fields - Split Criteria&lt;/&gt; dialog structure of a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>  &lt;DS:DE.WB2_BUSVOLTAB_ID&gt;profile for business volume determination&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>you assign different split criteria to a group of split criteria in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>connection with the target condition types for the total amount as per</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>split criteria on the primary and second side of the settlement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>document.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>When you create a new condition contract for a condition contract type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>that uses the contemplated profile, you specify the split criteria group</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>on the &lt;LS&gt;Settlement Data&lt;/&gt; tab page of the condition contract header.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Note: The entry field for the split criteria group gets visible when</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>there contemplated profile for business volume determination contains</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>such split criteria groups.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Conclusion: In the settlement run for this condition contract, the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system uses those split criteria for the determination of the total</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>amount as per split criteria which you have assigned to the split</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>criteria group specified in the condition contract header.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</OBJECT>
+      <LANGU>F</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00033</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>F</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Contrôle quels sont les critères de fractionnement appliqués pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>déterminer le montant du &lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC&gt;type de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition cible pour le montant total selon des critères de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fractionnement&lt;/&gt; et du &lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC_2&gt;type de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition cible pour le montant total selon des critères de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fractionnement, deuxième côté&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>L&apos;objectif de ce groupe de critères de fractionnement est de réduire le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>nombre d&apos;objets de Customizing requis (profils pour détermination du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>volume d&apos;affaires et types de contrats de conditions) si vous souhaitez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>utiliser différents critères de fractionnement pour la détermination du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>montant total selon des critères de fractionnement.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Le contrôle s&apos;effectue en trois étapes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Vous définissez des groupes de critères de fractionnement utilisés pour</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les montants totaux selon des critères de fractionnement.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Dans la structure du dialogue &lt;LS&gt;Zones de montant - Critères de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fractionnement&lt;/&gt; d&apos;un &lt;DS:DE.WB2_BUSVOLTAB_ID&gt;profil de détermination</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>du volume d&apos;affaires&lt;/&gt;, vous affectez différents critères de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fractionnement à un groupe de critères de fractionnement en lien avec</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>les types de conditions cibles pour le montant total selon des critères</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de fractionnement sur le premier et le second côté du document de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>décompte.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Lorsque vous créez un nouveau contrat de conditions pour un type de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contrat de conditions qui utilise le profil pris en compte, vous</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>indiquez le groupe de critères de fractionnement sur la page de l&apos;onglet</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;LS&gt;Données de décompte&lt;/&gt; de l&apos;en-tête du contrat de conditions.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Remarque : la zone de saisie du groupe de critères de fractionnement est</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>visible lorsque le profil pris en compte pour la détermination du volume</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>d&apos;affaires contient ce type de groupes de critères de fractionnement.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Conclusion : dans le cycle de décompte de ce contrat de conditions, le</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>système utilise ces critères de fractionnement pour la détermination du</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>montant total selon des critères de fractionnement que vous avez</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>affectés au groupe de critères de fractionnement indiqué dans l&apos;en-tête</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>du contrat de conditions.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00030</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Isto controla os critérios de partição que o sistema aplica para</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determinar o montante para o &lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC&gt;tipo de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condição de destino para o montante total segundo critérios de partição</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; e para o &lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC_2&gt;tipo de condição de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>destino para o montante total segundo a partição, segundo lado&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>O objetivo deste grupo de critérios de partição é reduzir o número de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>objetos de customizing necessários (perfis para determinação de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>faturamento e tipos de contrato de condição), caso você pretenda</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>utilizar diferentes critérios de partição para a determinação do</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>montante total segundo critérios de partição.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>O controlo envolve três etapas.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Você define grupos de critérios de partição para montantes totais</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>segundo a partição.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Na estrutura de diálogo &lt;LS&gt;Campos de montante - Critérios de partição</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt; de um &lt;DS:DE.WB2_BUSVOLTAB_ID&gt;perfil para determinação de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>faturamento&lt;/&gt;, você atribui critérios de partição diferentes a um grupo</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de critérios de partição relacionado com os tipos de condição de destino</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> para o montante total segundo critérios de partição no primeiro e</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>segundo lado do documento de liquidação.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Quando você cria um novo contrato de condição para um tipo de contrato</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de condição que utiliza o perfil contemplado, você indica o grupo de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>critérios na ficha de registro &lt;LS&gt;Dados de liquidação&lt;/&gt; do cabeçalho</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de contrato de condição.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Nota: o campo de entrada para o grupo de critérios de partição fica</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>visível quando o perfil contemplado para determinação de faturamento</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contém esses grupos de critérios de partição.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Conclusão: na execução de liquidação para este contrato de condição, o</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sistema utiliza os critérios de partição para a determinação do montante</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>total segundo os critérios de partição que você atribuiu ao grupo de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>critérios de partição indicado no cabeçalho de contrato de condição.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00031</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/WB2_AMOUNT_FLDS_SC_GRP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Controla qué criterios de partición aplica el sistema para determinar el</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>importe del &lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC&gt;Tipo de condición destino</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>para importe total según criterios de partición&lt;/&gt; y del</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:DE.WB2_TARGET_KSCHL_SUM_SC_2&gt;Importe total de tipo de condición</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>destino según partición, segunda parte&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El objetivo de este grupo de criterios de partición es reducir el número</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de objetos de Customizing (perfiles para determinación de volumen de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negocios y tipos de contrato de condición) en caso de que desee utilizar</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>diferentes criterios de partición para la determinación del importe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>total según criterios de partición.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>El control implica tres pasos.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Defina grupos de criterios de partición utilizados para importes totales</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>según partición.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>En la estructura de diálogo &lt;LS&gt;Campos de importe - Criterios de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partición&lt;/&gt; de un &lt;DS:DE.WB2_BUSVOLTAB_ID&gt;perfil para determinación de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>volumen de negocios&lt;/&gt; , asigne diferentes criterios de partición a un</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>grupo de criterios de partición en conexión con los tipos de condición</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>destino para el importe total según criterios de partición en la parte</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>principal y secundaria del documento de liquidación.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Al crear un contrato de condición nuevo para un tipo de contrato de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condición que utiliza el perfil contemplado, especifique el grupo de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>criterios de partición en la ficha &lt;LS&gt;Datos de liquidación&lt;/&gt; de la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cabecera de contrato de condición.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AL</TDFORMAT>
+       <TDLINE>Nota: El campo de entrada para el grupo de criterios de partición se</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>vuelve visible cuando el perfil relacionado para la determinación de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>volumen de negocios contiene un grupo de criterios de partición.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Conclusión: En la ejecución de liquidación para este contrato de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condición, el sistema utiliza dichos criterios de partición para la</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determinación del importe total según los criterios de partición</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>asignados al grupo de criterios de partición especificado en la cabecera</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de contrato de condición.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

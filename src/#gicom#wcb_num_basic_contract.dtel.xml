@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/WCB_NUM_BASIC_CONTRACT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/WCB_COCO_NUM</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Basic Contract of Contract</DDTEXT>
+    <REPTEXT>Basic Contract of Contract</REPTEXT>
+    <SCRTEXT_L>Basic Contract of Contract</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>BASIC_CONTRACT_NUMBER</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Basiskontrakt des Kontrakts</DDTEXT>
+     <REPTEXT>Basiskontrakt des Kontrakts</REPTEXT>
+     <SCRTEXT_L>Basiskontrakt des Kontrakts</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Contrat de base du contrat</DDTEXT>
+     <REPTEXT>Contrat de base du contrat</REPTEXT>
+     <SCRTEXT_L>Contrat de base du contrat</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Kontrakt bazowy kontraktu</DDTEXT>
+     <REPTEXT>Kontrakt bazowy kontraktu</REPTEXT>
+     <SCRTEXT_L>Kontrakt bazowy kontraktu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Contrato básico de contrato</DDTEXT>
+     <REPTEXT>Contrato básico de contrato</REPTEXT>
+     <SCRTEXT_L>Contrato básico de contrato</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Contrato básico del contrato</DDTEXT>
+     <REPTEXT>Contrato básico del contrato</REPTEXT>
+     <SCRTEXT_L>Contrato básico del contrato</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,6735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for VU</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Failed to access the database</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No authorisation for authority of negotiation &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>&quot;Valid to&quot; date is before the &quot;valid from&quot; date. (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>The selected negotiation round can not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No authorisation for the process level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>The agreement model doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Direct approval cannot be activated because the approval is inactive.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Negotiationround status doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>No authorisation for the negotiationround type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Negotiation status &quot;&amp;1&quot; doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>The selected person &amp;1 doesn&apos;t exist in the system</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>The user &amp;1 doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Contract type &amp;1 doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Condition type &amp;1 doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Failed to insert the negotiationround</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Failed to update the negotiation round</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>The valid to date can not be empty. (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>The valid from date can not be empty. (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>&quot;Direct approval&quot; can not be activated when &quot;approval&quot; is deactivated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>The priority of the negotiaton round is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>The entered negotiation partner doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>The allowed status for a negotation can not be determined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>The selected negotiation round can not be determined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>The selected negotiation can not be found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Please enter an authority of negotiation for the negotiation round</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>The entered authority of negotiation is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>No supplier or target settings found for this negotiation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>The negotiation round range table is empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>The negotiation(s) could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>The status change from status &amp;1 in Status &amp;2 is not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>For negotiation &amp;1 version &amp;2 no contract split exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Without a negotiation a contract split can&apos;t be read</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>The negotiation &amp;1 or version &amp;2 doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Businesspartner &amp;1 is not valid for this negotiation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>The authority of negotiation &amp;1 is invalid for this negotiation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Type &amp;1 is not valid for this negotiation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Title &amp;1 is not valid for this negotiation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>The range of validity &amp;1 is not valid for this negotiation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Process level &amp;1 is not valid for this negotiation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;1 - &amp;2 is not within the timeframe of this negotiation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>The requested fragment of the negotiation can not be found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>There are no negotiation appointments existing for the negotiation.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Target settings can&apos;t be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>The unit of the targetsettings can not be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>There are no valid agreements for these values</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>The process level can&apos;t be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>The selected process level is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>The year of negotiation can&apos;t be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>The description can&apos;t be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>The secondary negotiationpartner &amp;1 is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>The condition type &amp;1 is not valid for any of the selected contract types</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>At least one valid contition type needs to be available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>At least one allowed contract type needs to be available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Update of contract split failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Changing the business overview failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>No range of validity found for authority of negotiation &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>The negotiation doesn&apos;t contain condition &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>The contract split validation was called with missing ID&apos;s</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Several conditions could not be allocated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>The valid from date can&apos;t be greater then the valid to date.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>The Bo type is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>The fragment is already available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>The preceding fragment is still empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Agreements Not Allocated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>There are unallocated conditions present in the split</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>No negotiations were generated for the negotiation round &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>The organizor can not be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>The organizer already has an appointment in the selected timeframe</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>The appointment type can not be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>The selected appointment type is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>The starting time can&apos;t be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>The end time can&apos;t be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>The end time lies before the start time.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>The subject can&apos;t be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>The reminder unit can&apos;t be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>The participant at position &amp;1 doesn&apos;t have a first name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>The participant at position &amp;1 doesn&apos;t have a last name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>At least one participant needs to be entered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>For participant &amp;1 &amp;2 there is no emailadress maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>The emailaddress &apos;&amp;1&apos; is invalid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>The selected negotiation doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>No authorization to create appointments</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>No authorization to delete appointments</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>There is no data yet available for the selected negotiation.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Failed to preallocate the contract split.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>The appointment status may not be blank</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>The specified appointment status does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>The contract split contains unassigned agreements</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>This fragment cannot be emptied</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Total business not created, yet. Please build.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Incomplete customizing (/gicom/tpara).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>Warning: There are overlapping appointments</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>For the organizer &amp;1 temporal overlappings appear</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>For the paricipant &amp;1 temporal overallpings appear</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>Appointment &amp;1 is being processed by user &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>An error occurred while unlocking appointment &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>Negotiationround &amp;1 is blocked by User &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Dequeue negotiationround &amp;1 failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>Negotiation blocked by User &amp;1 - editing not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Dequeue negotiation &amp;1 failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>No authorization for negotiation round.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Negotiation was approved.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>A status change of the negotiation is not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>File has an invalid format.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Negotiation was rejected.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>The negotiation &amp;1 is not &quot;New&quot; and cannot be deleted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Status change not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>Partner maintained as primary and secondary partner.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>HR</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>SIM</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>BAA build for negotiation &amp;1 &amp;2 started in mode &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>The negotiation &amp;1 is currently reloading</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>There are several simluation reasons for the negotiation &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>The section for the negotiation &amp;1 could not be found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>The turnover for the negotiation &amp;1 could not be found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Simluation reason for negotiation &amp;1 already exists.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>There are several simulations for agreement &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Saving of agreement not successful.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Turnover of partner &amp;1 not loaded. Rebuild turnover of TB</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>The unit of measure differs from the unit of the condition type.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>Contract split has not yet been created.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>The contract split contains errors.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>The selected fragment is already empty.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Error in agreement &amp;1 - &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>The organisator has no mail adress</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>Negotiation &amp;1 is already in approval or completed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>Contract &amp;1 is not a valid predecessor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>No explicit approval maintained.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>Person &apos;&amp;1&apos; can&apos;t occur multiple times</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Checklist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>Non-monetary agreements</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>The contract validity must be within the negotiation year.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>Agreement &amp;1 could not be assigned to any period.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>Negotiation partner not maintained.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>Agreement model &amp;1 is not valid.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>Contract &quot;&amp;1&quot; must contain at least one agreement.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>No valid negotiation round types found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>The negotiation round type is not valid.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>No tentative approval maintained.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>Invalid reporting currency.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>Invalid negotiation currency.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>Unit-/currency conversion not successful because of customizing.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>No version found for the selected negotiation.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>144</MSGNR>
+     <TEXT>Previous version not released, creation of new version not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>145</MSGNR>
+     <TEXT>Manual creation of a continuation not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>146</MSGNR>
+     <TEXT>Negotiation has no initial Version</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>147</MSGNR>
+     <TEXT>Appointments can only be created on the latest version</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>148</MSGNR>
+     <TEXT>Creation of new version for negotiation &amp;1 failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>149</MSGNR>
+     <TEXT>Loading of agreements for contract split failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Validation of contract split failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>No unit maintained for the negotiation target.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Invalid unit &quot;&amp;1&quot; maintained for the negotiation target.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>153</MSGNR>
+     <TEXT>No relevant agreements found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>154</MSGNR>
+     <TEXT>Unit of measure &quot;&amp;1&quot; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>155</MSGNR>
+     <TEXT>Currency &quot;&amp;1&quot; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>156</MSGNR>
+     <TEXT>Unexpected value in field &quot;AON include children&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>157</MSGNR>
+     <TEXT>Appointment &amp;1 does not exist! Switched sight to history perspective</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>158</MSGNR>
+     <TEXT>Price list of contract &quot;&amp;1&quot; (&amp;2-&amp;3) has been imported.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>159</MSGNR>
+     <TEXT>Price list of contract &quot;&amp;1&quot; (&amp;2-&amp;3) has been removed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>160</MSGNR>
+     <TEXT>No global grouping filters specified.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>161</MSGNR>
+     <TEXT>Target specification changed from &amp;1 to &amp;2 by &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>162</MSGNR>
+     <TEXT>Errors occured during the reload of the total business.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>163</MSGNR>
+     <TEXT>Change not possible because there was no turnover found for year &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>164</MSGNR>
+     <TEXT>Supplying partner &amp;1 is not directly part of this negotiation.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>165</MSGNR>
+     <TEXT>Cleanup of negotiation &amp;1 is not allowed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>166</MSGNR>
+     <TEXT>Could not find fragment with flag &amp;1 on /GICOM/NG_FRGMT</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>167</MSGNR>
+     <TEXT>Price analysis not allowed for negotiation status &quot;&amp;1&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>168</MSGNR>
+     <TEXT>Contact Person &amp;1 &amp;2 is inactive</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>169</MSGNR>
+     <TEXT>No preset found for selected fragment &quot;Last Offer&quot;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>170</MSGNR>
+     <TEXT>No preset found for selected fragment &quot;First/Last Demand&quot;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>171</MSGNR>
+     <TEXT>No preset found for selected fragment &quot;Plan&quot;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>172</MSGNR>
+     <TEXT>No preset found for selected fragment &quot;History&quot;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>173</MSGNR>
+     <TEXT>Either only the AON or only the negotiation lead must be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>174</MSGNR>
+     <TEXT>The same AON/ Negotiation lead must not be maintained more than once</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>175</MSGNR>
+     <TEXT>AON must be located below AON of negotiationround</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>176</MSGNR>
+     <TEXT>Target achievement value must not be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>177</MSGNR>
+     <TEXT>Either the AON or negotiation lead must be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>178</MSGNR>
+     <TEXT>A unit must be maintained.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>179</MSGNR>
+     <TEXT>Contract &amp;1 was created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>180</MSGNR>
+     <TEXT>Contract &amp;1 was updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>181</MSGNR>
+     <TEXT>Contract &amp;1 was invalidated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>182</MSGNR>
+     <TEXT>Approval for contract &amp;1 could not be started, please check manually</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>183</MSGNR>
+     <TEXT>Condition type expired on: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>184</MSGNR>
+     <TEXT>The negotiation year (&amp;1) is in the past. Rebuilding is not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>185</MSGNR>
+     <TEXT>Approval for contract &amp;1 started successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>186</MSGNR>
+     <TEXT>Status of negotiation &amp;1 was changed to &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>187</MSGNR>
+     <TEXT>Unassigned agreement. Please run preconfiguration in contract split.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>188</MSGNR>
+     <TEXT>An Error occured during the Change Contract Preallocation BAdI</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>189</MSGNR>
+     <TEXT>Contact person &amp;1 does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <MSGNR>190</MSGNR>
+     <TEXT>Contact person &amp;1 is a SAP User or Vendor and thus not changeable.</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES004</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES004</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Kopfdaten der Verhandlungsrunde konnten nicht gelöscht werden, da</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>sie nicht gefunden worden sind.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES004</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0005</VERSION>
+      <TXTLINES>00001</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES004</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00005</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cannot find and delete the header data of the negotion round.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES020</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES020</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Bitte die Eingabe oder das Customizing (Tabelle: /GICOM/TPRIO)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>überprüfen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES020</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00001</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES020</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Please check the input or the customizing (table: /GICOM/TPRIO)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES027</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES027</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das Einfügen der Verhandlungen für die Verhandlungsrunde ist</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fehlgeschlagen.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES027</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00001</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES027</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Import of negotiations for the Negotiation Round failed.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES028</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES028</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>Die Verhandlungsrunde konnte nicht gelöscht werden, da die Range-Tabelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der zu löschenden Verhandlungsrunden leer war. Das Delete-Statement</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>wurde nicht ausgeführt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES028</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES028</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The negotiation round could not be deleted because the range table of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the negotiation rounds to be deleted was empty. The delete statement was</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>not executed.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES029</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES029</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die Verhandlung(en) konnte(n) nicht gelöscht werden. Die Range-Tabelle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Verhandlung war leer, das Delete-Statement wurde nicht ausgeführt.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES029</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES029</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The negotiation(s) can not be deleted. The range-table of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negotiation is empty, the delete-statement did not get executed.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES032</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES032</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ohne Verhandlung kann keine Vertragsaufteilung gelesen werden. Bitte die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entsprechende Verhandlung angeben.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES032</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES032</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Cannot read the contract split without a negotiation beeing given.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Please enter a negotiation.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES042</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0016</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES042</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00016</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Currently there are no existing appointments for the selected</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negotiation.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES059</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES059</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Die Vertragsaufteilung enthält Vereinbarungen, welche nicht zugeordnet</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden können. Bitte überprüfen Sie das Customizing.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES059</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES059</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The contract split contains negotiations which cannot be associated.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Please check the customizing.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES065</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES065</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Die Vertragsaufteilung enthält Konditionen welche nicht zugeordnet</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>werden können. Bitte überprüfen Sie das Customizing.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES065</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES065</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The contract split contains conditions which cannot be associated.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Please check the Customizing.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES088</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00001</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES088</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Bitte das Customizing überprüfen!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES088</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00001</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES088</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Please check the customizing!</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES103</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES103</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Die Verhandlungsrunde befindet sich noch im Status neu. Ein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Statuswechsel der Verhandlung ist erst möglich sobald sich die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Verhandlungsrunde in Status Verhandlung befindet.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES103</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES103</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The negotiation round is still in status &quot;new&quot;. To change the status of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the negotiation, the negotiation round needs to be in status &quot;in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negotiation&quot;</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES107</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00002</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES107</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Kein Termin für Verhandlung vorhanden oder kein letztes Angebot</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gepflegt.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES107</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00001</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES107</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>No appointment or last offer maintained for the negotiation.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES160</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES160</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Deswegen werden keine Umsätze und keine Erträge selektiert, um das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Problem zu lösen muss sichergestellt werden, dass der BAdI /GICOM</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>/BADI_GROUPING_NG ausgeprägt wurde.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/VU_MESSAGES160</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/VU_MESSAGES160</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Due to this no turnover and results will be selected.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>To solve this problem, ensure that the BAdI /GICOM/BADI_GROUPING_NG has</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>been implemented.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <STEXT>Nachrichtenklasse für VU</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <STEXT>Classe de message pour VU</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <STEXT>Klasa komunikatów dla VU</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <STEXT>Classe de mensagens para UV</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/VU_MESSAGES</ARBGB>
+     <STEXT>Clase de mensajes para VU</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Datenbankzugriff fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Keine Berechtigung für das Hoheitsgebiet &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Das Gültig-bis-Datum liegt vor dem Gültig-von-Datum. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Die ausgewählte Verhandlungsrunde kann nicht gelöscht werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Keine Berechtigung für die Prozessebene.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Das Vereinbarungsmodell existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Direkte Freigabe kann nicht aktiviert sein, da der Approval deakt. ist.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Der Verhandlungsrundenstatus existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Keine Berechtigung für den Verhandlungsrundentyp.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Der Verhandlungsstatus &quot;&amp;1&quot; existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Die eingegebene Person &amp;1 existiert nicht im System.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Der User &amp;1 exisitiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Der Vertragstyp &amp;1 existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Die Konditionsart &amp;1 existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Der Insert für die Verhandlungsrunde ist fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Das Update für die Verhandlungsrunde ist fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Das Gültig-bis Datum darf nicht leer sein. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Das Gültig-von Datum darf nicht leer sein. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Bei deaktivierter Freigabe darf die direkte Freigabe nicht aktiviert sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Die Priorität der Verhandlungsrunde ist ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Der angegebene Verhandlungspartner existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Die erlaubten Status einer Verhandlung konnten nicht ermittelt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Die gewählte Verhandlungsrunde konnte nicht gefunden werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Die gewählte Verhandlung konnte nicht gefunden werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Bitte ein Hoheitsgebiet für die Verhandlungsrunde angeben.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Das eingegebene Hoheitsgebiet ist ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Zur Verhandlung konnten keine Lieferanten / Zielvorgaben gefunden werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Die Verhandlungsrunden-Range-Tabelle ist leer.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Die Verhandlung(en) konnte(n) nicht gelöscht werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Der Statuswechsel vom Status &quot;&amp;1&quot; in den Status &quot;&amp;2&quot; ist nicht erlaubt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Für die Verhandlung &amp;1 Version &amp;2 existiert keine Vertragsaufteilung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Ohne Verhandlung kann keine Vertragsaufteilung gelesen werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Die Verhandlung &amp;1 oder die Version &amp;2 existieren nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Der Businesspartner &amp;1 ist ungültig für diese Verhandlung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Das Hoheitsgebiets &amp;1 ist ungültig für diese Verhandlung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Der Typ &amp;1 ist nicht für die Verhandlung gültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Der Title &amp;1 ist für diese Verhandlung ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Der Geltungsbereich &amp;1 ist für diese Verhandlung ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Die Prozessebene &amp;1 ist nicht für diese Verhandlung gültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;1 - &amp;2  liegt nicht im Zeitraum für diese Verhandlung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Das gewünschte Fragment für die Verhandlung konnte nicht gefunden werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Für die selektierte Verhandlung existieren keine Verhandlungstermine.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Die Zielvorgabe darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Die Einheit der Zielvorgabe darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Für diese Werte wurden keine gültigen Vereinbarungen gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Die Prozessebene darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Die ausgewählte Prozessebene ist ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Das Verhandlungsjahr darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Die Bezeichnung darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Der sekundäre Verhandlungspartner &quot;&amp;1&quot; ist ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Die Konditionsart &amp;1 ist in keinem der ausgewählten Vertragstypen gültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Es muss mindestens eine erlaubte Konditionsart vorhanden sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Es muss mindestens ein erlaubter Vertragstyp vorhanden sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Ändern der Vertragsaufteilung fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Ändern des Gesamtengagementsetup fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Keine Geltungsbereiche für Hoheitsgebiet &amp;1 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Kondition &amp;1 ist nicht in der Verhandlung enthalten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Fehlende ID&apos;s beim Aufruf der Valdierung für Vertragsaufteilung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Einige Konditionen konnten nicht zugeordnet werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Das gültig von Datum darf nicht größer sein als das gültig bis Datum.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Der Bo-Typ ist ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Das Fragment ist schon vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Das vorherige Fragment ist noch leer.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Nicht zugeordnete Vereinbarungen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Es sind nicht zugeordnete Konditionen in der Aufteilung enthalten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Es wurden keine Verhandlungen für die Verhandlungsrunde &amp;1 generiert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Der Organisator darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Der Organisator hat bereits einen Termin im gewählten Zeitraum.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Die Terminart darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Die ausgewählte Terminart ist ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Der Startzeitpunkt darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Der Endzeitpunkt darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Der Endzeitpunkt liegt vor dem Startzeitpunkt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Der Betreff darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Die Erinnerungseinheit darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Der Teilnehmer an Stelle &amp;1 hat keinen Vornamen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Der Teilnehmer an Stelle &amp;1 hat keinen Nachnamen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Es muss mindestens ein Teilnehmer gepflegt sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Der Teilnehmer &amp;1 &amp;2 hat keine E-Mailadresse hinterlegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Die E-Mailadresse &apos;&amp;1&apos; ist ungültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Die ausgewählte Verhandlung existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Keine Berechtigung zum Erstellen von Terminen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Keine Berechtigung zum Löschen von Terminen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Es sind noch keine Daten zur gewählten Verhandlung vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Die Vertragsaufteilung ist fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Der Terminstatus darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Der angegebene Terminstatus existiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Die Vertragsaufteilung enthält nicht zugeordnete Vereinbarungen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Dieses Fragment darf nicht geleert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Gesamtengagement noch nicht erstellt. Bitte aufbauen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Das Customizing ist unvollständig (/gicom/tpara).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Warnung: Es bestehen Termine die sich überschneiden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Für den Organisator &amp;1 treten zeitliche Überschneidungen auf.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Für den Teilnehmer &amp;1 treten zeitliche Überschneidungen auf.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Der Termin &amp;1 wird bereits durch den User &amp;2 bearbeitet.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Es ein Fehler beim Entsperren des Termins &amp;1 aufgetreten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Die Verhandlungsrunde &amp;1 wird aktuell durch den User &amp;2 gesperrt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Die Verhandlungsrunde &amp;1 konnte nicht erfolgreich entsperrt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Verhandlung durch Nutzer &amp;1 gesperrt - nur Anzeige möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Die Verhandlung &amp;1 konnte nicht erfolgreich entsperrt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Keine Berechtigung für Verhandlungsrunde.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Verhandlung wurde freigeben.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Ein Statuswechsel der Verhandlung ist nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Datei hat ein ungültiges Format.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Freigabe der Verhandlung wurde zurückgewiesen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Die Verhandlung &amp;1 ist nicht &quot;Neu&quot; und kann nicht gelöscht werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Statuswechsel nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Partner als primärer und sekundärer Partner gepflegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>HR</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>SIM</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Der BAA Aufbau für die Verhandlung &amp;1 &amp;2 wurde gestartet im Modus &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Die Verhandlung &amp;1 wird gerade durch den User &amp;2 neu aufgebaut.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Es sind mehrere Simulationsgründe für die Verhandlung &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Es ist keine Sektion für die Verhandlung &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Es ist kein Umsatz für die Verhandlung &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Es exisitert bereits ein Simulationsgrund für die Verhandlung &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Mehrere Simulationen für Vereinbarung &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Fehler beim Speichern der Vereinbarung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Umsatz des Partner &amp;1 nicht geladen. Bitte Umsatz des GE&apos; neu aufbauen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Die Mengeneinheit weicht von der Einheit der Konditionsart ab.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Es ist noch keine Vertragsaufteilung vorgenommen worden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Die Vertragsaufteilung enthält Fehler.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>Das gewählte Fragment ist bereits leer.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Fehler in Vereinbarung &amp;1 - &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Der Organisator hat keine E-Mailadresse hinterlegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Verhandlung &amp;1 ist bereits in Freigabe oder abgeschlossen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Vertrag &amp;1 ist kein gültiger Vorgänger.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Expliziter Approval nicht gepflegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Die Person &apos;&amp;1&apos; darf nicht mehrfach vorkommen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Checkliste</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Non-monetären Vereinbarungen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Die Vertragsgültigkeit muss innerhalb des Verhandlungsjahres liegen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Vereinbarung &amp;1 konnte keinem Zeitabschnitt zugeordnet werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Verhandlungspartner nicht gepflegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Vereinbarungsmodell &amp;1 nicht gültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Vertrag &quot;&amp;1&quot; muss mindestens eine Verhandlung beinhalten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Keine gültigen Verhandlungsrundentypen vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Der gewählte Verhandlungsrundentyp ist nicht gültig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Approval für vorläufige Ergebnisse nicht gepflegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Ungültige Reporting-Währung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Ungültige Verhandlungswährung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Einheiten-Konvertierung aufgrund von Customizing nicht erfolgreich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Zur Verhandlung wurden keine Versionen gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Vorherige Version nicht freigegeben, Anlage neuer Version nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Manuelle Anlage einer Fortsetzung nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Verhandlung hat keine initiale Version</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Termine dürfen nur für die letzte Version angelegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Erstellung einer neuer Version für Verhandlung &amp;1 fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Laden der Vereinbarungen für die Vertragsaufteilung nicht erfolgreich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Validierung der Vertragsaufteilung fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Keine Einheit für das Verhandlungsziel gepflegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Ungültige Einheit &quot;&amp;1&quot; für das Verhandlungsziel gepflegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>Keine verhandlungsrelavanten Vereinbarungen gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>Mengeneinheit &quot;&amp;1&quot; existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>Währung &quot;&amp;1&quot; existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>Unerwarteter Wert im Feld &quot;HHG untergeordnete Elemente einbeziehen&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>Termin &amp;1 existiert nicht! Es wurde zur historischen Ansicht gewechselt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>Preisliste von Vertrag &quot;&amp;1&quot; (&amp;2-&amp;3) wurde importiert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>159</MSGNR>
+     <TEXT>Preisliste von Vertrag &quot;&amp;1&quot; (&amp;2-&amp;3) wurde entfernt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>160</MSGNR>
+     <TEXT>Es wurden keine globalen Gruppierungsfilter angegeben.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>161</MSGNR>
+     <TEXT>Zielvorgabe von &amp;1 auf &amp;2 geändert (von &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>162</MSGNR>
+     <TEXT>Es sind Fehler während dem Neuladen des Gesamtengagements aufgetreten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>163</MSGNR>
+     <TEXT>Änderung nicht möglich, weil kein Umsatz für Jahr &amp;1 gefunden wurde.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>164</MSGNR>
+     <TEXT>Umsatzzuführender Partner &amp;1 ist kein expliziter Teil der Verhandlung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>165</MSGNR>
+     <TEXT>Aufräumen der Verhandlung &amp;1 ist nicht erlaubt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>166</MSGNR>
+     <TEXT>Fragment mit Flag &amp;1 konnte auf /GICOM/NG_FRGMT nicht gefunden werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>167</MSGNR>
+     <TEXT>Für Verhandlungsstatus &quot;&amp;1&quot; ist keine Preisanalyse zulässig</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>168</MSGNR>
+     <TEXT>Ansprechpartner &amp;1 &amp;2 ist inaktiv</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>169</MSGNR>
+     <TEXT>Keine Voreinstellung für gewähltes Fragment gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>170</MSGNR>
+     <TEXT>Keine Voreinstellung für gewähltes Fragment gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>171</MSGNR>
+     <TEXT>Keine Voreinstellung für gewähltes Fragment gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>172</MSGNR>
+     <TEXT>Keine Voreinstellung für gewähltes Fragment gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>173</MSGNR>
+     <TEXT>Es darf nur das HHG oder der Verhandler gepflegt sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>174</MSGNR>
+     <TEXT>Das / der selbe AON / Verhandler darf nicht mehrmals gepflegt sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>175</MSGNR>
+     <TEXT>Das AON muss unterhalb des AON der VR liegen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Das Verhandlungsziel darf nicht leer sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>177</MSGNR>
+     <TEXT>Es muss entweder das HHG oder der Verhandler gepflegt sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>178</MSGNR>
+     <TEXT>Es muss eine Einheit gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>179</MSGNR>
+     <TEXT>Vertrag &amp;1 wurde angelegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>180</MSGNR>
+     <TEXT>Vertrag &amp;1 wurde aktualisiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>181</MSGNR>
+     <TEXT>Vertrag &amp;1 wurde invalidiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>182</MSGNR>
+     <TEXT>Freigabe für Vertrag &amp;1 konnte nicht gestartet werden, bitte prüfen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>183</MSGNR>
+     <TEXT>Konditionsart seit dem: &amp;1 abgelaufen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>184</MSGNR>
+     <TEXT>Das VH-Jahr (&amp;1) liegt in der Vergangenheit. Kein Neuaufbau möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>185</MSGNR>
+     <TEXT>Freigabe für Vertrag &amp;1 erfolgreich gestartet.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>186</MSGNR>
+     <TEXT>Status der Verhandlung &amp;1 wurde auf &amp;2 geändert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>187</MSGNR>
+     <TEXT>Nicht zugeordnete Vereinbarung. Bitte Vertragsaufteilung neu vorbelegen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>188</MSGNR>
+     <TEXT>Fehler beim Ändern des Vertrags Vorabzuweisungs BAdI</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Échec de l’accès à la base de données</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Aucune autorisation pour l’autorité de négociation &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>La date « valide à » est antérieure à la date « valide de ». (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Le cycle de négociation sélectionné ne peut pas être supprimé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Aucune autorisation pour le niveau de traitement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Le modèle d’accord n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>L’approbation directe ne peut être activée car approbation est inactive.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Le statut du cycle de négociation n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Aucune autorisation pour le type de cycle de négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Le statut de négociation « &amp;1 » n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>La personne sélectionnée &amp;1 n’existe pas dans le système</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>L’utilisateur &amp;1 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Le type de contrat &amp;1 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Le type de condition &amp;1 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Échec de l’insertion du cycle de négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Échec de la mise à jour du cycle de négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>La date de fin de validité ne peut pas être vide. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>La date de début de validité ne peut pas être vide. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>« L’approb. direc. » ne peut être activ. lors « l’appro. » est désactivée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>La priorité du cycle de négociation n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Le partenaire de négociation saisi n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Le statut autorisé pour une négociation ne peut être déterminé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Le cycle de négociation sélectionné ne peut être déterminé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>La négociation sélectionnée ne peut être trouvée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Veuillez saisir une autorité de négociation pour le cycle de négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>L’autorité de négociation saisie n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Aucun param. fournisseur ou cible n’a été trouvé pour cette négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Le tableau des plages du cycle de négociation est vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>La ou les négociations n’ont pas pu être supprimées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>La modification de statut du statut &amp;1 au statut &amp;2 n’est pas autorisée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Pour la version &amp;1 de négociation &amp;2, il n’existe pas fraction. contrat</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Sans négoci., un fractionnement de contrat ne peut pas être lu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>La négociation &amp;1 ou la version &amp;2 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Le partenaire commercial &amp;1 n’est pas valide pour cette négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>L’autorité de négociation &amp;1 n’est pas valide pour cette négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Le type &amp;1 n’est pas valide pour cette négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Le titre &amp;1 n’est pas valide pour cette négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>La plage de validité &amp;1 n’est pas valide pour cette négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Le niveau de traitement &amp;1 n’est pas valide pour cette négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;1 - &amp;2 n’est pas dans le délai de cette négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Le fragment demandé de la négociation est introuvable</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Il n’y a pas de rendez-vous de négociation pour cette négociation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Les paramètres cible ne peuvent pas être vides</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>L’unité des paramètres cible ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Il n’y a pas d’accords valides pour ces valeurs</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Le niveau du traitement ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Le niveau de traitement sélectionné n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>L’année de négociation ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>La description ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Le partenaire de négociation secondaire &amp;1 n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Le type condition &amp;1 n’est pas valide pour aucun type contrat sélection.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Au moins un type de contrat valide doit être disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Au moins un type de contrat autorisé doit être disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>La mise à jour du fractionnement des contrats a échoué.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>La modification de la vue d’ensemble commercial a échoué</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Aucune plage de validité trouvée pour l’autorité de négociation &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>La négociation ne contient pas la condition &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>La validation du fractionn. contrats a été appelée avec des ID manquants</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Plusieurs conditions n’ont pas pu être affectées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>La date début validité ne peut pas être supé. à date de fin de validité.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Le type BO n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Le fragment est déjà disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Le fragment précédent est encore vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Accords non affectés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Des conditions non affectées sont présentes dans le fractionnement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Aucune négociation n’a été générée pour le cycle de négociation &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>L’organisateur ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>L’organisateur a déjà un rendez-vous dans la période sélectionnée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Le type de rendez-vous ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Le type de rendez-vous sélectionné n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>L’heure de début ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>L’heure de fin ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>L’heure de fin se situe avant l’heure de début.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Le sujet ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>L’unité de rappel ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Le participant à la position &amp;1 n’a pas de prénom</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Le participant à la position &amp;1 n’a pas de nom de famille</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Au moins un participant doit être saisi</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Il n’y a pas d’adresse e-mail pour le participant &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>L’adresse e-mail « &amp;1 » n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>La négociation sélectionnée n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Aucune autorisation pour créer des rendez-vous</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Aucune autorisation pour supprimer des rendez-vous</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Il n’y a pas encore données dispo. pour la négociation sélectionnée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Échec de la préaffectation du fractionnement du contrat.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Le statut de rendez-vous ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Le statut de rendez-vous spécifié n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Le fractionnement de contrat contient des accords non affectés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Ce fragment ne peut pas être vidé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>L’activité totale n’est pas encore créée. Veuillez construire.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Personnalisation incomplète (/gicom/tpara).</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Avertissement : Il y a des rendez-vous qui se chevauchent</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Pour l’organisateur &amp;1 chevauchements temporels apparaissent</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Pour le participant &amp;1 chevauchements temporels apparaissent</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Le rendez-vous &amp;1 est en cours de traitement par l’utilisateur &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Une erreur s’est produite lors du déblocage du rendez-vous &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Le rendez-vous &amp;1 est bloqué par l’utilisateur &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Échec de la mise en file d’attente du cycle de négociation &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Négociation bloquée par l’utilisateur &amp;1 - édition non autorisée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>La file d’attente de la négociation &amp;1 a échoué.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Aucune autorisation pour le cycle de négociation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>La négociation a été approuvée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Une modification de statut de la négociation n’est pas possible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Le fichier a un format invalide.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>La négociation a été rejetée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>La négociation &amp;1 n’est pas « Nouvelle » et ne peut être supprimée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Modification de statut impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Le partenaire est géré comme partenaire principal et secondaire.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>HR</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>SIM</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>La construction du BAA pour la négociation &amp;1 &amp;2 a commencé en mode &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>La négociation &amp;1 est en cours de rechargement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Il existe plusieurs motifs de simulation pour la négociation &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>La section pour la négociation &amp;1 n’a pas pu être trouvée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Le chiffre d’affaires pour la négociation &amp;1 n’a pas pu être trouvé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Le motif de simulation pour la négociation &amp;1 existe déjà.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Il y a plusieurs simulations pour l’accord &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Sauvegarde de l’accord non réussie.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Chif. d’affa. parten. &amp;1 n’est pas chargé. Reconstruire chif. d’affa. TB</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>L’unité de mesure diffère de l’unité du type de condition.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Le fractionnement du contrat n’a pas encore été créé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Le fractionnement du contrat contient des erreurs.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>Le fragment sélectionné est déjà vide.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Erreur dans l’accord &amp;1 - &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>L’organisateur n’a pas d’adresse e-mail</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>La négociation &amp;1 est déjà en cours d’approbation ou terminée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Le contrat &amp;1 n’est pas un prédécesseur valide.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Aucune approbation explicite n’est maintenue.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>La personne « &amp;1 » ne peut pas apparaître plusieurs fois.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Liste de contrôle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Accords non monétaires</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>La validité du contrat doit être comprise dans l’année de négociation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>L’accord &amp;1 n’a pu être affecté à aucune période.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Le partenaire de négociation n’est pas géré.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Le modèle d’accord &amp;1 n’est pas valide.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Le contrat « &amp;1 » doit contenir au moins un accord.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Aucun type de cycle de négociation valide n’a été trouvé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Le type de cycle de négociation n’est pas valide.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Aucune approbation provisoire n’est gérée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Devise de rapport non valide.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Devise de négociation non valide.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>La conversion unité-devise n’a pas réussi à cause de la personnalisation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Aucune version trouvée pour la négociation sélectionnée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Version précédente non validée, création nouvelle version impossible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>La création manuelle d’une suite n’est pas possible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>La négociation n’a pas de version initiale</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Les rendez-vous ne peuvent être créés que sur la dernière version</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>La création d’une nouvelle version pour la négociation &amp;1 a échoué.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Le chargement des accords pour le fractionnement du contrat a échoué.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>La validation du fractionnement du contrat a échoué.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Aucune unité n’est gérée pour la cible de la négociation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Unité invalide « &amp;1 » gérée pour la cible de la négociation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>Aucun accord pertinent n’a été trouvé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>L’unité de mesure « &amp;1 » n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>La devise « &amp;1 » n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>Valeur inattendue dans le champ « AON inclut les enfants »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>Le rendez-vous « &amp;1 » n’existe pas ! Passage de vue à perspec. histo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>La liste des prix du contrat « &amp;1 » (&amp;2-&amp;3) a été importée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>159</MSGNR>
+     <TEXT>La liste des prix du contrat « &amp;1 » (&amp;2-&amp;3) a été supprimée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>160</MSGNR>
+     <TEXT>Aucun filtre de groupement global n’a été spécifié.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>161</MSGNR>
+     <TEXT>La spécification de la cible est modifiée de &amp;1 à &amp;2 par &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>162</MSGNR>
+     <TEXT>Des erreurs se sont produites pendant rechargement de l’activité totale.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>163</MSGNR>
+     <TEXT>Modifi. impossi. car aucun chiff. d’affai. n’a été trouvé pour année &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>164</MSGNR>
+     <TEXT>Le parten. fournisseur &amp;1 ne fait pas directement partie de cette négoc.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>165</MSGNR>
+     <TEXT>Le nettoyage de la négociation &amp;1 n’est pas autorisé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>166</MSGNR>
+     <TEXT>Impossible de trouver le fragment avec le drapeau &amp;1 sur /GICOM/NG_FRGMT</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>167</MSGNR>
+     <TEXT>Analyse de prix non autorisée pour le statut de négociation « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>168</MSGNR>
+     <TEXT>La personne de contact &amp;1 &amp;2 est inactive</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>169</MSGNR>
+     <TEXT>Aucun préréglage trouvé pour le fragment sélectionné.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>170</MSGNR>
+     <TEXT>Aucun préréglage trouvé pour le fragment sélectionné.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>171</MSGNR>
+     <TEXT>Aucun préréglage trouvé pour le fragment sélectionné.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>172</MSGNR>
+     <TEXT>Aucun préréglage trouvé pour le fragment sélectionné.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>173</MSGNR>
+     <TEXT>Soit seul l’AON soit seul le resp. négociation doit être maintenu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>174</MSGNR>
+     <TEXT>Le même AON/resp. négociation ne doit pas être maintenu plus d’une fois</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>175</MSGNR>
+     <TEXT>L’AON doit être situé en dessous de l’AON du cycle de négociation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>La valeur de réalisation cible ne doit pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>177</MSGNR>
+     <TEXT>L’AON ou le délai de négociation doit être maintenu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>178</MSGNR>
+     <TEXT>Une unité doit être gérée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>179</MSGNR>
+     <TEXT>Contrat &amp;1 a été créé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>180</MSGNR>
+     <TEXT>Contrat &amp;1 a été mis à jour</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>181</MSGNR>
+     <TEXT>Contrat &amp;1 a été invalidé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>182</MSGNR>
+     <TEXT>L&apos;approbation du contrat &amp;1 n&apos;a pas pu être lancée, veuillez vérifier</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>183</MSGNR>
+     <TEXT>Le type de condition a expiré le : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>184</MSGNR>
+     <TEXT>Année de négociation (&amp;1) appartient au passé. Reconstruction impossible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>185</MSGNR>
+     <TEXT>L’approbation du contrat &amp;1 a commencé avec succès.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>186</MSGNR>
+     <TEXT>L’état de la négociation &amp;1 a été modifié en &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>187</MSGNR>
+     <TEXT>Accord non attribué. Exécuter préconfig. dans division de contrat.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>188</MSGNR>
+     <TEXT>Erreur au cours du BAdI de pré-affectation du contrat de modif.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nie można uzyskać dostępu do bazy danych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Brak autoryzacji dla centrum autoryzacji negocjacji &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Data „Obowiązuje do” przypada wcześniej niż data „Obowiązuje od”. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Nie można usunąć wybranej rundy negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Brak autoryzacji na poziomie procesu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Model umowy nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Nie można aktywować zatw. bezpośr., ponieważ zatw. jest nieaktywne.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Stan rundy negocjacji nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Brak autoryzacji dla typu rundy negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Stan negocjacji „&amp;1” nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Wybrana osoba &amp;1 nie istnieje w systemie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Użytkownik &amp;1 nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Typ kontraktu &amp;1 nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Typ warunku &amp;1 nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Nie można wstawić rundy negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Nie można zaktualizować rundy negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Data Obowiązuje do nie może być pusta. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Data Obowiązuje od nie może być pusta. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Nie można aktywować „Zatw. bezpośredniego”, gdy „Zatw.” jest nieaktywne</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Priorytet rundy negocjacji jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Wprowadzony partner negocjacyjny nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Nie można określić dozwolonego stanu dla negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Nie można określić wybranej rundy negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Nie można znaleźć wybranych negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Wprowadź centrum autoryzacji negocjacji dla rundy negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Wprowadzone centrum autoryzacji negocjacji jest nieprawidłowe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Dla tych negocjacji nie znaleziono ustawień dostawcy lub celu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Tabela zakresu rundy negocjacji jest pusta</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Nie udało się usunąć negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Zmiana stanu z &amp;1 na stan &amp;2 jest niedozwolona</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Dla negocjacji &amp;1 w wersji &amp;2 nie istnieje żaden podział kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Bez negocjacji nie można odczytać podziału kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Negocjacje &amp;1 lub wersja &amp;2 nie istnieją</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Dla tych negocjacji partner biznesowy &amp;1 jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Dla tych negocjacji centrum autoryzacji negocjacji &amp;1 jest nieprawidłowe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Dla tych negocjacji typ &amp;1 jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Dla tych negocjacji tytuł &amp;1 jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Dla tych negocjacji zakres ważności &amp;1 jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Dla tego negocjacji poziom procesu &amp;1 jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;1 — &amp;2 nie mieści się w ramach czasowych tych negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Nie można znaleźć żądanego fragmentu negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Nie istnieją żadne terminy dla negocjacji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Ustawienia docelowe nie mogą być puste</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Jednostka ustawień docelowych nie może być pusta</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Brak ważnych umów dla tych wartości</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Poziom procesu nie może być pusty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Wybrany poziom procesu jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Rok negocjacji nie może być pusty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Opis nie może być pusty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Dodatkowy partner negocjacyjny &amp;1 jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Typ warunku &amp;1 nie jest prawidłowy dla żadnego z wybr. typów kontraktów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Wymagany jest co najmniej jeden prawidłowy typ warunku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Wymagany jest co najmniej jeden typ dozwolonego kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Aktualizacja podziału kontraktu nie powiodła się.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Zmiana przeglądu biznesowego nie powiodła się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Nie znaleziono zakresu ważności dla centrum autoryzacji negocjacji &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Negocjacja nie zawiera warunku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Weryfikacja podziału kontraktu została wywołana bez identyfikatorów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Nie można przydzielić kilku warunków</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Data Obowiązuje od nie może być późniejsza niż data Obowiązuje do.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Typ OB jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Fragment jest już dostępny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Fragment poprzedzający jest nadal pusty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Umowy nieprzydzielone</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>W podziale występują nieprzydzielone warunki</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Dla rundy negocjacji &amp;1 nie wygenerowano żadnych negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Organizator nie może być pusty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Organizator ma już spotkanie w wybranym terminie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Typ spotkania nie może być pusty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Wybrany typ spotkania jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Godzina rozpoczęcia nie może być pusta</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Godzina zakończenia nie może być pusta</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Godzina zakończenia przypada przed godziną rozpoczęcia.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Temat nie może być pusty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Jednostka przypomnienia nie może być pusta</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Uczestnik na pozycji &amp;1 nie ma uzupełnionego imienia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Uczestnik na pozycji &amp;1 nie ma uzupełnionego nazwiska</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Należy wprowadzić co najmniej jednego uczestnika</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Dla uczestnika &amp;1 &amp;2 nie zachowano żadnych adresów e-mail</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Adres e-mail „&amp;1” jest nieprawidłowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Wybrane negocjacje nie istnieją</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Brak uprawnień do tworzenia spotkań</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Brak uprawnień do usuwania spotkań</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Dla wybranych negocjacji nie ma jeszcze dostępnych danych.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Nie udało się wstępnie przydzielić podziału kontraktu.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Stan spotkania nie może być pusty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Określony stan spotkania nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Podział kontraktu zawiera nieprzypisane umowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Tego fragmentu nie można opróżnić</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Cała działalność nie została jeszcze utworzona. Skompiluj ją.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Niekompletne dostosowywanie (/gicom/tpara).</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Ostrzeżenie: Spotkania nakładają się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Dla organizatora &amp;1 występują nakładające się godziny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Dla uczestnika &amp;1 występują nakładające się godziny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Spotkanie &amp;1 jest przetwarzane przez użytkownika &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Wystąpił błąd podczas odblokowywania spotkania &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Runda negocjacji &amp;1 została zablokowana przez użytkownika &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Usuwanie rundy negocjacji &amp;1 z kolejki nie powiodło się.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Negocjacje zablokowane przez użytkownika &amp;1 — edytowanie niedozwolone</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Usuwanie negocjacji &amp;1 z kolejki nie powiodło się.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Brak autoryzacji dla rundy negocjacji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Negocjacje zostały zatwierdzone.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Zmiana stanu negocjacji nie jest możliwa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Plik ma nieprawidłowy format.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Negocjacje zostały odrzucone.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Negocjacje &amp;1 nie są „Nowe” i nie można ich usunąć.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Zmiana stanu nie jest możliwa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Partner zachowany jako partner podstawowy i dodatkowy.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>HR</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>SIM</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Kompilowanie BAA dla negocjacji &amp;1 &amp;2 rozpoczęto w trybie &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Negocjacje &amp;1 są obecnie ponownie ładowane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Dla negocjacji &amp;1 dostępnych jest kilka przyczyn symulacji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Nie znaleziono sekcji dla negocjacji &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Nie znaleziono obrotu dla negocjacji &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Przyczyna symulacji dla negocjacji &amp;1 już istnieje.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Dostępnych jest kilka symulacji dla umowy &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Zapisywanie umowy nie powiodło się.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Obrót partnera &amp;1 nie został załadowany. Skompiluj ponownie obrót TB</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Jednostka miary różni się od jednostki typu warunku.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Podział kontraktu nie został jeszcze utworzony.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Podział kontraktu zawiera błędy.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>Wybrany fragment jest już pusty.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Błąd w umowie &amp;1 — &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Organizator nie ma adresu e-mail</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Negocjacje &amp;1 zostały już zatwierdzone lub zakończone.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Kontrakt &amp;1 nie jest prawidłowym poprzednikiem.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Nie zachowano jawnego zatwierdzenia.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Osoba „&amp;1” nie może występować wielokrotnie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Lista kontrolna</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Umowy niepieniężne</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Ważność kontraktu musi przypadać w ciągu roku negocjacji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Umowy &amp;1 nie można przypisać do żadnego okresu.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Partner negocjacyjny nie został zachowany.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Model umowy &amp;1 jest nieprawidłowy.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Kontrakt „&amp;1” musi zawierać co najmniej jedną umowę.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Nie znaleziono prawidłowych typów rund negocjacji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Typ rundy negocjacji jest nieprawidłowy.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Nie zachowano wstępnego zatwierdzenia.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Nieprawidłowa waluta raportowania.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Nieprawidłowa waluta negocjacji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Konwersja jednostek/waluty nie powiodła się z powodu dostosowywania.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Nie znaleziono wersji dla wybranych negocjacji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Poprz. wersja nie została zwolniona, utw. nowej wersji jest niemożliwe.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>Ręczne tworzenie kontynuacji jest niemożliwe.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>Negocjacje nie mają wersji początkowej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Spotkania można tworzyć tylko w najnowszej wersji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Tworzenie nowej wersji dla negocjacji &amp;1 nie powiodło się.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Ładowanie umów dla podziału kontraktu nie powiodło się.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Weryfikacja podziału kontraktu nie powiodła się.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Brak zachowanej jednostki dla celu negocjacji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Dla celu negocjacji zachowano nieprawidłową jednostkę „&amp;1”.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>Nie znaleziono istotnych umów.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>Jednostka miary „&amp;1” nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>Waluta „&amp;1” nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>Nieoczekiwana wartość w polu „Uwzględnij elementy podrzędne CAN”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>Spotkanie &amp;1 nie istnieje! Przełączono widok na perspektywę historyczną</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>Cennik kontraktu „&amp;1” (&amp;2–&amp;3) został zaimportowany.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>159</MSGNR>
+     <TEXT>Cennik kontraktu „&amp;1” (&amp;2–&amp;3) został usunięty.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>160</MSGNR>
+     <TEXT>Nie określono globalnych filtrów grupowania.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>161</MSGNR>
+     <TEXT>Zmieniono specyfikację celu z &amp;1 na &amp;2 przez &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>162</MSGNR>
+     <TEXT>Wystąpiły błędy podczas ponownego ładowania całej działalności.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>163</MSGNR>
+     <TEXT>Nie można wprowadzić zmiany, ponieważ nie znaleziono obrotu za rok &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>164</MSGNR>
+     <TEXT>Partner dostarczający &amp;1 nie jest bezpośrednio stroną tych negocjacji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>165</MSGNR>
+     <TEXT>Czyszczenie negocjacji &amp;1 nie jest dozwolone.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>166</MSGNR>
+     <TEXT>Nie można znaleźć fragmentu z flagą &amp;1 w /GICOM/NG_FRGMT</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>167</MSGNR>
+     <TEXT>Analiza cen nie jest dozwolona dla stanu negocjacji „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>168</MSGNR>
+     <TEXT>Osoba kontaktowa &amp;1 &amp;2 jest nieaktywna</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>169</MSGNR>
+     <TEXT>Nie znaleziono wstępnego przypisania dla wybranego fragmentu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>170</MSGNR>
+     <TEXT>Nie znaleziono wstępnego przypisania dla wybranego fragmentu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>171</MSGNR>
+     <TEXT>Nie znaleziono wstępnego przypisania dla wybranego fragmentu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>172</MSGNR>
+     <TEXT>Nie znaleziono wstępnego przypisania dla wybranego fragmentu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>173</MSGNR>
+     <TEXT>Należy opracować tylko upoważnienie AON lub tylko kierownika negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>174</MSGNR>
+     <TEXT>Nie można opracować tego samego AON/kierownika negocjacji więcej niż raz</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>175</MSGNR>
+     <TEXT>AON musi się znajdować poniżej AON rundy negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>Wartość osiągnięcia celu nie może być pusta</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>177</MSGNR>
+     <TEXT>Należy zachować AON lub kierownika negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>178</MSGNR>
+     <TEXT>Należy zachować jednostkę.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>179</MSGNR>
+     <TEXT>Powstała kontrakt &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>180</MSGNR>
+     <TEXT>Kontrakt &amp;1 został zaktualizowany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>181</MSGNR>
+     <TEXT>Kontrakt &amp;1 został unieważniony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>182</MSGNR>
+     <TEXT>Zatwierdzenie dla kontraktu &amp;1 nie mogło zostać uruchomione, proszę spraw</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>183</MSGNR>
+     <TEXT>Typ warunku wygasł w dniu: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>184</MSGNR>
+     <TEXT>Rok negocjacji (&amp;1) przypada w przeszłości. Utworzenie niemożliwe.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>185</MSGNR>
+     <TEXT>Pomyślnie rozpoczęto zatwierdzenie umowy &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>186</MSGNR>
+     <TEXT>Status negocjacji &amp;1 zmieniono na &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>187</MSGNR>
+     <TEXT>Nieprzypisana umowa. Uruchom konfigurację wstępną w podziale kontraktu.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>188</MSGNR>
+     <TEXT>Podczas BAdI zmiany wstępnej alokacji kontraktu wystąpił błąd</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Erro ao acessar o banco de dados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Sem autorização para autorização de negociação &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>A data “Válido até” é anterior à data “Válido de”. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>A rodada de negociações selecionada não pode ser eliminada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Sem autorização para o nível do processo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>O modelo de acordo não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>A aprovação direta não pode ser ativada, aprovação inativa.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>O status da rodada de negociações não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Sem autorização para o tipo de rodada de negociações</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>O status de negociação “&amp;1” não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>A pessoa selecionada &amp;1 não existe no sistema</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>O usuário &amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>O tipo de contrato &amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>O tipo de condição &amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Erro ao inserir a rodada de negociações</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Erro ao atualizar a rodada de negociações</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>A data “Válido até” não pode ficar em branco. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>A data “Válido de” não pode ficar em branco. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Impossível ativar “Aprov. direta” se “Aprovação” desativada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>A prioridade da rodada de negociações é inválida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>O parceiro de negociação inserido não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>O status permitido para negociação não foi determinado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>A rodada de negociações selecionada não foi determinada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>A negociação selecionada não foi encontrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Insira uma autorização de negociação p/ rodada negociações</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>A autorização de negociação inserida é inválida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Nenh. config. fornecedor ou destino encontr. p/ esta negoc.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>A tabela de intervalos da rodada de negociações está vazia</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>As negociações não foram eliminadas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Modificação do status &amp;1 para status &amp;2 não permitida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Não existe divisão do contrato p/ negociação &amp;1 versão &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Uma divisão do contrato não pode ser lida sem uma negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>A negociação &amp;1 ou versão &amp;2 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>O parceiro de negócios &amp;1 não e válido para esta negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>A autorização de negociação &amp;1 é inválida p/ esta negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>O tipo &amp;1 não e válido para esta negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>O título &amp;1 não e válido para esta negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>O intervalo de validade &amp;1 não e válido para esta negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>O nível do processo &amp;1 não e válido para esta negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;1 - &amp;2 não está no período desta negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>O fragmento solicitado da negociação não foi encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Não há compromissos de negociação para a negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Configurações de destino não podem ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>A unidade das configurações destino não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Não há acordos válidos para estes valores</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>O nível do processo não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>O nível do processo selecionado é inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>O ano da negociação não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>A descrição não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>O parceiro de negociação secundário &amp;1 é inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>TpCond. &amp;1 invál. p/ qualquer dos tps. contrato selecionados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Pelo menos um tipo condição válido precisa estar disponível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Pelo menos um tipo contrato permit. precisa estar disponível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Erro na atualização da divisão do contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Erro na modificação da síntese de negócios</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Nenh. intervalo valid. encontrado p/ autoriz. negociação &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>A negociação não contém a condição &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Validação da divisão do contrato chamada com IDs em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Várias condições não foram alocadas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Data “Válido de” não pode ser posterior à data “Válido até”.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>O tipo de BO é inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>O fragmento já está disponível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>O fragmento precedente ainda está em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Acordos não alocados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Existem condições não atribuídas na divisão</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Nenhuma negociação gerada para a rodada de negociações &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>O organizador não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>O organizador já tem um compromisso no período selecionado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>O tipo de compromisso não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>O tipo de compromisso selecionado é inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>A hora de início não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>A hora do fim não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>A hora do fim é anterior à hora de início.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>O assunto não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>O lembrete não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>O participante na posição &amp;1 não tem um primeiro nome</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>O participante na posição &amp;1 não tem um sobrenome</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Pelo menos um participante precisa ser inserido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Nenhum endereço de e-mail atualizado p/ o participante &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>O endereço de e-mail “&amp;1” é inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>A negociação selecionada não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Sem autorização para criar compromissos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Sem autorização para eliminar compromissos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Ainda não há dados disponíveis p/ a negociação selecionada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Erro ao pré-alocar a divisão do contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>O status do compromisso não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>O status do compromisso indicado não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>A divisão do contrato contém acordos não atribuídos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>O fragmento não pode ser excluído</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Operação total não criada ainda. Estruture.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Customizing incompleto (/gicom/tpara).</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Aviso: há compromissos sobrepostos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Sobreposições cronológicas aparecem para o organizador &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Sobreposições cronológicas aparecem para o participante &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>O compromisso &amp;1 está sendo processado pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Ocorreu um erro ao desbloquear o compromisso &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Rodada de negociações &amp;1 bloqueada pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Erro ao retirar rodada de negociações &amp;1 da fila.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Negociação bloqueada pelo usuário &amp;1 - edição não permitida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Erro ao retirar negociação &amp;1 da fila.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Sem autorização para rodada de negociações.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>A negociação foi aprovada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>A modificação de status da negociação não é possível.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Os dados têm um formato inválido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>A negociação foi recusada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>A negociação &amp;1 não é “Nova” e não pode ser eliminada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>A modificação de status não é possível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Parceiro atualizado como parceiro primário e secundário.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>HR</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>SIM</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Estruturação BAA para negociação &amp;1 &amp;2 iniciada no modo &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Negociação &amp;1 recarregada pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Há vários motivos de simulação para a negociação &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>A seção para a negociação &amp;1 não foi encontrada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>O faturamento para a negociação &amp;1 não foi encontrado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>O motivo de simulação para a negociação &amp;1 já existe.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Há várias simulações para o acordo &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Erro ao salvar o acordo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Faturamento do parceiro &amp;1 não carregado. Reestruturar faturamento do TB</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>A unidade de medida é diferente da unidade do tipo condição.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>A divisão do contrato ainda não foi criada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>A divisão do contrato contém erros.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>O fragmento selecionado já está em branco.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Erro no acordo &amp;1 - &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>O organizador não tem endereço de e-mail</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>A negociação &amp;1 já está em aprovação ou concluída.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>O contrato &amp;1 não é um precedente válido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Nenhuma aprovação explícita atualizada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>A pessoa “&amp;1” não pode ocorrer várias vezes</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Lista de verificação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Acordos não monetários</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>A validade do contrato deve estar dentro do ano negociação.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>O acordo &amp;1 não foi atribuído a nenhum período.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Parceiro de negociação não atualizado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>O modelo de acordo &amp;1 não é válido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>O contrato “&amp;1” deve conter pelo menos um acordo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Nenhum tipo de rodada de negociações válido encontrado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>O tipo de rodada de negociações não é válido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Nenhuma aprovação de tentativa atualizada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Moeda do relatório inválida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Moeda de negociação inválida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Erro na conversão unidade/moeda devido ao customizing.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Nenhuma versão encontrada para a negociação selecionada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Versão anterior não liberada, impossível criar nova versão.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>A criação manual de uma continuação contrato não é possível.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>A negociação não tem versão inicial</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Compromissos só podem ser criados na versão mais atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>Erro na criação da nova versão para a negociação &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>Erro ao carregar acordos para divisão do contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>Erro na validação da divisão do contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>Nenhuma unidade atualizada para o objetivo da negociação.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Unidade inválida “&amp;1” atualizada p/ objetivo da negociação.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>Nenhum acordo relevante encontrado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>A unidade de medida “&amp;1” não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>A moeda “&amp;1” não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>Valor inesperado no campo “AN inclui inferiores”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>O compromisso &amp;1 não existe. Visão mudada para perspectiva de histórico</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>A lista de preços do contrato &quot;&amp;1&quot; (&amp;2–&amp;3) foi importada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>159</MSGNR>
+     <TEXT>A lista de preços do contrato &quot;&amp;1&quot; (&amp;2–&amp;3) foi removida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>160</MSGNR>
+     <TEXT>Nenhum filtro de agrupamento global especificado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>161</MSGNR>
+     <TEXT>Especificação de destino modificada de &amp;1 para &amp;2 por &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>162</MSGNR>
+     <TEXT>Ocorreram erros durante o recarregamento do negócio total.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>163</MSGNR>
+     <TEXT>Modificação impossível, nenhum faturamento encontrado para o ano &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>164</MSGNR>
+     <TEXT>O parceiro de fornecimento &amp;1 não faz parte direta desta negociação.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>165</MSGNR>
+     <TEXT>Depuração da negociação &amp;1 não permitida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>166</MSGNR>
+     <TEXT>Não foi possível encontrar fragmento com flag &amp;1 em /GICOM/NG_FRGMT</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>167</MSGNR>
+     <TEXT>Análise de preço não permitida para status da negociação &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>168</MSGNR>
+     <TEXT>Pessoa de contato &amp;1 &amp;2 inativa</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>169</MSGNR>
+     <TEXT>Nenhuma predefinição encontrada para fragmento selecionado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>170</MSGNR>
+     <TEXT>Nenhuma predefinição encontrada para fragmento selecionado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>171</MSGNR>
+     <TEXT>Nenhuma predefinição encontrada para fragmento selecionado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>172</MSGNR>
+     <TEXT>Nenhuma predefinição encontrada para fragmento selecionado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>173</MSGNR>
+     <TEXT>Somente a AN ou o lead de negociação precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>174</MSGNR>
+     <TEXT>O mesmo AN/lead de negociação não pode ser especificado mais de uma vez</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>175</MSGNR>
+     <TEXT>AON deve estar abaixo de AON na rodada de negociações</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>O valor de alcance do objetivo não pode ficar vazio</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>177</MSGNR>
+     <TEXT>A AON ou o líder de negociação deve ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>178</MSGNR>
+     <TEXT>A unidade deve ser atualizada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>179</MSGNR>
+     <TEXT>Contrato &amp;1 foi criado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>180</MSGNR>
+     <TEXT>Contrato &amp;1 foi actualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>181</MSGNR>
+     <TEXT>Contrato &amp;1 foi invalidado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>182</MSGNR>
+     <TEXT>Aprovação para contrato &amp;1 não pôde ser iniciada, por favor verifique</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>183</MSGNR>
+     <TEXT>O tipo de condição expirou em: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>184</MSGNR>
+     <TEXT>O ano de negociação (&amp;1) já passou. A reestruturação não é possível.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>185</MSGNR>
+     <TEXT>Aprovação do contrato &amp;1 iniciada com êxito.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>186</MSGNR>
+     <TEXT>O status da negociação &amp;1 foi modificado para &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>187</MSGNR>
+     <TEXT>Acordo não atribuído Execute a pré-configuração da divisão do contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>188</MSGNR>
+     <TEXT>Erro durante a modificação do BAdI de pré-alocação do contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No se ha podido acceder a la base de datos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Sin autorización para la autoridad de negociaciones &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>La fecha &quot;Válido hasta&quot; es anterior a la fecha &quot;Válido desde&quot;  (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No se puede borrar la ronda de negociación de consulta seleccionada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Sin autorización para el nivel de proceso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>El modelo de acuerdo no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Imposible activar aprobación directa porque la aprobación está inactiva</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>El estado de la ronda de negociación de consulta no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Sin autorización para la clase de ronda de negociación de consulta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>El estado de la negociación &quot;&amp;1&quot; no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>La persona seleccionada &amp;1 no existe en el sistema</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>El usuario &amp;1&quot;no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>La clase de contrato &amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>La clase de condición &amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>No se ha podido insertar la ronda de negociación de consulta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>No se ha podido actualizar la ronda de negociación de consulta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>La fecha Válido hasta no puede estar vacía. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>La fecha Válido desde no puede estar vacía. (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>&quot;Aprobación directa&quot; no puede estar activ.si &quot;Aprobación&quot; está desactiv.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>La prioridad de la ronda de negociación de consulta no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>El interlocutor de negociación introducido no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>No se puede determinar el estado permitido de una negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>No se puede determinar la ronda de negociación de consulta seleccionada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>No se ha podido encontrar la negociación seleccionada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Introduzca una autoridad de negociación para la ronda de negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>La autoridad de negociación introducida no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>No hay parametrizaciones de destino o proveedor de esta negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>La tabla de rangos de la ronda de negociación de consulta está vacía</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>No se han podido borrar las negociaciones</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>La modificación del estado del estado &amp;1 al estado &amp;2 no está permitida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>No existe ninguna división de contrato para la negociación &amp;1 versión &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>No se puede leer una división de contrato sin una negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>La negociación &amp;1 o versión &amp;2 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>El interlocutor comercial &amp;1 no es válido para esta negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>La autoridad de negociación &amp;1 no es válida para esta negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>La clase &amp;1 no es válida para esta negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>El título &amp;1 no es válido para esta negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>El ámbito de validez &amp;1 no es válido para esta negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>El nivel de proceso &amp;1 no es válido para esta negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>&amp;1 - &amp;2 no se encuentra en el período de esta negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>No se ha podido encontrar el fragmento solicitado de la negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>No existen citaciones de negociación para la negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Las parametrizaciones de destino no pueden estar vacías</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>La unidad de parametrizaciones de destino no puede estar vacía</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>No hay acuerdos válidos para estos valores</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>El nivel de proceso no puede estar vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>El nivel de proceso seleccionado no es válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>El año de negociación no puede estar vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>La descripción no puede estar vacía</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>El interlocutor de negociación &amp;1 secundario no es válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Clase de condición &amp;1 no válida para las clases de contrato seleccionadas</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Al menos debe estar disponible una clase de condición válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Al menos debe estar disponible una clase de contrato permitido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Error al actualizar la división de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Error al modificar el resumen de operación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>No hay ningún ámbito de validez para la autoridad de negociación &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>La negociación no contiene la condición &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Validación de división de contrato se ha llamado con ID que no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>No se han podido asignar varias condiciones</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>La fecha Válido desde no puede ser mayor que la fecha Válido hasta.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>La clase de BO no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>El fragmento ya está disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>El fragmento anterior todavía está vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Los acuerdos no se han asignado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Hay condiciones no asignadas en la división</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>No se han generado negociaciones p.ronda de negociación de consulta &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>El organizador no puede estar vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>El organizador ya tiene una citación en el período seleccionado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>La clase citación no puede estar vacía</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>La clase de citación seleccionada no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>La hora de inicio no puede estar vacía</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>La hora de fin no puede estar vacía</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>La hora de fin es anterior a la hora de inicio</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>El sujeto no puede estar vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>La unidad de recordatorio no puede estar vacía</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>El participante de la posición &amp;1 no tiene nombre de pila</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>El participante de la posición &amp;1 no tiene apellido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Al menos debe introducirse un participante</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Para el participante &amp;1 &amp;2 no hay ninguna dir.correo electr.actualizada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>La dirección de correo electrónico ‘&amp;1’ no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>La negociación seleccionada no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Sin autorización para crear citaciones</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Sin autorización para borrar citaciones</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Todavía no hay datos disponibles para la negociación seleccionada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>No se ha podido asignar previamente la división de contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>El estado de citación no puede estar vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>El estado de citación especificado no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>La división de contrato contiene acuerdos no asignados</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Este fragmento no puede estar vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>La operación total no se ha creado todavía Estructúrela.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Customizing incompleto (/gicom/tpara).</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Advertencia: Hay citaciones que se solapan</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Para el organizador &amp;1 hay solapamientos temporales</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Para el participante &amp;1 hay solapamientos temporales</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>El usuario &amp;2 está procesando la citación &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Se ha producido un error al desbloquear la citación &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Ronda de negociación de consulta &amp;1 bloqueada por el usuario &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Imposible retirar de la cola la ronda de negociación de consulta &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Negociación bloqueada por el usuario &amp;1; no se puede editar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>No se puede retirar de la cola la negociación &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Sin autorización para la ronda de negociación.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Se ha aprobado la negociación.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>No es posible una modificación de estado de la negociación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Los datos tienen un formato no válido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>La negociación ha sido rechazada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>La negociación &amp;1 no es &quot;nueva&quot; y no se puede borrar.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Imposible cambiar de estado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Interlocutor actualizado como interlocutor primario y secundario</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>HR</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>SIM</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Estructuración de operación total para neg.&amp;1 &amp;2 iniciada en el modo &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>El usuario &amp;2 ha restablecido la negociación &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Hay varias razones de simulación para la negociación &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>No se ha podido encontrar la sección para la negociación &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>No se ha podido encontrar el volumen de negocios para la negociación &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>La razón de simulación de la negociación &amp;1 ya existe.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Hay varias simulaciones para el acuerdo &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>El acuerdo no se ha podido guardar correctamente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>El vol.d.negocios del interlocutor &amp;1 no se ha cargado. Vol.neg.reestr.OT</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>La unidad de medida es distinta a la unidad de la clase de condición.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Todavía no se ha creado la división de contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>La división de contrato contiene errores.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>El fragmento seleccionado ya está vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Error en el acuerdo &amp;1 - &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>El organizador no tiene dirección de correo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>La negociación &amp;1 ya está en aprobación o está completada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>El contrato &amp;1 no es un predecesor válido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>No se ha actualizado ninguna aprobación explícita.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>La persona ‘&amp;1’ no puede existir varias veces</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Lista de comprobación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Acuerdos no monetarios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>La validez del contrato debe estar dentro del año de negociación.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>El acuerdo &amp;1 no se puede asignar a ningún período.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Interlocutor de negociación no actualizado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Modelo de acuerdo ‘&amp;1’ no válido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>El contrato &quot;&amp;1&quot; debe contener al menos un acuerdo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>No se han encontrado clases de ronda de negociación de consulta válidas.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>La clase de ronda de negociación de consulta no es válida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>No se ha actualizado ninguna aprobación con reserva.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Moneda del informe no válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Moneda de negociación no válida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Conversión de moneda/unidad sin éxito debido al Customizing.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>No se ha encontrado ninguna versión para la negociación seleccionada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>144</MSGNR>
+     <TEXT>Versión anterior no liberada; imposible crear una nueva versión.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>145</MSGNR>
+     <TEXT>La creación manual de una continuación no es posible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>146</MSGNR>
+     <TEXT>La negociación no tiene una versión inicial</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>147</MSGNR>
+     <TEXT>Las citaciones solo pueden crearse en la última versión</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>148</MSGNR>
+     <TEXT>No se ha podido crear una nueva versión de la negociación &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>149</MSGNR>
+     <TEXT>No se han podido cargar los acuerdos de la división de contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>150</MSGNR>
+     <TEXT>No se ha podido validar la división de contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>151</MSGNR>
+     <TEXT>No se ha actualizado ninguna unidad para el destino de negociación.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>152</MSGNR>
+     <TEXT>Unidad &quot;&amp;1&quot; no válida actualizada para el destino de negociación.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>153</MSGNR>
+     <TEXT>No se han encontrado acuerdos relevantes.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>154</MSGNR>
+     <TEXT>La unidad de medida &quot;&amp;1&quot; no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>155</MSGNR>
+     <TEXT>La moneda &quot;&amp;1&quot; no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>156</MSGNR>
+     <TEXT>Valor inesperado en el campo &quot;AON incluir inferiores&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>157</MSGNR>
+     <TEXT>La cita &amp;1 no existe. Vista cambiada a perspectiva de historia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>158</MSGNR>
+     <TEXT>Se ha importado la lista de precios del contrato &amp;1 (&amp;2-&amp;3).</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>159</MSGNR>
+     <TEXT>Se ha eliminado la lista de precios del contrato &amp;1 (&amp;2-&amp;3).</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>160</MSGNR>
+     <TEXT>No se han especificado filtros de agrupación globales.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>161</MSGNR>
+     <TEXT>Especificación de objetivo modificada de &amp;1 a &amp;2 por &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>162</MSGNR>
+     <TEXT>Se han producido errores durante la recarga de la operación total.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>163</MSGNR>
+     <TEXT>Imposible cambiar porque no se encontró el vol. de negocios del año &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>164</MSGNR>
+     <TEXT>El socio proveedor &amp;1 no forma parte directamente de esta negociación.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>165</MSGNR>
+     <TEXT>No se permite la limpieza de la negociación &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>166</MSGNR>
+     <TEXT>No se ha podido encontrar fragmento con bandera &amp;1 en /GICOM/NG_FRGMT</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>167</MSGNR>
+     <TEXT>Análisis de precios no permitido para estado de negociación &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>168</MSGNR>
+     <TEXT>La persona de contacto &amp;1 &amp;2 se encuentra inactiva</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>169</MSGNR>
+     <TEXT>No se han encontrado preajustes en el fragmento seleccionado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>170</MSGNR>
+     <TEXT>No se han encontrado preajustes en el fragmento seleccionado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>171</MSGNR>
+     <TEXT>No se han encontrado preajustes en el fragmento seleccionado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>172</MSGNR>
+     <TEXT>No se han encontrado preajustes en el fragmento seleccionado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>173</MSGNR>
+     <TEXT>Solo debe actualizarse la AN o la negociación principal</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>174</MSGNR>
+     <TEXT>Una misma AN/negociación principal no debe actualizarse más de una vez</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>175</MSGNR>
+     <TEXT>AON debe situarse por debajo de AON de ronda de negociaciones</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>176</MSGNR>
+     <TEXT>El valor de alcance del objetivo no debe estar vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>177</MSGNR>
+     <TEXT>Debe actualizarse AON o la negociación principal</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>178</MSGNR>
+     <TEXT>Debe actualizarse una unidad.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>179</MSGNR>
+     <TEXT>Se ha creado el contrato &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>180</MSGNR>
+     <TEXT>Se ha actualizado el contrato &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>181</MSGNR>
+     <TEXT>Se invalidó el contrato &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>182</MSGNR>
+     <TEXT>No se ha podido iniciar la aprobación del contrato &amp;1, compruébelo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>183</MSGNR>
+     <TEXT>La clase de condición caducó el: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>184</MSGNR>
+     <TEXT>El año de negociación (&amp;1) ya ha pasado. No es posible reestructurar.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>185</MSGNR>
+     <TEXT>La aprobación del contrato &amp;1 se ha iniciado correctamente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>186</MSGNR>
+     <TEXT>El estado de la negociación &amp;1 se ha cambiado a &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>187</MSGNR>
+     <TEXT>Acuerdo no asignado. Ejecute la preconfig. en la partición de contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>188</MSGNR>
+     <TEXT>Se ha producido un error al preasignar el contrato de cambio BAdI</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
