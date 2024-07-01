@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_ACCRUALS_REV_CNTR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CCS_ACCRUALS_REV_CNTR</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Contract for Accruals Reversal</DDTEXT>
+    <REPTEXT>Contract for Accruals Reversal</REPTEXT>
+    <SCRTEXT_S>Contr AcRe</SCRTEXT_S>
+    <SCRTEXT_M>Contract Accr. Rev.</SCRTEXT_M>
+    <SCRTEXT_L>Contract for Accruals Reversal</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kontrakt für Rückstellungsauflösung</DDTEXT>
+     <REPTEXT>Kontrakt f. Rückst.Auflösung</REPTEXT>
+     <SCRTEXT_S>Kon RüAufl</SCRTEXT_S>
+     <SCRTEXT_M>Kontr RückstAuflösg</SCRTEXT_M>
+     <SCRTEXT_L>Kontrakt f. Rückst.Auflösung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Contract for Accruals Reversal</DDTEXT>
+     <REPTEXT>Contract for Accruals Reversal</REPTEXT>
+     <SCRTEXT_S>Contr AcRe</SCRTEXT_S>
+     <SCRTEXT_M>Contract Accr. Rev.</SCRTEXT_M>
+     <SCRTEXT_L>Contract for Accruals Reversal</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

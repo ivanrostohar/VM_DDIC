@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_ACCRUALS_MM</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>24</SCRLEN3>
+    <DDTEXT>Copy of WB2_ACCRUALS_MM</DDTEXT>
+    <REPTEXT>Accruals from Purchasing</REPTEXT>
+    <SCRTEXT_S>AccrPurch</SCRTEXT_S>
+    <SCRTEXT_M>Accruals Purchasing</SCRTEXT_M>
+    <SCRTEXT_L>Accruals from Purchasing</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Konditionskontraktabrechnung: Rückstellungen von Einkauf</DDTEXT>
+     <REPTEXT>Rückstellungen aus Einkauf</REPTEXT>
+     <SCRTEXT_S>RückEink.</SCRTEXT_S>
+     <SCRTEXT_M>Rückstellungen Eink</SCRTEXT_M>
+     <SCRTEXT_L>Rückstellungen aus Eink.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Copy of WB2_ACCRUALS_MM</DDTEXT>
+     <REPTEXT>Accruals from Purchasing</REPTEXT>
+     <SCRTEXT_S>AccrPurch</SCRTEXT_S>
+     <SCRTEXT_M>Accruals Purchasing</SCRTEXT_M>
+     <SCRTEXT_L>Accruals from Purchasing</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/KDKG1</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/KDKGR</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>04</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Customer condition group 1</DDTEXT>
+    <REPTEXT>CGr1</REPTEXT>
+    <SCRTEXT_S>CondGrp 1</SCRTEXT_S>
+    <SCRTEXT_M>Condition grp 1</SCRTEXT_M>
+    <SCRTEXT_L>Condition group 1</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>CUST_COND_GRP1</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kunden Konditionsgruppe 1</DDTEXT>
+     <REPTEXT>KGr1</REPTEXT>
+     <SCRTEXT_S>KondGrp 1</SCRTEXT_S>
+     <SCRTEXT_M>KonditionsGrp 1</SCRTEXT_M>
+     <SCRTEXT_L>Konditionsgruppe 1</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Clients : groupe de conditions 1</DDTEXT>
+     <REPTEXT>GCn1</REPTEXT>
+     <SCRTEXT_S>GpCondit.1</SCRTEXT_S>
+     <SCRTEXT_M>Gpe conditions1</SCRTEXT_M>
+     <SCRTEXT_L>Groupe conditions 1</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Klient grupa war. 1</DDTEXT>
+     <REPTEXT>GK1</REPTEXT>
+     <SCRTEXT_S>Gr.war. 1</SCRTEXT_S>
+     <SCRTEXT_M>Grupa warunk. 1</SCRTEXT_M>
+     <SCRTEXT_L>Grupa warunków 1</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Clientes grupo de condições 1</DDTEXT>
+     <REPTEXT>GrC1</REPTEXT>
+     <SCRTEXT_S>Grp.cond.1</SCRTEXT_S>
+     <SCRTEXT_M>Grp.condições 1</SCRTEXT_M>
+     <SCRTEXT_L>Grupo de condições 1</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clientes grupo de condiciones 1</DDTEXT>
+     <REPTEXT>GrC1</REPTEXT>
+     <SCRTEXT_S>Gr.cond.1</SCRTEXT_S>
+     <SCRTEXT_M>Gr.condiciones1</SCRTEXT_M>
+     <SCRTEXT_L>Grupo condiciones 1</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_MVGR5</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CCS_MVGR5</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>04</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Material group 5</DDTEXT>
+    <REPTEXT>MG 5</REPTEXT>
+    <SCRTEXT_S>Matl grp 5</SCRTEXT_S>
+    <SCRTEXT_M>MaterialGroup 5</SCRTEXT_M>
+    <SCRTEXT_L>Material group 5</SCRTEXT_L>
+    <APPLCLASS>VP</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>PRC_GROUP5</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Materialgruppe 5</DDTEXT>
+     <REPTEXT>MGr5</REPTEXT>
+     <SCRTEXT_S>MatGrp 5</SCRTEXT_S>
+     <SCRTEXT_M>MaterialGrp 5</SCRTEXT_M>
+     <SCRTEXT_L>Materialgruppe 5</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Material group 5</DDTEXT>
+     <REPTEXT>MG 5</REPTEXT>
+     <SCRTEXT_S>Matl grp 5</SCRTEXT_S>
+     <SCRTEXT_M>MaterialGroup 5</SCRTEXT_M>
+     <SCRTEXT_L>Material group 5</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_WB2_SELECTION_GROUP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CCS_WB2_SELECTION_GROUP</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Selection Group</DDTEXT>
+    <REPTEXT>Selection Group</REPTEXT>
+    <SCRTEXT_S>Group</SCRTEXT_S>
+    <SCRTEXT_M>Selection Group</SCRTEXT_M>
+    <SCRTEXT_L>Selection Group</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>SELECTION_GROUP</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Selektionsgruppe</DDTEXT>
+     <REPTEXT>Selektionsgruppe</REPTEXT>
+     <SCRTEXT_S>Gruppe</SCRTEXT_S>
+     <SCRTEXT_M>Selektionsgrpp.</SCRTEXT_M>
+     <SCRTEXT_L>Selektionsgruppe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Selection Group</DDTEXT>
+     <REPTEXT>Selection Group</REPTEXT>
+     <SCRTEXT_S>Group</SCRTEXT_S>
+     <SCRTEXT_M>Selection Group</SCRTEXT_M>
+     <SCRTEXT_L>Selection Group</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/CCS_WB2_SELECTION_GROUP</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00010</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/CCS_WB2_SELECTION_GROUP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Mithilfe von Selektionsgruppen soll die Verwendung von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Umsatzbasiseinträgen in bestimmten Umsatztabellen begrenzt werden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Selektionsgruppen werden im Customizing &lt;DS:SIMG.WB2_V_SEL_GRP&gt;hier&lt;/&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>definiert. Die Zuordnung zu den Umsatztabellendaten erfolgt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.WB2_V_BVTAB&gt;hier&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Für die Umsatztabellendaten sind gültige Selektionsgruppen erfasst.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Jeder zusätzlichen Umsatztabelle sind die relevanten Selektionsgruppen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zugeordnet. Für die Auswahl in der bestimmten Umsatztabelle werden nur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Umsatzbasiseinträge ohne Selektionsgruppe oder mit einer für die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Umsatztabelle relevanten Selektionsgruppe verwendet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/CCS_WB2_SELECTION_GROUP</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00013</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/CCS_WB2_SELECTION_GROUP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Selection Groups are used to restrict the use of business volume</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selection criteria specified in a condition contract to specific</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business volume tables.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Valid selection groups are maintained in the profile for business volume</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determination. For each additional business volume table, the relevant</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selection groups are assigned. For the selection on the specific</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business volume table, only business volume selection criteria with no</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selection group or with a selection group relevant for the business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>volume table are used.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Selection Groups are defined in customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.WB2_V_SEL_GRP&gt;here&lt;/&gt;. The assignment to the profile for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business volume determination is done</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.WB2_V_BVTAB&gt;here&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

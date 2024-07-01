@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_FIELD_TEXT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>AS4TEXT</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>Short Description of Repository Objects</DDTEXT>
+    <REPTEXT>Short Description</REPTEXT>
+    <SCRTEXT_S>Short Text</SCRTEXT_S>
+    <SCRTEXT_M>Short Description</SCRTEXT_M>
+    <SCRTEXT_L>Short Description</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+    <NOHISTORY>X</NOHISTORY>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kurze Beschreibung der Repository Objekte</DDTEXT>
+     <REPTEXT>Kurze Beschreibung</REPTEXT>
+     <SCRTEXT_S>Kurztext</SCRTEXT_S>
+     <SCRTEXT_M>Kurze Beschreibung</SCRTEXT_M>
+     <SCRTEXT_L>Kurze Beschreibung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Description courte des objets de dépôt</DDTEXT>
+     <REPTEXT>Description courte</REPTEXT>
+     <SCRTEXT_S>Tex. court</SCRTEXT_S>
+     <SCRTEXT_M>Description courte</SCRTEXT_M>
+     <SCRTEXT_L>Description courte</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Krótki opis obiektów repozytorium</DDTEXT>
+     <REPTEXT>Krótki opis</REPTEXT>
+     <SCRTEXT_S>Kr. tekst</SCRTEXT_S>
+     <SCRTEXT_M>Krótki opis</SCRTEXT_M>
+     <SCRTEXT_L>Krótki opis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Descrição curta de objetos de repositório</DDTEXT>
+     <REPTEXT>Descrição curta</REPTEXT>
+     <SCRTEXT_S>Txt. curto</SCRTEXT_S>
+     <SCRTEXT_M>Descrição curta</SCRTEXT_M>
+     <SCRTEXT_L>Descrição curta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Descripción breve de objetos de repository</DDTEXT>
+     <REPTEXT>Descripción breve</REPTEXT>
+     <SCRTEXT_S>Txt.breve</SCRTEXT_S>
+     <SCRTEXT_M>Descripción breve</SCRTEXT_M>
+     <SCRTEXT_L>Descripción breve</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

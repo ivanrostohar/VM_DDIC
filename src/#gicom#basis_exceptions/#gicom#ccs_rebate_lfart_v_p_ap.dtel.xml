@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_REBATE_LFART_V_P_AP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CCS_WFART</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Settl. Doc. Type for Proforma Settlement for Supplier as AP</DDTEXT>
+    <REPTEXT>Settlement Doc. Type (Accounts Payable)</REPTEXT>
+    <SCRTEXT_S>AR Prof AP</SCRTEXT_S>
+    <SCRTEXT_M>Proforma Suppl. AP</SCRTEXT_M>
+    <SCRTEXT_L>Settl. Doc. Type Proforma Stt. Suppl. AP</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>AbrGelArt für Pro-forma-Abrechn. für KreditorAbr. Lieferant</DDTEXT>
+     <REPTEXT>Abrechnungsbelegart (Kreditorenabr.)</REPTEXT>
+     <SCRTEXT_S>RA,Pr,kAbr</SCRTEXT_S>
+     <SCRTEXT_M>Pro-for. Lf. KrAb.</SCRTEXT_M>
+     <SCRTEXT_L>AbrBelArt Pro-forma-Abr. Lief. KredAbr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settl. Doc. Type for Proforma Settlement for Supplier as AP</DDTEXT>
+     <REPTEXT>Settlement Doc. Type (Accounts Payable)</REPTEXT>
+     <SCRTEXT_S>AR Prof AP</SCRTEXT_S>
+     <SCRTEXT_M>Proforma Suppl. AP</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Doc. Type Proforma Stt. Suppl. AP</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/X_VALIDITY_BVB</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Business Volume Base with Validity</DDTEXT>
+    <REPTEXT>Business Volume Base with Validity</REPTEXT>
+    <SCRTEXT_S>Validity</SCRTEXT_S>
+    <SCRTEXT_M>with Validity</SCRTEXT_M>
+    <SCRTEXT_L>Business Volume Base with Validity</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Umsatzbasis mit Gültigkeit</DDTEXT>
+     <REPTEXT>Umsatzbasis mit Gültigkeit</REPTEXT>
+     <SCRTEXT_S>Gültigkeit</SCRTEXT_S>
+     <SCRTEXT_M>mit Gültigkeit</SCRTEXT_M>
+     <SCRTEXT_L>Umsatzbasis mit Gültigkeit</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Business Volume Base with Validity</DDTEXT>
+     <REPTEXT>Business Volume Base with Validity</REPTEXT>
+     <SCRTEXT_S>Validity</SCRTEXT_S>
+     <SCRTEXT_M>with Validity</SCRTEXT_M>
+     <SCRTEXT_L>Business Volume Base with Validity</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Base de faturamento com validade</DDTEXT>
+     <REPTEXT>Base de faturamento com validade</REPTEXT>
+     <SCRTEXT_S>Validade</SCRTEXT_S>
+     <SCRTEXT_M>com validade</SCRTEXT_M>
+     <SCRTEXT_L>Base de faturamento com validade</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Base del volumen de negocios con validez</DDTEXT>
+     <REPTEXT>Base del volumen de negocios con validez</REPTEXT>
+     <SCRTEXT_S>Validez</SCRTEXT_S>
+     <SCRTEXT_M>Con validez</SCRTEXT_M>
+     <SCRTEXT_L>Base del volumen de negocios con validez</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

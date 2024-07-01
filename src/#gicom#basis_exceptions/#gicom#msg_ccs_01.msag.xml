@@ -1,0 +1,4514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messagesclass for CCS-Integration</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Contract &amp;1 not existing.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>The CCS dimension was not selected successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error while fetching details to condition &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No condition to contract &amp;1 &amp;2 available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error while fetching Org.relations</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error while fetching Art.relations</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error while fetching Organsization units</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Error while fetching split criteria</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error while fetching condition types</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Error while fetching the company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No contract type to codition type &amp;1 agreement model &amp;2 maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Split field &amp;1 not available in transfer structure</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>No dimension key for CC &amp;1 available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>RFC-Dest. for Coco &amp;1 not available (&amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Error while reading customizing of CC-type &amp;1 [SUBRC: &amp;2; Dest.: &amp;3]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>CC &amp;1 doesn&apos;t exist [Dest.: &amp;2]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Error while reading CC &amp;1: %2. [Dest.: &amp;3]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>No key data for SAP condition &amp;1 available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>No position data available for SAP condition &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Error while changing CC &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Internal error during processing (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Invalid business volume basis field combination</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Error during CC creation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Warning during creation CC &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Error while changing CC &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Error while inserting dimension keys to CC &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Error while inserting connection entries to CC &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Error while updating connection entries to CC &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>FATAL ERROR (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>SAP condition &amp;1 of CC &amp;2 not in connection entries (inconsistency!)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Unexpected coding record reached (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Purchase data for Supp &amp;1/ CoCO &amp;2 cannot be determined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Sales data for customer &amp;1/CoCO &amp;2 cannot be determined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Error during creation applicationlogs [BAL_LOG_CREATE: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Error during inserting a log entry [BAL_LOG_MSG_ADD: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Error during saving the applicationlogs [BAL_DB_SAVE: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Agreement model &amp;1 is not intended to be transfered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>CCS-Customizing missing for condition type &amp;1 (V-Modell &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Scales cannot be transfered momentarily</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Min and Max Caping are currently not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Fixed amounts are currently not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Error: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Contract &amp;1 &amp;2 succesfully transfered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>&amp;1 contracts created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>&amp;1 contracts changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Contract &amp;1 cannot be locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Error during RFC call: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Contract &amp;1 is deactivated!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Error during validation!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Transfer of contract &amp;1 &amp;2 canceled!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Transfer of contracts &amp;1 &amp;2 started</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Warnung: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>No transfer rules available! (Table /GICOM/TAGR2CCS)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>No transfer strategy available! (Tabelle /GICOM/TCCSAGRRL)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Cond key &amp;1 (BAPI) respectively &amp;2 (internal) not available in SAP cond.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Condition key &amp;1 not available in gicom Condition!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Error during fetching add.parameters Bonus-settl for GUID &amp;1 (Kowid &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>No transfer rule for cond.type &amp;1 and dimension &amp;2 found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Source org level is identical with target org level (R: &amp;1, A: &amp;2, S: &amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>No result for disagregation on Org.levl &amp;1 (&amp;2) and Art.level &amp;3 (&amp;4)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Cancelation of the resolvement recursion due to maximum depth &amp;1 reached</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Contract &amp;1 deactivated, however valid connection entries available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>No distribution contract type for contract type &amp;1 available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>No distribution contract to agr.id &amp;1 determinable (Distr.Contr &amp;2 &amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>&amp;1 Distr.contracts determined! Not unique! (Agr.Id &amp;2, distr.Contr &amp;3 &amp;4)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Transfer not succeeded for contract &amp;1 &amp;2 due to transfer errorsS</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>No supplier masterdata available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>No configuration for the accrual condition available! Cond.Type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>increasing/interpolating scale conditions are not allowed! Cond.Type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Indexbase for the condition is not mainained! Cond.Id &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Error during mapping of customer specific fields!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Fatal error in sync cc &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Error during changing CC &amp;1 (BAPI..SYNC)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Error during creation of a CC ([BAPI..SYNC)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>No configuration for Delta settlement calendar available! V-Type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Error while changing data just before calling BAPIs!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>No configuration for transfer manager available! V-Type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Error during transfer manager mapping!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>No transfer manager configuration for event &amp;1 available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>No NULL scale level Indexscale condition maintained! Cond.ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>SAP Cond.type for discounts not available! Param &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>SAP Cond.type for Min. Cap not available! Param &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>SAP Cond.type for Max. Cap not available! Param &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Error with BADI implementation for BVB mapping!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>SAP Cond.Type for payment in advance not available! Param &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Contract type &amp;1 is not intended to be transfered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>VPAM version is not maintained in table /gicom/01_sypara</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>No configuration for delta accrual calendar available! V-type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Error while fetching gicom process customizing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>The ccs split criteria could not be read.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>The CCS dimension was not selected successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Cond.Key &amp;1 (BAPI) respectively &amp;2 (internal) in SAP cond. not available!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>No transfernumber for selection transfered</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Contract type &amp;1 is not intended for transfer to ccs.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>No contract number is given.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>No SAP condition type for case &amp;1 and type &amp;2 in TCCSCNDSP found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>Read /GICOM/TPARA for Key &amp;1 failed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>No accrual cond type for gicom cond type &amp;1 customized.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Insert in /GICOM/CCS_FOWAD not succesfull. Error type: &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>No entries in /GICOM/CCS_FOWAD for parameters found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>FATAL ERROR (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Error during RFC-call: &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Internal error during processing (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Unexpected coding reached (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>No forward. Contract &amp;1 already forwarded.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>No forward of contract &amp;1 because last transfer with error.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>No forward of contract &amp;1 beacause active successor.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Predecessor-contract &amp;1 has to transfered succesful first.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>No transfer because contract starts before &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>No transfer for agreement &amp;1 because index basis scale is initial.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Contract type &amp;1 not activated for transfer.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Bupa role target can only be set with a conditontable.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Operator focus is only allowed for operator model</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Valid from date is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>Valid to date is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>&quot;Valid to&quot; date must be greater than &quot;Valid From&quot; date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Invalid operator focus.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>No breakdown target level for date &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Valid from / Valid to is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>The period number should start from initial for Delta-Recovery calendar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>&amp;1 operator contract(s) were transferred again.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>Value &amp;1 not supported.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>Information for developer: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>Fatal error in reading cc &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>Fatal error while changing cc &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>CC for &amp;1 does not exist.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>&amp;1&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>CC not found for GUID &amp;1 and RFC - Dest &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>No breakdown level in organizational model found for timespan &amp;1 - &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>No transmission rule found for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>No transmission rules found on database. Please customzie this rules.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>No Fieldcombination found for the field/s &amp;1 &amp;2 &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>No Field or Fieldcombination found for type &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>Grouping Type &amp;1 not supported. No Object Sync.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>Transfer was started as job due to amount of agreements.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>SMI - Transfer of contract &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>No eligbile data found for OID &amp;1 and eligible type &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>Eligible type plant is not supported.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>Fields of condition table &amp;1 couldn&apos;t be determined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>No original cc guid found for distribution cc guid &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>The active add_bvb enhancement must fill the fieldcombinations.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>Inconsistent accrual customizing for gicom condition type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>Product &amp;1 archived. No transfer into contract.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <STEXT>Nachrichtenklasse für CCS-Integration</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <STEXT>Classe de message pour l’intégration CCS</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <STEXT>Klasa komunikatów dla integracji CCS</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <STEXT>Classe de mensagens para integração CCS</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_CCS_01</ARBGB>
+     <STEXT>Clase de mensajes para la integración CCS</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Vertrag &amp;1 nicht vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Kein Buchungskreis für OrgID &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Fehler beim Laden der Details zur Kondition &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Keine Konditionen zum Vertrag &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler beim Laden der Org.-Beziehungen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fehler beim Laden der Árt.-Beziehungen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Fehler beim Laden der Organisationseinheiten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Fehler beim Laden der Splitkriterien.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Fehler beim Laden der Konditionsarten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Fehler beim Laden der Buchungskreise.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Kein Kontrakttyp für Konditionsart &amp;1 u. Vereinbarungsmodell &amp;2 gepflegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Splitfeld &amp;1 nicht in Transferstruktur vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Kein Dimensionsschlüssel für CC &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>RFC-Dest. zu Bukrs &amp;1 nicht ermittelbar (&amp;2).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Fehler beim Lesen des Customizing zum CC-Typ &amp;1. [SUBRC: &amp;2; Dest.: &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>CC &amp;1 existiert nicht. [Dest.: &amp;2]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Fehler beim Lesen des CC &amp;1: %2. [Dest.: &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Keine Schlüsseldaten für SAP-Kondition &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Keine Positionsdaten für SAP-Kondition &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Fehler beim Ändern des CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Interner Fehler in der Verarbeitung (&amp;1).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Umsatzbasis-Feldkombinationen fehlerhaft.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Fehler beim Anlegen eines CC.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Warnung bei Anlage des CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Warnung bei Änderung des CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Fehler beim Einfügen des Dimensionschlüssels zum CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Fehler beim Einfügen der Verbindungseinträge zum CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Fehler beim Aktualisieren der Verbindungseinträge zum CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>FATAL ERROR (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>SAP-Kondition &amp;1 des CC &amp;2 nicht in Verbindungseinträgen (Inkonsistenz!).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Unerwartete Codestelle erreicht (&amp;1).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Einkaufsdaten für Lief &amp;1/Bukrs &amp;2 konnten nicht ermittelt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Verkaufsdaten für Kunde &amp;1/Bukrs &amp;2 konnten nicht ermittelt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Fehler beim Erstellen des Anwendungslogs [BAL_LOG_CREATE: &amp;1 &amp;2 &amp;3 &amp;4].</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Fehler beim Hinzufügen eines Log-Eintrags [BAL_LOG_MSG_ADD: &amp;1 &amp;2 &amp;3 &amp;4].</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Fehler beim Speichern des Anwendungslogs [BAL_DB_SAVE: &amp;1 &amp;2 &amp;3 &amp;4].</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Vereinbarungsmodell &amp;1 ist nicht zur Übertragung vorgesehen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Fehlendes CCS-Customizing an der Konditionsart &amp;1 (V-Modell &amp;2).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Staffeln können zur Zeit nicht übertragen werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Minimal und Maximal Deckelungen sind aktuell unzulässig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Fixbeträge sind aktuell unzulässig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Fehler: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Vertrag &amp;1 &amp;2 erfolgreich transferiert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>&amp;1 Kontrakte angelegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>&amp;1 Kontrakte geändert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Vertrag &amp;1 konnte nicht gesperrt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Fehler beim RFC-Aufruf: &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Kontrakt &amp;1 ist deaktiviert!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Fehler während der Validierung!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Übertragung des Vertrages &amp;1 abgebrochen!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Übertragung des Vertrags &amp;1 gestartet.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Warnung: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Keine Übertragungsregeln vorhanden! (Tabelle /GICOM/TAGR2CCS)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Keine Übertragungsstrategie vorhanden! (Tabelle /GICOM/TCCSAGRRL)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Kond.schlüssel &amp;1 (BAPI) bzw. &amp;2 (intern) in SAP Kond. nicht verfügbar!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Kond.schlüssel &amp;1 in gicom Kond. nicht verfügbar!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Fehler beim Laden der Zusatzparam. Bonusabrechnung für GUID &amp;1 (Kowid &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Keine Übertragungsregel für KoArt &amp;1 und Dimension &amp;2 gefunden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Quell-Org.Ebenen identisch mit Ziel-Org.Ebenen (R: &amp;1, A: &amp;2, S: &amp;3).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Kein Ergebnis für Zerfall auf Org.Ebene &amp;1 (&amp;2) und Art.Eben &amp;3 (&amp;4).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Abbruch der Auflösungs-Rekursion aufgrund erreichter Maximaltiefe &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Kontrakt &amp;1 deaktiviert, jedoch gültige Verbindungseinträge vorhanden!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Keine Ausschüttungskontraktart für Kontraktart &amp;1 vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Kein Aus.kontrakt zur Kowid &amp;1 ermittelbar. (Aus.Vert &amp;2 &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>&amp;1 ermittelte Aus.kontrakte! Nicht eindeutig! (Kowid &amp;2, Aus.Vert &amp;3 &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Übertragung wegen Übertragungsfehler bei vertrag &amp;1 &amp;2 nicht erfolgt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Keine Lieferanten Stammdaten vorhanden !</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Keine Konfiguration für die Rückstellung Kondition vorhanden ! Koart &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Steigende/Interpolierte Staffeln Konditionen sind unzulässig ! Koart &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Indexbasis der Kondition ist nicht gepflegt ! KonditionsID &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Fehler beim Mapping von kundenindividuellen Felder !</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Fataler Fehler beim synchron. von CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Fehler beim Ändern des CC &amp;1. (BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Fehler beim Anlegen eines CC. ([BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Keine Konfiguration für Delta-Abrechnung Kalender vorhanden ! V-Typ &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Fehler bei der Anpassung der Daten direkt vor Aufruf des BAPIs !</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Keine Konfiguration für Transfer Manager vorhanden! V-Typ &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Fehler beim Transfer Manager Mapping !</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Transfer Manager Konfiguration für Event &amp;1 nicht vorhanden !</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Indexstaffel Kondition hat keine NULL Staffel Ebene gepflegt ! KOWID &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>SAP KoArt für Abschläge nicht vorhanden ! Param &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>SAP KoArt für Min. Deckelung nicht vorhanden ! Param &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>SAP KoArt für Max. Deckelung nicht vorhanden ! Param &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Fehler bei der BAdI Implementierung für BVB Mapping !</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>SAP KoArt für Vorauszahlungen nicht vorhanden ! Param &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Vertragstyp &amp;1 ist nicht zur Übertragung vorgesehen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>VPAM Version ist in /gicom/01_sypara Tabelle nicht gepflegt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Keine Konfiguration für Delta-Rückstellung Kalender vorhanden ! V-Typ &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Fehler beim Laden des gicom-Prozesscustomizing.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Die CCS Splitkriterien konnten nicht gelesen werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Die CCS Dimension konnte nicht erfolgreich ausgelesen werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Kond.schlüssel &amp;1 (BAPI) bzw. &amp;2 (intern) in SAP Kond. nicht verfügbar!</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Keine Transfernummern für Selektion übergeben.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Vertragstyp &amp;1 ist nicht für die Übertragung nach CCS vorgesehen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Es wurde keine Vertragsnummer übergeben.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Keine SAP KoArt für Fall &amp;1 und KoArt &amp;2 in TCCSCNDSP gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Lesen von /gicom/tpara für Schlüssel &amp;1 fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Keine Rückstellungskoart für gicom Koart &amp;1 gecustomized.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Speichern in /GICOM/CCS_FOWAD fehlgeschlagen. Feheltyp: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Keine Einträge in /GICOM/CCS_FOWAD gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>FATAL ERROR (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Fehler beim RFC-Aufruf: &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Interner Fehler in der Verarbeitung (&amp;1).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Unerwartete Codestelle erreicht (&amp;1).</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Kein Vortrag. Vertrag &amp;1 bereits vorgetragen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Kein Vortrag von Vertrag &amp;1 da letzter Transfer fehlerhaft.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Kein Vortrag von Vertrag &amp;1 wegen aktivem Nachfolger.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Vorgänger-Vertrag &amp;1 muss zuerst erfolgreich übertragen werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Keine Übertragung da Vertrag vor dem &amp;1 beginnt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Vereinbarung &amp;1 wird nicht übertragen, da der Indexbasiswert initial ist</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Vertragstyp &amp;1 nicht für die Übertragung aktiviert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Geschäftsp. Zielrolle kann nur in Verbindung mit Kond.-tab. gesetzt sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Betreiberfokus nur für Betreiberverträge erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Gültig-von-Datum fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Gültig-bis-Datum fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>&apos;Gültig von&apos; muss größer als &apos;Gültig bis&apos; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Ungültiger Betreiberfokus</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Keine Zerfalls-Ziellevel für Datum &amp;1 festgelegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Gültig-von / Gültig-bis fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Die Periodennummer sollte für die Delta-Recovery-Kalender initial starten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>&amp;1 Betreiberverträge wurden nochmal übertragen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Wert &amp;1 wird nicht unterstützt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Informationen für Entwickler: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Schwerer Fehler beim Lesen des CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Fataler Fehler beim Ändern von PF &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>PF &amp;1 nicht vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>&amp;1&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>BK für GUID &amp;1 und RFC-Destination &amp;2 nicht gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Kein Strukturlevel für Zeitraum &amp;1 - &amp;2 im Organisationsmodell gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Keine Übertragungsregel für &amp;1 gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Keine Übertragungsregeln in Datenbank gefunden Bitte Regeln anpassen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Keine Feldkombination für die Felder / das Feld: &amp;1 &amp;2 &amp;3 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Kein Feld oder Feldkombination für den Type &amp;1 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Gruppierungsart &amp;1 nicht unterstützt. Kein Object Sync definiert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Die Übertragung wurde aufgrund der Menge der Vb. als Job gestartet.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>SMI - Übertragung des Vertrages &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Keine Anaspruchsberechtiger für OID &amp;1 und Art &amp;2 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Anspruchsberechtigenart Werk wird nicht unterstützt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Felder zu Konditionstabelle &amp;1 konnten nicht ermittelt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Es wurde keine Original-CC-Guid für die Verteilungs-CC-Guid &amp;1 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Das aktive ADD_BVB enhancement wird die Feldkombination befüllen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Inkonsistents Rückstellungscustomizing für gicom Konditionsart &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Produkt &amp;1 archiviert. Keine Übertragung in Kontrakt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Le contrat &amp;1 n’existe pas.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>La dimension CCS n’a pas été sélectionnée avec succès.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Erreur lors de la récupération des détails de la condition &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Aucune condition pour le contrat &amp;1 &amp;2 disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erreur lors de la récupération des relations d’org.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Erreur lors de la récupération des relations d’art.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Erreur lors de la récupération d’unités d’organisation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Erreur lors de la récupération des critères de fractionnement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Erreur lors de la récupération des types de condition</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Erreur lors de la récupération du code de l’entreprise</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Aucun type contr. n’est géré pour mod. d’acc. &amp;2 du type de condition &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Champ fractionné &amp;1 non disponible dans la structure de transfert</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Aucune clé de dimension pour CC &amp;1 disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>RFC-Dest. pour Coco &amp;1 non disponible (&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Erreur lors de lect. de personnal. du CC-type &amp;1 [SUBRC : &amp;2 ; des. : &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>CC &amp;1 n’existe pas [dest : &amp;2]</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Erreur lors de la lecture du CC &amp;1 : %2. [Dest. : &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Aucune donnée de clé disponible pour la condition SAP &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Aucune donnée de position disponible pour la condition SAP &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Erreur lors de la modification de CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Erreur interne pendant le traitement (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Combinaison de champs de base du volume d’affaires non valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Erreur pendant la création du CC</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Avertissement pendant la création du CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Erreur lors de la modification de CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Erreur lors de l’insertion de clés de dimension dans CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Erreur lors de l’insertion d’entrées de connexion dans CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Erreur lors de la mise à jour d’entrées de connexion dans CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>ERREUR FATALE (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>La condit. SAP &amp;1 de CC &amp;2 ne figure pas dans entr. conn. (incohérence !)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Enregistrement de codage inattendu atteint (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Impossible de déterminer les données d’achat pour fournis. &amp;1/CoCO &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Impossible de déterminer les données de vente pour client &amp;1/CoCO &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Erreur lors de création des journ. d’appl. [BAL_LOG_CREATE : &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Erreur lors insertion entrée journal [BAL_LOG_MSG_ADD : &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Erreur lors de sauvegarde journaux appli. [BAL_DB_SAVE : &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Le modèle d’accord &amp;1 n’est pas destiné à être transféré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>CCS-Personnalisation manquante pour type condition &amp;1 (V-Modell &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Les échelles ne peuvent pas être transférées momentanément</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Les plafonds Min et Max ne sont actuellement pas autorisés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Les montants fixes ne sont actuellement pas autorisés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Erreur : &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Contrat &amp;1 &amp;2 transféré avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>&amp;1 contrats créés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>&amp;1 contrats modifiés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Le contrat &amp;1 ne peut pas être verrouillé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Erreur pendant l’appel RFC : &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Le contrat &amp;1 est désactivé !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Erreur lors de la validation !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Transfert du contrat &amp;1 &amp;2 annulé !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Transfert des contrats &amp;1 &amp;2 commencé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Avertissement : &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Aucune règle de transfert disponible ! (Tableau/GICOM/TAGR2CCS)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Aucune stratégie de transfert disponible ! (Tableau/GICOM/TCCSAGRRL)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Clé de condition &amp;1 (BAPI) respec. &amp;2 (interne) non disp. dans cond. SAP</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Clé de condition &amp;1 non disponible dans condition gicom !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Erreur lors récup. param. ajout décompte bonus pour GUID &amp;1 (Kowid &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Aucune règle transfert pour le type de cond. &amp;1 et dimension &amp;2 trouvée !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Le niv. d’org. source iden. au niv. d’org. cible (R : &amp;1, A : &amp;2, S : &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Aucun résultat pour désagr. niveau d’org. &amp;1 (&amp;2) et niv. d’art. &amp;3 (&amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Annulation de la récursion de résolution en raison prof max &amp;1 atteinte</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Contrat &amp;1 désactivé, mais entrées de connexion valides disponibles !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Aucun contrat de répartition pour le type de contrat &amp;1 disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Aucun contrat de répartition pour ID acc. &amp;1 déterm. (contr.répa. &amp;2 &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>&amp;1 contrats répar. déter. ! Pas unique ! (ID acc. &amp;2, cont. répar. &amp;3 &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Transfert non réussi pour contrat &amp;1 &amp;2 en raison d’erreurs de transfert</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Aucune donnée maître fournisseur disponible !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Aucune configuration pour condi. Charge dispo ! Type de condition &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>condi. d’échelle croissa./interpol. non autorisées ! Type de condition &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>La base d’index pour la condition n’est pas gérée ! ID cond. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Erreur lors du mappage des champs spécifiques au client !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Erreur fatale dans la synchronisation de CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Erreur pendant la modification de CC &amp;1 (BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Erreur pendant la création d’un CC (BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Aucune configuration pour calendrier décompte Delta dispo ! Type V &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Erreur lors de la modification des données juste avant l’appel BAPI !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Aucune configuration pour le gestionnaire de transfert dispo. ! Type V &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Erreur pendant le mappage du gestionnaire de transfert !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Aucune config. gestion. transfert pour l’événement &amp;1 disponible !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Aucune condition échelle index niveau NULL gérée ! ID cond. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Type de cond. SAP pour les remises non disponible ! Param &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Type de cond. SAP pour plafond min. non disponible ! Param &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Type de cond. SAP pour plafond max. non disponible ! Param &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Erreur avec la mise en œuvre BADI pour le mappage BVB !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Type de cond. SAP pour acompte non disponible ! Param &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Le type de contrat &amp;1 n’est pas destiné à être transféré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>La version VPAM n’est pas gérée dans le tableau /gicom/01_sypara</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Aucune config. pour calendrier charges Delta disponible ! Type V &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Erreur lors de la récup. de personnalisation du traitement gicom</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Le critère de fractionnement CCS n’a pas pu être lu.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>La dimension CCS n’a pas été sélectionnée avec succès.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Clé cond. &amp;1 (BAPI) respect. &amp;2 (interne) dans cond. SAP non dispo !</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Aucun numéro de transfert pour la sélection transférée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Le type de contrat &amp;1 n’est pas destiné à être transféré à CCS.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Aucun numéro de contrat n’est indiqué.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Aucun type condi. SAP pour cas &amp;1 et type &amp;2 dans TCCSCNDSP trouvé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Échec lecture de /GICOM/TPARA pour la clé &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Aucun type de cond. décompte pour type cond. gicom &amp;1 personnalisé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Échec insertion dans /GICOM/CCS_FOWAD. Type d’erreur : &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Aucune entrée dans /GICOM/CCS_FOWAD pour les paramètres trouvés.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>ERREUR FATALE (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Erreur pendant l’appel RFC : &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Erreur interne pendant le traitement (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Codage inattendu atteint (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Aucun transfert. Le contrat &amp;1 a déjà été transféré.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Aucun transfert du contrat &amp;1 car dernier transfert avec erreur.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Aucun transfert du contrat &amp;1 car le successeur est actif.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Le contrat prédécesseur &amp;1 doit d’abord être transféré avec succès.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Aucun transfert car le contrat commence avant &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Aucun transf. pour accord &amp;1 car l’échelle de base index est initiale.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Le type de contrat &amp;1 n’est pas activé pour le transfert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>La cible du rôle Bupa ne peut être définie qu’avec une conditionnable.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>L’objectif opérateur n’est autorisé que pour le modèle opérateur</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>La date de début de validité est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>La date de fin de validité est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>La date « Valable jusqu’à » doit être supérieure à la date « Valable de »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Objectif opérateur invalide.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Aucun niveau cible de ventilation pour la date &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>La date « Valide de »/« Valide jusqu’à » est manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Le num. période doit comm. de l’initiale pour calend Delta-Recovery</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Le(s) contrat(s) de l’opérateur &amp;1 ont été transférés à nouveau.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Valeur &amp;1 non prise en charge.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Information pour le développeur : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Erreur fatale lors de la lecture de cc &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Erreur fatale lors de la modification de cc &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>CC de &amp;1 n’existe pas.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>&amp;1&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>CC non trouvé pour GUID &amp;1 et RFC - dest &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Aucun niv. ventil. dans mod. org. n’a été trouvé pour interv. temps &amp;1-&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Aucune règle de transmission trouvée pour &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Aucune règle transm. trouvée dans base données. Personnalisez ces règles.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Aucune combinaison de champs trouvée pour les champs &amp;1 &amp;2 &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Aucun champ ou combinaison de champs n’a été trouvé pour le type &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Le type groupe &amp;1 n’est pas pris en charge. Aucune synchro. d’objet.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Le transfert a commencé en tant que tâche en raison du nombre d’accords.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>SMI - Transfert du contrat &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Aucune donnée éligible trouvée pour l’OID &amp;1 et le type éligible &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>La division du type éligible n’est pas prise en charge</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Les champs du tableau de conditions &amp;1 n’ont pas pu être déterminés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Aucun guide CC original n’a été trouvé pour guide CC de répartition &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>L’extension add_bvb active doit remplir les combinaisons de champ.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Personnalis. incohérente de régularisation pour type condition gicom &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Produit &amp;1 archivé. Aucun transfert dans le contrat.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Kontrakt &amp;1 nie istnieje.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nie udało się wybrać wymiaru CCS.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Błąd podczas pobierania szczegółów do warunku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Brak dostępnego warunku do kontraktu &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Błąd podczas pobierania relacji organizacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Błąd podczas pobierania relacji art.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Błąd podczas pobierania jednostek organizacyjnych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Błąd podczas pobierania kryteriów podziału</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Błąd podczas pobierania typów warunków</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Błąd podczas pobierania kodu firmy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Nie jest zachow. żaden model kontr. &amp;2 dla typu um. do typu warunku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Pole dzielone &amp;1 niedostępne w strukturze transferu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Brak dostępnego klucza wymiaru dla kodu firmy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Miejsce docelowe RFC dla kodu firmy &amp;1 jest niedostępne (&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Błąd podczas odczytu dostosow. typu kodu firmy &amp;1 [SUBRC: &amp;2; cel: &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Kod firmy &amp;1 nie istnieje [miejsce docelowe: &amp;2]</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Błąd podczas odczytu kodu firmy &amp;1: %2. [miejsce docelowe: &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Brak dostępnych danych klucza dla warunku SAP &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Brak dostępnych danych pozycji dla warunku SAP &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Błąd podczas zmieniania kodu firmy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Błąd wewnętrzny podczas przetwarzania (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Nieprawidłowe połączenie pola podstawowego wolumenu biznesowego</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Błąd podczas tworzenia kodu firmy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Ostrzeżenie podczas tworzenia kodu firmy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Błąd podczas zmieniania kodu firmy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Błąd podczas wstawiania kluczy wymiarów do kodu firmy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Błąd podczas wstawiania pozycji połączeń do kodu firmy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Błąd podczas aktualizowania pozycji połączeń do kodu firmy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>BŁĄD KRYTYCZNY (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Brak warunku SAP &amp;1 dla kodu firmy &amp;2 w pozycjach połączeń (niespójność!)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Osiągnięto nieoczekiwany rekord kodowania (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Nie można określić danych zakupowych dla dostawcy &amp;1 / kodu firmy &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Nie można określić danych sprzedażowych dla klienta &amp;1 / kodu firmy &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Błąd podczas tworzenia dzienników aplikacji [BAL_LOG_CREATE: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Błąd podczas wstawiania wpisu do dziennika [BAL_LOG_MSG_ADD: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Błąd podczas zapisywania dzienników aplikacji [BAL_DB_SAVE: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Model umowy &amp;1 nie jest przeznaczony do przenoszenia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Brak dostosowania CCS dla typu warunku &amp;1 (model V &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Skal nie można przenosić natychmiast</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Minimum i maksimum są obecnie niedozwolone</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Stałe kwoty są obecnie niedozwolone</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Błąd: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Kontrakt &amp;1 &amp;2 został przeniesiony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Utworzono kontrakty: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Zmieniono kontrakty: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Kontraktu &amp;1 nie można zablokować</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Błąd podczas wywołania RFC: &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Kontrakt &amp;1 jest dezaktywowany!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Błąd podczas sprawdzania poprawności!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Anulowano przenoszenie kontraktu &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Rozpoczęto przenoszenie kontraktów &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Ostrzeżenie: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Brak dostępnych reguł przenoszenia! (tabela /GICOM/TAGR2CCS)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Brak dostępnej strategii przenoszenia! (tabela /GICOM/TCCSAGRRL)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Klucz warunku &amp;1 (BAPI) lub &amp;2 (wewn.) nie jest dostępny w warunku SAP.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Klucz warunku &amp;1 nie jest dostępny w warunku gicom!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Błąd pobierania dodatk. param. rozlicz. bonusowego dla GUID &amp;1 (Kowid &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Nie znaleziono reguły przenoszenia dla typu warunku &amp;1 i wymiaru &amp;2!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Poz. źródłowy org. jest identyczny z poz. docelowym (R: &amp;1, A: &amp;2, S: &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Brak wyniku dla dezagregacji na poziomie org. &amp;1 (&amp;2) i poz. art. &amp;3 (&amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Anulowanie rozpozn. rekurencyjnego z powodu osiągnięcia maks. poziomu &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Kontrakt &amp;1 został dezakt., jednak dost. są prawidłowe poz. połączenia!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Typ umowy dystrybucyjnej dla typu kontraktu &amp;1 nie jest dostępny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Nie można określ. kontr. dystryb. dla id. um. &amp;1 (kontr. dystryb. &amp;2 &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Określ. &amp;1 kontr. dystryb. Nieunikalny! (id. um. &amp;2, k. dystr. &amp;3 &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Przenoszenie kontraktu &amp;1 &amp;2 nie udało się z powodu błędów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Dane podstawowe dostawcy są niedostępne!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Konfiguracja warunku przyrostu jest niedostępna! Typ warunku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Zwiększające/interpolujące warunki skal. niedozwolone! Typ warunku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Baza indeksu dla warunku nie jest zachowywana! Identyfikator warunku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Błąd podczas mapowania pól specyficznych dla klienta!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Błąd krytyczny synchronizacji kodu firmy &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Błąd podczas zmiany kodu firmy &amp;1 (BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Błąd podczas tworzenia kodu firmy ([BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Konfiguracja kalendarza rozliczeń różnicowych nie jest dostępna! Typ V &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Błąd podczas zmiany danych tuż przed wywołaniem BAPI!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Konfiguracja menedżera przenoszenia jest niedostępna! Typ V &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Błąd podczas mapowania menedżera przenoszenia!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Konfiguracja menedżera przenoszenia dla zdarzenia &amp;1 jest niedostępna!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Nie jest zachow. żadna skala ind. poz. skalowania NULL! Id. warunku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Typ warunku SAP dla rabatów jest niedostępny! Parametr &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Typ warunku SAP dla minimum jest niedostępny! Parametr &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Typ warunku SAP dla maksimum jest niedostępny! Parametr &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Błąd implementacji BADI dla mapowania BVB!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Typ warunku SAP dla zaliczki jest niedostępny! Parametr &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Typ kontraktu &amp;1 nie jest przeznaczony do przenoszenia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Wersja VPAM nie jest zachowywana w tabeli /gicom/01_sypara</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Konfiguracja kalendarza naliczeń różnicowych nie jest dostępna! Typ V &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Błąd podczas pobierania dostosowania procesu gicom</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Nie można odczytać kryteriów podziału CCS.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Nie udało się wybrać wymiaru CCS.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Klucz warunku &amp;1 (BAPI) lub &amp;2 (wewn.) w warunku SAP jest niedostępny!</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Brak numeru przeniesienia dla przenoszonych wybranych elementów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Typ kontraktu &amp;1 nie jest przeznaczony do przenoszenia do CCS.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Nie podano numeru kontraktu.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Nie znaleziono typu warunku SAP dla sprawy &amp;1 i typu &amp;2 w TCCSCNDSP.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Odczyt /GICOM/TPARA dla klucza &amp;1 nie powiódł się.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Brak dostosowanego typu warunku przyrostu dla typu warunku gicom &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Wstawienie w /GICOM/CCS_FOWAD nie udało się. Typ błędu: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>W /GICOM/CCS_FOWAD nie znaleziono pozycji odpowiadających parametrom.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>BŁĄD KRYTYCZNY (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Błąd podczas wywołania RFC: &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Błąd wewnętrzny podczas przetwarzania (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Osiągnięto nieoczekiwane kodowanie (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Brak przesłania dalej. Kontrakt &amp;1 został już przesłany dalej.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Kontraktu &amp;1 nie przesłano dalej z powodu błędu ost. przesyłania dalej.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Kontraktu &amp;1 nie przesłano dalej z powodu aktywnego następcy.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Najpierw musi zostać pomyślnie przesłany kontrakt poprzedzający &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Nie przesłano, ponieważ kontrakt zaczyna się przed &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Nie przesłano umowy &amp;1, ponieważ skala podstawy indeksu jest początkowa.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Typ kontraktu &amp;1 nie został aktywowany do przenoszenia.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Element docelowy roli BUPA można ustawić tylko za pomocą tabeli warunków.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Centrum uwagi operatora jest dozwolone tylko dla modelu operatora</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Brak daty „Obowiązuje od”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Brak daty „Obowiązuje do”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Data „Obowiązuje do” musi być późniejsza niż „Obowiązuje od”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Nieprawidłowe centrum uwagi operatora.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Brak poziomu docelowego podziału dla daty &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Brak Obowiązuje od / Obowiązuje do</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Numer okresu powinien zaczynać się od inicjału kalendarza Delta-Recovery</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Ponownie przeniesiono kontrakty z operatorem w liczbie &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Wartość &amp;1 nie jest obsługiwana.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Informacja dla dewelopera: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Błąd krytyczny podczas odczytu kodu firmy &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Błąd krytyczny podczas zmieniania kodu firmy &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Kod firmy dla &amp;1 nie istnieje.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>&amp;1&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Nie znaleziono kodu firmy dla GUID &amp;1 i RFC — miejsce docelowe &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Nie znaleziono poziomu podziału w modelu org. dla przedziału czasu &amp;1–&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Nie znaleziono reguły transmisji dla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>W bazie danych nie znaleziono reguł transm. Dostosuj te reguły.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Nie znaleziono kombinacji pól dla pól &amp;1 &amp;2 &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Nie znaleziono pola lub kombinacji pól dla typu &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Typu grupowania &amp;1 nie jest obsługiwany. Brak synchronizacji obiektów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Przenoszenie zostało rozpoczęte jako zadanie z uwagi na liczbę umów.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>SMI — Przeniesienie kontraktu &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Nie znaleziono dopuszcz danych dla ID obiektu &amp;1 i rodz os uprawn &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Dopuszcz typ zakładu nie jest obsługiwany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Nie można określić pól tabeli warunków &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Nie znaleziono GUID cc dla GUID cc rozdziału &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Aktywne rozszerzenie add_bvb musi wypełniać fieldcombinations.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Niespójne dost. naliczeń międzyokresowych dla typu warunku gicom &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Zarchiwizowano produkt &amp;1. Brak transferu do kontraktu.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>O contrato &amp;1 não existe.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>A dimensão ECC não foi selecionada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Erro ao chamar detalhes para a condição &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nenhuma condição disponível para o contrato &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erro ao chamar relações org.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Erro ao chamar relações art.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Erro ao chamar unidades organizacionais</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Erro ao chamar critérios de partição</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Erro ao chamar tipos de condição</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Erro ao chamar a empresa</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Nenh. tp. contrato atualiz. p/ tp. cond. &amp;1 modelo acordo &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Campo partição &amp;1 indisponível na estrutura de transferência</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Nenhuma chave de dimensão disponível para CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Destino RFC para CCP &amp;1 indisponível (&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Erro ao ler customizing do tipo CC &amp;1 [SUBRC: &amp;2, dest.: &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>CC &amp;1 não existe [dest.: &amp;2]</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Erro ao ler CC &amp;1: %2. [dest.: &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Não há dados-chave disponíveis para condição SAP &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Não há dados de posição disponíveis para condição SAP &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Erro ao modificar CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Erro interno durante o processamento (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Combinação de campos “Base de faturamento” inválida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Erro ao criar CC</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Aviso ao criar CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Erro ao modificar CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Erro ao inserir chaves de dimensão para CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Erro ao inserir entradas de conexão para CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Erro ao atualizar entradas de conexão para CC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>ERRO GRAVE (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Cond. SAP &amp;1 de CC &amp;2 não em entradas conexão (inconsist!)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Registro de codificação inesperado alcançado (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Dados compra p/ fornecedor &amp;1/ CCP &amp;2 não podem ser determ.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Dados de venda p/ cliente &amp;1/CCP &amp;2 não podem ser determ.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Erro ao criar logs de aplicação [BAL_LOG_CREATE: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Erro ao inserir uma entrada em log [BAL_LOG_MSG_ADD: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Erro ao salvar logs de aplicação [BAL_DB_SAVE: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Modelo de acordo &amp;1 não previsto para transferência</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Customizing ECC em falta p/ tipo condição &amp;1 (modelo V &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Escalas não podem ser transferidas momentaneamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Limitações mín. e máx. não permitidas no momento</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Montantes fixos não permitidos no momento</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Erro: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Contrato &amp;1 &amp;2 transferido com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>&amp;1 contratos criados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>&amp;1 contratos modificados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>O contrato &amp;1 não pode ser bloqueado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Erro durante a chamada RFC: &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>O contrato &amp;1 está desativado!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Erro durante a validação!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Transferência do contrato &amp;1 &amp;2 cancelada!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Transferência dos contratos &amp;1 &amp;2 iniciada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Aviso: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Nenhuma regra de transferência disponível! (Tabela /GICOM/TAGR2CCS)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Nenhuma estratégia de transferência disponível! (Tabela /GICOM/TCCSAGRRL)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Chave cond. &amp;1 (BAPI) respect. &amp;2 (int.) indispon. cond. SAP</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Chave de condições &amp;1 indisponível em gicom Condição!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Erro ao chamar parâm. adic. liq. bônus p/ GUID &amp;1 (Kowid &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Nenh. regra transf. encontr. p/ tp. cond. &amp;1 e dimensão &amp;2!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Nível org. origem igual ao nível org. destino (R: &amp;1, A: &amp;2, S: &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Nenh. result. p/ desagreg. NívOrg. &amp;1 (&amp;2) e NívArt. &amp;3 (&amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Cancelamento recorrência resolução por atingir prof. máx. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Contrato &amp;1 desat., mas há entradas conexão vál. disponív.!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Nenh. tipo contrato distrib. disponível p/ tipo contrato &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Nenh. contrato distr. determinável p/ID acordo &amp;1 (CD &amp;2 &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>&amp;1 contratos de distribuição determinados! Não únicos! (IC &amp;2, CD &amp;3 &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Transf. não efetuada p/ contrato &amp;1 &amp;2 por erros transf.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Não há dados mestre de fornecedor disponíveis!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Nenhuma configuração disponível p/ condição de provisão Tipo condição &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Condições escala crescentes/interpol. não permitidas! Tipo cond. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Base de índice para condição não atualizada! ID cond. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Erro ao mapear campos específicos do cliente!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Erro grave em ECC</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Erro ao modificar CC &amp;1 (BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Erro ao criar um CC ([BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Nenhuma config. disponível p/ calendário liquidação delta Tipo V &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Erro ao modificar dados logo antes de chamar BAPIs!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Nenhuma configuração disponível p/ gerente transferência! Tipo V &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Erro ao mapear gerente de transferência!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Nenh. config. gerente transferência disponível p/ evento &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Nenh. condição escala índice nível escala NULL atualizada! ID cond. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Tipo de condição SAP para descontos indisponível! Parâm. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Tipo de condição SAP p/ limitação mín. indisponível! Parâm. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Tipo de condição SAP p/ limitação máx. indisponível! Parâm. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Erro com implementação de BAdI para mapeamento de BF!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Tipo de condição SAP para adiantamento indisponível! Parâm. &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Tipo de contrato &amp;1 não previsto para transferência</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Versão VPAM não atualizada na tabela /gicom/01_sypara</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Nenhuma config. disponível p/ calendário de provisão delta! Tipo V &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Erro ao chamar customizing de processo gicom</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Os critérios de partição ECC não foram lidos.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>A dimensão ECC não foi selecionada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>ChvCond. &amp;1 (BAPI) respect. &amp;2 (int.) em cond. SAP indisp.!</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Nenhum nº de transferência para seleção transferido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Tipo de contrato &amp;1 não previsto para transferência p/ ECC.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Nenhum nº de contrato indicado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Nenh. TpCondSAP encontrado p/ caso &amp;1 e tp. &amp;2 em TCCSCNDSP.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Erro ao ler /GICOM/TPARA para chave &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Nenh. TipoCondProv. personalizado p/ tipo condição gicom &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Erro ao inserir em /GICOM/CCS_FOWAD. Tipo de erro: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Nenh. entrada encontrada em /GICOM/CCS_FOWAD p/ parâmetros.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>ERRO GRAVE (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Erro durante a chamada RFC: &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Erro interno durante o processamento (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Codificação inesperada alcançada (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Sem encaminhamento. Contrato &amp;1 já encaminhado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Contrato &amp;1 não será encam. devido a erro na última transf.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Contrato &amp;1 não será encaminhado devido a sucessor ativo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>O contrato precedente &amp;1 deve ser transferido primeiro.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>O contrato não será transferido, pois começa antes de &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Acordo &amp;1 não será transf., escala base índice em branco.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Tipo de contrato &amp;1 não ativado para transferência.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Destino função PN só pode ser definida com tabela condições.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Foco operador só permitido para modelo de operador</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>A data “Válido de” está em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>A data “Válido até” está em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>A data “Válido até” deve ser posterior à data “Válido de”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Foco operador inválido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Nenhum nível de destino da lista expandida para a data &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>“Válido de”/“Válido até” em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Nº período deve começar do zero p/ calend. recuperação delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>&amp;1 contrato(s) de operador transferido(s) novamente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Valor &amp;1 não suportado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Informações para o desenvolvedor: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Erro fatal ao ler cc &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Erro fatal ao modificar o CC &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Não há CC para &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>&amp;1&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>CC não encontrada para GUID &amp;1 e RFC - Dest. &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Nenhum nível detalh.no modelo organizacional encontrado p/período &amp;1 - &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Nenhuma regra de transmissão encontrada para &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Nenhuma regra de transmissão encontrada no BD. Personalize essas regras.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Nenhuma combinação de campos encontrada para campos &amp;1 &amp;2 &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Nenhum campo ou combinação de campos encontrados para tipo &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Tipo de agrupamento &amp;1 não suportado. Nenhuma sincronização de objeto.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Transferência iniciada como job devido à quantidade de acordos.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>SMI - Transferência de contrato &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Nenhum dado elegível encontrado para OID &amp;1 e tipo elegível &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Centro do tipo elegível não suportado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Não foi possível determinar os campos da tabela de condições &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Nenhum GUID CC original encontrado para o GUID &amp;1 do CC de distribuição.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>A melhoria add_bvb ativa deve preencher as combinações de campos.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Customizing de provisão inconsistente para tipo de condição GICOM &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Produto &amp;1 arquivado. Nenhuma transferência para contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>No existe el contrato &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>La dimensión CCS no se ha seleccionado correctamente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error al obtener detalles para la condición &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>No hay ninguna condición disponible para el contrato &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error al obtener relaciones de organización</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error al obtener relaciones de artículo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error al obtener unidades de organización</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Error al obtener criterios de partición</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error al obtener clases de condición</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Error al obtener la sociedad</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Ninguna clase contrato actual.p.clase condición &amp;1, modelo de acuerdo &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Campo dividido &amp;1 no disponible en la estructura de transferencia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Ninguna clave de dimensión para soc.&amp;1 disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Destino RFC para soc.&amp;1 no disponible (&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Error al leer el Customizing de la clase de soc.&amp;1 [SUBRC: &amp;2: Dest.: &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Soc.&amp;1 no existe [Dest.: &amp;2]</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Error al leer la soc.&amp;1: %2. [Dest.: &amp;3]</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>No hay datos clave disponibles para la condición SAP &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>No hay datos de posición disponibles para la condición SAP &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Error al modificar la soc.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Error interno durante el procesamiento (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Combinación de campo de base p.liquidación contrato condiciones no válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Error al crear la sociedad</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Advertencia durante la creación de la sociedad &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Error al modificar la soc.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Error al insertar las claves de dimensión en la sociedad &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Error al insertar entradas de conexión en la sociedad &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Error al actualizar entradas de conexión en la sociedad &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>ERROR FATAL (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Condición SAP &amp;1 de soc.&amp;2 no está en las entr.conexión (inconsistencia)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Se ha obtenido un registro de codificación inesperado (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>No se pueden determinar los datos de compra del proveedor &amp;1/sociedad &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>No se pueden determinar los datos de ventas del proveedor &amp;1/sociedad &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Error al crear los logs de aplicación [BAL_LOG_CREATE: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Error al insertar una entrada de log [BAL_LOG_MSG_ADD: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Error al grabar los logs de aplicación [BAL_DB_SAVE: &amp;1 &amp;2 &amp;3 &amp;4]</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>El modelo de acuerdo &amp;1 no está pensado para su transferencia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Falta Customizing de CCS para la clase de condición &amp;1 (modelo vers.&amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Las escalas no se pueden transferir de forma momentánea</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>No se permiten capas máximas y mínimas</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Los importes fijos no están permitidos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Error: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>El contrato &amp;1 &amp;2 se ha transferido correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>&amp;1 contratos creados</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>&amp;1 contratos modificados</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>El contrato &amp;1 no se puede boquear</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Error durante la llamada RFC: &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>El contrato &amp;1 está desactivado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Error durante la validación.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Transferencia del contrato &amp;1 &amp;2 cancelada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Transferencia del contrato &amp;1 &amp;2 iniciada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Advertencia: &amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>No hay reglas de transferencia disponibles. (Tabla /GICOM/TAGR2CCS)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>No hay ninguna estrategia de transfer. disponib. (Tabla /GICOM/TCCSAGRRL)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Clv.cond.&amp;1 (BAPI) respectivamente &amp;2 (interna) no disponible en cond.SAP</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Clv.condiciones &amp;1 no disponible en condición gicom.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Error durante obtención de liquid.prima parám.adic.p.GUID &amp;1 (Kowid &amp;2)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Ninguna regla de transferencia para la clase de condición &amp;1 dimensión &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Nivel org.fuente es idéntico al nivel orga.de dest.(R: &amp;1, A: &amp;2, S: &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Ningún resultado p.desagregación en nivel org.&amp;1 (&amp;2) y nivel art.&amp;3 (&amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Recursión de resolución cancelada ya se ha alcanzado profundidad máx.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Contrato &amp;1 desactivado; hay entradas de conexión válida disponibles.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Ninguna cl.contrato de distribución disponible para la cl.contrato &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Ningún contrato de distr.p.id acuerdo &amp;1 determinable (contr.distr.&amp;2 &amp;3)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>&amp;1 contr.d.distrib.determinad. No es unívoco (ID ac.&amp;2 contr.distr.&amp;3 &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>La transf.ha fracasado p.contrato &amp;1 &amp;2 debido a errores de transferencia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>No hay datos maestros de proveedor disponibles.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>No hay dispon. ninguna config. para la condición de provisión Cl.cond.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Las cond.de escala que aumentan/se interpolan no están permit.Cl.cond.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>La base del índice para la condición no se actualiza ID cond.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Error durante la asignación de campos específicos del cliente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Error fatal en CCS</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Error al modificar la sociedad &amp;1 (BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Error al crear una sociedad ([BAPI..SYNC)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Ninguna config. disponible para el calendario de liquidación delta CV &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Error al modificar los datos antes de llamar BAPI</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Ninguna configuración disponible para el gestor de transferencia. CV &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Error al transferir la asignación de gestor.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Ninguna config.de gestor de transferencia disponible para el evento &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Nivel de escala nulo; condición de la escala de índice actualizada IdC &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Clase de condición SAP para descuentos no disponible. Parám.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Clase de condición SAP para cap mínimo no disponible. Parám.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Clase de condición SAP para cap.máxima no disponible. Parám.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Error con la implementación BADI para la asignación BVN</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Clase de condición SAP para pagos por adelantado no disponible. Parám.&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>La clase contrato &amp;1 no está pensada para su transferencia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>La versión VPAM no se actualiza en la tabla /gicom/01_sypara</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Ninguna config. disponible para el calendario de provisión delta CV &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Error al obtener el Customizing del proceso gicom</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>No se han podido leer los criterios de división de CCS.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>La dimensión CCS no se ha seleccionado correctamente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Clv.cond.&amp;1 (BAPI) respectiv.&amp;2 (interna) en cond.SAP no disponible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Ningún número de transferencia para la selección transferida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>La clase contrato &amp;1 no está pensada para la transferencia a CCS.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>No se proporciona ningún número de contrato.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Ninguna clase de condición SAP p.el caso &amp;1 y la clase &amp;2 en TCCSCNDSP.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>No se ha podido leer /GICOM/TPARA para la clave &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Ninguna cl.condición provisión personalizada para cl.condición gicom &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>La inserción en /GICOM/CCS_FOWAD no se ha realizado correctam. Error: &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>No existen entradas para los parámetros en /GICOM/CCS_FOWAD.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>ERROR FATAL (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Error durante la llamada RFC: &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Error interno durante el procesamiento (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Se ha obtenido una codificación inesperada (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>ProhibTrans El contrato &amp;1 ya se ha enviado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Contrato &amp;1 no enviado debido a un error de la última transferencia.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Contrato &amp;1 no enviado debido a un sucesor activo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>El contrato predecesor &amp;1 debe transferirse correctamente primero.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>No hay ninguna transferencia ya que el contrato empieza antes que &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Ninguna transfer.p.acuerdo &amp;1 porque escal.base de índices es inicial.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>La clase de contrato &amp;1 no está activada para la transferencia.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Destino del rol de IC solo se puede definir con una tabla de condiciones.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>El foco de operador solo está permitido para el modelo de operador</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Falta la fecha Válido desde</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Falta la fecha Válido desde</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>La fecha ‘Válido hasta’ tiene que ser mayor que ‘Válido desde’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Foco de operador no válido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Ningún nivel de destino de desglose para la fecha &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Falta Válido desde/Válido hasta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Nºperíodo debe empezar desde el principio p.calendario recuperación delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Se han vuelto a transferir &amp;1 contrato(s) de operador.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Valor &amp;1 no admitido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Información para el desarrollador: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Error grave al leer sociedad &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Error grave al modificar la sociedad &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>La sociedad para &amp;1 no existe.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>&amp;1&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>CC no existe para GUID &amp;1 y RFC - Dest &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>No se ha encontrado nivel desglose en modelo organiz. p. horario &amp;1 - &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>No se ha encontrado ninguna regla de transmisión para &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>No se han encontrado reglas de transmisión en la BD. Personalice reglas.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>No se ha encontrado ninguna combinación de campos para &amp;1 &amp;2 &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>No se ha encontrado ningún campo o combinación de campos para tipo &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Tipo de agrupación &amp;1 no admitido. No hay sincronización de objetos.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Transferencia iniciada como trabajo debido a cantidad de acuerdos.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>SMI - Transferencia de contrato &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>No se han encontrado datos elegibles para OID &amp;1 y el tipo elegible &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>No se admite el tipo de planta elegible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>No se han podido determinar los campos de la tabla de condiciones &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>No se ha encontrado GUID de CC original para GUID de CC de distr. &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>La mejora add_bvb activa debe rellenar las combinaciones de campos.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Personalización de period. inconsistente para clase de condición gicom &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Producto &amp;1 archivado. No hay transferencia al contrato.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CONTRACT_VAR_NO</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CONTRACT_VAR_NO</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Variant Number</DDTEXT>
+    <REPTEXT>Variant Number</REPTEXT>
+    <SCRTEXT_S>Var No</SCRTEXT_S>
+    <SCRTEXT_M>Variant Number</SCRTEXT_M>
+    <SCRTEXT_L>Variant Number</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Variantennummer</DDTEXT>
+     <REPTEXT>Variantennummer</REPTEXT>
+     <SCRTEXT_S>Var Nr</SCRTEXT_S>
+     <SCRTEXT_M>Variantennummer</SCRTEXT_M>
+     <SCRTEXT_L>Variantennummer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Numéro de la variante</DDTEXT>
+     <REPTEXT>No Var.</REPTEXT>
+     <SCRTEXT_S>No Var.</SCRTEXT_S>
+     <SCRTEXT_M>No de variante</SCRTEXT_M>
+     <SCRTEXT_L>Numéro de la variante</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Numer wariantu</DDTEXT>
+     <REPTEXT>NrWari</REPTEXT>
+     <SCRTEXT_S>NrWari</SCRTEXT_S>
+     <SCRTEXT_M>Numer wariantu</SCRTEXT_M>
+     <SCRTEXT_L>Numer wariantu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Nº da variante</DDTEXT>
+     <REPTEXT>NºVar.</REPTEXT>
+     <SCRTEXT_S>NºVar.</SCRTEXT_S>
+     <SCRTEXT_M>Nº variante</SCRTEXT_M>
+     <SCRTEXT_L>Nº da variante</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Número de variante</DDTEXT>
+     <REPTEXT>Nº var.</REPTEXT>
+     <SCRTEXT_S>Nº var.</SCRTEXT_S>
+     <SCRTEXT_M>Nº var.</SCRTEXT_M>
+     <SCRTEXT_L>Número de variante</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

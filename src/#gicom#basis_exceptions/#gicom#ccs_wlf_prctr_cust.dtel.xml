@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_WLF_PRCTR_CUST</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>PRCTR</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Copy of WLF_PRCTR_CUSTOMER-Alternative Customer Profit Centr</DDTEXT>
+    <REPTEXT>Profit Ctr</REPTEXT>
+    <SCRTEXT_S>Profit Ctr</SCRTEXT_S>
+    <SCRTEXT_M>Profit Center</SCRTEXT_M>
+    <SCRTEXT_L>Cust. Profit Center</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Abweichender Kunde Profitcenter</DDTEXT>
+     <REPTEXT>Profitcntr</REPTEXT>
+     <SCRTEXT_S>Profitcntr</SCRTEXT_S>
+     <SCRTEXT_M>Profitcenter</SCRTEXT_M>
+     <SCRTEXT_L>Profitcenter Kunde</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Copy of WLF_PRCTR_CUSTOMER-Alternative Customer Profit Centr</DDTEXT>
+     <REPTEXT>Profit Ctr</REPTEXT>
+     <SCRTEXT_S>Profit Ctr</SCRTEXT_S>
+     <SCRTEXT_M>Profit Center</SCRTEXT_M>
+     <SCRTEXT_L>Cust. Profit Center</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

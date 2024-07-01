@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/YEAR_FORWARD</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/YEAR</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>Year, for what is forward existing</DDTEXT>
+    <REPTEXT>Forw. Year</REPTEXT>
+    <SCRTEXT_S>Year</SCRTEXT_S>
+    <SCRTEXT_M>Forw. Year</SCRTEXT_M>
+    <SCRTEXT_L>Forwarded Year</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Jahr, für welches Vortrag vorhanden ist</DDTEXT>
+     <REPTEXT>Vorg. Jahr</REPTEXT>
+     <SCRTEXT_S>Jahr</SCRTEXT_S>
+     <SCRTEXT_M>Vorg. Jahr</SCRTEXT_M>
+     <SCRTEXT_L>Vorgetragenes Jahr</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Year, for what is forward existing</DDTEXT>
+     <REPTEXT>Forw. Year</REPTEXT>
+     <SCRTEXT_S>Year</SCRTEXT_S>
+     <SCRTEXT_M>Forw. Year</SCRTEXT_M>
+     <SCRTEXT_L>Forwarded Year</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

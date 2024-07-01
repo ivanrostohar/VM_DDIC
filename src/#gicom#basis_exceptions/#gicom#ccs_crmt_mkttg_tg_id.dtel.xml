@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCS_CRMT_MKTTG_TG_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CCS_CRM_MKTTG_TG_ID</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>CRM Marketing: Target Group ID</DDTEXT>
+    <REPTEXT>Target Group</REPTEXT>
+    <SCRTEXT_S>TG</SCRTEXT_S>
+    <SCRTEXT_M>Target Gr.</SCRTEXT_M>
+    <SCRTEXT_L>Target Group ID</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>CRM Marketing: Zielgruppen-ID</DDTEXT>
+     <REPTEXT>Zielgruppe</REPTEXT>
+     <SCRTEXT_S>Zielgruppe</SCRTEXT_S>
+     <SCRTEXT_M>Zielgruppe</SCRTEXT_M>
+     <SCRTEXT_L>ID Zielgruppe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CRM Marketing: Target Group ID</DDTEXT>
+     <REPTEXT>Target Group</REPTEXT>
+     <SCRTEXT_S>TG</SCRTEXT_S>
+     <SCRTEXT_M>Target Gr.</SCRTEXT_M>
+     <SCRTEXT_L>Target Group ID</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

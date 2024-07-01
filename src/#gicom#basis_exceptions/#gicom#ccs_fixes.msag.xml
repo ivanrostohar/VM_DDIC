@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Messageclass for gicom CCS fixings</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Internal error when reading the OID for company code &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No OID found for company code &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error reading table entries &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Internal error during update of table &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Table &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Key: &amp;1; settl_ccode: &amp;2 in oid_cocode_cc: &amp;3 changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Table &amp;1 updated successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Key: &amp;1; settl_ccode: &amp;2 in oid_partner_cc: &amp;3 changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Key: &amp;1; comp_code: &amp;2 in oid_cocode_cc: &amp;3 changed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Entries: &amp;1; &amp;3 found in table &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Exception raised at &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>condition type &amp;1 filled for agreement id &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Report executed. See Application Log for details</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <STEXT>Nachrichtenklasse für gicom CCS Fixings</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <STEXT>Classe de message pour les fixations gicom CCS</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <STEXT>Klasa komunikatów dla poprawek CCS Gicom</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <STEXT>Classe de mensagens para fixações gicom ECC</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/CCS_FIXES</ARBGB>
+     <STEXT>Clase de mensaje para fijaciones CCS de gcom</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Interner Fehler beim Lesen der OID für Buchungskreis &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Keine OID für Buchungskreis &amp;1 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Fehler beim beim Lesen der Tabelleneinträge &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Interner Fehler beim Update der Tabelle &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Keine Tabelle &amp;1 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Key: &amp;1; settl_ccode: &amp;2 in oid_cocode_cc: &amp;3 geändert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Tabelle &amp;1 erfolgreich geupdated.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Key: &amp;1; settl_ccode: &amp;2 in oid_partner_cc: &amp;3 geändert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Key: &amp;1; comp_code: &amp;2 in oid_cocode_cc: &amp;3 geändert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Einträge: &amp;2; &amp;3 in Tabelle &amp;1 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Ausname ausgelöst in &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Konditionsart &amp;1 bei Vereinbarung &amp;2 hinzugefügt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Programm ausgeführt. Siehe Application Log für Details.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Erreur interne lors de lecture de l’OID pour le code de l’entreprise &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Aucun OID trouvé pour le code de l’entreprise &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Erreur de lecture des entrées du tableau &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Erreur interne lors de la mise à jour du tableau &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Tableau &amp;1 non trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Clé : &amp;1 ; settl_ccode : &amp;2 dans oid_cocode_cc : &amp;3 modifié</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Tableau &amp;1 mis à jour avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Clé : &amp;1 ; settl_ccode : &amp;2 dans oid_partner_cc : &amp;3 modifié</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Clé : &amp;1 ; comp_code : &amp;2 dans oid_cocode_cc : &amp;3 modifié.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Entrées : &amp;1 ; &amp;3 trouvé dans le tableau &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Exception soulevée au niveau de &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>type de condition &amp;1 rempli pour l’ID d’accord &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Rapport exécuté. Voir le journal de l’application pour plus de détails</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Błąd wewnętrzny podczas odczytu ID obiektu dla kodu firmy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nie znaleziono ID obiektu dla kodu firmy &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Błąd odczytu pozycji tabeli &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Błąd wewnętrzny podczas aktualizacji tabeli &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Nie znaleziono tabeli &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Klucz: &amp;1; settl_ccode: &amp;2 w oid_cocode_cc: Zmieniono &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Tabela &amp;1 została zaktualizowana</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Klucz: &amp;1; settl_ccode: &amp;2 w oid_partner_cc: Zmieniono &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Klucz: &amp;1; comp_code: &amp;2 w oid_cocode_cc: Zmieniono &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Pozycje: &amp;1; &amp;3 znaleziono w tabeli &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Wyjątek zgłoszony w &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>typ warunku &amp;1 spełniony dla identyfikatora umowy &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Raport wykonany. Więcej informacji w dzienniku aplikacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Erro interno ao ler OID para a empresa &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nenhum OID encontrado para a empresa &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Erro ao ler entradas em tabela &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Erro interno durante a atualização da tabela &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Tabela &amp;1 não encontrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Chave: &amp;1; settl_ccode: &amp;2 em oid_cocode_cc: &amp;3 modificado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Tabela &amp;1 atualizada com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Chave: &amp;1; settl_ccode: &amp;2 em oid_partner_cc: &amp;3 modificado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Chave: &amp;1; comp_code: &amp;2 em oid_cocode_cc: &amp;3 modificado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Entradas: &amp;2; &amp;3 encontrado na tabela &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Exceção gerada em &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>tipo de condição &amp;1 preenchido para o id de acordo &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Relatório executado. Veja o log de aplicação para obter detalhes</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Error interno al leer el ID de objeto de la sociedad &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No se ha encontrado ningún ID de objeto para la sociedad &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error al leer las entradas de tabla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error interno durante la actualización de la tabla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No se ha encontrado la tabla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Clave: &amp;1; settl_ccode: &amp;2 en oid_cocode_cc: &amp;3 modificado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Tabla &amp;1 actualizada correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Clave: &amp;1; settl_ccode: &amp;2 en oid_partner_cc: &amp;3 modificado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Clave: &amp;1; comp_code: &amp;2 en oid_cocode_cc: &amp;3 modificado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Entradas: &amp;2; &amp;3 encontrado en la tabla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Excepción emitida a las &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>clase de condición &amp;1 rellenada para id de acuerdo &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Informe ejecutado. Ver el log de aplicación para obtener más detalles</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

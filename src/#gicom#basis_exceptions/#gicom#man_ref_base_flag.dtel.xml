@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/MAN_REF_BASE_FLAG</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>13</SCRLEN3>
+    <DDTEXT>Flag manuel reference base</DDTEXT>
+    <REPTEXT>manuel referencebase</REPTEXT>
+    <SCRTEXT_S>Man.RefBas</SCRTEXT_S>
+    <SCRTEXT_M>Man. RefBas</SCRTEXT_M>
+    <SCRTEXT_L>Man. RefBase</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kennzeichen Manuelle Bezugsbasis</DDTEXT>
+     <REPTEXT>Manuelle Bezugsbasis</REPTEXT>
+     <SCRTEXT_S>Man.BezBas</SCRTEXT_S>
+     <SCRTEXT_M>Man. BezBas</SCRTEXT_M>
+     <SCRTEXT_L>Man. BezBasis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Flag manuel reference base</DDTEXT>
+     <REPTEXT>manuel referencebase</REPTEXT>
+     <SCRTEXT_S>Man.RefBas</SCRTEXT_S>
+     <SCRTEXT_M>Man. RefBas</SCRTEXT_M>
+     <SCRTEXT_L>Man. RefBase</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

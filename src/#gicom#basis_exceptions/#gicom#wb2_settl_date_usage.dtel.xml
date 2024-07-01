@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/WB2_SETTL_DATE_USAGE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/WB2_SETTL_DATE_USAGE</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Settlement Date Usage</DDTEXT>
+    <REPTEXT>Settlement Date Usage</REPTEXT>
+    <SCRTEXT_S>Usage</SCRTEXT_S>
+    <SCRTEXT_M>Settl. Date Usage</SCRTEXT_M>
+    <SCRTEXT_L>Settlement Date Usage</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Abrechnungsdatumsverwendung</DDTEXT>
+     <REPTEXT>Abrechnungsdatumsverwendung</REPTEXT>
+     <SCRTEXT_S>Verwendung</SCRTEXT_S>
+     <SCRTEXT_M>AbrechnDatVerwendung</SCRTEXT_M>
+     <SCRTEXT_L>Abrechnungsdatumsverwendung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Utilisation de date de décompte</DDTEXT>
+     <REPTEXT>Utilisation de date de décompte</REPTEXT>
+     <SCRTEXT_S>Utilisat.</SCRTEXT_S>
+     <SCRTEXT_M>Util. date décompte</SCRTEXT_M>
+     <SCRTEXT_L>Utilisation de date de décompte</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Wykorzystanie daty rozliczenia</DDTEXT>
+     <REPTEXT>Wykorzystanie daty rozliczenia</REPTEXT>
+     <SCRTEXT_S>Wykorzyst.</SCRTEXT_S>
+     <SCRTEXT_M>Wykorz. daty rozl.</SCRTEXT_M>
+     <SCRTEXT_L>Wykorzystanie daty rozliczenia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Utilização de data de liquidação</DDTEXT>
+     <REPTEXT>Utilização de data de liquidação</REPTEXT>
+     <SCRTEXT_S>Utilização</SCRTEXT_S>
+     <SCRTEXT_M>Utilização data liq.</SCRTEXT_M>
+     <SCRTEXT_L>Utilização de data de liquidação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Utilización de datos de liquidación</DDTEXT>
+     <REPTEXT>Utilización de datos de liquidación</REPTEXT>
+     <SCRTEXT_S>Utilizac.</SCRTEXT_S>
+     <SCRTEXT_M>Utiliz.datos liquid.</SCRTEXT_M>
+     <SCRTEXT_L>Utilización de datos de liquidación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
