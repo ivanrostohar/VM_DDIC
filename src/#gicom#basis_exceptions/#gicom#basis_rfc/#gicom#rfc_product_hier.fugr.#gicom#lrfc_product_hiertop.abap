@@ -1,3 +1,0 @@
-FUNCTION-POOL /GICOM/RFC_PRODUCT_HIER.      "MESSAGE-ID ..
-
-* INCLUDE /GICOM/LRFC_PRODUCT_HIERD...       " Local class definition

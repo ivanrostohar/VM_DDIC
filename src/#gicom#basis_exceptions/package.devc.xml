@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>gicom VM - Data Dictionary</CTEXT>
+    <CTEXT>gicom Exceptions</CTEXT>
    </DEVC>
    <PERMISSION>
     <SCOMPPDTLN>
@@ -20,10 +20,6 @@
     </SCOMPPDTLN>
     <SCOMPPDTLN>
      <INTF_NAME>_BASIS_VIRTUAL_DEFAULT</INTF_NAME>
-     <ERR_SEVER>NONE</ERR_SEVER>
-    </SCOMPPDTLN>
-    <SCOMPPDTLN>
-     <INTF_NAME>SRCX_PUBLIC</INTF_NAME>
      <ERR_SEVER>NONE</ERR_SEVER>
     </SCOMPPDTLN>
    </PERMISSION>
