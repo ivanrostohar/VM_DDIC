@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_AMOUNT</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Nachrichtenklasse für die Mengenrechnung</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AMOUNT</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Unit &apos;&amp;1&apos;, type &apos;&amp;2&apos; cannot be converted to &apos;&amp;3&apos;, type &apos;&amp;4&apos;.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_AMOUNT</ARBGB>
+     <STEXT>Nachrichtenklasse für die Mengenrechnung</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_AMOUNT</ARBGB>
+     <STEXT>Classe de message pour le calcul de la quantité</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_AMOUNT</ARBGB>
+     <STEXT>Klasa komunikatów dla obliczania ilości</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_AMOUNT</ARBGB>
+     <STEXT>Classe de mensagens para cálculo de quantidade</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_AMOUNT</ARBGB>
+     <STEXT>Clase de mensajes para el cálculo de la cantidad</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Einheit &apos;&amp;1&apos;, Typ &apos;&amp;2&apos; kann nicht in &apos;&amp;3&apos;, Typ &apos;&amp;4&apos; konvertiert werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>L’unité « &amp;1 », type « &amp;2 » ne peut être convertie en « &amp;3 », ty. « &amp;4 ».</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Jednostki „&amp;1” typu „&amp;2” nie można skonwertować na „&amp;3” typu „&amp;4”.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Unid. “&amp;1”, tp. “&amp;2” não pode ser convert. p/ “&amp;3”, tp.“&amp;4”.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>La unidad ‘&amp;1’, clase ‘&amp;2’ no se puede convertir en ‘&amp;3’, clase ‘&amp;4’.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

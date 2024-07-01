@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Copy of WLF_USE_CASE_TYPE</DDTEXT>
+     <REPTEXT>Use Case</REPTEXT>
+     <SCRTEXT_S>Use Case</SCRTEXT_S>
+     <SCRTEXT_M>Use Case Typ</SCRTEXT_M>
+     <SCRTEXT_L>Use Case Typ</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

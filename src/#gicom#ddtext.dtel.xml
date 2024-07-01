@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DDTEXT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DDTEXT</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Short Text for Fixed Values</DDTEXT>
+    <REPTEXT>Short Description</REPTEXT>
+    <SCRTEXT_S>Text</SCRTEXT_S>
+    <SCRTEXT_M>Short Description</SCRTEXT_M>
+    <SCRTEXT_L>Short Description</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kurzbeschreibungstext für DD-Objekte</DDTEXT>
+     <REPTEXT>Kurzbeschreibung</REPTEXT>
+     <SCRTEXT_S>Text</SCRTEXT_S>
+     <SCRTEXT_M>Kurzbeschreibung</SCRTEXT_M>
+     <SCRTEXT_L>Kurzbeschreibung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Texte court pour valeurs fixes</DDTEXT>
+     <REPTEXT>Description courte</REPTEXT>
+     <SCRTEXT_S>Texte</SCRTEXT_S>
+     <SCRTEXT_M>Description courte</SCRTEXT_M>
+     <SCRTEXT_L>Description courte</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Krótki tekst dla stałych wartości</DDTEXT>
+     <REPTEXT>Krótki opis</REPTEXT>
+     <SCRTEXT_S>Tekst</SCRTEXT_S>
+     <SCRTEXT_M>Krótki opis</SCRTEXT_M>
+     <SCRTEXT_L>Krótki opis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Texto curto para valores fixados</DDTEXT>
+     <REPTEXT>Descrição curta</REPTEXT>
+     <SCRTEXT_S>Texto</SCRTEXT_S>
+     <SCRTEXT_M>Descrição curta</SCRTEXT_M>
+     <SCRTEXT_L>Descrição curta</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Texto breve para valores fijos</DDTEXT>
+     <REPTEXT>Descripción breve</REPTEXT>
+     <SCRTEXT_S>Texto</SCRTEXT_S>
+     <SCRTEXT_M>Descripción breve</SCRTEXT_M>
+     <SCRTEXT_L>Descripción breve</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

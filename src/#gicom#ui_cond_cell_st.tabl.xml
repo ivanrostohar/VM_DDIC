@@ -31,11 +31,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Einzelne Zelle im Gesamtengagement auf Vereinbarungsebene</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Single Cell in Total Commitment at Agreement Level</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

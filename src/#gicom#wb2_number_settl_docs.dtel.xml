@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>AzAbrchBlg</SCRTEXT_S>
      <SCRTEXT_M>Anz.Abrechnungsbelg.</SCRTEXT_M>
      <SCRTEXT_L>Anzahl der Abrechnungsbelege</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Rebates: Number of settlement documents</DDTEXT>
+     <REPTEXT>Number of Settlement Documents</REPTEXT>
+     <SCRTEXT_S>NoSmtDocs</SCRTEXT_S>
+     <SCRTEXT_M>No Settl. Documents</SCRTEXT_M>
+     <SCRTEXT_L>Number of Settlement Documents</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

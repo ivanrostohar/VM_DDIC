@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GICOM/AGRMT_OPS_ID</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>INT4</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000011</OUTPUTLEN>
+    <ENTITYTAB>/GICOM/AGRMT_OPS</ENTITYTAB>
+    <DDTEXT>Agreement Ops ID</DDTEXT>
+   </DD01V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Vereinbarungsvorgangs-ID</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>ID des opérations de l’accord</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Identyfikator operacji umowy</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>ID de operações do acordo</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID de operaciones de acuerdo</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

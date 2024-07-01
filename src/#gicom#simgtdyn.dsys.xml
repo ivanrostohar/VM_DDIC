@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/GICOM/TDYN</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00190</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/GICOM/TDYN</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,The dynamic appendix includes non-monetary agreements and checklists.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>They are used to display all agreements which cannot be expressed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>through monetary conditions. The non-monetary agreements refer to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contracts, the checklists refer to entire agreements (VU).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Dynamic appendixes can be defined per contract type and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational level. It is possible to define check boxes and text</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fields, tables, combo boxes and radio buttons.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The maintenance takes place via the SM34, the view cluster maintenance.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Via the /GICOM/VC_TDYN you access directly into the dynamic appendix</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintenance.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Dynamic Appendix SM34 maintenance</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>A Dynamic appendix relation consists of maximum 3 levels. The upper</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>level is always a frame which is displayed as an expandable panel in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>interface. Below, three options for the structure of the dynamic</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>appendixes are provided.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>1) The lower level includes further subheadings (second level) with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>individual fields (checkboxes, text fields, radio buttons, combo box</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fields, and description fields).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>2) This is followed by individual dynamic appendix fields.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>3) Tables with individual columns may follow, where the second level is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>represented by the table itself and the third level is represented by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the table columns. Table columns can be defined as free text, combo box</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>or checkbox.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The three options can be combined under any panel frame, but you should</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>always include all 3 levels. Further information will follow.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step1:  Definition table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The individual dynamic appendixes are defined via the view cluster</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>„/GICOM/VC_TDYN“.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Each dynamic appendix has a clear ID. For this purpose, technical</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parameters must be maintained which affect/control the display and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>performance on the maintenance screen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Below a detailed description is provided of the parameters to be entered</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the dynamic appendix definition:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Definition of dynamic appendix</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Dyn ID: Here, a clear ID with a maximum of 10 characters is entered.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>The ID is a character key which is selected freely. It is recommended to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>define the dynamic appendix with sequential IDs, if they belong to one</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>panel/block. This facilitates maintenance. To allow the addition of new</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>text fields, table columns, etc. for the block in the number range at a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>later stage, we recommend to leave some IDs empty at the start of the ID</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>range in the next set.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Value Help ID: A value help can be defined directly in the view</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cluster maintenance (see Chapter 3.9.7). This can be deposited here with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>their ID. However, you must define the value help before it is saved in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the dynamic appendix, because otherwise these cannot be saved.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Field type: Here you define a Frame (FR), a Text field (TF), a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Checkbox (CB), a Table (TB), a Table Column (TC) a Radio button (RB), a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Long text (LT) or a Description field (DF). Initially, you define a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>frame for each panel/each block (upper level).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Table name and field Name: In both fields you enter a combination of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a table name and field (for example: LFA1/LIFNR). Next, you define the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding dynamic appendix with regards to its data type, length,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>description and F4-help per the specified reference.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Data type: Defines the data type of the dynamic appendix. The</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following data types are available: - DDIC: DDIC reference is selected</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for frames, checkboxes and tables. - CHAR: You select a character field</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for text fields or table columns, where free text should be possible -</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>NUMC: You select a number field for text fields or table columns, in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>which only numbers can be entered.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>-,,DATS: A date field can be selected for text fields or table columns,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in which only dates can be entered. In this definition, a calendar is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>deposited as a value help for dynamic appendix maintenance</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>-,,DEC: A decimal field can be selected for text fields or table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>columns.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Length: This field defines the number of positions of the Dynamic</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Annexes that can be entered in the field with either the data types</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>CHAR, DATS, NUMC and DEC. (Accordingly, a dynamic appendix with the data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type DATS must contain 10 positions, because the dots are also counted.)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Decimal digits: If you select the data type DEC, you must define the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number of decimal positions behind the comma in this field. Also, the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>field &quot;Length of characters&quot; must consider the decimal positions, which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>means that the additional decimal positions already should have been</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>included. If the data type is not DEC, leave this field empty.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Search Help: For text fields and table columns a DDIC search help can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>be deposited.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Feature Combo box: This feature is activated if the value help is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>displayed in the form of a combo box (as a drop-down view), instead of a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>separate pop-up with search function. Complete this field only, when</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>there is an entry in the field &quot;Value Help&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Feature checkbox: This field is activated when a field must contain a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>checkbox.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Check type: Dynamic appendix fields can be declared as required</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fields, thus as mandatory fields. If these Dynamic appendixes are not</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entered in the contract, the contract variant cannot be released and an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>error report will be transmitted. Mandatory fields are marked with a red</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>star in the dialog. Panels containing more than one mandatory dynamic</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>appendix are also marked with a red star indicating the number of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>mandatory dynamic appendixes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Further entry types are: - No limitations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>-,,Optional field But at the moment, they have no effect on the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>processes.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Text object ID: A dynamic appendix can be assigned to a SAP long text</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object. If a long text object is deposited, the maintenance screen will</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>show the template which is drawn from the long text object. Long text</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>objects must be defined in the transaction SO10.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Maximum number of columns: If a dynamic appendix is defined as a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>table, it is possible to define a pre-defined number of visible columns</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for the maintenance screen. If more columns are created, these will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>faded out. Via the layout-function these can be faded in again.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step2: Definition - texts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The field identifiers for the individual dynamic appendixes is directly</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>performed in the view cluster maintenance.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Text definition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,New entries can be made when you select an entry for which a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>designation must be entered. By clicking on the subordinate column</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>„Definition text you can enter a 100 character designation in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding language as desired. The identifier is then displayed in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the dialog per the log-in language of the user. You can make entries for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>as many languages as desired.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Caution! A dynamic appendix ID which was used productively, but is of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>no longer in use should never be re-used with another designation or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>definition elsewhere. This may lead to discrepancies because the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>designations and definitions have no validity, so that any modification</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>would also lead to a modification of the definition in the older</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>agreements.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step3: Sets</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The maintenance of a dynamic appendix set is performed via this view</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cluster. You create an ID and provide it with a validity period. Next,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enter a type to determine the type of dynamic appendix (non-monetary</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>agreement or checklist).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Set definition of a dynamic appendix</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Dynamic appendix - sets</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Set Id     Title</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>  1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>  2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step4: Relations</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The relations between the individual dynamic appendix and their</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>structure and arrangement in the dialog is defined via the view cluster.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>You select the set in the column „sets for which the relations should be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>defined.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Selection of the desired Set</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>When relations are created the parent-child relation between the dynamic</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>appendixes are displayed. As mentioned, in total only three levels are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>featured.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The Dynamic appendixes are read from the tables in the dialog during</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>runtime and generated and displayed accordingly (text fields, radio</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>buttons, etc.).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>In the relation table&lt;(&gt;,&lt;)&gt; you enter the so-called parent-child</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>relations.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>A frame which is at the first level has always an &quot;empty&quot; parent and is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintained in the second column where the children are created. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>frame appears in the dialog as a column or panel which can be expanded</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>with a click.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Set ID: The dynamic appendixes are grouped per the chosen set ID. One</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>set can contain several panels. Both the panels and their subordinate</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dynamic appendix must be maintained beneath the same set-ID, in order</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for them to be displayed together. One dynamic appendix can be used in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>several Sets.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Parent ID: The parent ID defines the superordinate element</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Child ID: The child ID defines the subordinate element</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Row: Dynamic appendixes can be positioned by marking a row in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>desired vertical row sequence in the maintenance dialog. It is important</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to consider that the entry is always viewed in relation to the higher</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,&quot;Parent&quot;, thus it determines the row sequence within a Parent. Under</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>each Parent the number sequence must be restarted with &quot;1&quot;. The rows</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>take also the panels with empty PARENT_ID to a corresponding sequence.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Column: Column sequences are defined for table columns within a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>table. You can position a description field behind another element.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step5: Relation sets</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The relation sets of a dynamic appendix can be entered via the view</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cluster. Here you assign a previously entered set ID to a business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object type and a corresponding application type ID. Initially, you</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>select the desired set ID. This gives you access to the relations sets.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>You can select between the business object types /GICOM/V02 (contract)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and /GICOM/V08 (negotiation round). Besides, the individual IDs of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>respective types are entered. This defines the set of dynamic appendixes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>that apply to the contract or negotiation round types.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>To illustrate: in the assignment above the dynamic appendix with the Set</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ID 1 is assigned to the application types 10, 30 and 40.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step6: Value Helps</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The mentioned auto-defined value helps for the dynamic appendix and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>their language-dependent designations are maintained via the view</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cluster.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>By clicking the button „new entries the following maintenance screen is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>opened:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>-,,Value help: The ID of the value help can be entered, which is also</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>saved in the dynamic appendix. It is recommended to create the value</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>help ID analogous to the dynamic appendix ID, to see the connection</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>directly in case modifications are implemented.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>-,,Key: The second field contains a value key, which can be selected in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the dynamic appendix. The key does not dependent on the language.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>-,,Language key: The value helps must be created per language. You also</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>need to enter the language of the created value support in this field.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>-,,Title: The designation of the value is saved according to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>language, which must be indicated in the value help.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

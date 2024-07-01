@@ -13,12 +13,18 @@
    </NSPC_TEXT>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <NSPC_TEXTS>
     <item>
      <SPRAS>D</SPRAS>
      <DESCRIPTN>gicom GmbH Overath</DESCRIPTN>
      <OWNER>gicom GmbH Overath</OWNER>
+    </item>
+    <item>
+     <SPRAS>F</SPRAS>
+     <DESCRIPTN>gicom GmbH</DESCRIPTN>
+     <OWNER>gicom</OWNER>
     </item>
    </NSPC_TEXTS>
   </asx:values>

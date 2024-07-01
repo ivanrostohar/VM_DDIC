@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>AB: Identification Object Vendor</DDTEXT>
+     <REPTEXT>Identification Object Vendor</REPTEXT>
+     <SCRTEXT_S>IDObject V</SCRTEXT_S>
+     <SCRTEXT_M>ID-Object Vendor</SCRTEXT_M>
+     <SCRTEXT_L>Identification Object Vendor</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

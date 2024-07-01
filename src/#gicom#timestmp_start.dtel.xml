@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TIMESTMP_START</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TZNTSTMPS</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Start timestamp</DDTEXT>
+    <REPTEXT>Start timestamp</REPTEXT>
+    <SCRTEXT_S>Start</SCRTEXT_S>
+    <SCRTEXT_M>Start timest.</SCRTEXT_M>
+    <SCRTEXT_L>Start timestamp</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Start Zeitstempel</DDTEXT>
+     <REPTEXT>Start Zeitstempel</REPTEXT>
+     <SCRTEXT_S>Start</SCRTEXT_S>
+     <SCRTEXT_M>Start Zeitst</SCRTEXT_M>
+     <SCRTEXT_L>Start Zeitstempel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Début de l’horodatage</DDTEXT>
+     <REPTEXT>Début de l’horodatage</REPTEXT>
+     <SCRTEXT_S>Début</SCRTEXT_S>
+     <SCRTEXT_M>Début horodatage</SCRTEXT_M>
+     <SCRTEXT_L>Début de l’horodatage</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Sygnatura czasu rozpoczęcia</DDTEXT>
+     <REPTEXT>Sygnatura czasu rozpoczęcia</REPTEXT>
+     <SCRTEXT_S>Rozp.</SCRTEXT_S>
+     <SCRTEXT_M>Sygn. cz. rozp.</SCRTEXT_M>
+     <SCRTEXT_L>Sygnatura czasu rozpoczęcia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Registro da hora do início</DDTEXT>
+     <REPTEXT>Registro da hora do início</REPTEXT>
+     <SCRTEXT_S>Início</SCRTEXT_S>
+     <SCRTEXT_M>Registro hora início</SCRTEXT_M>
+     <SCRTEXT_L>Registro da hora do início</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Inicio de cronomarcador</DDTEXT>
+     <REPTEXT>Inicio de cronomarcador</REPTEXT>
+     <SCRTEXT_S>Inicio</SCRTEXT_S>
+     <SCRTEXT_M>Inicio cronomarcador</SCRTEXT_M>
+     <SCRTEXT_L>Inicio de cronomarcador</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

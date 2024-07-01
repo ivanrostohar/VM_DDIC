@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Zahlweg</SCRTEXT_S>
      <SCRTEXT_M>Zahlweg</SCRTEXT_M>
      <SCRTEXT_L>Zahlweg</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Payment Method</DDTEXT>
+     <REPTEXT>Payment Method</REPTEXT>
+     <SCRTEXT_S>Pay. Meth.</SCRTEXT_S>
+     <SCRTEXT_M>Payment Method</SCRTEXT_M>
+     <SCRTEXT_L>Payment Method</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

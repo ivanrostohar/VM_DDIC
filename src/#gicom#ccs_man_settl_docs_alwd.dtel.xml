@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>ManBel OK</SCRTEXT_S>
      <SCRTEXT_M>Man. Belege erlaubt</SCRTEXT_M>
      <SCRTEXT_L>Belege f. man. Abrechnung erlaubt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Manual Settlement Documents Allowed</DDTEXT>
+     <REPTEXT>Manual Settlement Documents Allowed</REPTEXT>
+     <SCRTEXT_S>ManDoc Ok</SCRTEXT_S>
+     <SCRTEXT_M>Manual Docs Allowed</SCRTEXT_M>
+     <SCRTEXT_L>Manual Settlement Documents Allowed</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -51,11 +51,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Transfer VD/CCS - Zuordnung der Vereinbarungen</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Transfer VD/CCS - Agreement allocation</DDTEXT>
     </item>
    </DD02_TEXTS>
    <TABL_EXTRAS>

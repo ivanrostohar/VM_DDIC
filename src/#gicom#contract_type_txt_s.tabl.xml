@@ -21,11 +21,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Struktur für Texte für Vertragstypen</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Structure for Texts for Contract Types</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

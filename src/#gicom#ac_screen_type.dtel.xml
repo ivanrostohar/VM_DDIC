@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Screen type for article calculation</DDTEXT>
+     <REPTEXT>Screen type for article calculation</REPTEXT>
+     <SCRTEXT_S>Scr.type</SCRTEXT_S>
+     <SCRTEXT_M>Screen type</SCRTEXT_M>
+     <SCRTEXT_L>Screen type for AC</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

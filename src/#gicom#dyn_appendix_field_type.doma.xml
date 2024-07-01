@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GICOM/DYN_APPENDIX_FIELD_TYPE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Fieldtyp domain</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CB</DOMVALUE_L>
+     <DDTEXT>Checkbox</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>RB</DOMVALUE_L>
+     <DDTEXT>Radiobutton</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TF</DOMVALUE_L>
+     <DDTEXT>Text field</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>FR</DOMVALUE_L>
+     <DDTEXT>Frame</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DF</DOMVALUE_L>
+     <DDTEXT>Descriptionfield</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TB</DOMVALUE_L>
+     <DDTEXT>Table</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>TC</DOMVALUE_L>
+     <DDTEXT>Table Collumn</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>LD</DOMVALUE_L>
+     <DDTEXT>Longtext</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Feldtyp Domäne</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Domaine du type de champ</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Domena typu pola</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Domínio do tipo de campo</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Dominio de clase de campo</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CB</DOMVALUE_L>
+     <DDTEXT>Checkbox</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CB</DOMVALUE_L>
+     <DDTEXT>Case à cocher</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CB</DOMVALUE_L>
+     <DDTEXT>Pole wyboru</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CB</DOMVALUE_L>
+     <DDTEXT>Campo de seleção</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CB</DOMVALUE_L>
+     <DDTEXT>Casilla de selección</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>RB</DOMVALUE_L>
+     <DDTEXT>Radiobutton</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>RB</DOMVALUE_L>
+     <DDTEXT>Bouton radio</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>RB</DOMVALUE_L>
+     <DDTEXT>Przycisk radiowy</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RB</DOMVALUE_L>
+     <DDTEXT>Botão de rádio</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>RB</DOMVALUE_L>
+     <DDTEXT>Botón de selección</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>TF</DOMVALUE_L>
+     <DDTEXT>Text Feld</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>TF</DOMVALUE_L>
+     <DDTEXT>Champ de texte</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>TF</DOMVALUE_L>
+     <DDTEXT>Pole tekstowe</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>TF</DOMVALUE_L>
+     <DDTEXT>Campo de texto</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>TF</DOMVALUE_L>
+     <DDTEXT>Campo de texto</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>FR</DOMVALUE_L>
+     <DDTEXT>Rahmen</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>FR</DOMVALUE_L>
+     <DDTEXT>Cadre</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>FR</DOMVALUE_L>
+     <DDTEXT>Ramka</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>FR</DOMVALUE_L>
+     <DDTEXT>Quadro</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>FR</DOMVALUE_L>
+     <DDTEXT>Marco</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>DF</DOMVALUE_L>
+     <DDTEXT>Beschreibungsfeld</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>DF</DOMVALUE_L>
+     <DDTEXT>Champ de description</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>DF</DOMVALUE_L>
+     <DDTEXT>Pole opisu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>DF</DOMVALUE_L>
+     <DDTEXT>Campo da descrição</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>DF</DOMVALUE_L>
+     <DDTEXT>Campo de descripción</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>TB</DOMVALUE_L>
+     <DDTEXT>Tabelle</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>TB</DOMVALUE_L>
+     <DDTEXT>Tableau</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>TB</DOMVALUE_L>
+     <DDTEXT>Tabela</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>TB</DOMVALUE_L>
+     <DDTEXT>Tabela</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>TB</DOMVALUE_L>
+     <DDTEXT>Tabla</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>TC</DOMVALUE_L>
+     <DDTEXT>Tabellenspalte</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>TC</DOMVALUE_L>
+     <DDTEXT>Colonne du tableau</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>TC</DOMVALUE_L>
+     <DDTEXT>Kolumna tabeli</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>TC</DOMVALUE_L>
+     <DDTEXT>Coluna da tabela</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>TC</DOMVALUE_L>
+     <DDTEXT>Columna de tabla</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>LD</DOMVALUE_L>
+     <DDTEXT>Langtext</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>LD</DOMVALUE_L>
+     <DDTEXT>Texte long</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>LD</DOMVALUE_L>
+     <DDTEXT>Długi tekst</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>LD</DOMVALUE_L>
+     <DDTEXT>Texto descritivo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>LD</DOMVALUE_L>
+     <DDTEXT>Texto largo</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

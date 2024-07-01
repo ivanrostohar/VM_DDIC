@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SETTLING_FORM</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/SETTLING_FORM</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>09</HEADLEN>
+    <SCRLEN1>07</SCRLEN1>
+    <SCRLEN2>09</SCRLEN2>
+    <SCRLEN3>15</SCRLEN3>
+    <DDTEXT>Settlement form</DDTEXT>
+    <REPTEXT>Setl.Form</REPTEXT>
+    <SCRTEXT_S>Set.Frm</SCRTEXT_S>
+    <SCRTEXT_M>Setl.Form</SCRTEXT_M>
+    <SCRTEXT_L>Settlement form</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Abrechnungsform</DDTEXT>
+     <REPTEXT>Abr. Form</REPTEXT>
+     <SCRTEXT_S>AbrForm</SCRTEXT_S>
+     <SCRTEXT_M>Abr. Form</SCRTEXT_M>
+     <SCRTEXT_L>Abrechnungsform</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Formulaire de décompte</DDTEXT>
+     <REPTEXT>Form. déc</REPTEXT>
+     <SCRTEXT_S>For déc</SCRTEXT_S>
+     <SCRTEXT_M>Form. déc</SCRTEXT_M>
+     <SCRTEXT_L>Form. décompte</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Formularz rozliczenia</DDTEXT>
+     <REPTEXT>Form.roz.</REPTEXT>
+     <SCRTEXT_S>F.roz.</SCRTEXT_S>
+     <SCRTEXT_M>Form.roz.</SCRTEXT_M>
+     <SCRTEXT_L>Form. rozlicz.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Formulário de liquidação</DDTEXT>
+     <REPTEXT>Form.liq.</REPTEXT>
+     <SCRTEXT_S>FrmLiq</SCRTEXT_S>
+     <SCRTEXT_M>Form.liq.</SCRTEXT_M>
+     <SCRTEXT_L>Form.liquidação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Forma de liquidación</DDTEXT>
+     <REPTEXT>Form.liq.</REPTEXT>
+     <SCRTEXT_S>ForLiq</SCRTEXT_S>
+     <SCRTEXT_M>Form.liq.</SCRTEXT_M>
+     <SCRTEXT_L>Forma liquid.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

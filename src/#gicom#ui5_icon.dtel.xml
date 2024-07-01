@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/UI5_ICON</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/UI5_ICON</DOMNAME>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>08</SCRLEN2>
+    <SCRLEN3>08</SCRLEN3>
+    <DDTEXT>UI5 Icon</DDTEXT>
+    <REPTEXT>UI5 Icon</REPTEXT>
+    <SCRTEXT_S>Icon</SCRTEXT_S>
+    <SCRTEXT_M>UI5 Icon</SCRTEXT_M>
+    <SCRTEXT_L>UI5 Icon</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>UI5 Icon</DDTEXT>
+     <REPTEXT>UI5-Icon</REPTEXT>
+     <SCRTEXT_S>Icon</SCRTEXT_S>
+     <SCRTEXT_M>UI5-Icon</SCRTEXT_M>
+     <SCRTEXT_L>UI5-Icon</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>UI5 Icon</DDTEXT>
+     <REPTEXT>UI5 Icon</REPTEXT>
+     <SCRTEXT_S>Icon</SCRTEXT_S>
+     <SCRTEXT_M>UI5 Icon</SCRTEXT_M>
+     <SCRTEXT_L>UI5 Icon</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

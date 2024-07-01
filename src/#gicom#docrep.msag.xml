@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/DOCREP</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Document Repository</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Attachment &amp;1 has been deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Attachment &amp;1 has been uploaded successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Attachment &amp;1 has not been deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Attachment &amp;1 has been deleted successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Attachment &amp;1 has not been added</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Attachment &amp;1 has been added successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Attachment &amp;1 has been saved successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>The Documents couldn&apos;t get attached.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <STEXT>Dokumente-Repository</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <STEXT>Dépôt de documents</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <STEXT>Repozytorium dokumentów</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <STEXT>Repositório de documentos</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/DOCREP</ARBGB>
+     <STEXT>Repositorio de documentos</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Anhang &amp;1 wurde gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Anhang &amp;1 wurde erfolgreich hochgeladen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Anhang &amp;1 wurde nicht gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Anhang &amp;1 wurde erfolgreich gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Anhang &amp;1 wurde nicht hinzugefügt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Anhang &amp;1 wurde erfolgreich hinzugefügt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Anhang &amp;1 wurde erfolgreich gespeichert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Das Dokument konnte nicht angehangen werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>La pièce jointe &amp;1 a été supprimée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>La pièce jointe &amp;1 a été téléchargée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>La pièce jointe &amp;1 n’a pas été supprimée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>La pièce jointe &amp;1 a été supprimée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>La pièce jointe &amp;1 n’a pas été ajoutée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>La pièce jointe &amp;1 a été ajoutée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>La pièce jointe &amp;1 a été sauvegardée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Les documents n’ont pas pu être joints.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Załącznik &amp;1 został usunięty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Załącznik &amp;1 został przekazany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Załącznik &amp;1 nie został usunięty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Załącznik &amp;1 został usunięty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Załącznik &amp;1 nie został dodany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Załącznik &amp;1 został dodany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Załącznik &amp;1 został zapisany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Nie udało się załączyć dokumentów.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>O anexo &amp;1 foi eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>O anexo &amp;1 foi carregado com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>O anexo &amp;1 não foi eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>O anexo &amp;1 foi eliminado com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>O anexo &amp;1 não foi adicionado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>O anexo &amp;1 foi adicionado com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>O anexo &amp;1 foi salvo com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Os documentos não puderam ser anexados.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Se ha borrado el anexo &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>El anexo &amp;1 se ha cargado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>El anexo &amp;1 no se ha borrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>El anexo &amp;1 se ha borrado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>El anexo &amp;1 no se ha añadido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>El anexo &amp;1 se ha añadido correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>El anexo &amp;1 se ha grabado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>No se han podido adjuntar los documentos.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

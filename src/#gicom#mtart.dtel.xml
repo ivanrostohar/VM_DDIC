@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/MTART</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>MTART</DOMNAME>
+    <MEMORYID>MTA</MEMORYID>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>04</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Material type</DDTEXT>
+    <REPTEXT>MTyp</REPTEXT>
+    <SCRTEXT_S>Matl type</SCRTEXT_S>
+    <SCRTEXT_M>Material type</SCRTEXT_M>
+    <SCRTEXT_L>Material type</SCRTEXT_L>
+    <APPLCLASS>MG</APPLCLASS>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>MATL_TYPE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Materialart</DDTEXT>
+     <REPTEXT>MArt</REPTEXT>
+     <SCRTEXT_S>MatArt</SCRTEXT_S>
+     <SCRTEXT_M>Materialart</SCRTEXT_M>
+     <SCRTEXT_L>Materialart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Material type</DDTEXT>
+     <REPTEXT>MTyp</REPTEXT>
+     <SCRTEXT_S>Matl type</SCRTEXT_S>
+     <SCRTEXT_M>Material type</SCRTEXT_M>
+     <SCRTEXT_L>Material type</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/MTART</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Schlüssel, der das &lt;GL:Material&gt;Material&lt;/&gt; einer Gruppe von</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Materialien, wie Rohstoffen, Hilfs- und Betriebsstoffen, Handelswaren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>etc., zuordnet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Die &lt;GL:Materialart&gt;Materialart&lt;/&gt; legt bestimmte Eigenschaften des</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Materials fest und hat wichtige Steuerungsfunktionen.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/MTART</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/MTART</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Key that assigns the &lt;GL:material&gt;material&lt;/&gt; to a group of materials</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>such as raw materials, operating supplies or trading goods.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The &lt;GL:material_type&gt;material type&lt;/&gt; defines certain attributes of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the material and has important control functions.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

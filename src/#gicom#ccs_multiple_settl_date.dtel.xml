@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>MehrAbrech</SCRTEXT_S>
      <SCRTEXT_M>Mehr. Abre. f. Dat.</SCRTEXT_M>
      <SCRTEXT_L>Mehrere Abrechnungen f. ein Datum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CCS: Multiple Settlements for one date allowed</DDTEXT>
+     <REPTEXT>Multiple Settlements for one date</REPTEXT>
+     <SCRTEXT_S>MultSettl.</SCRTEXT_S>
+     <SCRTEXT_M>Mult. Settl. for dat</SCRTEXT_M>
+     <SCRTEXT_L>Multiple Settlements for one date</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

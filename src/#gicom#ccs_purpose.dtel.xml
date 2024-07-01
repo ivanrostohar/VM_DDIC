@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>VW-Zweck</SCRTEXT_S>
      <SCRTEXT_M>VerwendZweck</SCRTEXT_M>
      <SCRTEXT_L>Verwendungszweck</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract Purpose</DDTEXT>
+     <REPTEXT>Purpose</REPTEXT>
+     <SCRTEXT_S>Purpose</SCRTEXT_S>
+     <SCRTEXT_M>Purpose</SCRTEXT_M>
+     <SCRTEXT_L>Purpose</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

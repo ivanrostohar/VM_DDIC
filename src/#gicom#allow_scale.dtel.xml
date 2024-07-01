@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ALLOW_SCALE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ALLOW</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Scale allowed</DDTEXT>
+    <REPTEXT>Scale allowed</REPTEXT>
+    <SCRTEXT_S>Scale</SCRTEXT_S>
+    <SCRTEXT_M>Scale allowed</SCRTEXT_M>
+    <SCRTEXT_L>Staffel erlaubt</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Staffel erlaubt</DDTEXT>
+     <REPTEXT>Staffel erlaubt</REPTEXT>
+     <SCRTEXT_S>Staffel</SCRTEXT_S>
+     <SCRTEXT_M>Staffel erl.</SCRTEXT_M>
+     <SCRTEXT_L>Staffel erlaubt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Échelle autorisée</DDTEXT>
+     <REPTEXT>Échelle autorisée</REPTEXT>
+     <SCRTEXT_S>Échelle</SCRTEXT_S>
+     <SCRTEXT_M>Échelle autorisée</SCRTEXT_M>
+     <SCRTEXT_L>Staffel erlaubt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Skala dozwolona</DDTEXT>
+     <REPTEXT>Skala dozwolona</REPTEXT>
+     <SCRTEXT_S>Skala</SCRTEXT_S>
+     <SCRTEXT_M>Skala dozwolona</SCRTEXT_M>
+     <SCRTEXT_L>Staffel erlaubt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Escala permitida</DDTEXT>
+     <REPTEXT>Escala permitida</REPTEXT>
+     <SCRTEXT_S>Escala</SCRTEXT_S>
+     <SCRTEXT_M>Escala permitida</SCRTEXT_M>
+     <SCRTEXT_L>Staffel erlaubt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Escala permitida</DDTEXT>
+     <REPTEXT>Escala permitida</REPTEXT>
+     <SCRTEXT_S>Escala</SCRTEXT_S>
+     <SCRTEXT_M>Escala permitida</SCRTEXT_M>
+     <SCRTEXT_L>Escala permitida</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

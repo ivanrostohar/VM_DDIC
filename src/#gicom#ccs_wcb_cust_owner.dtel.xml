@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_WCB_CUST_OWNER</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>/GICOM/KUNNR</DOMNAME>
+    <DOMNAME>KUNNR</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>55</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -19,8 +19,20 @@
     <DTELMASTER>E</DTELMASTER>
     <DEFFDNAME>CUSTOMER_OWNER</DEFFDNAME>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract: Customer Owner</DDTEXT>
+     <REPTEXT>Customer Owner</REPTEXT>
+     <SCRTEXT_S>Cust.Owner</SCRTEXT_S>
+     <SCRTEXT_M>Customer Owner</SCRTEXT_M>
+     <SCRTEXT_L>Customer Owner</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

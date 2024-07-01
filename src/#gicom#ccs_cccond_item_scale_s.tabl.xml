@@ -54,6 +54,7 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
     <LANGU>P</LANGU>
     <LANGU>S</LANGU>
    </I18N_LANGS>
@@ -61,6 +62,10 @@
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>BAPI: Konditionskontrakt: Konditionen Position</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>BAPICCCONDITIONITEM for scale data</DDTEXT>
     </item>
     <item>
      <DDLANGUAGE>P</DDLANGUAGE>

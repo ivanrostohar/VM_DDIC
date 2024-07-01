@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>FK, Kunde</SCRTEXT_S>
      <SCRTEXT_M>Feldkombi., Kunde</SCRTEXT_M>
      <SCRTEXT_L>Feldkombination, Kunde</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Field Combination for Eligible Customer</DDTEXT>
+     <REPTEXT>Field Combination for Eligible Customer</REPTEXT>
+     <SCRTEXT_S>FC Custome</SCRTEXT_S>
+     <SCRTEXT_M>Field Comb. Customer</SCRTEXT_M>
+     <SCRTEXT_L>Field Combination Customer</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -71,11 +71,16 @@
    </DD08V_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Vertragstypen - Definitionen</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Contract Type - Definition</DDTEXT>
     </item>
    </DD02_TEXTS>
    <TABL_EXTRAS>

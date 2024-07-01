@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>NchstAbrch</SCRTEXT_S>
      <SCRTEXT_M>Nchst.Abrchng erlbt</SCRTEXT_M>
      <SCRTEXT_L>Anforder.- nächste Abrechng erlaubt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Requirement Next Settlement Allowed</DDTEXT>
+     <REPTEXT>Requirement Next Settlement Allowed</REPTEXT>
+     <SCRTEXT_S>Next Settl</SCRTEXT_S>
+     <SCRTEXT_M>Next Settl. Allowed</SCRTEXT_M>
+     <SCRTEXT_L>Requirement Next Settlement Allowed</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

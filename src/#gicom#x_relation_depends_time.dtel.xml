@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/X_RELATION_DEPENDS_TIME</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Is relation time depending</DDTEXT>
+    <REPTEXT>Relation Time Depending</REPTEXT>
+    <SCRTEXT_S>Rel.Time</SCRTEXT_S>
+    <SCRTEXT_M>Reletion Time</SCRTEXT_M>
+    <SCRTEXT_L>Relation Time Depending</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Ist relation zeitabhängig</DDTEXT>
+     <REPTEXT>Relation zeitabhängig</REPTEXT>
+     <SCRTEXT_S>Rel. zeit.</SCRTEXT_S>
+     <SCRTEXT_M>Relation zeit.</SCRTEXT_M>
+     <SCRTEXT_L>Relation zeitabhängig</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Est dépendant du temps de relation</DDTEXT>
+     <REPTEXT>Dépendant du temps de relation</REPTEXT>
+     <SCRTEXT_S>Tem rel.</SCRTEXT_S>
+     <SCRTEXT_M>Temps de relation</SCRTEXT_M>
+     <SCRTEXT_L>Dépendant du temps de relation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Czy relacja zależy od czasu</DDTEXT>
+     <REPTEXT>Relacja zależy od czasu</REPTEXT>
+     <SCRTEXT_S>Rel.Czas</SCRTEXT_S>
+     <SCRTEXT_M>Czas relacji</SCRTEXT_M>
+     <SCRTEXT_L>Relacja zależy od czasu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>A relação depende do tempo</DDTEXT>
+     <REPTEXT>Dependência de tempo</REPTEXT>
+     <SCRTEXT_S>DepTempo</SCRTEXT_S>
+     <SCRTEXT_M>Dependência tempo</SCRTEXT_M>
+     <SCRTEXT_L>Dependência de tempo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Relación depende de hora</DDTEXT>
+     <REPTEXT>Relación depende de hora</REPTEXT>
+     <SCRTEXT_S>Dep.hora</SCRTEXT_S>
+     <SCRTEXT_M>Relación de hora</SCRTEXT_M>
+     <SCRTEXT_L>Relación depende de hora</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

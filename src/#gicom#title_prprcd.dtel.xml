@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TITLE_PRPRCD</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TITLE_PRPRCD</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Calcualtion Schema Title</DDTEXT>
+    <REPTEXT>Calculation Schema Title</REPTEXT>
+    <SCRTEXT_S>Sch. Title</SCRTEXT_S>
+    <SCRTEXT_M>Calc. Schema Title</SCRTEXT_M>
+    <SCRTEXT_L>Calculation Schema Title</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Titel Kalkulationsschema</DDTEXT>
+     <REPTEXT>Titel Kalkulationsschema</REPTEXT>
+     <SCRTEXT_S>Sch. Titel</SCRTEXT_S>
+     <SCRTEXT_M>Titel Kalk. Schema</SCRTEXT_M>
+     <SCRTEXT_L>Titel Kalkulationsschema</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Titre du schéma de calcul</DDTEXT>
+     <REPTEXT>Titre du schéma de calcul</REPTEXT>
+     <SCRTEXT_S>Tit. sché.</SCRTEXT_S>
+     <SCRTEXT_M>Calc. Titre schéma</SCRTEXT_M>
+     <SCRTEXT_L>Titre du schéma de calcul</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tytuł schematu obliczeń</DDTEXT>
+     <REPTEXT>Tytuł schematu obliczeń</REPTEXT>
+     <SCRTEXT_S>Tyt. sch.</SCRTEXT_S>
+     <SCRTEXT_M>Tyt. schematu obl.</SCRTEXT_M>
+     <SCRTEXT_L>Tytuł schematu obliczeń</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Título do esquema de cálculo</DDTEXT>
+     <REPTEXT>Título do esquema de cálculo</REPTEXT>
+     <SCRTEXT_S>Tí. esq.</SCRTEXT_S>
+     <SCRTEXT_M>Título EsqCálc.</SCRTEXT_M>
+     <SCRTEXT_L>Título do esquema de cálculo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Título de esquema de cálculo</DDTEXT>
+     <REPTEXT>Título de esquema de cálculo</REPTEXT>
+     <SCRTEXT_S>Títu. esq.</SCRTEXT_S>
+     <SCRTEXT_M>cálc. Título d.esqu.</SCRTEXT_M>
+     <SCRTEXT_L>Título de esquema de cálculo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

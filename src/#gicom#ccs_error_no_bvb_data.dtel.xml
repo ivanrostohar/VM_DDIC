@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_ERROR_NO_BVB_DATA</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>ABAP_BOOLEAN</DOMNAME>
+    <DOMNAME>XFELD</DOMNAME>
     <HEADLEN>39</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>18</SCRLEN2>
@@ -17,10 +17,10 @@
     <SCRTEXT_L>Error if no business volume is selected</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +30,14 @@
      <SCRTEXT_S>Flr Umsatz</SCRTEXT_S>
      <SCRTEXT_M>Fehler ohne Umsatz</SCRTEXT_M>
      <SCRTEXT_L>Fehler, wenn kein Umsatz ausgewählt w.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CCS: Error if no business volume is selected</DDTEXT>
+     <REPTEXT>Error if no business volume is selected</REPTEXT>
+     <SCRTEXT_S>Err no BV</SCRTEXT_S>
+     <SCRTEXT_M>Error if no busvol</SCRTEXT_M>
+     <SCRTEXT_L>Error if no business volume is selected</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

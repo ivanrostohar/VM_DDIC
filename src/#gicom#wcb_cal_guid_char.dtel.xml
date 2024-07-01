@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Kal.-GUID</SCRTEXT_S>
      <SCRTEXT_M>Kalender-GUID</SCRTEXT_M>
      <SCRTEXT_L>Kalender-GUID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract:Calendar GUID in CHAR Format</DDTEXT>
+     <REPTEXT>Calendar GUID</REPTEXT>
+     <SCRTEXT_S>Cal. GUID</SCRTEXT_S>
+     <SCRTEXT_M>Cal. GUID</SCRTEXT_M>
+     <SCRTEXT_L>Cal. GUID</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

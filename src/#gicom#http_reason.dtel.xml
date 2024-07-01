@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/HTTP_REASON</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>STRING</DOMNAME>
+    <HEADLEN>50</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>HTTP Statuscode cause</DDTEXT>
+    <REPTEXT>HTTP Statuscode cause</REPTEXT>
+    <SCRTEXT_S>Cause</SCRTEXT_S>
+    <SCRTEXT_M>HTTP cause</SCRTEXT_M>
+    <SCRTEXT_L>HTTP Statuscode cause</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>HTTP Statuscode Ursache</DDTEXT>
+     <REPTEXT>HTTP Statuscode Ursache</REPTEXT>
+     <SCRTEXT_S>Ursache</SCRTEXT_S>
+     <SCRTEXT_M>HTTP Ursache</SCRTEXT_M>
+     <SCRTEXT_L>HTTP Statuscode Ursache</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>HTTP Statuscode cause</DDTEXT>
+     <REPTEXT>HTTP Statuscode cause</REPTEXT>
+     <SCRTEXT_S>Cause</SCRTEXT_S>
+     <SCRTEXT_M>HTTP cause</SCRTEXT_M>
+     <SCRTEXT_L>HTTP Statuscode cause</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

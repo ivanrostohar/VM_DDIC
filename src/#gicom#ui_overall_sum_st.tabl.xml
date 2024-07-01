@@ -183,11 +183,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Übergeordnete Summe im Gesamtengagement</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Higher-Level Total in Total Commitment</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

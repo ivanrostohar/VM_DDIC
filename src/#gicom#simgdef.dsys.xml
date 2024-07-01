@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/GICOM/DEF</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00034</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/GICOM/DEF</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The communication between applications of different systems in the SAP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>environment can include both the connection between SAP systems and also</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>between SAP and non-SAP systems. The Remote Function Call (RFC) is the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SAP standard interface for implementing this communication. The RFC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>calls a function to be executed in a remote system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Synchronous RFC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The first version of the RFC is the synchronous RFC (sRFC). This RFC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type performs the call of a function based on the synchronous</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>communication, i. The systems involved must both be accessible at the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>time of the call.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Asynchronous RFC (aRFC)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Despite its name, the aRFC is not a real asynchronous communication type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>because it only fulfills the conditions for this. For example, As with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the sRFC, the called system will be available during the call.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The aRFC has the following main features:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The function control returns to the calling program immediately after</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the call.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The parameters of asynchronous RFCs are not written to the database but</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>passed directly to the server.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>During an asynchronous RFC, the user can perform a dialog with the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>remote system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When the caller starts an aRFC, the called server must be available to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>accept the request.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The calling program can receive results of asynchronous RFCs.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The use of the aRFC is always useful when a real-time communication is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>established with a remote system, but the processing in the calling</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>program is not to be interrupted until the results of the called</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>function module are present (the term asynchronous is here in this sense</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>used).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

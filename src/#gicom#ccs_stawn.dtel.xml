@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Commodity Code/Import Code Number for Foreign Trade</DDTEXT>
+     <REPTEXT>Code number</REPTEXT>
+     <SCRTEXT_S>Comm. code</SCRTEXT_S>
+     <SCRTEXT_M>Comm./imp. code</SCRTEXT_M>
+     <SCRTEXT_L>Comm./imp. code no.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

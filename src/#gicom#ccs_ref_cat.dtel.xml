@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Ex.RefBel.</SCRTEXT_S>
      <SCRTEXT_M>Typ d. ext. Referenz</SCRTEXT_M>
      <SCRTEXT_L>Typ d. externen Referenzbelegs</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>External Reference Document Category</DDTEXT>
+     <REPTEXT>E.Ref.Cat.</REPTEXT>
+     <SCRTEXT_S>E.Ref.Cat.</SCRTEXT_S>
+     <SCRTEXT_M>Ext. Reference Cat.</SCRTEXT_M>
+     <SCRTEXT_L>External Reference Category</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

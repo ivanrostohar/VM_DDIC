@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Tax classification 6 for customer</DDTEXT>
+     <REPTEXT>Tx6Cs</REPTEXT>
+     <SCRTEXT_S>TaxCl6Cust</SCRTEXT_S>
+     <SCRTEXT_M>TaxClass6-Cust.</SCRTEXT_M>
+     <SCRTEXT_L>TaxClass6-Cust.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_WLF_BUKRS_CUST_REGU</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>/GICOM/BUKRS</DOMNAME>
+    <DOMNAME>BUKRS</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>55</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -19,8 +19,20 @@
     <DTELMASTER>E</DTELMASTER>
     <DEFFDNAME>COMP_CODE_CUST</DEFFDNAME>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>AB: Company Code - Customer</DDTEXT>
+     <REPTEXT>Company Code -Cust.</REPTEXT>
+     <SCRTEXT_S>Cust CoCod</SCRTEXT_S>
+     <SCRTEXT_M>Company Code -Cust.</SCRTEXT_M>
+     <SCRTEXT_L>Company Code - Cust.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

@@ -50,6 +50,15 @@
      <GROUPNAME>DATA</GROUPNAME>
     </DD03P>
    </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Realtion of gicom condition type to SAP contract &amp; cond type</DDTEXT>
+    </item>
+   </DD02_TEXTS>
    <TABL_EXTRAS>
     <TDDAT>
      <TABNAME>/GICOM/TCND_CCS</TABNAME>

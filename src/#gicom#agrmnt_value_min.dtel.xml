@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>BetrMIN</SCRTEXT_S>
      <SCRTEXT_M>Betrag Min.</SCRTEXT_M>
      <SCRTEXT_L>Deckelungsertrag Minimum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Minimum cap amount</DDTEXT>
+     <REPTEXT>Min cap amount</REPTEXT>
+     <SCRTEXT_S>AmntMin</SCRTEXT_S>
+     <SCRTEXT_M>Amount Min</SCRTEXT_M>
+     <SCRTEXT_L>Minimum cap amount</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

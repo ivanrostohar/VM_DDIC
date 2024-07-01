@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>SAP PMR Integration</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GICOM/LRFC_SAP_PMRTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GICOM/SAPLRFC_SAP_PMR</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GICOM/RFC_PMR_READ_VDR_FUND</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>API for Read vendor fund details</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_SRC_SYS</PARAMETER>
+       <TYP>LOGSYS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_VDR_OFR_ID</PARAMETER>
+       <TYP>/GICOM/GUID_TT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_VDR_FUND</PARAMETER>
+       <TYP>/GICOM/PMR_BAPI_VF_BO_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>/GICOM/BAPIRET_TT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>INTERNAL_EROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_SRC_SYS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Logical system</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_VDR_OFR_ID</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>GUID</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_VDR_FUND</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INTERNAL_EROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>/GICOM/RFC_PMR_SYNC_VDR_FUND</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>RFC for PMR vendor fund synchronization</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_SENDER</PARAMETER>
+       <TYP>LOGSYS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_KEY_TST</PARAMETER>
+       <TYP>/GICOM/TIMESTMPS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_SRC_SYS</PARAMETER>
+       <TYP>LOGSYS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_PMR_VF_HEADER</PARAMETER>
+       <TYP>/GICOM/PMR_VF_HEADER_TT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_PMR_VF_MATERIAL</PARAMETER>
+       <TYP>/GICOM/PMR_VF_MATERIAL_TT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_PMR_VF_LOCATION</PARAMETER>
+       <TYP>/GICOM/PMR_VF_LOCATION_TT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_PMR_VF_DISTR_CHANNEL</PARAMETER>
+       <TYP>/GICOM/PMR_VF_DISTR_CHANNEL_TT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_PMR_VF_AMOUNT</PARAMETER>
+       <TYP>/GICOM/PMR_VF_AMOUNT_TT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_PMR_VF_MATERIAL_AMOUNT</PARAMETER>
+       <TYP>/GICOM/PMR_VF_MATERIAL_AMT_TT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_MESSAGE</PARAMETER>
+       <TYP>/GICOM/BAPIRET_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>/GICOM/BAPIRET_TT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>INTERNAL_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_SENDER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Logical system</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_KEY_TST</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>UTC Timestamp in shorttekst (YYYYMMDDhhmmss)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_SRC_SYS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Logical system</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PMR_VF_HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type: Vendor fund header</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PMR_VF_MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type:Material/Product of Vendor fund</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PMR_VF_LOCATION</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type: Location</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PMR_VF_DISTR_CHANNEL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>table Type:Distribution Channel</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PMR_VF_AMOUNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Vendor Fund Amount</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PMR_VF_MATERIAL_AMOUNT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for Material Amount of Vendor Fund</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabletyp for gicom BAPIRET</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>INTERNAL_ERROR</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

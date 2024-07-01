@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ORDER_NGR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ORDER</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Negotiotiation display sequence</DDTEXT>
+    <REPTEXT>Negotiotiation display sequence</REPTEXT>
+    <SCRTEXT_S>Neg. Seq.</SCRTEXT_S>
+    <SCRTEXT_M>Neg. display seq.</SCRTEXT_M>
+    <SCRTEXT_L>Negotiotiation display sequence</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verhandlung Anzeigenreihenfolge</DDTEXT>
+     <REPTEXT>Verhandlung Anzeigenreihenfolge</REPTEXT>
+     <SCRTEXT_S>VH Reihenf</SCRTEXT_S>
+     <SCRTEXT_M>VH Reihenfolge</SCRTEXT_M>
+     <SCRTEXT_L>Verhandlung Anzeigenreihenfolge</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Séquence d’affichage de la négociation</DDTEXT>
+     <REPTEXT>Séquence d’affichage de la négociation</REPTEXT>
+     <SCRTEXT_S>Séq. nég.</SCRTEXT_S>
+     <SCRTEXT_M>Séq. aff. nég.</SCRTEXT_M>
+     <SCRTEXT_L>Séquence d’affichage de la négociation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Sekwencja wyświetlania negocjacji</DDTEXT>
+     <REPTEXT>Sekwencja wyświetlania negocjacji</REPTEXT>
+     <SCRTEXT_S>Sekw.Neg.</SCRTEXT_S>
+     <SCRTEXT_M>Sekw. wyśw. neg.</SCRTEXT_M>
+     <SCRTEXT_L>Sekwencja wyświetlania negocjacji</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Sequência de exibição de negociação</DDTEXT>
+     <REPTEXT>Sequência de exibição de negociação</REPTEXT>
+     <SCRTEXT_S>Seq.neg.</SCRTEXT_S>
+     <SCRTEXT_M>Seq.exib.negociação</SCRTEXT_M>
+     <SCRTEXT_L>Sequência de exibição de negociação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Secuencia visualización de negociación</DDTEXT>
+     <REPTEXT>Secuencia visualización de negociación</REPTEXT>
+     <SCRTEXT_S>Sec.neg.</SCRTEXT_S>
+     <SCRTEXT_M>Sec.visual.neg.</SCRTEXT_M>
+     <SCRTEXT_L>Secuencia visualización de negociación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_FILE</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages File</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Update failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No record found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Delete failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>The import parameter was not correctly passed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>database access failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>ID was not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Update failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Update failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Calling BAdI implementation failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>The negotiator was changed. Old: &amp;1 New: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>The AON was changed. Old: &amp;1 New: &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Changes: Buyer from &amp;1 to &amp;2 and AON from &amp;3 to &amp;4</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <STEXT>Nachrichten Verhandlungsakte</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <STEXT>Fichier des messages</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <STEXT>Plik komunikatów</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <STEXT>Mensagens arquivo</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_FILE</ARBGB>
+     <STEXT>Fichero de mensajes</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Werte konnten nicht in die Tabelle geschrieben werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Es wurde kein Eintrag zu der ID gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Der Eintrag wurde nicht erfolgreich gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Der Importparameter wurde nicht korrekt übergeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Datenbankzugriff fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Die angegebene ID wurde nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Es konnten keine Werte in die Datenbank eingetragen werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Es konnten keine Werte verändert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Fehler beim Aufruf der Badi-Implementierung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Der Verhandler hat gewechselt. Alt: &amp;1 Neu: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Der AON hat sich geändert. Alt: &amp;1 Neu: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Änderungen: Käufer von &amp;1 auf &amp;2 und AON von &amp;3 auf &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Échec de la mise à jour</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Aucun enregistrement trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Échec de la suppression</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Le paramètre d’importation a échoué</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Échec d’accès à la base de données</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>L’ID n’a pas été trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Échec de la mise à jour</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Échec de la mise à jour</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Échec d’appel de la mise en œuvre BAdI</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Le négociateur a été modifié. Ancien : &amp;1 Nouveau : &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>L’AON a été modifié. Ancien : &amp;1 Nouveau : &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Modifications : Acheteur de &amp;1 à &amp;2 et AON de &amp;3 à &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Aktualizacja nie powiodła się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nie znaleziono rekordów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Usunięcie nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Parametr importu nie został poprawnie przekazany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>dostęp do bazy danych nie powiódł się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Nie znaleziono identyfikatora</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Aktualizacja nie powiodła się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Aktualizacja nie powiodła się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Wywołanie implementacji BAdI nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Zmieniono negocjatora. Stare: &amp;1 Nowe: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Zmieniono CAN. Stare: &amp;1 Nowe: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Zmiany: Nabywcę z &amp;1 na &amp;2, CAN z &amp;3 na &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>A atualização falhou</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nenhum registro encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>A eliminação falhou</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>O parâmetro de importação não foi transferido corretamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>O acesso ao banco de dados falhou</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>O ID não foi encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>A atualização falhou</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>A atualização falhou</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Erro ao chamar a implementação de BAdI</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>O comprador foi modificado. Antigo: &amp;1 Novo: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Autoridade de negociação modificado. Antigo: &amp;1 Novo: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Modificações: Comprador de &amp;1 para &amp;2 e AN de &amp;3 para &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>No se ha podido realizar la actualización</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No existe ningún registro</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No se ha podido realizar el borrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>El parámetro de importación no se ha trasladado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No se ha podido acceder a la base de datos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>El ID no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>No se ha podido realizar la actualización</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>No se ha podido realizar la actualización</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>No se ha podido llamar la implementación BAdI</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Se ha modificado el comprador. Anterior: &amp;1 Nuevo: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Se ha modificado AON. Anterior: &amp;1 Nuevo: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Modificaciones: Comprador de &amp;1 a &amp;2 y AON de &amp;3 a &amp;4</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

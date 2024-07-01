@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_WCB_KSTBW_SCAL_BAPI</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>/GICOM/BAPICURR</DOMNAME>
+    <DOMNAME>BAPICURR</DOMNAME>
     <HEADLEN>30</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>20</SCRLEN2>
@@ -17,8 +17,20 @@
     <SCRTEXT_L>Scale Value</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Scale Basis Value</DDTEXT>
+     <REPTEXT>Scale Value</REPTEXT>
+     <SCRTEXT_S>Scale Val.</SCRTEXT_S>
+     <SCRTEXT_M>Scale Value</SCRTEXT_M>
+     <SCRTEXT_L>Scale Value</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

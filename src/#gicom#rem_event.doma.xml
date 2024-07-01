@@ -1,0 +1,1093 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GICOM/REM_EVENT</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Reminder Event</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CRED</DOMVALUE_L>
+     <DDTEXT>Contract Created</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CHND</DOMVALUE_L>
+     <DDTEXT>Contract Changed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CRED</DOMVALUE_L>
+     <DDTEXT>Contract Variant Created</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CHND</DOMVALUE_L>
+     <DDTEXT>Contract Variant Changed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>AGRMT_CHND</DOMVALUE_L>
+     <DDTEXT>Agreement Change</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Contract Release Completed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Contract Release Denied</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DONE</DOMVALUE_L>
+     <DDTEXT>Contract Termination Completed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DENY</DOMVALUE_L>
+     <DDTEXT>Contract Termination Denied</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DENY</DOMVALUE_L>
+     <DDTEXT>Contract Invalidation Denied</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DONE</DOMVALUE_L>
+     <DDTEXT>Contract Invalidation Completed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DONE</DOMVALUE_L>
+     <DDTEXT>Contract Cancellation Completed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DENY</DOMVALUE_L>
+     <DDTEXT>Contract Cancellation Denied</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ADD_CRED</DOMVALUE_L>
+     <DDTEXT>Addendum Created</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Addendum Release Completed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Addendum Release Denied</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NGR_NEGOT</DOMVALUE_L>
+     <DDTEXT>Set to &apos;In-negotiation&apos;</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NGR_BLOCK</DOMVALUE_L>
+     <DDTEXT>Set to &apos;Blocked&apos;</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NGR_COMP</DOMVALUE_L>
+     <DDTEXT>Set to &apos;Completed&apos;</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NG_CHANGED</DOMVALUE_L>
+     <DDTEXT>NG Definition Changed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NG_ESCAL</DOMVALUE_L>
+     <DDTEXT>Set to &apos;Escalation&apos;</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NG_NEGOT</DOMVALUE_L>
+     <DDTEXT>Set to &apos;In-negotiation&apos;</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NG_NOT_NEG</DOMVALUE_L>
+     <DDTEXT>Set to &apos;Not to negotiate&apos;</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NG_LOCKED</DOMVALUE_L>
+     <DDTEXT>Set to &apos;Locked for negotiation&apos;</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Release Completed</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Release Denied</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NG_COMP</DOMVALUE_L>
+     <DDTEXT>NG Completed (transferred to AD)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BAA_RELOAD</DOMVALUE_L>
+     <DDTEXT>Reload finish</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>NEW_APPT</DOMVALUE_L>
+     <DDTEXT>New appointment (for NG) created</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Erinnerungs Ereignis</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Événement du rappel</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Przypomnienie — zdarzenie</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Evento do lembrete</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Evento de recordatorio</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CRED</DOMVALUE_L>
+     <DDTEXT>Vertrag erstellt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CRED</DOMVALUE_L>
+     <DDTEXT>Contrat créé</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CRED</DOMVALUE_L>
+     <DDTEXT>Utworzono kontrakt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CRED</DOMVALUE_L>
+     <DDTEXT>Contrato criado</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CRED</DOMVALUE_L>
+     <DDTEXT>Contrato creado</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CHND</DOMVALUE_L>
+     <DDTEXT>Vetrtrag verändert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CHND</DOMVALUE_L>
+     <DDTEXT>Contrat modifié</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CHND</DOMVALUE_L>
+     <DDTEXT>Kontrakt został zmieniony</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CHND</DOMVALUE_L>
+     <DDTEXT>Contrato modificado</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CNTR_CHND</DOMVALUE_L>
+     <DDTEXT>Contrato modificado</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CRED</DOMVALUE_L>
+     <DDTEXT>Vertrag Variante erstellt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CRED</DOMVALUE_L>
+     <DDTEXT>Variante de contrat créée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CRED</DOMVALUE_L>
+     <DDTEXT>Utworzono wariant kontraktu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CRED</DOMVALUE_L>
+     <DDTEXT>Variante de contrato criada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CRED</DOMVALUE_L>
+     <DDTEXT>Var.contrato creada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CHND</DOMVALUE_L>
+     <DDTEXT>Vertrag Variante verändert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CHND</DOMVALUE_L>
+     <DDTEXT>Variante de contrat modif.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CHND</DOMVALUE_L>
+     <DDTEXT>Wariant kontraktu został zmieniony</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CHND</DOMVALUE_L>
+     <DDTEXT>Variante contrato modific.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VAR_CHND</DOMVALUE_L>
+     <DDTEXT>Var.contrato modificada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>AGRMT_CHND</DOMVALUE_L>
+     <DDTEXT>Vereinbarung geändert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>AGRMT_CHND</DOMVALUE_L>
+     <DDTEXT>Modification de l’accord</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>AGRMT_CHND</DOMVALUE_L>
+     <DDTEXT>Umowa została zmieniona</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>AGRMT_CHND</DOMVALUE_L>
+     <DDTEXT>Modificação do acordo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>AGRMT_CHND</DOMVALUE_L>
+     <DDTEXT>Modificación de acuerdo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Vertragsfreigabe erfolgreich</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Publication du contrat terminée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Ukończono zwalnianie kontraktu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Liberação de contrato concluída</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Liberación del contrato finalizada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Vertragsfreigabe verweigert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Publi. du contrat rejetée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Odmowa zwalniania kontraktu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Liberação contrato negada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Liber.contrato denegada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DONE</DOMVALUE_L>
+     <DDTEXT>Vertragsterminierung erfolgreich</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DONE</DOMVALUE_L>
+     <DDTEXT>Résiliation du contrat terminée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DONE</DOMVALUE_L>
+     <DDTEXT>Ukończono wypowiadanie kontraktu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DONE</DOMVALUE_L>
+     <DDTEXT>Rescisão de contrato concluída</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DONE</DOMVALUE_L>
+     <DDTEXT>Finalización del contrato finalizada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DENY</DOMVALUE_L>
+     <DDTEXT>Vertragsterminierung verweigert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DENY</DOMVALUE_L>
+     <DDTEXT>Résiliation du contrat rejetée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DENY</DOMVALUE_L>
+     <DDTEXT>Odmowa wypowiedzenia kontraktu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DENY</DOMVALUE_L>
+     <DDTEXT>Rescisão de contrato negada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CTERM_DENY</DOMVALUE_L>
+     <DDTEXT>Finalización del contrato denegada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DENY</DOMVALUE_L>
+     <DDTEXT>Vertragsaufhebung verweigert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DENY</DOMVALUE_L>
+     <DDTEXT>Invalidation du contrat rejetée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DENY</DOMVALUE_L>
+     <DDTEXT>Odmowa unieważnienia kontraktu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DENY</DOMVALUE_L>
+     <DDTEXT>Invalidação de contrato negada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DENY</DOMVALUE_L>
+     <DDTEXT>Invalidación del contrato denegada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DONE</DOMVALUE_L>
+     <DDTEXT>Vertragsaufhebung erfolgreich</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DONE</DOMVALUE_L>
+     <DDTEXT>Invalidation du contrat terminée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DONE</DOMVALUE_L>
+     <DDTEXT>Ukończono unieważnianie kontraktu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DONE</DOMVALUE_L>
+     <DDTEXT>Invalidação de contrato concluído</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CINVD_DONE</DOMVALUE_L>
+     <DDTEXT>Invalidación del contrato finalizada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DONE</DOMVALUE_L>
+     <DDTEXT>Vertragskündigung erfolgreich</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DONE</DOMVALUE_L>
+     <DDTEXT>Annulation du contrat terminée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DONE</DOMVALUE_L>
+     <DDTEXT>Ukończono anulowanie kontraktu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DONE</DOMVALUE_L>
+     <DDTEXT>Cancelamento de contrato concluído</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DONE</DOMVALUE_L>
+     <DDTEXT>Cancelación del contrato finalizada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DENY</DOMVALUE_L>
+     <DDTEXT>Vertragskündigung verweigert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DENY</DOMVALUE_L>
+     <DDTEXT>Annulation du contrat rejetée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DENY</DOMVALUE_L>
+     <DDTEXT>Odmowa anulowania kontraktu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DENY</DOMVALUE_L>
+     <DDTEXT>Cancelamento de contrato negado</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CCANC_DENY</DOMVALUE_L>
+     <DDTEXT>Cancelación del contrato denegada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ADD_CRED</DOMVALUE_L>
+     <DDTEXT>Addendum erstellt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ADD_CRED</DOMVALUE_L>
+     <DDTEXT>Addendum créé</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ADD_CRED</DOMVALUE_L>
+     <DDTEXT>Utworzono aneks</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ADD_CRED</DOMVALUE_L>
+     <DDTEXT>Suplemento criado</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ADD_CRED</DOMVALUE_L>
+     <DDTEXT>Suplemento creado</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Addendum Freigabe erfolgreich</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Publi. de l’addendum terminée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Ukończono zwalnianie aneksu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Liberação suplemento concluída</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Liber.suplemento completada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Addendum Freigabe verweigert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Publication de l’addendum rejetée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Odmowa zwolnienia aneksu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Liberação de suplemento negada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ADRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Liber.suplemento denegada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NGR_NEGOT</DOMVALUE_L>
+     <DDTEXT>Auf &apos;In-Verhalndlung&apos; gesetzt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NGR_NEGOT</DOMVALUE_L>
+     <DDTEXT>Réglé sur « En négoc. »</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NGR_NEGOT</DOMVALUE_L>
+     <DDTEXT>Ustaw wartość „W trakcie negocjacji”</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NGR_NEGOT</DOMVALUE_L>
+     <DDTEXT>Definido como &quot;Em negociação&quot;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NGR_NEGOT</DOMVALUE_L>
+     <DDTEXT>Fijar en &apos;En negociación&apos;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NGR_BLOCK</DOMVALUE_L>
+     <DDTEXT>Auf &apos;Gesperrt&apos; gesetzt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NGR_BLOCK</DOMVALUE_L>
+     <DDTEXT>Réglé sur « Bloqué »</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NGR_BLOCK</DOMVALUE_L>
+     <DDTEXT>Ustaw wartość „Zablokowano”</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NGR_BLOCK</DOMVALUE_L>
+     <DDTEXT>Definido como &quot;Bloqueado&quot;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NGR_BLOCK</DOMVALUE_L>
+     <DDTEXT>Fijar en &apos;Bloqueado&apos;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NGR_COMP</DOMVALUE_L>
+     <DDTEXT>Auf &apos;Abgeschlossen&apos; gesetzt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NGR_COMP</DOMVALUE_L>
+     <DDTEXT>Réglé sur « Terminé »</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NGR_COMP</DOMVALUE_L>
+     <DDTEXT>Ustaw wartość „Ukończono”</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NGR_COMP</DOMVALUE_L>
+     <DDTEXT>Definido como &quot;Concluído&quot;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NGR_COMP</DOMVALUE_L>
+     <DDTEXT>Fijar en &apos;Completado&apos;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NG_CHANGED</DOMVALUE_L>
+     <DDTEXT>NG Definition geändert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NG_CHANGED</DOMVALUE_L>
+     <DDTEXT>Définition NG modifiée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NG_CHANGED</DOMVALUE_L>
+     <DDTEXT>Zmieniono definicję NG</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NG_CHANGED</DOMVALUE_L>
+     <DDTEXT>NG Definição modificada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NG_CHANGED</DOMVALUE_L>
+     <DDTEXT>NG Definición modificada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NG_ESCAL</DOMVALUE_L>
+     <DDTEXT>Auf &apos;Eskalation&apos; gesetzt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NG_ESCAL</DOMVALUE_L>
+     <DDTEXT>Réglé sur « Remontée »</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NG_ESCAL</DOMVALUE_L>
+     <DDTEXT>Ustaw wartość „Eskalacja”</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NG_ESCAL</DOMVALUE_L>
+     <DDTEXT>Definido como &quot;Escalação&quot;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NG_ESCAL</DOMVALUE_L>
+     <DDTEXT>Fijar en &apos;Escalación&apos;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NG_NEGOT</DOMVALUE_L>
+     <DDTEXT>Auf &apos;In-Verhalndlung&apos; gesetzt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NG_NEGOT</DOMVALUE_L>
+     <DDTEXT>Réglé sur « En négoc. »</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NG_NEGOT</DOMVALUE_L>
+     <DDTEXT>Ustaw wartość „W trakcie negocjacji”</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NG_NEGOT</DOMVALUE_L>
+     <DDTEXT>Definido como &quot;Em negociação&quot;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NG_NEGOT</DOMVALUE_L>
+     <DDTEXT>Fijar en &apos;En negociación&apos;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NG_NOT_NEG</DOMVALUE_L>
+     <DDTEXT>Auf &apos;Nicht zu verhandeln&apos; gesetzt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NG_NOT_NEG</DOMVALUE_L>
+     <DDTEXT>Réglé sur « Non négoc. ».</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NG_NOT_NEG</DOMVALUE_L>
+     <DDTEXT>Ustaw wartość „Nie do negocjacji”</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NG_NOT_NEG</DOMVALUE_L>
+     <DDTEXT>Definido como &quot;Não negociar&quot;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NG_NOT_NEG</DOMVALUE_L>
+     <DDTEXT>Fij.&apos;No para negociar&apos;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NG_LOCKED</DOMVALUE_L>
+     <DDTEXT>Auf &apos;Gesperrt für Verhandlungen&apos; gesetzt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NG_LOCKED</DOMVALUE_L>
+     <DDTEXT>Réglé sur « Verrouil. pour négoc. »</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NG_LOCKED</DOMVALUE_L>
+     <DDTEXT>Ustaw wartość „Zablokowano do negocjacji”</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NG_LOCKED</DOMVALUE_L>
+     <DDTEXT>Definido como &quot;Bloq. para negoc.&quot;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NG_LOCKED</DOMVALUE_L>
+     <DDTEXT>Fijar en &apos;Bloq.para la negociación&apos;</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Freigabe erfolgreich</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Publication terminée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Ukończono zwalnianie</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Liberação concluída</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DONE</DOMVALUE_L>
+     <DDTEXT>Liberación finalizada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Freigabe verweigert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Publication rejetée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Odmowa zwolnienia</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Liberação negada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NGRLS_DENY</DOMVALUE_L>
+     <DDTEXT>Liberación denegada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NG_COMP</DOMVALUE_L>
+     <DDTEXT>NG erfolgreich (transferiert zu AD)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NG_COMP</DOMVALUE_L>
+     <DDTEXT>NG terminée (transférée à l’AD)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NG_COMP</DOMVALUE_L>
+     <DDTEXT>Zakończono negocjacje (przeniesiono do AD)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NG_COMP</DOMVALUE_L>
+     <DDTEXT>NG concluído (transferido para AD)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NG_COMP</DOMVALUE_L>
+     <DDTEXT>NG finalizado (transferido a AD)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BAA_RELOAD</DOMVALUE_L>
+     <DDTEXT>Neuladen beendet</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BAA_RELOAD</DOMVALUE_L>
+     <DDTEXT>Fin du rechargement</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BAA_RELOAD</DOMVALUE_L>
+     <DDTEXT>Zakończ ponowne ładowanie</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BAA_RELOAD</DOMVALUE_L>
+     <DDTEXT>Finalização de recarregamento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BAA_RELOAD</DOMVALUE_L>
+     <DDTEXT>Finalización de recarga</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>NEW_APPT</DOMVALUE_L>
+     <DDTEXT>Neuer Termin (für NG) angelegt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>NEW_APPT</DOMVALUE_L>
+     <DDTEXT>Nouvelle nomination (pour NG) créée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>NEW_APPT</DOMVALUE_L>
+     <DDTEXT>Utworzono nowy termin (dla NG)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>NEW_APPT</DOMVALUE_L>
+     <DDTEXT>Novo compromisso criado (para NG)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>NEW_APPT</DOMVALUE_L>
+     <DDTEXT>Nueva cita creada (para NG)</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

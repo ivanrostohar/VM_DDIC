@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Mng.aktiv.</SCRTEXT_S>
      <SCRTEXT_M>Menge aktivieren</SCRTEXT_M>
      <SCRTEXT_L>Mengenfeld f. Anspruchsberechtigte akt.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Enable Quantity Field for Eligible Partners</DDTEXT>
+     <REPTEXT>Enable Quantity Field for Eligible Partners</REPTEXT>
+     <SCRTEXT_S>EnQuantity</SCRTEXT_S>
+     <SCRTEXT_M>Enable Quantity</SCRTEXT_M>
+     <SCRTEXT_L>Enable Quantity Field for Elig. Partners</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

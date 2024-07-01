@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/VALID_TO_PREV</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/VALID</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Valid from previous</DDTEXT>
+    <REPTEXT>Valid to (previous)</REPTEXT>
+    <SCRTEXT_S>To (prv)</SCRTEXT_S>
+    <SCRTEXT_M>Valid to (prev.)</SCRTEXT_M>
+    <SCRTEXT_L>Valid to (previous)</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Gültig bis (vorherig)</DDTEXT>
+     <REPTEXT>Gültig bis (vorherig)</REPTEXT>
+     <SCRTEXT_S>Bis (vor)</SCRTEXT_S>
+     <SCRTEXT_M>Gültig bis (vorh.)</SCRTEXT_M>
+     <SCRTEXT_L>Gültig bis (vorherig)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Valid from previous</DDTEXT>
+     <REPTEXT>Valid to (previous)</REPTEXT>
+     <SCRTEXT_S>To (prv)</SCRTEXT_S>
+     <SCRTEXT_M>Valid to (prev.)</SCRTEXT_M>
+     <SCRTEXT_L>Valid to (previous)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Obowiązuje od</DDTEXT>
+     <REPTEXT>Obowiązuje od</REPTEXT>
+     <SCRTEXT_S>Obow. od</SCRTEXT_S>
+     <SCRTEXT_M>Obowiązuje od</SCRTEXT_M>
+     <SCRTEXT_L>Obowiązuje od</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Válido de</DDTEXT>
+     <REPTEXT>Válido de</REPTEXT>
+     <SCRTEXT_S>Válido de</SCRTEXT_S>
+     <SCRTEXT_M>Válido de</SCRTEXT_M>
+     <SCRTEXT_L>Válido de</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Válido desde</DDTEXT>
+     <REPTEXT>Válido desde</REPTEXT>
+     <SCRTEXT_S>Vál.desde</SCRTEXT_S>
+     <SCRTEXT_M>Válido desde</SCRTEXT_M>
+     <SCRTEXT_L>Válido desde</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

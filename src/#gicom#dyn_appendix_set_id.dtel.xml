@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DYN_APPENDIX_SET_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DYN_APPENDIX_SET_ID</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Set ID</DDTEXT>
+    <REPTEXT>Set ID</REPTEXT>
+    <SCRTEXT_S>Set ID</SCRTEXT_S>
+    <SCRTEXT_M>Set ID</SCRTEXT_M>
+    <SCRTEXT_L>Set ID</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Set ID</DDTEXT>
+     <REPTEXT>Dynamischer Anhang SET-ID</REPTEXT>
+     <SCRTEXT_S>SET ID</SCRTEXT_S>
+     <SCRTEXT_M>SET ID</SCRTEXT_M>
+     <SCRTEXT_L>Dyn Set ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Set ID</DDTEXT>
+     <REPTEXT>Set ID</REPTEXT>
+     <SCRTEXT_S>Set ID</SCRTEXT_S>
+     <SCRTEXT_M>Set ID</SCRTEXT_M>
+     <SCRTEXT_L>Set ID</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

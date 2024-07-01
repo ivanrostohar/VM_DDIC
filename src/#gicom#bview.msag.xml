@@ -1,0 +1,1161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/BVIEW</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>View Editor</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Data saved successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Saving is not necessasry; No changes were made</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Saving failed due to internal communication errors; refresh application</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No data exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>View &amp;1 does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>View/Viewcluster &amp;1 locked by User &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>View &amp;1 cannot be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Customizing is not possible for this view &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No records exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>&apos; &amp;1 &apos; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Deletion failed due to internal communication errors</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Data has been deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Priorities regenerated successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Priority regeneration failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Priority generation failed due to incorrect order of ranking</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Incorrect rank entry; It should be in between 1 to 6</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Please maintain weight between 01 and 99</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Sourcing Type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Grouping</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Analysis id allows numbers only</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Abbreviation allows &quot;_&quot; and alphabets only</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Service name allows only 27 characters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Business Object Type missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Partner dependency not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Changeable Negotiation is not possible (implicit rule alloc.)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Implementing Class is not compatible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Error occured: Weight is less or equal 0</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Changeable Negotiation is not possible because of ownership</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT> &apos;&amp;1&apos; is not a class</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>ID algorithm must be set on manual</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>The impl. class must be customized</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>At least one contract type must be selected</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Grouping Type must have the class &apos;Customizing&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Ownership for class &apos;Customizing&apos; can be only &apos;gicom&apos; or &apos;customer&apos;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Incomplete settlements of synchronized vendor funds may now occur</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Pending settlements must be checked manually &amp; triggered again if needed</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <STEXT>View-Editor</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <STEXT>Afficher Éditeur</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <STEXT>Edytor widoku</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <STEXT>Editor de visão</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/BVIEW</ARBGB>
+     <STEXT>Editor de vistas</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Daten erfolgreich gespeichert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Speichern nicht notwendig; Keine Änderungen wurden vorgenommen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Speichern durch internen Kommunikationsfehler fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Keine Daten vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>View &amp;1 existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>View/Viewcluster &amp;1 durch Benutzer &amp;2 gesperrt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>View &amp;1 kann nicht gelöscht werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Customizing ist für View &amp;1 nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Keine Datensätze vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Löschen aufgrund eines internen Kommunikationsfehlers fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Daten wurden gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Prioritäten erfolgreich wiederhergestellt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Prioritätenwiederherstellung fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Prioritätsgenerierung fehlgeschlagen: Falsche Reihenfolge</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Falsche Rangeingabe; Sie sollte zwischen 1 und 6 liegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Die Gewichtung muss zwischen 01 und 99 liegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Beschaffungsart</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Gruppierung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Analyse-ID erlaubt nur Zahlen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>In Abkürzungen sind nur Buchstaben und _ erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Servicename erlaubt nur 27 Zeichen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Business-Objekttyp fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Keine Partnerabhängigkeit möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Verhandlung ist nicht veränderbar</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Implementierungsklasse ist nicht kompatibel</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Fehler: Gewicht ist kleiner oder gleich 0</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Verhandlung ist nicht veränderbar</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>&apos;&amp;1&apos; ist keine Klasse</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ID Algorithmus muss auf manual gesetzt sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Die Implementierungsklasse muss angegeben werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Mindestens ein Vertragstyp muss ausgewählt sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Der Gruppierungstyp muss &apos;Customizing&apos; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Eigentum für Klasse &apos;Customizing&apos; kann nur &apos;gicom&apos; oder &apos;Kunde&apos; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Unvollständige Abrechnung von synchr. Lieferantenvergütung kann auftreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Ausstehende Abrechnungen manuell prüfen und ggf. wieder auslösen</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Données enregistrées avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>La sauvegarde n’est pas nécessaire ; aucune modif. n’a été apportée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Échec sauvegarde en raison d’erreurs de com. interne ; rafraî. appli</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Aucune donnée n’existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>La vue &amp;1 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Vue/vue cluster &amp;1 verrouillée par l’utilisateur &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>La vue &amp;1 ne peut pas être supprimée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>La personnalisation n’est pas possible pour cette vue &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Aucun enregistrement n’existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&apos; &amp;1 &apos; does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Échec de la suppression en raison d’erreurs de communication interne</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Les données ont été supprimées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Les priorités ont été régénérées avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>La régénération des priorités a échoué</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Échec génération priorités en raison d’un ordre de class. incorrect</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Entrée de rang incorrecte ; elle devrait être comprise entre 1 et 6.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Veuillez maintenir le poids entre 01 et 99</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Type d&apos;approvisionnement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Groupement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>L’ID d’analyse n’autorise que les chiffres</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>L’abréviation autorise &quot;_&quot; et les alphabets uniquement.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Le nom du service ne permet que 27 caractères</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Type d’objet commercial manquant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>La dépendance du partenaire n’est pas possible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Négociation modifiable impossible (affect. règle implicite)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>La classe de mise en œuvre n’est pas compatible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Une erreur s’est produite : le poids est inférieur ou égal à 0</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>La négociation modifiable est impossible pour des raisons de propriété</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT> ‘&amp;1’ n’est pas une classe</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>L’algorithme d’ID doit être réglé sur manuel</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>La classe de mise en œuvre doit être personnalisée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Au moins un type de contrat doit être sélectionné</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Le type de groupement doit avoir la classe « Personnalisation »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Propri. classe « Personnalis » peut être que « gicom » ou « client ».</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Des décomp. incompl. fonds synchr. des fournis. peuv. main. se produire.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Décomp. en atte. doivent être véri. manuel. et déclen. à nou. si néc.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Dane zostały zapisane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Zapisanie nie jest konieczne; nie wprowadzono zmian</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Zapisanie nie powiodło się: błędy komunikacji wewn.; odśwież aplikację</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Brak danych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Widok &amp;1 nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Widok / klaster widoków &amp;1 został zablokowany przez użytkownika &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Nie można usunąć widoku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Nie można dostosować widoku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Brak rekordów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Usunięcie nie powiodło się z powodu błędów komunikacji wewnętrznej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Dane zostały usunięte</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Priorytety zostały ponownie wygenerowane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Ponowne wygenerowanie priorytetów nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Generowanie priorytetów nie powiodło się: nieprawidłowa kolejność rang</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Nieprawidłowa wartość rangi; powinna wynosić od 1 do 6</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Waga musi wynosić od 01 do 99</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Typ pozyskiwania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Grupowanie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Identyfikator analizy może zawierać wyłącznie cyfry</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Skrót może zawierać wyłącznie znak „_” i znaki alfabetyczne</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Nazwa usługi może zawierać tylko 27 znaków</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Brak typu obiektu biznesowego</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Zależność od partnera niemożliwa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Nie ma możliwości zmiany negocjacji (przydział bezwarunkowy roli)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Klasa implementująca jest niekompatybilna</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Wystąpił błąd: Waga nie jest większa od 0</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Z powodu własności nie ma możliwości zmiany negocjacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT> „&amp;1” nie jest klasą</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ID algorytmu trzeba ustawić ręcznie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Klasa implementująca musi być dostosowana</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Należy wybrać co najmniej jeden typ kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Typ grupowania musi mieć klasę „Dostosowywanie”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Własnością klasy „Dostosowywanie” może być tylko „gicom” lub „klient”.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Mogą wystąpić niekompl. rozlicz. zsynchronizowanych funduszy dostawców</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Rozlicz. oczek. należy spr. ręcznie i w razie potrzeby uruchomić ponownie</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Dados salvos com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Não é necessário salvar, nenhuma modificação efetuada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Não salvo devido a erros comunic. interna, atualiz. aplic.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Não existem dados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>A visão &amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Visão/cluster de visões &amp;1 bloqueado(a) pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>A visão &amp;1 não pode ser eliminada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Customizing impossível para a visão &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Não há registros</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Eliminação não salva devido a erros de comunicação interna</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Os dados foram eliminados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Prioridades regeneradas com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Falha na regeneração de prioridade</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Falha ao gerar prioridade devido à ordem incorreta de classificação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Entrada de classificação incorreta; deve ser entre 1 e 6</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Mantenha o peso entre 01 e 99</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Tipo de suprimento</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Agrupamento</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Apenas números são permitidos na Id de análise</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Na abreviação são permitidos somente &quot;_&quot; e alfabetos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>O nome do serviço deve conter no máximo 27 caracteres</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Tipo de business object em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Não é possível marcar a opção Dependência de parceiro</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Não é possível marcar a opção mod. na neg. (alocação de regra implícita)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Classe de implementação incompatível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Erro: peso inferior ou igual a 0</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Devido à propr., não é possível marcar a opção Modificável na negociação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>&amp;1 não é uma classe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>É preciso definir manualmente o algoritmo de ID</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>A classe de implementação precisa ser customizada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>É preciso selecionar, pelo menos, um tipo de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>O tipo de agrupamento precisa ter a classe &quot;Customizing&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>A propriedade da classe &quot;Customizing&quot; só pode ser &quot;gicom&quot; ou &quot;cliente&quot;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Liquidações incompl. fundos fornecedor sincronizados podem ocorrer agora</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Verif. liquids. pendentes manualm. e acioná-las novamente se necessário</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Datos grabados correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No es necesario grabar; no se han realizado cambios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Imposible grabar debido a errores de comunic. interna; actualizar apl.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>No hay datos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>La vista &amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Vista/clúster de vista &amp;1 bloqueado por el usuario &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>La vista &amp;1 no se puede borrar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>No es posible el Customizing para la vista &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>No hay registros</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No se ha podido borrar debido a errores de comunicación interna</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Los datos se han borrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Prioridades regeneradas correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Error al regenerar prioridades</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Error de gener.prioridades debido a orden clas.incorrecto</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Entrada de clasificación incorr.; debe estar entre 1 y 6</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Mantenga el peso entre 01 y 99</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Clase de determinación de fuente de aprovisionamiento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Agrupación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>El ID de análisis solo admite números</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>La abreviatura solo permite &quot;_&quot; y caracteres alfabéticos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>El nombre de servicio solo admite 27 caracteres</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Falta la clase de business object</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Dependencia de interlocutor imposible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Modificación durante negociación imposible (asign. regla implícita)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Clase de implementación no compatible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Se ha producido un error: peso inferior o igual a 0</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Modificación durante negociación imposible debido a propiedad</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>&amp;1 no es una clase</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>ID de algoritmo debe fijarse en manual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Debe personalizarse la clase de implementación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Debe seleccionarse al menos un tipo de contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>El tipo de agrupación debe tener la clase Customizing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>La propiedad para la clase Customizing solo puede ser gicom o cliente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Posibles liquidaciones incompletas de fondos proveedores sincronizados</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Revisar liquidaciones pendientes manualmente y lanzarlas de nuevo</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

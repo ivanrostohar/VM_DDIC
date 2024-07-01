@@ -52,11 +52,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>SMI Customizingtabelle für KoArten Auschluss</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>SMI Customizing table for exclusion of cond types</DDTEXT>
     </item>
    </DD02_TEXTS>
    <TABL_EXTRAS>

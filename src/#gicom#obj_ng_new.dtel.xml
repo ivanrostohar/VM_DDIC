@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>ZV Neu VH</SCRTEXT_S>
      <SCRTEXT_M>Zielvorg. Neu VH</SCRTEXT_M>
      <SCRTEXT_L>Zielvorgabe Neu Verhandlung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Target setting new negotiation</DDTEXT>
+     <REPTEXT>Target setting new negotiation</REPTEXT>
+     <SCRTEXT_S>TS new neg</SCRTEXT_S>
+     <SCRTEXT_M>Target set. new neg.</SCRTEXT_M>
+     <SCRTEXT_L>Target setting new negotiation</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

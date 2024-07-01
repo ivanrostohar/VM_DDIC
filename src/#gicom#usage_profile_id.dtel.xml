@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/USAGE_PROFILE_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/USAGE_PROFILE_ID</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Usage Profile ID</DDTEXT>
+    <REPTEXT>Usage Profile ID</REPTEXT>
+    <SCRTEXT_S>Profile ID</SCRTEXT_S>
+    <SCRTEXT_M>Usage Profile ID</SCRTEXT_M>
+    <SCRTEXT_L>Usage Profile ID</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Anwendungsprofil-ID</DDTEXT>
+     <REPTEXT>Anwendungsprofil-ID</REPTEXT>
+     <SCRTEXT_S>Profil-ID</SCRTEXT_S>
+     <SCRTEXT_M>Anwendungsprofil-ID</SCRTEXT_M>
+     <SCRTEXT_L>Anwendungsprofil-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>ID du profil d’utilisation</DDTEXT>
+     <REPTEXT>ID du profil d’utilisation</REPTEXT>
+     <SCRTEXT_S>ID profil</SCRTEXT_S>
+     <SCRTEXT_M>ID profil utilis.</SCRTEXT_M>
+     <SCRTEXT_L>ID du profil d’utilisation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Identyfikator profilu użytkowania</DDTEXT>
+     <REPTEXT>Identyfikator profilu użytkowania</REPTEXT>
+     <SCRTEXT_S>ID profilu</SCRTEXT_S>
+     <SCRTEXT_M>Id. pr. użytkow.</SCRTEXT_M>
+     <SCRTEXT_L>Id. pr. użytkow.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>ID do perfil de utilização</DDTEXT>
+     <REPTEXT>ID do perfil de utilização</REPTEXT>
+     <SCRTEXT_S>ID perfil</SCRTEXT_S>
+     <SCRTEXT_M>ID perfil utilização</SCRTEXT_M>
+     <SCRTEXT_L>ID do perfil de utilização</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID de perfil de uso</DDTEXT>
+     <REPTEXT>ID de perfil de uso</REPTEXT>
+     <SCRTEXT_S>ID perfil</SCRTEXT_S>
+     <SCRTEXT_M>ID de perfil de uso</SCRTEXT_M>
+     <SCRTEXT_L>ID de perfil de uso</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

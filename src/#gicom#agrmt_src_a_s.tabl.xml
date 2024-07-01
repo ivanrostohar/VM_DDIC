@@ -25,11 +25,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Bezugsart der Vereinbarung (Attribut)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Reference Type of Agreement (Attribute)</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

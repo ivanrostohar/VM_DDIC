@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SAP_APPLICATION_GROUP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/SAP_APPLICATION_GROUP</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Status Group for Settlement Management Documents</DDTEXT>
+    <REPTEXT>Settlement Management Status Group</REPTEXT>
+    <SCRTEXT_S>Status Grp</SCRTEXT_S>
+    <SCRTEXT_M>Status Group</SCRTEXT_M>
+    <SCRTEXT_L>Status Group</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Statusgruppe für Abrechnungsmanagementbelege</DDTEXT>
+     <REPTEXT>Abrechnungsmanagement-Statusgruppe</REPTEXT>
+     <SCRTEXT_S>Statusgrp.</SCRTEXT_S>
+     <SCRTEXT_M>Statusgruppe</SCRTEXT_M>
+     <SCRTEXT_L>Statusgruppe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Status Group for Settlement Management Documents</DDTEXT>
+     <REPTEXT>Settlement Management Status Group</REPTEXT>
+     <SCRTEXT_S>Status Grp</SCRTEXT_S>
+     <SCRTEXT_M>Status Group</SCRTEXT_M>
+     <SCRTEXT_L>Status Group</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Grupo de status para documentos de administração liquidações</DDTEXT>
+     <REPTEXT>Grupo status administração liquidações</REPTEXT>
+     <SCRTEXT_S>Grp.status</SCRTEXT_S>
+     <SCRTEXT_M>Grupo de status</SCRTEXT_M>
+     <SCRTEXT_L>Grupo de status</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Grupo de estado para documentos de gestión de liquidación</DDTEXT>
+     <REPTEXT>Grupo de estado de gestión de liquidac.</REPTEXT>
+     <SCRTEXT_S>Gr.status</SCRTEXT_S>
+     <SCRTEXT_M>Grupo de status</SCRTEXT_M>
+     <SCRTEXT_L>Grupo de status</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/SAP_APPLICATION_GROUP</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00011</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SAP_APPLICATION_GROUP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beschreibt eine Reihe von &lt;DS:DE.WSTATE&gt;Anwendungsstatus&lt;/&gt;, die ein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Abrechnungsmanagementbeleg haben kann.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>IF &amp;[SWITCH]S4H_DOCU_ON_PREMISE&amp; = &apos;X&apos;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie ordnen in der Customizing-Aktivität &lt;DS:SIMG.W_WLFA_0019&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>Statusgruppen mit Anwendungsstatus definieren&lt;/&gt; Anwendungsstatus zu</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Statusgruppen zu. Ein Applikationsstatus kann in mehreren Statusgruppen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enthalten sein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Sie können Statusgruppen zu &lt;DS:DE.WRART&gt;Abrechnungsprozessarten&lt;/&gt; in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Customizing-Aktivität &lt;DS:SIMG.W_WLFA_0010.SIMG_OLMR&gt;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>Abrechnungsprozessarten festlegen&lt;/&gt; zuordnen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>ENDIF.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/SAP_APPLICATION_GROUP</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00012</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SAP_APPLICATION_GROUP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Describes the set of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:DE.WSTATE&gt;application statuses&lt;/&gt; that a Settlement Management</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>document can have.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>IF &amp;[SWITCH]S4H_DOCU_ON_PREMISE&amp; = &apos;X&apos;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You assign application statuses to status groups in the Customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>activity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.W_WLFA_0019&gt;Define Status Groups with Application Statuses&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>An application status can be contained in several status groups.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>You assign status groups to &lt;DS:DE.WRART&gt;settlement process types&lt;/&gt; in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the Customizing activity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE> &lt;DS:SIMG.W_WLFA_0010.SIMG_OLMR&gt;Define Settlement Process Types&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>ENDIF.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/SAP_APPLICATION_GROUP</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00012</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SAP_APPLICATION_GROUP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Descreve o conjunto de &lt;DS:DE.WSTATE&gt;status da aplicação&lt;/&gt; que um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>documento de administração de liquidações pode ter.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>IF &amp;[SWITCH]S4H_DOCU_ON_PREMISE&amp; = &apos;X&apos;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Você atribui status da aplicação a grupos de status na atividade de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customizing &lt;DS:SIMG.W_WLFA_0019&gt;Definir grupos de status com status da</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aplicação&lt;/&gt;. Um status de aplicação pode estar contido em vários grupos</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de status.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Você pode atribuir grupos de status a &lt;DS:DE.WRART&gt;tipos de processo de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>liquidação&lt;/&gt; na atividade de customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.W_WLFA_0010.SIMG_OLMR&gt;Definir tipos de processo de liquidação</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>ENDIF.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/SAP_APPLICATION_GROUP</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0008</VERSION>
+      <TXTLINES>00012</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SAP_APPLICATION_GROUP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00008</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Describe el conjunto de &lt;DS:DE.WSTATE&gt;estados de aplicación&lt;/&gt; que puede</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tener un documento de gestión de liquidación.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>IF &amp;[SWITCH]S4H_DOCU_ON_PREMISE&amp; = &apos;X&apos;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Los estados de aplicación se asignan a grupos de estados en la actividad</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Customizing &lt;DS:SIMG.W_WLFA_0019&gt;Definir grupos de estados con estados</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de aplicación&lt;/&gt;. Un estado de aplicación puede estar dentro de varios</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>grupos de estados.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Los grupos de estados se asignan a &lt;DS:DE.WRART&gt;clases de procesos de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>liquidación&lt;/&gt; en la actividad Customizing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;DS:SIMG.W_WLFA_0010.SIMG_OLMR&gt;Definir clases de procesos de liquidación</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>&lt;/&gt;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/:</TDFORMAT>
+       <TDLINE>ENDIF.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

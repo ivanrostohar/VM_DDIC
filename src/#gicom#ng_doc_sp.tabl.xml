@@ -110,11 +110,16 @@
    </DD08V_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Verhandlung - Aufteilung in Verträge / Töpfe</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Negotiation - Split in contracts</DDTEXT>
     </item>
    </DD02_TEXTS>
    <TABL_EXTRAS>

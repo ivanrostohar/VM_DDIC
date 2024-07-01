@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/GICOM/TTXRTAGS</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Text Repository Tags</DDTEXT>
+    <CONTFLAG>S</CONTFLAG>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/GICOM/TTXRTAGS</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>1</TABKAT>
+    <TABART>APPL2</TABART>
+    <PROTOKOLL>X</PROTOKOLL>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/GICOM/TTXRTAGS_KEY_S</PRECFIELD>
+     <NOTNULL>X</NOTNULL>
+     <MASK>      S</MASK>
+     <DDTEXT>Text Repository Tags Key Structure</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>KEY</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/GICOM/TTXRTAGS_DATA_S</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Text Repository Tags Data Structure</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>DATA</GROUPNAME>
+    </DD03P>
+   </DD03P_TABLE>
+   <DD05M_TABLE>
+    <DD05M>
+     <FIELDNAME>TEXT_ID</FIELDNAME>
+     <FORTABLE>/GICOM/TTXRTAGS</FORTABLE>
+     <FORKEY>TEXT_ID</FORKEY>
+     <CHECKTABLE>/GICOM/TTXR</CHECKTABLE>
+     <CHECKFIELD>ID</CHECKFIELD>
+     <PRIMPOS>0001</PRIMPOS>
+     <DOMNAME>/GICOM/TEXT_ID</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+    </DD05M>
+   </DD05M_TABLE>
+   <DD08V_TABLE>
+    <DD08V>
+     <FIELDNAME>TEXT_ID</FIELDNAME>
+     <CHECKTABLE>/GICOM/TTXR</CHECKTABLE>
+     <FRKART>KEY</FRKART>
+     <CARD>CN</CARD>
+     <NOINHERIT>Y</NOINHERIT>
+     <CARDLEFT>1</CARDLEFT>
+    </DD08V>
+   </DD08V_TABLE>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Text Repository Tags</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+   <TABL_EXTRAS>
+    <TDDAT>
+     <TABNAME>/GICOM/TTXRTAGS</TABNAME>
+     <CCLASS>&amp;NC&amp;</CCLASS>
+    </TDDAT>
+   </TABL_EXTRAS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

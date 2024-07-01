@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>KoArt CCM</SCRTEXT_S>
      <SCRTEXT_M>Konditionsart CCM</SCRTEXT_M>
      <SCRTEXT_L>Konditionsart im CCM</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CCM: Condition type</DDTEXT>
+     <REPTEXT>Condition type CCM</REPTEXT>
+     <SCRTEXT_S>CoType CCM</SCRTEXT_S>
+     <SCRTEXT_M>Condition type</SCRTEXT_M>
+     <SCRTEXT_L>Condition type in CCM</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

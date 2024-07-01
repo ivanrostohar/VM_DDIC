@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DOC_NUMBER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DOC_NR</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>13</SCRLEN3>
+    <DDTEXT>Purchaseorder number</DDTEXT>
+    <REPTEXT>PO.number</REPTEXT>
+    <SCRTEXT_S>PO.Nr</SCRTEXT_S>
+    <SCRTEXT_M>PO.number</SCRTEXT_M>
+    <SCRTEXT_L>PO.number</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Bestellnummer</DDTEXT>
+     <REPTEXT>Bestellnummer</REPTEXT>
+     <SCRTEXT_S>Best.Nr.</SCRTEXT_S>
+     <SCRTEXT_M>Bestellnr.</SCRTEXT_M>
+     <SCRTEXT_L>Bestellnummer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Purchaseorder number</DDTEXT>
+     <REPTEXT>PO.number</REPTEXT>
+     <SCRTEXT_S>PO.Nr</SCRTEXT_S>
+     <SCRTEXT_M>PO.number</SCRTEXT_M>
+     <SCRTEXT_L>PO.number</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

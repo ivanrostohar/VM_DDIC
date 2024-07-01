@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Material Number Used by Vendor</DDTEXT>
+     <REPTEXT>Vendor Material Number</REPTEXT>
+     <SCRTEXT_S>Vend. Mat.</SCRTEXT_S>
+     <SCRTEXT_M>Vendor Mat. No.</SCRTEXT_M>
+     <SCRTEXT_L>Vendor Material No.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

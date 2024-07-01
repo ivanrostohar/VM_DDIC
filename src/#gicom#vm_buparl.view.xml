@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/GICOM/VM_BUPARL</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>/GICOM/TBUPAROLE</ROOTTAB>
+    <DDTEXT>Maintenance for Business Partner Role Mappings</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/GICOM/VM_BUPARL</VIEWNAME>
+     <TABNAME>/GICOM/TBUPAROLE</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/GICOM/TBUPAROLE</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>CLNT</VIEWFIELD>
+     <TABNAME>/GICOM/TBUPAROLE</TABNAME>
+     <FIELDNAME>CLNT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>ROLE_EXTERNAL</VIEWFIELD>
+     <TABNAME>/GICOM/TBUPAROLE</TABNAME>
+     <FIELDNAME>ROLE_EXTERNAL</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>ROLE_INTERNAL</VIEWFIELD>
+     <TABNAME>/GICOM/TBUPAROLE</TABNAME>
+     <FIELDNAME>ROLE_INTERNAL</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <VALEXI>X</VALEXI>
+    </DD27P>
+   </DD27P_TABLE>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD25_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Geschäftspartnermapping</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Maintenance for Business Partner Role Mappings</DDTEXT>
+    </item>
+   </DD25_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

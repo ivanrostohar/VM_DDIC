@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Daten</SCRTEXT_S>
      <SCRTEXT_M>Felddaten</SCRTEXT_M>
      <SCRTEXT_L>Felddatenquelle</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Field data in business at all</DDTEXT>
+     <REPTEXT>Field data source</REPTEXT>
+     <SCRTEXT_S>Data</SCRTEXT_S>
+     <SCRTEXT_M>Field data</SCRTEXT_M>
+     <SCRTEXT_L>Field data source</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TITLE_RFC_OBJ</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TITLE</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Title of RFC object</DDTEXT>
+    <REPTEXT>Title RFC obj.</REPTEXT>
+    <SCRTEXT_S>Title</SCRTEXT_S>
+    <SCRTEXT_M>Title RFC obj.</SCRTEXT_M>
+    <SCRTEXT_L>Title of RFC object</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Titel des RFC-Objekts</DDTEXT>
+     <REPTEXT>Titel RFC-Obj.</REPTEXT>
+     <SCRTEXT_S>Titel</SCRTEXT_S>
+     <SCRTEXT_M>Titel RFC-Obj.</SCRTEXT_M>
+     <SCRTEXT_L>Titel des RFC-Objekts</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Titre de l’objet RFC</DDTEXT>
+     <REPTEXT>Titre obj. RFC</REPTEXT>
+     <SCRTEXT_S>Titre</SCRTEXT_S>
+     <SCRTEXT_M>Titre obj. RFC</SCRTEXT_M>
+     <SCRTEXT_L>Titre de l’objet RFC</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tytuł obiektu RFC</DDTEXT>
+     <REPTEXT>Tytuł ob. RFC</REPTEXT>
+     <SCRTEXT_S>Tytuł</SCRTEXT_S>
+     <SCRTEXT_M>Tytuł ob. RFC</SCRTEXT_M>
+     <SCRTEXT_L>Tytuł obiektu RFC</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Título do objeto RFC</DDTEXT>
+     <REPTEXT>Título obj. RFC</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Título obj. RFC</SCRTEXT_M>
+     <SCRTEXT_L>Título do objeto RFC</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Título del objeto RFC</DDTEXT>
+     <REPTEXT>Título obj.RFC</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Título obj.RFC</SCRTEXT_M>
+     <SCRTEXT_L>Título del objeto RFC</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

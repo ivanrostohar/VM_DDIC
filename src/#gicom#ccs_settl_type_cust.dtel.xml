@@ -22,6 +22,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +32,14 @@
      <SCRTEXT_S>Abr. Kunde</SCRTEXT_S>
      <SCRTEXT_M>Abrechnungsart Kunde</SCRTEXT_M>
      <SCRTEXT_L>Abrechnungsart Kunde</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Type Customer</DDTEXT>
+     <REPTEXT>Settlement Type Customer</REPTEXT>
+     <SCRTEXT_S>SettlCust.</SCRTEXT_S>
+     <SCRTEXT_M>Settle. Ty. Customer</SCRTEXT_M>
+     <SCRTEXT_L>Settlement Type Customer</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Kopie von WB2_BVB_GUID</DDTEXT>
+     <REPTEXT>UB-GUID</REPTEXT>
+     <SCRTEXT_S>UB-GUID</SCRTEXT_S>
+     <SCRTEXT_M>UB-GUID</SCRTEXT_M>
+     <SCRTEXT_L>UB-GUID</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

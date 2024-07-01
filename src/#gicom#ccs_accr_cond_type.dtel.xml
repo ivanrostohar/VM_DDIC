@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_ACCR_COND_TYPE</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>/GICOM/KSCHL</DOMNAME>
+    <DOMNAME>KSCHL</DOMNAME>
     <HEADLEN>17</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>13</SCRLEN2>
@@ -17,10 +17,10 @@
     <SCRTEXT_L>CCM Accr.-CndTye</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +30,14 @@
      <SCRTEXT_S>Rück.KoArt</SCRTEXT_S>
      <SCRTEXT_M>Rückst.-Koart</SCRTEXT_M>
      <SCRTEXT_L>CCM Rückst.-Koart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CCM CndType for accrual</DDTEXT>
+     <REPTEXT>CCM Accr.-CndTye</REPTEXT>
+     <SCRTEXT_S>AccrCndTyp</SCRTEXT_S>
+     <SCRTEXT_M>Accr.-CndType</SCRTEXT_M>
+     <SCRTEXT_L>CCM Accr.-CndTye</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

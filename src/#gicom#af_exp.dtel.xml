@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/AF_EXP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/BAPRFLW</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Approval Flow (explicit)</DDTEXT>
+    <REPTEXT>Approval Flow (explicit)</REPTEXT>
+    <SCRTEXT_S>AF exp.</SCRTEXT_S>
+    <SCRTEXT_M>Approval Flow exp.</SCRTEXT_M>
+    <SCRTEXT_L>Approval Flow (explicit)</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Approval Flow (explizit)</DDTEXT>
+     <REPTEXT>Approval Flow (explizit)</REPTEXT>
+     <SCRTEXT_S>AF exp.</SCRTEXT_S>
+     <SCRTEXT_M>Approval Flow exp.</SCRTEXT_M>
+     <SCRTEXT_L>Approval Flow (explizit)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Flux d’approbation (explicite)</DDTEXT>
+     <REPTEXT>Flux d’approbation (explicite)</REPTEXT>
+     <SCRTEXT_S>Exp. AF</SCRTEXT_S>
+     <SCRTEXT_M>Étape du flux d’app.</SCRTEXT_M>
+     <SCRTEXT_L>Flux d’approbation (explicite)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Przepływ zatwierdzania (jawne)</DDTEXT>
+     <REPTEXT>Przepływ zatwierdzania (jawne)</REPTEXT>
+     <SCRTEXT_S>AF jaw.</SCRTEXT_S>
+     <SCRTEXT_M>Przepływ zatw. j.</SCRTEXT_M>
+     <SCRTEXT_L>Przepływ zatwierdzania (jawne)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Fluxo de aprovação (explícito)</DDTEXT>
+     <REPTEXT>Fluxo de aprovação (explícito)</REPTEXT>
+     <SCRTEXT_S>WA exp.</SCRTEXT_S>
+     <SCRTEXT_M>Fluxo aprovação exp.</SCRTEXT_M>
+     <SCRTEXT_L>Fluxo de aprovação (explícito)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Flujo de aprobación (explícito)</DDTEXT>
+     <REPTEXT>Flujo de aprobación (explícito)</REPTEXT>
+     <SCRTEXT_S>FA exp.</SCRTEXT_S>
+     <SCRTEXT_M>Flujo aprob.exp.</SCRTEXT_M>
+     <SCRTEXT_L>Flujo de aprobación (explícito)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

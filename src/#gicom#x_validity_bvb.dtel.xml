@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
     <LANGU>P</LANGU>
     <LANGU>S</LANGU>
    </I18N_LANGS>
@@ -31,6 +32,14 @@
      <SCRTEXT_S>Gültigkeit</SCRTEXT_S>
      <SCRTEXT_M>mit Gültigkeit</SCRTEXT_M>
      <SCRTEXT_L>Umsatzbasis mit Gültigkeit</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Business Volume Base with Validity</DDTEXT>
+     <REPTEXT>Business Volume Base with Validity</REPTEXT>
+     <SCRTEXT_S>Validity</SCRTEXT_S>
+     <SCRTEXT_M>with Validity</SCRTEXT_M>
+     <SCRTEXT_L>Business Volume Base with Validity</SCRTEXT_L>
     </item>
     <item>
      <DDLANGUAGE>P</DDLANGUAGE>

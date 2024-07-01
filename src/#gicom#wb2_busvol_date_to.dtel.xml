@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/WB2_BUSVOL_DATE_TO</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>DATUM</DOMNAME>
+    <DOMNAME>DATS</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>55</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -18,10 +18,10 @@
     <SCRTEXT_L>Business Volume Date To</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +31,14 @@
      <SCRTEXT_S>Um.Dat. b.</SCRTEXT_S>
      <SCRTEXT_M>Umsatzdatum bis</SCRTEXT_M>
      <SCRTEXT_L>Umsatzdatum bis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Business Volume Date To</DDTEXT>
+     <REPTEXT>Business Volume Date To</REPTEXT>
+     <SCRTEXT_S>BusVol To</SCRTEXT_S>
+     <SCRTEXT_M>BusVol Date To</SCRTEXT_M>
+     <SCRTEXT_L>Business Volume Date To</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -28,6 +29,14 @@
      <REPTEXT>Vorauszahlungsmethode</REPTEXT>
      <SCRTEXT_M>Vorauszahl. Methode</SCRTEXT_M>
      <SCRTEXT_L>Vorauszahlungsmethode</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Distinction between percentage and fixed amount prepayment</DDTEXT>
+     <REPTEXT>advanced payment method</REPTEXT>
+     <SCRTEXT_S>adv. pay m</SCRTEXT_S>
+     <SCRTEXT_M>adv. payment method</SCRTEXT_M>
+     <SCRTEXT_L>advanced payment method</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

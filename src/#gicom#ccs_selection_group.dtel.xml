@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Sel Grp CC</SCRTEXT_S>
      <SCRTEXT_M>Sel Grp CCM</SCRTEXT_M>
      <SCRTEXT_L>Selektionsgruppe CCM</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Selection Group for CCM (not for Supplying)</DDTEXT>
+     <REPTEXT>Selection Group for CCM</REPTEXT>
+     <SCRTEXT_S>Sel Grp CC</SCRTEXT_S>
+     <SCRTEXT_M>Sel Grp CCM</SCRTEXT_M>
+     <SCRTEXT_L>Selection Group CCM</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

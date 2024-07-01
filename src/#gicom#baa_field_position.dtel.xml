@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Position</SCRTEXT_S>
      <SCRTEXT_M>Feldposition</SCRTEXT_M>
      <SCRTEXT_L>Feldposition</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Field position for business at all</DDTEXT>
+     <REPTEXT>Field position</REPTEXT>
+     <SCRTEXT_S>Position</SCRTEXT_S>
+     <SCRTEXT_M>Field position</SCRTEXT_M>
+     <SCRTEXT_L>Field position</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

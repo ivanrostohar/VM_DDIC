@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/IS_DISTR_KEY_EXTERNAL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>28</SCRLEN3>
+    <DDTEXT>Is Distribution Key External</DDTEXT>
+    <REPTEXT>External</REPTEXT>
+    <SCRTEXT_S>External</SCRTEXT_S>
+    <SCRTEXT_M>External</SCRTEXT_M>
+    <SCRTEXT_L>External</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Ist Verteilschlüssel extern</DDTEXT>
+     <REPTEXT>Schlüssel extern</REPTEXT>
+     <SCRTEXT_S>Extern</SCRTEXT_S>
+     <SCRTEXT_M>Schlüssel extern</SCRTEXT_M>
+     <SCRTEXT_L>Ist Verteilschlüssel extern</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Est la clé de répa. ext.</DDTEXT>
+     <REPTEXT>Externe</REPTEXT>
+     <SCRTEXT_S>Externe</SCRTEXT_S>
+     <SCRTEXT_M>Externe</SCRTEXT_M>
+     <SCRTEXT_L>Externe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Czy klucz rozdziału jest zewnętrzny</DDTEXT>
+     <REPTEXT>Zewnętrzny</REPTEXT>
+     <SCRTEXT_S>Zewn</SCRTEXT_S>
+     <SCRTEXT_M>Zewnętrzny</SCRTEXT_M>
+     <SCRTEXT_L>Zewnętrzny</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>É chave de distribuição externa</DDTEXT>
+     <REPTEXT>Externo</REPTEXT>
+     <SCRTEXT_S>Externo</SCRTEXT_S>
+     <SCRTEXT_M>Externo</SCRTEXT_M>
+     <SCRTEXT_L>Externo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Es clave de distribución externa</DDTEXT>
+     <REPTEXT>Externo</REPTEXT>
+     <SCRTEXT_S>Externo</SCRTEXT_S>
+     <SCRTEXT_M>Externo</SCRTEXT_M>
+     <SCRTEXT_L>Externo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

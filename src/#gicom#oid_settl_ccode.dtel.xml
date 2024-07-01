@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/OID_SETTL_CCODE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/OID</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>settling company code (OID)</DDTEXT>
+    <REPTEXT>settl.CoCo</REPTEXT>
+    <SCRTEXT_S>settl.CoCo</SCRTEXT_S>
+    <SCRTEXT_M>settl. CoCode</SCRTEXT_M>
+    <SCRTEXT_L>settling CoCode (OID)</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>abrechnender Buchungskreis (Objekt-ID)</DDTEXT>
+     <REPTEXT>abr. Bukrs</REPTEXT>
+     <SCRTEXT_S>abr. Bukrs</SCRTEXT_S>
+     <SCRTEXT_M>abr. Bukrs</SCRTEXT_M>
+     <SCRTEXT_L>abrechnender Buchungskreis (OID)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>code de l’entreprise de décompte (OID)</DDTEXT>
+     <REPTEXT>Code déc.</REPTEXT>
+     <SCRTEXT_S>Code déc.</SCRTEXT_S>
+     <SCRTEXT_M>Décompte Code</SCRTEXT_M>
+     <SCRTEXT_L>Code décompte (OID)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Kod firmy rozliczenia (ID ob.)</DDTEXT>
+     <REPTEXT>KodF rozl.</REPTEXT>
+     <SCRTEXT_S>KodF rozl.</SCRTEXT_S>
+     <SCRTEXT_M>KodF rozlicz.</SCRTEXT_M>
+     <SCRTEXT_L>KodFirmy rozliczenia (ID ob.)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>cód. empresa liq. (OID)</DDTEXT>
+     <REPTEXT>CdEmprLiq</REPTEXT>
+     <SCRTEXT_S>CdEmprLiq</SCRTEXT_S>
+     <SCRTEXT_M>CdEmpr. Liq.</SCRTEXT_M>
+     <SCRTEXT_L>CdEmpr liq. (OID)</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Sociedad de compensación (OID)</DDTEXT>
+     <REPTEXT>Soc.comp.</REPTEXT>
+     <SCRTEXT_S>Soc.comp.</SCRTEXT_S>
+     <SCRTEXT_M>compens. Sociedad</SCRTEXT_M>
+     <SCRTEXT_L>Sociedad de compensación (OID)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

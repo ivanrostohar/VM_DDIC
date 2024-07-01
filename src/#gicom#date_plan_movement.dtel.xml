@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DATE_PLAN_MOVEMENT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DATE</DOMNAME>
+    <HEADLEN>23</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>23</SCRLEN3>
+    <DDTEXT>Goodsmovement date</DDTEXT>
+    <REPTEXT>Goodsmovement date</REPTEXT>
+    <SCRTEXT_S>Date</SCRTEXT_S>
+    <SCRTEXT_M>Goodsmovement date</SCRTEXT_M>
+    <SCRTEXT_L>Goodsmovement date</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Datum der Warenbewegung</DDTEXT>
+     <REPTEXT>Datum der Warenbewegung</REPTEXT>
+     <SCRTEXT_S>Datum</SCRTEXT_S>
+     <SCRTEXT_M>Dat. Warenbewegung</SCRTEXT_M>
+     <SCRTEXT_L>Datum der Warenbewegung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Goodsmovement date</DDTEXT>
+     <REPTEXT>Goodsmovement date</REPTEXT>
+     <SCRTEXT_S>Date</SCRTEXT_S>
+     <SCRTEXT_M>Goodsmovement date</SCRTEXT_M>
+     <SCRTEXT_L>Goodsmovement date</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

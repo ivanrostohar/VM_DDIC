@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Material Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GICOM/LRFC_MATERIAL_GRPTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GICOM/SAPLRFC_MATERIAL_GRP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GICOM/RFC_READ_MATERIAL_GRP</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Read Material API</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_MATERIAL_GRP</PARAMETER>
+       <TYP>/GICOM/CMATERIAL_GRP_A_STT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_MATERIAL_GRP_TXT</PARAMETER>
+       <TYP>/GICOM/CMATERIAL_GRP_TXT_A_STT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>/GICOM/BAPIRET_TT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_MATERIAL_GRP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Group</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_MATERIAL_GRP_TXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Group Texts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabletyp for gicom BAPIRET</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

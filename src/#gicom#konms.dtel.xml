@@ -22,6 +22,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
     <LANGU>P</LANGU>
     <LANGU>S</LANGU>
    </I18N_LANGS>
@@ -33,6 +34,14 @@
      <SCRTEXT_S>StfEinh</SCRTEXT_S>
      <SCRTEXT_M>Staffeleinheit</SCRTEXT_M>
      <SCRTEXT_L>Staffelmengeneinheit</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Scale Unit of Measure</DDTEXT>
+     <REPTEXT>UoM</REPTEXT>
+     <SCRTEXT_S>Scale UM</SCRTEXT_S>
+     <SCRTEXT_M>Scale UoM</SCRTEXT_M>
+     <SCRTEXT_L>Scale Unit of Meas.</SCRTEXT_L>
     </item>
     <item>
      <DDLANGUAGE>P</DDLANGUAGE>

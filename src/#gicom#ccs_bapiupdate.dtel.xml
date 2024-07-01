@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Update</SCRTEXT_S>
      <SCRTEXT_M>Change-Info</SCRTEXT_M>
      <SCRTEXT_L>Change inforation data field</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Copy of BAPIUPDATE</DDTEXT>
+     <REPTEXT>Änderungsinformation</REPTEXT>
+     <SCRTEXT_S>Update</SCRTEXT_S>
+     <SCRTEXT_M>Änderungs-Info</SCRTEXT_M>
+     <SCRTEXT_L>Änderungsinformation Nutzdatenfeld</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

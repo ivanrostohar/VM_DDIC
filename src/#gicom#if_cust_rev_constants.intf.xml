@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_CUST_REV_CONSTANTS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Constants: Customizing Revisions</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_CLUSTER_COND_CALC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customizing Cluster</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_CLUSTER_COND_CALC</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Customizing Cluster</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_STATUS_ACTIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Revision Status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_STATUS_ACTIVE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Revision Status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_STATUS_FINISH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Revision Status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_STATUS_FINISH</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Revision Status</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

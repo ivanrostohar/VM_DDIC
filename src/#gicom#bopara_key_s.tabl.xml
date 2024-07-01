@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/GICOM/BOPARA_KEY_S</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Key of BO Parameter</DDTEXT>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>TYP</FIELDNAME>
+     <ROLLNAME>/GICOM/BO_TYP</ROLLNAME>
+     <CHECKTABLE>TOJTB</CHECKTABLE>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>P</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>ID</FIELDNAME>
+     <ROLLNAME>/GICOM/BO_ID</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>PARA</FIELDNAME>
+     <ROLLNAME>/GICOM/KEY_PARA_BO</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <DD05M_TABLE>
+    <DD05M>
+     <FIELDNAME>TYP</FIELDNAME>
+     <FORTABLE>/GICOM/BOPARA_KEY_S</FORTABLE>
+     <FORKEY>TYP</FORKEY>
+     <CHECKTABLE>TOJTB</CHECKTABLE>
+     <CHECKFIELD>NAME</CHECKFIELD>
+     <PRIMPOS>0001</PRIMPOS>
+     <DOMNAME>OJ_NAME</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+    </DD05M>
+   </DD05M_TABLE>
+   <DD08V_TABLE>
+    <DD08V>
+     <FIELDNAME>TYP</FIELDNAME>
+     <CHECKTABLE>TOJTB</CHECKTABLE>
+    </DD08V>
+   </DD08V_TABLE>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Schlüssel des BO-Parameters</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Key of BO Parameter</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/OID_AUTH_FLAG</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>50</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Hierarchy flag organization unit</DDTEXT>
+    <REPTEXT>Hierarchy flag organization unit</REPTEXT>
+    <SCRTEXT_S>Hier.Org.</SCRTEXT_S>
+    <SCRTEXT_M>Hierarchy flag org.</SCRTEXT_M>
+    <SCRTEXT_L>Hierarchy flag organization unit</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Hierar. Kenn. Organisationseinheit</DDTEXT>
+     <REPTEXT>Hierarchie Kennzeichen Organisationseinheit</REPTEXT>
+     <SCRTEXT_S>Hier.Org.</SCRTEXT_S>
+     <SCRTEXT_M>Hierar. Kenn. Org.</SCRTEXT_M>
+     <SCRTEXT_L>Hierar. Kenn. Organisationseinheit</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Hierarchy flag organization unit</DDTEXT>
+     <REPTEXT>Hierarchy flag organization unit</REPTEXT>
+     <SCRTEXT_S>Hier.Org.</SCRTEXT_S>
+     <SCRTEXT_M>Hierarchy flag org.</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchy flag organization unit</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

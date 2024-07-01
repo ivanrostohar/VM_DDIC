@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>FK, Lief.</SCRTEXT_S>
      <SCRTEXT_M>Feldkombin. Liefer.</SCRTEXT_M>
      <SCRTEXT_L>Feldkombination Lieferant</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Field Combination for Eligible Supplier</DDTEXT>
+     <REPTEXT>Field Combination for Eligible Supplier</REPTEXT>
+     <SCRTEXT_S>FCSupplier</SCRTEXT_S>
+     <SCRTEXT_M>Field Comb. Supplier</SCRTEXT_M>
+     <SCRTEXT_L>Field Combination Supplier</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

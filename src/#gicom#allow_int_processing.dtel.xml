@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ALLOW_INT_PROCESSING</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ALLOW</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Internal processing allowed</DDTEXT>
+    <REPTEXT>Int. Proces. allowed</REPTEXT>
+    <SCRTEXT_S>Int. Proc.</SCRTEXT_S>
+    <SCRTEXT_M>Int. Proc. allowed</SCRTEXT_M>
+    <SCRTEXT_L>Internal Processing allowed</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Interne Prozessierung erlaubt</DDTEXT>
+     <REPTEXT>Int. Prozes. erlaubt</REPTEXT>
+     <SCRTEXT_S>Int. Proz.</SCRTEXT_S>
+     <SCRTEXT_M>Int. Proz. erlaubt</SCRTEXT_M>
+     <SCRTEXT_L>Interne Prozessierung erlaubt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Traitement interne autorisé</DDTEXT>
+     <REPTEXT>Trait. int. autorisé</REPTEXT>
+     <SCRTEXT_S>Trai. int.</SCRTEXT_S>
+     <SCRTEXT_M>Trai. int. autorisé</SCRTEXT_M>
+     <SCRTEXT_L>Traitement interne autorisé</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Przetwarzanie wewnętrzne dozwolone</DDTEXT>
+     <REPTEXT>Prz. wew. dozwolone</REPTEXT>
+     <SCRTEXT_S>Prz. wew.</SCRTEXT_S>
+     <SCRTEXT_M>Prz. wew. dozwolone</SCRTEXT_M>
+     <SCRTEXT_L>Przetwarzanie wewnętrzne dozwolone</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Processamento interno permitido</DDTEXT>
+     <REPTEXT>Proc.int.permitido</REPTEXT>
+     <SCRTEXT_S>Proc.int.</SCRTEXT_S>
+     <SCRTEXT_M>Proc.int.permitido</SCRTEXT_M>
+     <SCRTEXT_L>Processamento interno permitido</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Procesamiento interno permitido</DDTEXT>
+     <REPTEXT>Proc. int. permitido</REPTEXT>
+     <SCRTEXT_S>Proc. int.</SCRTEXT_S>
+     <SCRTEXT_M>Proc. int. permitido</SCRTEXT_M>
+     <SCRTEXT_L>Procesamiento interno permitido</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

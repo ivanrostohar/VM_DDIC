@@ -5,6 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_KEY_FORWARD</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>STRING</DOMNAME>
     <HEADLEN>14</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>14</SCRLEN2>
@@ -15,10 +16,21 @@
     <SCRTEXT_M>CC Key Forward</SCRTEXT_M>
     <SCRTEXT_L>CC Key Forward</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
-    <DATATYPE>STRG</DATATYPE>
-    <LENG>000256</LENG>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CC Key for contract forward</DDTEXT>
+     <REPTEXT>CC Key Forward</REPTEXT>
+     <SCRTEXT_S>KeyForward</SCRTEXT_S>
+     <SCRTEXT_M>CC Key Forward</SCRTEXT_M>
+     <SCRTEXT_L>CC Key Forward</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

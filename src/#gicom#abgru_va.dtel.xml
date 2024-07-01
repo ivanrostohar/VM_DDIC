@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ABGRU_VA</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABGRU_VA</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>02</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Reason for Rejection of Quotations and Sales Orders</DDTEXT>
+    <REPTEXT>Rj</REPTEXT>
+    <SCRTEXT_S>Rej.Reason</SCRTEXT_S>
+    <SCRTEXT_M>RejectionReason</SCRTEXT_M>
+    <SCRTEXT_L>Reason for Rejection</SCRTEXT_L>
+    <APPLCLASS>VA</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Absagegrund für Angebote und Aufträge</DDTEXT>
+     <REPTEXT>Ab</REPTEXT>
+     <SCRTEXT_S>Absagegr.</SCRTEXT_S>
+     <SCRTEXT_M>Absagegrund</SCRTEXT_M>
+     <SCRTEXT_L>Absagegrund</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Reason for Rejection of Quotations and Sales Orders</DDTEXT>
+     <REPTEXT>Rj</REPTEXT>
+     <SCRTEXT_S>Rej.Reason</SCRTEXT_S>
+     <SCRTEXT_M>RejectionReason</SCRTEXT_M>
+     <SCRTEXT_L>Reason for Rejection</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

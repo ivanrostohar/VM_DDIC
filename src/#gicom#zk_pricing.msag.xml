@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Messageclass for central Calculation / Pricing</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Exceptions &amp;1 by calling of central calculation.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Agreement &amp; is not eligible for Position &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Unit Conversion failed for Agreement &amp; and Position &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Currency Conversion failed for Agreement &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Amount Conversion failed for Agreement &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Settlement due dates are not determined for Agreement &amp;</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <STEXT>Messageclass for central Calculation / Pricing</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <STEXT>Classe de message pour la tarification/le calcul central</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <STEXT>Klasa komunikatów dla obliczeń centralnych / wyceny</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <STEXT>Classe de mensagens para cálculo central/determinação preço</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/ZK_PRICING</ARBGB>
+     <STEXT>Clase de mensajes para determ.precios/cálculo central</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Ausnahme &amp;1 bei Aurfuf der zentralen Kalkulation.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Die Vereinbarung &amp; ist nicht für die Position &amp; berechtigt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Einheitenumrechnung für Vereinbarung &amp; und Position &amp; fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Währungsumrechnung für Vereinbarung &amp; fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Betragsumrechnung für Vereinbarung &amp; fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Keine Fälligkeitstermine der Abrechnung für Vereinbarung &amp; festgelegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Exceptions &amp;1 par appel du calcul central.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>L’accord &amp; n’est pas admissible pour la position &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Échec de la conversion des unités pour l’accord &amp; et la position &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Échec de la conversion des devises pour l’accord &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Échec de la conversion des montants pour l’accord &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Dates d’échéance du décompte non déterminées pour accord &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Wyjątki &amp;1 z powodu wywołania obliczeń centralnych.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Umowa &amp; nie kwalifikuje się dla pozycji &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Konwersja jednostek dla umowy &amp; i pozycji &amp; nie powiodła się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Przeliczanie waluty dla umowy &amp; nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Przeliczanie kwoty dla umowy &amp; nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Dla umowy &amp; nie określono terminów rozliczenia</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Exceções &amp;1 ao chamar cálculo central.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Acordo &amp; não permitido para posição &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>A conversão de unidades falhou para o acordo &amp; e posição &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>A conversão de moeda falhou para o acordo &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>A conversão de montante falhou para o acordo &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Datas de vencimento liquidação não determinadas p/ acordo &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Excepciones &amp;1 en la llamada del cálculo central.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Acuerdo &amp; no reconocido para la posición &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>La conversión de moneda ha fallado para el acuerdo &amp; y la posición &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>La conversión de moneda ha fallado para el acuerdo &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>La conversión de la cantidad ha fallado para el acuerdo &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Fechas de vencimiento de liquidación no determinada para el acuerdo &amp;</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

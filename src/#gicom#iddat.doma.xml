@@ -1,0 +1,2137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GICOM/IDDAT</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000003</LENG>
+    <OUTPUTLEN>000003</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Qualifier for Date Segment IDoc</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>001</DOMVALUE_L>
+     <DDTEXT>Delivery Date (Vendor)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>002</DOMVALUE_L>
+     <DDTEXT>Requested Delivery Date (Customer)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>003</DOMVALUE_L>
+     <DDTEXT>Application Deadline</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>004</DOMVALUE_L>
+     <DDTEXT>Submission Deadline for Quotation</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>005</DOMVALUE_L>
+     <DDTEXT>Quotation/RfQ Valid from</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>006</DOMVALUE_L>
+     <DDTEXT>Binding Period of Quotation (Valid to)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>007</DOMVALUE_L>
+     <DDTEXT>Reconciliation Date for Agreed Cumulative Quantity</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>008</DOMVALUE_L>
+     <DDTEXT>First Fixing Period</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>009</DOMVALUE_L>
+     <DDTEXT>Second Fixing Period</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>010</DOMVALUE_L>
+     <DDTEXT>Shipping Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>011</DOMVALUE_L>
+     <DDTEXT>Date of IDoc Creation</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>012</DOMVALUE_L>
+     <DDTEXT>Document Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>013</DOMVALUE_L>
+     <DDTEXT>Quotation Date (Supplier)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>014</DOMVALUE_L>
+     <DDTEXT>Inquiry Date (Customer)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>015</DOMVALUE_L>
+     <DDTEXT>Invoice Posting date (Invoice Tax Point Date)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>016</DOMVALUE_L>
+     <DDTEXT>Invoice Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>017</DOMVALUE_L>
+     <DDTEXT>Date of Payment</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>018</DOMVALUE_L>
+     <DDTEXT>Date of Bill of Exchange</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>019</DOMVALUE_L>
+     <DDTEXT>Start of Term for Master Agreement or RfQ</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>020</DOMVALUE_L>
+     <DDTEXT>End of Term for Master Agreement or RfQ</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>021</DOMVALUE_L>
+     <DDTEXT>Billing Document Date for Invoice List</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>022</DOMVALUE_L>
+     <DDTEXT>Order Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>023</DOMVALUE_L>
+     <DDTEXT>Price Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>024</DOMVALUE_L>
+     <DDTEXT>Fixed Value Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>025</DOMVALUE_L>
+     <DDTEXT>Created on</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>026</DOMVALUE_L>
+     <DDTEXT>Billing Document Date for Bill. Doc. Index and Printing</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>027</DOMVALUE_L>
+     <DDTEXT>Date of Service Production</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>028</DOMVALUE_L>
+     <DDTEXT>Due Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>029</DOMVALUE_L>
+     <DDTEXT>Order Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>030</DOMVALUE_L>
+     <DDTEXT>Goods Receipt Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>031</DOMVALUE_L>
+     <DDTEXT>Planned Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>032</DOMVALUE_L>
+     <DDTEXT>Date of Reference Number</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>033</DOMVALUE_L>
+     <DDTEXT>Transportation Start Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>034</DOMVALUE_L>
+     <DDTEXT>Planned Transportation End Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>035</DOMVALUE_L>
+     <DDTEXT>Goods Issue Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>036</DOMVALUE_L>
+     <DDTEXT>Bank Value Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0037</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>037</DOMVALUE_L>
+     <DDTEXT>Bank Clearing Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0038</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>038</DOMVALUE_L>
+     <DDTEXT>Booking at Bank</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0039</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>039</DOMVALUE_L>
+     <DDTEXT>Order Date of Ship-To Party</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0040</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>040</DOMVALUE_L>
+     <DDTEXT>Pickup Date from (Delivery Order)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0041</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>041</DOMVALUE_L>
+     <DDTEXT>Pickup Date to (Delivery Order)</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0042</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>042</DOMVALUE_L>
+     <DDTEXT>Date of Old Balance</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0043</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>043</DOMVALUE_L>
+     <DDTEXT>Date of New Balance</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0044</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>044</DOMVALUE_L>
+     <DDTEXT>Baseline Date for Payment</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0045</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>045</DOMVALUE_L>
+     <DDTEXT>Best-Before Date of Batch</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0046</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>046</DOMVALUE_L>
+     <DDTEXT>Date of Delivery Reference</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0047</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>047</DOMVALUE_L>
+     <DDTEXT>Tax Reporting Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0048</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>101</DOMVALUE_L>
+     <DDTEXT>Resale Invoice Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0049</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>102</DOMVALUE_L>
+     <DDTEXT>Resale Ship Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0050</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>103</DOMVALUE_L>
+     <DDTEXT>Booking from Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0051</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>104</DOMVALUE_L>
+     <DDTEXT>Booking to Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0052</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>105</DOMVALUE_L>
+     <DDTEXT>Shipping from Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0053</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>106</DOMVALUE_L>
+     <DDTEXT>Shipping to Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0054</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>107</DOMVALUE_L>
+     <DDTEXT>Billing from Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0055</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>108</DOMVALUE_L>
+     <DDTEXT>Billing to Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0056</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>109</DOMVALUE_L>
+     <DDTEXT>Exercise from Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0057</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>110</DOMVALUE_L>
+     <DDTEXT>Exercise to Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0058</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>048</DOMVALUE_L>
+     <DDTEXT>Exchange Rate</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Qualifier für Datumssegment IDOC</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Qualificateur pour IDoc de segment de date</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Kwalifikator dla segmentu dat IDoc</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Qualificador para segmento IDoc de data</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Cualificador para IDoc de segmento de fechas</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>001</DOMVALUE_L>
+     <DDTEXT>Lieferdatum (Lieferant)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>001</DOMVALUE_L>
+     <DDTEXT>Date de livraison (fournisseur)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>001</DOMVALUE_L>
+     <DDTEXT>Data dostawy (dostawca)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>001</DOMVALUE_L>
+     <DDTEXT>Data da remessa (fornecedor)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>001</DOMVALUE_L>
+     <DDTEXT>Fecha de entrega (proveedor)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>002</DOMVALUE_L>
+     <DDTEXT>Wunschlieferdatum (Kunde)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>002</DOMVALUE_L>
+     <DDTEXT>Date de livraison demandée (client)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>002</DOMVALUE_L>
+     <DDTEXT>Żądana data dostawy (klient)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>002</DOMVALUE_L>
+     <DDTEXT>Data desejada de remessa (cliente)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>002</DOMVALUE_L>
+     <DDTEXT>Fecha de entrega solicitada (cliente)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>003</DOMVALUE_L>
+     <DDTEXT>Bewerbungsfrist</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>003</DOMVALUE_L>
+     <DDTEXT>Date limite d’application</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>003</DOMVALUE_L>
+     <DDTEXT>Termin składania wniosków</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>003</DOMVALUE_L>
+     <DDTEXT>Prazo da aplicação</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>003</DOMVALUE_L>
+     <DDTEXT>Plazo de solicitud</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>004</DOMVALUE_L>
+     <DDTEXT>Abgabefrist für Angebot</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>004</DOMVALUE_L>
+     <DDTEXT>Date limite de soumission du devis</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>004</DOMVALUE_L>
+     <DDTEXT>Termin składania ofert</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>004</DOMVALUE_L>
+     <DDTEXT>Prazo de apresentação para cotação</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>004</DOMVALUE_L>
+     <DDTEXT>Fecha límite de entrega de oferta</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>005</DOMVALUE_L>
+     <DDTEXT>Angebot/Anfrage gültig ab</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>005</DOMVALUE_L>
+     <DDTEXT>Date de validité du devis/RfQ</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>005</DOMVALUE_L>
+     <DDTEXT>Oferta / zapytanie ofertowe ważne od</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>005</DOMVALUE_L>
+     <DDTEXT>Cotação/início da validade da RFQ</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>005</DOMVALUE_L>
+     <DDTEXT>Oferta/petición de oferta validas de</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>006</DOMVALUE_L>
+     <DDTEXT>Bindefrist des Angebots (gültig bis)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>006</DOMVALUE_L>
+     <DDTEXT>Période d’engagement du devis (valable jusqu’au)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>006</DOMVALUE_L>
+     <DDTEXT>Wiążący okres oferty (ważna do)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>006</DOMVALUE_L>
+     <DDTEXT>Período de vinculação da cotação (Válido até)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>006</DOMVALUE_L>
+     <DDTEXT>Plazo vinculante de la oferta (válido a)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>007</DOMVALUE_L>
+     <DDTEXT>Abstimmdatum für die Abstimmfortschrittszahl</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>007</DOMVALUE_L>
+     <DDTEXT>Date de rapprochement de la quantité cumulée convenue</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>007</DOMVALUE_L>
+     <DDTEXT>Data uzgodnienia dla uzgodnionej łącznej ilości</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>007</DOMVALUE_L>
+     <DDTEXT>Data de reconciliação para quantidade acumulada estipulada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>007</DOMVALUE_L>
+     <DDTEXT>Fecha de reconciliación para cifra acumulada concentrada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>008</DOMVALUE_L>
+     <DDTEXT>Erster Fixierungszeitraum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>008</DOMVALUE_L>
+     <DDTEXT>Première période de fixation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>008</DOMVALUE_L>
+     <DDTEXT>Pierwszy okres poprawek</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>008</DOMVALUE_L>
+     <DDTEXT>Primeiro período de fixação</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>008</DOMVALUE_L>
+     <DDTEXT>Primera fijación</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>009</DOMVALUE_L>
+     <DDTEXT>Zweiter Fixierungszeitraum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>009</DOMVALUE_L>
+     <DDTEXT>Deuxième période de fixation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>009</DOMVALUE_L>
+     <DDTEXT>Drugi okres poprawek</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>009</DOMVALUE_L>
+     <DDTEXT>Segundo período de fixação</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>009</DOMVALUE_L>
+     <DDTEXT>Segunda fijación</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>010</DOMVALUE_L>
+     <DDTEXT>Versanddatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>010</DOMVALUE_L>
+     <DDTEXT>Date d’expédition</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>010</DOMVALUE_L>
+     <DDTEXT>Data wysyłki</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>010</DOMVALUE_L>
+     <DDTEXT>Data da expedição</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>010</DOMVALUE_L>
+     <DDTEXT>Fecha de entrega</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>011</DOMVALUE_L>
+     <DDTEXT>Datum IDOC-Erstellung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>011</DOMVALUE_L>
+     <DDTEXT>Date de création de l’IDoc</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>011</DOMVALUE_L>
+     <DDTEXT>Data utworzenia IDoc</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>011</DOMVALUE_L>
+     <DDTEXT>Data de criação do IDoc</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>011</DOMVALUE_L>
+     <DDTEXT>Fecha de creación de IDOC</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>012</DOMVALUE_L>
+     <DDTEXT>Belegdatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>012</DOMVALUE_L>
+     <DDTEXT>Date du document</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>012</DOMVALUE_L>
+     <DDTEXT>Data dokumentu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>012</DOMVALUE_L>
+     <DDTEXT>Data do documento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>012</DOMVALUE_L>
+     <DDTEXT>Fecha de documento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>013</DOMVALUE_L>
+     <DDTEXT>Angebotsdatum (Lieferant)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>013</DOMVALUE_L>
+     <DDTEXT>Date du devis (fournisseur)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>013</DOMVALUE_L>
+     <DDTEXT>Data oferty (dostawca)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>013</DOMVALUE_L>
+     <DDTEXT>Data da cotação (fornecedor)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>013</DOMVALUE_L>
+     <DDTEXT>Fecha de oferta (proveedor)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>014</DOMVALUE_L>
+     <DDTEXT>Anfragedatum (Kunde)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>014</DOMVALUE_L>
+     <DDTEXT>Date de demande de renseignements (client)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>014</DOMVALUE_L>
+     <DDTEXT>Data zapytania (klient)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>014</DOMVALUE_L>
+     <DDTEXT>Data da solicitação de cotação (cliente)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>014</DOMVALUE_L>
+     <DDTEXT>Fecha de consulta (cliente)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>015</DOMVALUE_L>
+     <DDTEXT>Rechnungsbuchungsdatum (Invoice tax point date)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>015</DOMVALUE_L>
+     <DDTEXT>Date enregistrement fact. (date du point d’imp. de la fact.)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>015</DOMVALUE_L>
+     <DDTEXT>Data zaksięgowania faktury (data punktu podatkowego faktury)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>015</DOMVALUE_L>
+     <DDTEXT>Data de lançamento da fatura (data ponto imposto fatura)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>015</DOMVALUE_L>
+     <DDTEXT>Fecha de contabilización de factura (Invoice Tax Point Date)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>016</DOMVALUE_L>
+     <DDTEXT>Rechnungsdatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>016</DOMVALUE_L>
+     <DDTEXT>Date de facturation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>016</DOMVALUE_L>
+     <DDTEXT>Data wystawienia faktury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>016</DOMVALUE_L>
+     <DDTEXT>Data da fatura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>016</DOMVALUE_L>
+     <DDTEXT>Fecha de factura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>017</DOMVALUE_L>
+     <DDTEXT>Datum der Zahlung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>017</DOMVALUE_L>
+     <DDTEXT>Date du paiement</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>017</DOMVALUE_L>
+     <DDTEXT>Data płatności</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>017</DOMVALUE_L>
+     <DDTEXT>Data de pagamento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>017</DOMVALUE_L>
+     <DDTEXT>Fecha de pago</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>018</DOMVALUE_L>
+     <DDTEXT>Datum des Wechsels</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>018</DOMVALUE_L>
+     <DDTEXT>Date de la lettre de change</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>018</DOMVALUE_L>
+     <DDTEXT>Data weksla</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>018</DOMVALUE_L>
+     <DDTEXT>Data da letra de câmbio</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>018</DOMVALUE_L>
+     <DDTEXT>Fecha de efecto</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>019</DOMVALUE_L>
+     <DDTEXT>Laufzeitbeginn bei Rahmenvertrag oder Anfrage</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>019</DOMVALUE_L>
+     <DDTEXT>Début de la période de validité de l’accord maître ou du RfQ</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>019</DOMVALUE_L>
+     <DDTEXT>Początek okresu obowiąz. umowy ramowej lub zapyt. ofertowego</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>019</DOMVALUE_L>
+     <DDTEXT>Início do período de validade para contrato básico ou RFQ</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>019</DOMVALUE_L>
+     <DDTEXT>Inicio de período de acuerdo maestro o petición de oferta</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>020</DOMVALUE_L>
+     <DDTEXT>Laufzeitende bei Rahmenvertrag oder Anfrage</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>020</DOMVALUE_L>
+     <DDTEXT>Fin de la période de validité de l’accord maître ou du RfQ</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>020</DOMVALUE_L>
+     <DDTEXT>Koniec okresu obowiąz. umowy ramowej lub zapyt. ofertowego</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>020</DOMVALUE_L>
+     <DDTEXT>Fim do período de validade para contrato básico ou RFQ</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>020</DOMVALUE_L>
+     <DDTEXT>Final de período de acuerdo maestro o petición de oferta</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>021</DOMVALUE_L>
+     <DDTEXT>Fakturadatum fuer Rechnungsliste</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>021</DOMVALUE_L>
+     <DDTEXT>Date de document de facturation pour la liste de factures</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>021</DOMVALUE_L>
+     <DDTEXT>Data dokumentu rozliczeniowego dla listy faktur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>021</DOMVALUE_L>
+     <DDTEXT>Data do documento de faturamento para lista de faturas</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>021</DOMVALUE_L>
+     <DDTEXT>Fecha de factura para lista de factura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>022</DOMVALUE_L>
+     <DDTEXT>Bestelldatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>022</DOMVALUE_L>
+     <DDTEXT>Date de la commande</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>022</DOMVALUE_L>
+     <DDTEXT>Data zamówienia</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>022</DOMVALUE_L>
+     <DDTEXT>Data do pedido</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>022</DOMVALUE_L>
+     <DDTEXT>Fecha de pedido</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>023</DOMVALUE_L>
+     <DDTEXT>Preisdatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>023</DOMVALUE_L>
+     <DDTEXT>Date du prix</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>023</DOMVALUE_L>
+     <DDTEXT>Data ceny</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>023</DOMVALUE_L>
+     <DDTEXT>Data do preço</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>023</DOMVALUE_L>
+     <DDTEXT>Fecha del precio</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>024</DOMVALUE_L>
+     <DDTEXT>Valuta-Fix-Datum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>024</DOMVALUE_L>
+     <DDTEXT>Date de valeur fixe</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>024</DOMVALUE_L>
+     <DDTEXT>Data wartości stałej</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>024</DOMVALUE_L>
+     <DDTEXT>Data efetiva</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>024</DOMVALUE_L>
+     <DDTEXT>Fecha de valor fijo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>025</DOMVALUE_L>
+     <DDTEXT>Angelegt am</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>025</DOMVALUE_L>
+     <DDTEXT>Créé le</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>025</DOMVALUE_L>
+     <DDTEXT>Utworzono</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>025</DOMVALUE_L>
+     <DDTEXT>Criado em</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>025</DOMVALUE_L>
+     <DDTEXT>Creado el</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>026</DOMVALUE_L>
+     <DDTEXT>Fakturadatum für Fakturaindex und Druck</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>026</DOMVALUE_L>
+     <DDTEXT>Date de doc. de fact. pour impr. et index du doc de fact.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>026</DOMVALUE_L>
+     <DDTEXT>Data dok. rozlicz. dla rach. dok. Indeks i druk.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>026</DOMVALUE_L>
+     <DDTEXT>Data doc. faturamento p/ índice e impressão doc. fat.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>026</DOMVALUE_L>
+     <DDTEXT>Fecha de factura p. facturación Documento Índice e impresión</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>027</DOMVALUE_L>
+     <DDTEXT>Datum der Leistungserstellung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>027</DOMVALUE_L>
+     <DDTEXT>Date de production du service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>027</DOMVALUE_L>
+     <DDTEXT>Data wykonania usługi</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>027</DOMVALUE_L>
+     <DDTEXT>Data da produção de serviço</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>027</DOMVALUE_L>
+     <DDTEXT>Fecha de productos de servicios</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>028</DOMVALUE_L>
+     <DDTEXT>Fälligkeitsdatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>028</DOMVALUE_L>
+     <DDTEXT>Date d’échéance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>028</DOMVALUE_L>
+     <DDTEXT>Termin</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>028</DOMVALUE_L>
+     <DDTEXT>Data de vencimento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>028</DOMVALUE_L>
+     <DDTEXT>Fecha de vencimiento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>029</DOMVALUE_L>
+     <DDTEXT>Auftragsdatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>029</DOMVALUE_L>
+     <DDTEXT>Date de la commande</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>029</DOMVALUE_L>
+     <DDTEXT>Data zamówienia</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>029</DOMVALUE_L>
+     <DDTEXT>Data do pedido</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>029</DOMVALUE_L>
+     <DDTEXT>Fecha de pedido</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>030</DOMVALUE_L>
+     <DDTEXT>Wareneingangsdatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>030</DOMVALUE_L>
+     <DDTEXT>Date de réception de marchandises</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>030</DOMVALUE_L>
+     <DDTEXT>Data odbioru towarów</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>030</DOMVALUE_L>
+     <DDTEXT>Data da entrada de mercadorias</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>030</DOMVALUE_L>
+     <DDTEXT>Fecha de entrada de mercancías</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>031</DOMVALUE_L>
+     <DDTEXT>Plandatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>031</DOMVALUE_L>
+     <DDTEXT>Date planifiée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>031</DOMVALUE_L>
+     <DDTEXT>Data planowana</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>031</DOMVALUE_L>
+     <DDTEXT>Data planejada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>031</DOMVALUE_L>
+     <DDTEXT>Fecha planificada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>032</DOMVALUE_L>
+     <DDTEXT>Datum zur Referenznummer</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>032</DOMVALUE_L>
+     <DDTEXT>Date du numéro de référence</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>032</DOMVALUE_L>
+     <DDTEXT>Data numeru referencyjnego</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>032</DOMVALUE_L>
+     <DDTEXT>Data do nº de referência</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>032</DOMVALUE_L>
+     <DDTEXT>Fecha de número de referencia</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>033</DOMVALUE_L>
+     <DDTEXT>Transportbeginndatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>033</DOMVALUE_L>
+     <DDTEXT>Date de début du transport</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>033</DOMVALUE_L>
+     <DDTEXT>Data rozpoczęcia transportu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>033</DOMVALUE_L>
+     <DDTEXT>Data de início do transporte</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>033</DOMVALUE_L>
+     <DDTEXT>Fecha de inicio de transporte</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>034</DOMVALUE_L>
+     <DDTEXT>geplantes Transportendedatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>034</DOMVALUE_L>
+     <DDTEXT>Date de fin de transport prévu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>034</DOMVALUE_L>
+     <DDTEXT>Planowana data zakończenia transportu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>034</DOMVALUE_L>
+     <DDTEXT>Data planejada do fim do transporte</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>034</DOMVALUE_L>
+     <DDTEXT>Fecha de fin de transporte planificada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>035</DOMVALUE_L>
+     <DDTEXT>Warenausgangsdatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>035</DOMVALUE_L>
+     <DDTEXT>Date d’émission des marchandises</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>035</DOMVALUE_L>
+     <DDTEXT>Data wydania towarów</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>035</DOMVALUE_L>
+     <DDTEXT>Data da saída de mercadorias</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>035</DOMVALUE_L>
+     <DDTEXT>Fecha de salida de mercancías</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>036</DOMVALUE_L>
+     <DDTEXT>Valutadatum Bank</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>036</DOMVALUE_L>
+     <DDTEXT>Date de valeur de la banque</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>036</DOMVALUE_L>
+     <DDTEXT>Data waluty banku</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>036</DOMVALUE_L>
+     <DDTEXT>Data de valor do banco</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>036</DOMVALUE_L>
+     <DDTEXT>Fecha de valor de banco</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0037</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>037</DOMVALUE_L>
+     <DDTEXT>Verrechnungsdatum Bank</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0037</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>037</DOMVALUE_L>
+     <DDTEXT>Date de compensation bancaire</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0037</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>037</DOMVALUE_L>
+     <DDTEXT>Data rozliczenia banku</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0037</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>037</DOMVALUE_L>
+     <DDTEXT>Data de compensação bancária</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0037</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>037</DOMVALUE_L>
+     <DDTEXT>Fecha de compensación de banco</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0038</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>038</DOMVALUE_L>
+     <DDTEXT>Buchung bei der Bank</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0038</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>038</DOMVALUE_L>
+     <DDTEXT>Réservation à la banque</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0038</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>038</DOMVALUE_L>
+     <DDTEXT>Rezerwacja w banku</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0038</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>038</DOMVALUE_L>
+     <DDTEXT>Reserva no banco</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0038</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>038</DOMVALUE_L>
+     <DDTEXT>Reserva en el banco</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0039</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>039</DOMVALUE_L>
+     <DDTEXT>Bestelldatum des Warenempfängers</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0039</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>039</DOMVALUE_L>
+     <DDTEXT>Date de la commande des clients livrés</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0039</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>039</DOMVALUE_L>
+     <DDTEXT>Data zamówienia przez odbiorcę dostawy</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0039</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>039</DOMVALUE_L>
+     <DDTEXT>Data do pedido do recebedor da mercadoria</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0039</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>039</DOMVALUE_L>
+     <DDTEXT>Fecha de pedido del destinatario de mercancías</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0040</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>040</DOMVALUE_L>
+     <DDTEXT>Abholdatum ab (Auslieferungsauftrag)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0040</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>040</DOMVALUE_L>
+     <DDTEXT>Date de début du retrait (ordre de livraison)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0040</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>040</DOMVALUE_L>
+     <DDTEXT>Data odbioru od (zamówienie dostawy)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0040</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>040</DOMVALUE_L>
+     <DDTEXT>Data de início da retirada (ordem de entrega)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0040</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>040</DOMVALUE_L>
+     <DDTEXT>Fecha de retirada de (orden de entrega)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0041</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>041</DOMVALUE_L>
+     <DDTEXT>Abholdatum bis (Auslieferungsauftrag)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0041</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>041</DOMVALUE_L>
+     <DDTEXT>Date de fin du retrait (ordre de livraison)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0041</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>041</DOMVALUE_L>
+     <DDTEXT>Data odbioru do (zamówienie dostawy)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0041</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>041</DOMVALUE_L>
+     <DDTEXT>Data do fim da retirada (ordem de entrega)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0041</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>041</DOMVALUE_L>
+     <DDTEXT>Fecha de retirada a (orden de entrega)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0042</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>042</DOMVALUE_L>
+     <DDTEXT>Datum Alter Saldo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0042</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>042</DOMVALUE_L>
+     <DDTEXT>Date de l’ancien solde</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0042</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>042</DOMVALUE_L>
+     <DDTEXT>Data starego salda</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0042</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>042</DOMVALUE_L>
+     <DDTEXT>Data do antigo saldo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0042</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>042</DOMVALUE_L>
+     <DDTEXT>Fecha de saldo antiguo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0043</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>043</DOMVALUE_L>
+     <DDTEXT>Datum Neuer Saldo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0043</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>043</DOMVALUE_L>
+     <DDTEXT>Date du nouveau solde</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0043</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>043</DOMVALUE_L>
+     <DDTEXT>Data nowego salda</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0043</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>043</DOMVALUE_L>
+     <DDTEXT>Data do novo saldo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0043</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>043</DOMVALUE_L>
+     <DDTEXT>Fecha de nuevo saldo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0044</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>044</DOMVALUE_L>
+     <DDTEXT>Zahlungsfristenbasisdatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0044</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>044</DOMVALUE_L>
+     <DDTEXT>Date de référence pour le paiement</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0044</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>044</DOMVALUE_L>
+     <DDTEXT>Bazowa data płatności</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0044</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>044</DOMVALUE_L>
+     <DDTEXT>Data básica para pagamento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0044</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>044</DOMVALUE_L>
+     <DDTEXT>Fecha base para pago</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0045</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>045</DOMVALUE_L>
+     <DDTEXT>Mindesthaltbarkeitsdatum der Charge</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0045</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>045</DOMVALUE_L>
+     <DDTEXT>Date limite de paiement du lot</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0045</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>045</DOMVALUE_L>
+     <DDTEXT>Data przydatności partii</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0045</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>045</DOMVALUE_L>
+     <DDTEXT>Data do vencimento do lote</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0045</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>045</DOMVALUE_L>
+     <DDTEXT>Fecha de caducidad del lote</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0046</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>046</DOMVALUE_L>
+     <DDTEXT>Datum zur Lieferungsreferenz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0046</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>046</DOMVALUE_L>
+     <DDTEXT>Date de référence de la livraison</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0046</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>046</DOMVALUE_L>
+     <DDTEXT>Data odniesienia dostawy</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0046</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>046</DOMVALUE_L>
+     <DDTEXT>Data da referência à remessa</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0046</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>046</DOMVALUE_L>
+     <DDTEXT>Fecha de referencia de entrega</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0047</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>047</DOMVALUE_L>
+     <DDTEXT>Steuermeldedatum</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0047</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>047</DOMVALUE_L>
+     <DDTEXT>Date de déclaration des taxes</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0047</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>047</DOMVALUE_L>
+     <DDTEXT>Data zgłoszenia podatkowego</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0047</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>047</DOMVALUE_L>
+     <DDTEXT>Data da declaração fiscal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0047</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>047</DOMVALUE_L>
+     <DDTEXT>Fecha de declaración fiscal</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0048</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>101</DOMVALUE_L>
+     <DDTEXT>Resale Invoice Date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0048</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>101</DOMVALUE_L>
+     <DDTEXT>Date de la facture de revente</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0048</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>101</DOMVALUE_L>
+     <DDTEXT>Data faktury odsprzedaży</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0048</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>101</DOMVALUE_L>
+     <DDTEXT>Data da fatura de revenda</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0048</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>101</DOMVALUE_L>
+     <DDTEXT>Fecha de factura de reventa</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0049</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>102</DOMVALUE_L>
+     <DDTEXT>Resale Ship Date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0049</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>102</DOMVALUE_L>
+     <DDTEXT>Date d’expédition de la revente</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0049</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>102</DOMVALUE_L>
+     <DDTEXT>Data wysyłki odsprzedaży</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0049</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>102</DOMVALUE_L>
+     <DDTEXT>Data de remessa da revenda</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0049</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>102</DOMVALUE_L>
+     <DDTEXT>Fecha de entrega de reventa</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0050</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>103</DOMVALUE_L>
+     <DDTEXT>Booking from date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0050</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>103</DOMVALUE_L>
+     <DDTEXT>Date de début de réservation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0050</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>103</DOMVALUE_L>
+     <DDTEXT>Rezerwacja od daty</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0050</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>103</DOMVALUE_L>
+     <DDTEXT>Data de início da reserva</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0050</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>103</DOMVALUE_L>
+     <DDTEXT>Fecha contabilización de</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0051</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>104</DOMVALUE_L>
+     <DDTEXT>Booking to date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0051</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>104</DOMVALUE_L>
+     <DDTEXT>Date de fin de réservation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0051</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>104</DOMVALUE_L>
+     <DDTEXT>Rezerwacja do daty</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0051</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>104</DOMVALUE_L>
+     <DDTEXT>Data do fim da reserva</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0051</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>104</DOMVALUE_L>
+     <DDTEXT>Fecha contabilización a</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0052</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>105</DOMVALUE_L>
+     <DDTEXT>Shipping from date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0052</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>105</DOMVALUE_L>
+     <DDTEXT>Date de début d’expédition</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0052</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>105</DOMVALUE_L>
+     <DDTEXT>Data wysyłki od</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0052</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>105</DOMVALUE_L>
+     <DDTEXT>Data de início da expedição</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0052</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>105</DOMVALUE_L>
+     <DDTEXT>Fecha de entrega de</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0053</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>106</DOMVALUE_L>
+     <DDTEXT>Shipping to date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0053</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>106</DOMVALUE_L>
+     <DDTEXT>Date de fin d’expédition</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0053</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>106</DOMVALUE_L>
+     <DDTEXT>Data wysyłki do</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0053</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>106</DOMVALUE_L>
+     <DDTEXT>Data do fim da expedição</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0053</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>106</DOMVALUE_L>
+     <DDTEXT>Fecha de entrega a</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0054</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>107</DOMVALUE_L>
+     <DDTEXT>Billing from date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0054</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>107</DOMVALUE_L>
+     <DDTEXT>Date de début de facturation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0054</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>107</DOMVALUE_L>
+     <DDTEXT>Rozliczenia od daty</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0054</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>107</DOMVALUE_L>
+     <DDTEXT>Data de início do faturamento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0054</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>107</DOMVALUE_L>
+     <DDTEXT>Fecha de facturación</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0055</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>108</DOMVALUE_L>
+     <DDTEXT>Billing to date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0055</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>108</DOMVALUE_L>
+     <DDTEXT>Date de fin de facturation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0055</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>108</DOMVALUE_L>
+     <DDTEXT>Rozliczenia do daty</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0055</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>108</DOMVALUE_L>
+     <DDTEXT>Data do fim do faturamento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0055</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>108</DOMVALUE_L>
+     <DDTEXT>Fecha factura a</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0056</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>109</DOMVALUE_L>
+     <DDTEXT>Exercise from date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0056</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>109</DOMVALUE_L>
+     <DDTEXT>Date de début de l’exercice</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0056</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>109</DOMVALUE_L>
+     <DDTEXT>Data obowiązywania</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0056</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>109</DOMVALUE_L>
+     <DDTEXT>Data de início do exercício</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0056</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>109</DOMVALUE_L>
+     <DDTEXT>Fecha ejercicio de</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0057</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>110</DOMVALUE_L>
+     <DDTEXT>Exercise to date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0057</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>110</DOMVALUE_L>
+     <DDTEXT>Date de fin de l’exercice</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0057</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>110</DOMVALUE_L>
+     <DDTEXT>Data zakończenia obowiązywania</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0057</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>110</DOMVALUE_L>
+     <DDTEXT>Data do fim do exercício</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0057</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>110</DOMVALUE_L>
+     <DDTEXT>Fecha ejercicio a</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0058</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>048</DOMVALUE_L>
+     <DDTEXT>Umrechnungskurs</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0058</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>048</DOMVALUE_L>
+     <DDTEXT>Taux de change</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0058</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>048</DOMVALUE_L>
+     <DDTEXT>Kurs wymiany</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0058</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>048</DOMVALUE_L>
+     <DDTEXT>Taxa de câmbio</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0058</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>048</DOMVALUE_L>
+     <DDTEXT>Clase de cambio</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

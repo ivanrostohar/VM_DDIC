@@ -87,11 +87,16 @@
    </DD28J_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD25_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Änderungsgrund - Text</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Change reason - Text</DDTEXT>
     </item>
    </DD25_TEXTS>
   </asx:values>

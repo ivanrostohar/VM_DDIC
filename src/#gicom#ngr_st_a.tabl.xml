@@ -150,11 +150,16 @@
    </DD08V_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Verhandlungsrundenstruktur Attribute (Objekte aufgelöst)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Negotiation round structure (Attributes, objects flattend)</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

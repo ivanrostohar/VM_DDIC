@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Kopie von WB2_SETTLEMENT_DATE_TYPE</DDTEXT>
+     <REPTEXT>Typ</REPTEXT>
+     <SCRTEXT_S>Typ</SCRTEXT_S>
+     <SCRTEXT_M>Abrechnungsdatumstyp</SCRTEXT_M>
+     <SCRTEXT_L>Abrechnungsdatumstyp</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

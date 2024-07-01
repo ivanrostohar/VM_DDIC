@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Zellentyp</SCRTEXT_S>
      <SCRTEXT_M>Zellentyp</SCRTEXT_M>
      <SCRTEXT_L>Zellentyp</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Cell type for business at all</DDTEXT>
+     <REPTEXT>Cell type</REPTEXT>
+     <SCRTEXT_S>Cell type</SCRTEXT_S>
+     <SCRTEXT_M>Cell type</SCRTEXT_M>
+     <SCRTEXT_L>Cell type</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

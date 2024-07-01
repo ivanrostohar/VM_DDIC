@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Fixed value date</DDTEXT>
+     <REPTEXT>FixValDate</REPTEXT>
+     <SCRTEXT_S>FixValDate</SCRTEXT_S>
+     <SCRTEXT_M>Fixed val.date</SCRTEXT_M>
+     <SCRTEXT_L>Fixed value date</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>K.Überlpp.</SCRTEXT_S>
      <SCRTEXT_M>Keine Überlappung</SCRTEXT_M>
      <SCRTEXT_L>Keine Konditionsgültigkeitsüberlappung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Overlap of Condition Validity not Allowed</DDTEXT>
+     <REPTEXT>No Overlap of Condition Validity</REPTEXT>
+     <SCRTEXT_S>No Overlap</SCRTEXT_S>
+     <SCRTEXT_M>No Overlap</SCRTEXT_M>
+     <SCRTEXT_L>No Overlap of Condition Validity</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

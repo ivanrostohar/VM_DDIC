@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>TG,StdWrt.</SCRTEXT_S>
      <SCRTEXT_M>TransferGrp,StdWrt.</SCRTEXT_M>
      <SCRTEXT_L>Kontraktkopf, TransfGrp.-StdWerte</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Transfer Group Default Values Contract Head</DDTEXT>
+     <REPTEXT>Transfer Group Default Values Contract Head</REPTEXT>
+     <SCRTEXT_S>TG DefVal</SCRTEXT_S>
+     <SCRTEXT_M>TransferGrp Def.Val.</SCRTEXT_M>
+     <SCRTEXT_L>Transfer Group Default Values Head</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

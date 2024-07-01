@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/GICOM/VM_BOPARA</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>/GICOM/BOPARA</ROOTTAB>
+    <DDTEXT>Parameters for Each Business Object</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>A</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/GICOM/VM_BOPARA</VIEWNAME>
+     <TABNAME>/GICOM/BOPARA</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/GICOM/BOPARA</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>CLNT</VIEWFIELD>
+     <TABNAME>/GICOM/BOPARA</TABNAME>
+     <FIELDNAME>CLNT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>TYP</VIEWFIELD>
+     <TABNAME>/GICOM/BOPARA</TABNAME>
+     <FIELDNAME>TYP</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <CHECKTABLE>TOJTB</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>ID</VIEWFIELD>
+     <TABNAME>/GICOM/BOPARA</TABNAME>
+     <FIELDNAME>ID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>PARA</VIEWFIELD>
+     <TABNAME>/GICOM/BOPARA</TABNAME>
+     <FIELDNAME>PARA</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>VALUE</VIEWFIELD>
+     <TABNAME>/GICOM/BOPARA</TABNAME>
+     <FIELDNAME>VALUE</FIELDNAME>
+    </DD27P>
+   </DD27P_TABLE>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD25_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Parameter je Business Objekt</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Parameters for Each Business Object</DDTEXT>
+    </item>
+   </DD25_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

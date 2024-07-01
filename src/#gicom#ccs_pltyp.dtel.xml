@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Price list type</DDTEXT>
+     <REPTEXT>PL</REPTEXT>
+     <SCRTEXT_S>Price list</SCRTEXT_S>
+     <SCRTEXT_M>Price List</SCRTEXT_M>
+     <SCRTEXT_L>Price List</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

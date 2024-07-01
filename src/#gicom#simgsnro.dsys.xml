@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/GICOM/SNRO</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0020</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00046</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/GICOM/SNRO</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00020</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>A series of implementations regarding the specific objects in the gicom</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Suite require the assignment of clear numbers. All implementations use</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the SAP number allocation, which arranges the number allocation via</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number range objects.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For the implementations in the gicom Suite own number range objects must</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>be defined.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Number range objects are entered via the transaction SNRO.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step 1: Maintain Access Number Range Objects</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step 2: Customizing of the number Range Object</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Short text: Enter a short description for the number range object. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>description can be freely selected and is relevant for the future</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>allocation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Long text: Enter a long description for the number range object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Number Length Domain: gicom domains for which the length of the number</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>range number is defined.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>% Warning: Percentage value of the remaining numbers. When this value is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>reached, a warning is given.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Sub object Data Element: Optional field which determines whether the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number allocation depends on the sub object (for example, the company</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>code &quot;BUKRS&quot;). Here the SAP default name must be entered.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>To-year flag: Indicator which indicates whether the numbers of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number range object must be reset for the new business year.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>No rolling: Setting of the switch prevents the intervals of the number</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>range object to start again from the beginning. This way no numbers are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>allocated twice.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step 3: Customizing the Number Range Object</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Number range transaction: Transaction name for the maintenance of this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number range object.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Buffering: Definition whether the system uses a number range buffer. The</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>performance will be increased if for a number request the numbers are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>read from the buffer and not from the database. If all numbers are used</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>in the puffer, new numbers are loaded from the database table to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>buffer. If no buffering is used, with a number request the corresponding</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>table entry is always blocked until the operation is completed. After</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this process, a new number can be allocated. The resulting higher</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>collection of requests with their sequential processing decreases the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>performance.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>No. of Numbers in Buffer: Amount of numbers which are situated in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>buffer.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Number range object for Agreement is /GICOM/AGRMT_ID</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

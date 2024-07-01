@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Status VHR</SCRTEXT_S>
      <SCRTEXT_M>Status VHR</SCRTEXT_M>
      <SCRTEXT_L>Verhandlungsrundenstatus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Negotiation round status</DDTEXT>
+     <REPTEXT>Negotiation round status</REPTEXT>
+     <SCRTEXT_S>Status NR</SCRTEXT_S>
+     <SCRTEXT_M>Status NR</SCRTEXT_M>
+     <SCRTEXT_L>Negotiation round status</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

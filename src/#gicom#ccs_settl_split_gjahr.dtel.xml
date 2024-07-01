@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_SETTL_SPLIT_GJAHR</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>ABAP_BOOLEAN</DOMNAME>
+    <DOMNAME>XFELD</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>37</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -18,10 +18,10 @@
     <SCRTEXT_L>Split Settlement Items by Fiscal Year</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +31,14 @@
      <SCRTEXT_S>Jahr spltn</SCRTEXT_S>
      <SCRTEXT_M>Split nach GeschJahr</SCRTEXT_M>
      <SCRTEXT_L>Abrech.Pos. nach GeschJahr splitten</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Split Settlement Items by Fiscal Year</DDTEXT>
+     <REPTEXT>Split Settlement Items by Fiscal Year</REPTEXT>
+     <SCRTEXT_S>Split Year</SCRTEXT_S>
+     <SCRTEXT_M>Split by Fiscal Year</SCRTEXT_M>
+     <SCRTEXT_L>Split Settlement Items by Fiscal Year</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

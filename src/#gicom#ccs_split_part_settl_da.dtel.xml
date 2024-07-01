@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Spl.n.Abr.</SCRTEXT_S>
      <SCRTEXT_M>Nach Teilabr.splitt.</SCRTEXT_M>
      <SCRTEXT_L>Pos. nach Teilabrechnungsdaten splitten</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Split Items by Partial Settlement Dates</DDTEXT>
+     <REPTEXT>Split Items by Partial Settlement Dates</REPTEXT>
+     <SCRTEXT_S>Split pSet</SCRTEXT_S>
+     <SCRTEXT_M>Split by Part.Settl.</SCRTEXT_M>
+     <SCRTEXT_L>Split Items by Partial Settlement Dates</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

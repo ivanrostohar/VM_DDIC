@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DISTR_KEY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DISTR_KEY</DOMNAME>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>16</SCRLEN3>
+    <DDTEXT>Distribution Key</DDTEXT>
+    <REPTEXT>Distribution Key</REPTEXT>
+    <SCRTEXT_S>Distr Key</SCRTEXT_S>
+    <SCRTEXT_M>Distribution Key</SCRTEXT_M>
+    <SCRTEXT_L>Distribution Key</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verteilschlüssel</DDTEXT>
+     <REPTEXT>Verteilschlüssel</REPTEXT>
+     <SCRTEXT_S>Vert.Sch.</SCRTEXT_S>
+     <SCRTEXT_M>Verteilschlüssel</SCRTEXT_M>
+     <SCRTEXT_L>Verteilschlüssel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Clé de répartition</DDTEXT>
+     <REPTEXT>Clé de répa.</REPTEXT>
+     <SCRTEXT_S>Clé répa.</SCRTEXT_S>
+     <SCRTEXT_M>Clé de répa.</SCRTEXT_M>
+     <SCRTEXT_L>Clé de répa.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Klucz rozdziału</DDTEXT>
+     <REPTEXT>Klucz rozdziału</REPTEXT>
+     <SCRTEXT_S>Klucz roz</SCRTEXT_S>
+     <SCRTEXT_M>Klucz rozdziału</SCRTEXT_M>
+     <SCRTEXT_L>Klucz rozdziału</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Chave de distribuição</DDTEXT>
+     <REPTEXT>Chave distrib.</REPTEXT>
+     <SCRTEXT_S>ChvDistr</SCRTEXT_S>
+     <SCRTEXT_M>Chave distrib.</SCRTEXT_M>
+     <SCRTEXT_L>Chave distrib.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clave de distribución</DDTEXT>
+     <REPTEXT>Clave distrib.</REPTEXT>
+     <SCRTEXT_S>Cl. dist.</SCRTEXT_S>
+     <SCRTEXT_M>Clave distrib.</SCRTEXT_M>
+     <SCRTEXT_L>Clave distrib.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

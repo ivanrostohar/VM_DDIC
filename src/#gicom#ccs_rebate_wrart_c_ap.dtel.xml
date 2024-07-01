@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Kunde Kre.</SCRTEXT_S>
      <SCRTEXT_M>Kunde Kreditoren</SCRTEXT_M>
      <SCRTEXT_L>AbrechnungsprozArt Kunde KreditorenAbr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Process Type for Customer Settlement as AP</DDTEXT>
+     <REPTEXT>Settlement Proc. Type (Accounts Payable)</REPTEXT>
+     <SCRTEXT_S>CustomerAP</SCRTEXT_S>
+     <SCRTEXT_M>Cust. Accts Payables</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Proc. Type Customer Settlement AP</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

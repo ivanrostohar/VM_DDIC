@@ -39,6 +39,15 @@
      <COMPTYPE>S</COMPTYPE>
     </DD03P>
    </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Negotiation - Document Reference</DDTEXT>
+    </item>
+   </DD02_TEXTS>
    <TABL_EXTRAS>
     <TDDAT>
      <TABNAME>/GICOM/NG_DOCREF</TABNAME>

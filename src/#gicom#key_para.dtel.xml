@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/KEY_PARA</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/KEY_PARA</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Parameter key</DDTEXT>
+    <REPTEXT>Key</REPTEXT>
+    <SCRTEXT_S>Key</SCRTEXT_S>
+    <SCRTEXT_M>Key</SCRTEXT_M>
+    <SCRTEXT_L>Parameter key</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Schlüssel des Parameter</DDTEXT>
+     <REPTEXT>Schlüssel</REPTEXT>
+     <SCRTEXT_S>Schlüssel</SCRTEXT_S>
+     <SCRTEXT_M>Schlüssel</SCRTEXT_M>
+     <SCRTEXT_L>Schlüssel des Parameter</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Parameter key</DDTEXT>
+     <REPTEXT>Key</REPTEXT>
+     <SCRTEXT_S>Key</SCRTEXT_S>
+     <SCRTEXT_M>Key</SCRTEXT_M>
+     <SCRTEXT_L>Parameter key</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

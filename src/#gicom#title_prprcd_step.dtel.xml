@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TITLE_PRPRCD_STEP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TITLE</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Calculation Schema Step Title</DDTEXT>
+    <REPTEXT>Calculation Schema Step Title</REPTEXT>
+    <SCRTEXT_S>Step Title</SCRTEXT_S>
+    <SCRTEXT_M>Calc. Sch Step Title</SCRTEXT_M>
+    <SCRTEXT_L>Calc. Schema Step Title</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Titel Kalkulationsschema Schritt</DDTEXT>
+     <REPTEXT>Titel Kalkulationsschema Schritt</REPTEXT>
+     <SCRTEXT_S>Titel Schr</SCRTEXT_S>
+     <SCRTEXT_M>Titel K-Sch. Schritt</SCRTEXT_M>
+     <SCRTEXT_L>Titel K-Schema. Schritt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Titre d’étape du schéma de calcul</DDTEXT>
+     <REPTEXT>Titre d’étape du schéma de calcul</REPTEXT>
+     <SCRTEXT_S>Titre étap</SCRTEXT_S>
+     <SCRTEXT_M>Tit. ét. sch. calcul</SCRTEXT_M>
+     <SCRTEXT_L>Tit. étape du schéma de calcul</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tytuł kroku schematu obliczeń</DDTEXT>
+     <REPTEXT>Tytuł kroku schematu obliczeń</REPTEXT>
+     <SCRTEXT_S>Tyt. kroku</SCRTEXT_S>
+     <SCRTEXT_M>Tytuł kroku sch obl</SCRTEXT_M>
+     <SCRTEXT_L>Tytuł kroku schematu obliczeń</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Título da etapa do esquema de cálculo</DDTEXT>
+     <REPTEXT>Título da etapa do esquema de cálculo</REPTEXT>
+     <SCRTEXT_S>Tít. etapa</SCRTEXT_S>
+     <SCRTEXT_M>Título EtapEsqCálc.</SCRTEXT_M>
+     <SCRTEXT_L>Título etapa esquema cálculo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Título de paso del esquema de cálculo</DDTEXT>
+     <REPTEXT>Título de paso del esquema de cálculo</REPTEXT>
+     <SCRTEXT_S>Tít.paso</SCRTEXT_S>
+     <SCRTEXT_M>cálc. Tít. paso esq.</SCRTEXT_M>
+     <SCRTEXT_L>cálc. Título del paso del esq.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

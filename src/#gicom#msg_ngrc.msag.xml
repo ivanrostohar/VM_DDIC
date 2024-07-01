@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for Negotiation Round Controlling</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Display Profile could not be found for AON &quot;&amp;1&quot;. Please maintain.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Failed to determine reporting currency for negotiation round &quot;&amp;1&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Failed to determine reporting unit of measure for negotiation round &quot;&amp;1&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Failed to load results for negotiation round &quot;&amp;1&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Failed to load turnover for negotiation round &quot;&amp;1&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Negotiations doesn&apos;t exist in netotiation round &quot;&amp;1&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Negotiation Round &quot;&amp;1&quot; doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>You do not have authorization to access this data</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <STEXT>Benachrichtigungsklasse für Verhandlungsrunden-Controlling</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <STEXT>Classe de message pour le contrôle du cycle de négociation</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <STEXT>Klasa komunikatów dla kontroli rundy negocjacji</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <STEXT>Classe de mensagens p/ controlling da rodada de negociações</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_NGRC</ARBGB>
+     <STEXT>Cl.mensajes Controlling de ronda de negociación de consulta</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Profilanzeige für AON &quot;&amp;&quot; konnte nicht gefunden werden. Bitte pflegen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Berichtswährung für die Verhandl.runde &quot;&amp;1&quot; konnte nicht bestimmt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Berich. Mengeneinh. für die Verh.runde &quot;&amp;1&quot; konnte nicht bestimmt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Ergebnisse für die Verhandlungsrunde &quot;&amp;1&quot; konnten nicht geladen werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Umsätze für die Verhandlungsrunde &quot;&amp;1&quot; konnten nicht geladen werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Verhandlung existiert in der Verhandlungsrunde &quot;&amp;1&quot; nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Verhandlungsrunde &quot;&amp;1&quot; existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Sie haben nicht die Berechtigungen, um auf diese Daten zuzugreifen</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Prof. affic. Non trouvé pour AON « &amp;1 ». Veuillez maintenir.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Impossible déter. la devise de rapport pour le cycle négociation « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Impossible de déter. unité mesure rapport pour cycle négociation « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Impossible de charger les résultats pour le cycle négociation « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Échec chargement du chiffre d’affaires pour le cycle négociation « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Les négociations n’existent pas dans le cycle de négociation « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Le cycle de négociation « &amp;1 » n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Vous n’avez pas l’autorisation d’accéder à ces données</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Nie znaleziono profilu wyświetlania dla CAN „&amp;1”. Należy zachować.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nie udało się określić waluty raportowania dla rundy negocjacji „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Nie można określić jedn. miary raportowania dla rundy negocjacji „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nie udało się wczytać wyników rundy negocjacji „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Nie udało się wczytać obrotów dla rundy negocjacji „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Negocjacja nie istnieje w rundzie negocjacji „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Runda negocjacji „&amp;1” nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Nie masz autoryzacji umożliwiającej dostęp do tych danych</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Perfil de exibição não encontrado para AN “&amp;”. Atualize.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Moeda relatório não determinada p/ rodada negociações “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>UM do relatório não determinada p/ rodada negociações “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Resultados não carregados para rodada de negociações “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Faturamento não carregado para rodada de negociações “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Não há negociações na rodada de negociações “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>A rodada de negociações “&amp;1” não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Sem autorização para acessar esses dados</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>El perfil de visualización no existe para AN &quot;&amp;&quot;. Actualice.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Imposible determinar moneda de reporting para ronda de negociación &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Imposible determinar unidad de medida de reporting para negociación &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Imposible cargar resultados de la ronda de negociación de consulta &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Imposible cargar volumen de negocios de ronda neg.consulta &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Las negociaciones no existen en la ronda de negociación de consulta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>La ronda de negociación de consulta &quot;&amp;1&quot; no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>No tiene autorización para acceder a estos datos</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

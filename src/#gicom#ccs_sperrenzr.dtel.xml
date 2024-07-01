@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_SPERRENZR</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>/GICOM/X</DOMNAME>
+    <DOMNAME>X</DOMNAME>
     <HEADLEN>40</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>15</SCRLEN2>
@@ -18,10 +18,10 @@
     <DTELMASTER>E</DTELMASTER>
     <DEFFDNAME>ENQUEUEALL</DEFFDNAME>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +31,14 @@
      <SCRTEXT_S>Bel.sperr.</SCRTEXT_S>
      <SCRTEXT_M>Belege sperren</SCRTEXT_M>
      <SCRTEXT_L>Alle Belege sperren</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Copy of SPERRENZR - Lock all Documents</DDTEXT>
+     <REPTEXT>Lock all Documents</REPTEXT>
+     <SCRTEXT_S>Lock Docs</SCRTEXT_S>
+     <SCRTEXT_M>Lock Documents</SCRTEXT_M>
+     <SCRTEXT_L>Lock all Documents</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

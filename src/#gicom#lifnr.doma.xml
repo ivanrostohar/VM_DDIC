@@ -9,9 +9,37 @@
     <LENG>000010</LENG>
     <OUTPUTLEN>000010</OUTPUTLEN>
     <CONVEXIT>ALPHA</CONVEXIT>
-    <DDTEXT>Account Number of Supplier</DDTEXT>
-    <DOMMASTER>E</DOMMASTER>
+    <DDTEXT>Vendor</DDTEXT>
    </DD01V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Lieferant</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Fournisseur</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Dostawca</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Fornecedor</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Proveedor</DDTEXT>
+    </item>
+   </DD01_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

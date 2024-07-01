@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract: External Partner</DDTEXT>
+     <REPTEXT>ExtPartner</REPTEXT>
+     <SCRTEXT_S>E. Partner</SCRTEXT_S>
+     <SCRTEXT_M>Ext. Partner</SCRTEXT_M>
+     <SCRTEXT_L>External Partner</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

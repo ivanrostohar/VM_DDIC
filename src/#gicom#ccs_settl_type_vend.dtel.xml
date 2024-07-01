@@ -22,6 +22,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +32,14 @@
      <SCRTEXT_S>Abr. Lief.</SCRTEXT_S>
      <SCRTEXT_M>AbrechnArt Lieferant</SCRTEXT_M>
      <SCRTEXT_L>Abrechnungsart Lieferant</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Type Supplier</DDTEXT>
+     <REPTEXT>Settlement Type Supplier</REPTEXT>
+     <SCRTEXT_S>SettlSuppl</SCRTEXT_S>
+     <SCRTEXT_M>Settle. Ty. Suppl.</SCRTEXT_M>
+     <SCRTEXT_L>Settlement Type Supplier</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

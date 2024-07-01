@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/MATERIAL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/MATNR40</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Material / Article</DDTEXT>
+    <REPTEXT>Material</REPTEXT>
+    <SCRTEXT_S>Material</SCRTEXT_S>
+    <SCRTEXT_M>Material</SCRTEXT_M>
+    <SCRTEXT_L>Material</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Material / Artikel</DDTEXT>
+     <REPTEXT>Material</REPTEXT>
+     <SCRTEXT_S>Material</SCRTEXT_S>
+     <SCRTEXT_M>Material</SCRTEXT_M>
+     <SCRTEXT_L>Material</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Matériel/Article</DDTEXT>
+     <REPTEXT>Matériel</REPTEXT>
+     <SCRTEXT_S>Matériel</SCRTEXT_S>
+     <SCRTEXT_M>Matériel</SCRTEXT_M>
+     <SCRTEXT_L>Matériel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Materiał/Artykuł</DDTEXT>
+     <REPTEXT>Materiał</REPTEXT>
+     <SCRTEXT_S>Materiał</SCRTEXT_S>
+     <SCRTEXT_M>Materiał</SCRTEXT_M>
+     <SCRTEXT_L>Materiał</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Material/artigo</DDTEXT>
+     <REPTEXT>Material</REPTEXT>
+     <SCRTEXT_S>Material</SCRTEXT_S>
+     <SCRTEXT_M>Material</SCRTEXT_M>
+     <SCRTEXT_L>Material</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Material /artículo</DDTEXT>
+     <REPTEXT>Material</REPTEXT>
+     <SCRTEXT_S>Material</SCRTEXT_S>
+     <SCRTEXT_M>Material</SCRTEXT_M>
+     <SCRTEXT_L>Material</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

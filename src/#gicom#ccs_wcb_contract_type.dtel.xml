@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract Type</DDTEXT>
+     <REPTEXT>CType</REPTEXT>
+     <SCRTEXT_S>CType</SCRTEXT_S>
+     <SCRTEXT_M>Contract Type</SCRTEXT_M>
+     <SCRTEXT_L>Condition Contract Type</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

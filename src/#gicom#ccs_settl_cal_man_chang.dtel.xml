@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_SETTL_CAL_MAN_CHANG</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>ABAP_BOOLEAN</DOMNAME>
+    <DOMNAME>XFELD</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>40</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -18,10 +18,10 @@
     <SCRTEXT_L>Manual Changes Allowed</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +31,14 @@
      <SCRTEXT_S>Man. Änd.</SCRTEXT_S>
      <SCRTEXT_M>Man. Änderungen</SCRTEXT_M>
      <SCRTEXT_L>Manuelle Änd. erlaubt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Calendar: Manual Changes Allowed</DDTEXT>
+     <REPTEXT>Manual Changes Allowed</REPTEXT>
+     <SCRTEXT_S>ManChange</SCRTEXT_S>
+     <SCRTEXT_M>Manual Changes</SCRTEXT_M>
+     <SCRTEXT_L>Manual Changes Allowed</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

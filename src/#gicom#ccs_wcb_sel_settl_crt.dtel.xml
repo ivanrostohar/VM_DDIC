@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Copy of WCB_SEL_SETTLMNT_CRTRIA [Settle. Doc. Selection]</DDTEXT>
+     <REPTEXT>Settlement Document Selection</REPTEXT>
+     <SCRTEXT_S>Doc. Sel.</SCRTEXT_S>
+     <SCRTEXT_M>Document Selection</SCRTEXT_M>
+     <SCRTEXT_L>Settlement Document Selection</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

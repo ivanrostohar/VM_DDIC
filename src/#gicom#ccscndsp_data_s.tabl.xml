@@ -26,11 +26,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Daten: Zuordnung SAP-Koart zu gicom-Koart für Sonderfälle</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Data: Relation SAP-CndType to gicom-CndType for special case</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

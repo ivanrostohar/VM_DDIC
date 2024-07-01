@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SRC_SYS_TYP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/SRC_SYS_TYP</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Source system type</DDTEXT>
+    <REPTEXT>Source sys type</REPTEXT>
+    <SCRTEXT_S>Sys type</SCRTEXT_S>
+    <SCRTEXT_M>Source sys type</SCRTEXT_M>
+    <SCRTEXT_L>Source system type</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Systemtyp Quelle</DDTEXT>
+     <REPTEXT>Sys-TypQuell.</REPTEXT>
+     <SCRTEXT_S>Sys-Typ</SCRTEXT_S>
+     <SCRTEXT_M>Sys-TypQuell.</SCRTEXT_M>
+     <SCRTEXT_L>System-typQuelle</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Source system type</DDTEXT>
+     <REPTEXT>Source sys type</REPTEXT>
+     <SCRTEXT_S>Sys type</SCRTEXT_S>
+     <SCRTEXT_M>Source sys type</SCRTEXT_M>
+     <SCRTEXT_L>Source system type</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

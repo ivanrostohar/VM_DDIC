@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CAL_NO_ACCR_3</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>36</SCRLEN3>
+    <DDTEXT>Level 3 - Number of Delta Settlements</DDTEXT>
+    <REPTEXT>Lvl.3-Delta Settl.</REPTEXT>
+    <SCRTEXT_S>Lvl3.D.Stl</SCRTEXT_S>
+    <SCRTEXT_M>Lvl.3-Delta Settl.</SCRTEXT_M>
+    <SCRTEXT_L>Level 3 - Number of Delta Settlement</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>NUMC</DATATYPE>
+    <LENG>000002</LENG>
+    <OUTPUTLEN>000002</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Level 3 - Number of Delta Settlements</DDTEXT>
+     <REPTEXT>Lvl.3-Delta Settl.</REPTEXT>
+     <SCRTEXT_S>Lvl3.D.Stl</SCRTEXT_S>
+     <SCRTEXT_M>Lvl.3-Delta Settl.</SCRTEXT_M>
+     <SCRTEXT_L>Level 3 - Number of Delta Settlement</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

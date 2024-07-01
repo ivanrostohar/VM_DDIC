@@ -1976,6 +1976,90 @@
      <MSGNR>327</MSGNR>
      <TEXT>Disabled MinMax of ultimo scale step but no MinMax values maintained.</TEXT>
     </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>328</MSGNR>
+     <TEXT>Deletion of exclusive dimension failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>329</MSGNR>
+     <TEXT>Creation of exclusive dimension failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>330</MSGNR>
+     <TEXT>Exclusive dimension not allowed for condition type &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>331</MSGNR>
+     <TEXT>Sender &apos;&amp;1&apos; for exclusive dimension is invalid (Hierarchy)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>332</MSGNR>
+     <TEXT>Receiver &apos;&amp;1&apos; for exclusive dimension is invalid (Hierarchy)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>333</MSGNR>
+     <TEXT>Product Group &apos;&amp;1&apos; for exclusive dimension is invalid (Hierarchy)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>334</MSGNR>
+     <TEXT>Sender &amp; equals exclusive sender</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>335</MSGNR>
+     <TEXT>Receiver &amp; equals exclusive receiver</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>336</MSGNR>
+     <TEXT>Product Group &amp; equals exclusive Product Group</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>337</MSGNR>
+     <TEXT>Product &amp; equals exclusive product</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>338</MSGNR>
+     <TEXT>Grouping &amp; equals exclusive grouping</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>339</MSGNR>
+     <TEXT>Differentiator &amp; equals exclusive differentiator</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>340</MSGNR>
+     <TEXT>Sender and exclusive sender must be the same type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_AGRMNT_01</ARBGB>
+     <MSGNR>341</MSGNR>
+     <TEXT>Receiver and exclusive receiver must be the same type</TEXT>
+    </T100>
    </T100>
    <LONGTEXTS>
     <item>
@@ -3747,6 +3831,76 @@
      <TEXT>MinMax ultimo Staffelstufe deaktiviert aber keine MinMax Werte gepflegt.</TEXT>
     </item>
     <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>328</MSGNR>
+     <TEXT>Löschen von exklusiven dimensionen fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>329</MSGNR>
+     <TEXT>Erstellen von exklusiven Dimensionen fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>330</MSGNR>
+     <TEXT>Exklusive Dimensionen nicht erlaubt für Konditionsart &amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>331</MSGNR>
+     <TEXT>Sender &amp;1 in Exklusiven Dimensionen ist ungültig (Hierarchie)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>332</MSGNR>
+     <TEXT>Empfänger &amp;1 in Exklusiven Dimensionen ist ungültig (Hierarchie)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>333</MSGNR>
+     <TEXT>Produkt Gruppe &amp;1 in Exklusiven Dimensionen ist ungültig (Hierarchie)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>334</MSGNR>
+     <TEXT>Sender &amp; ist gleich exklusivem Sender</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>335</MSGNR>
+     <TEXT>Empfänger &amp; ist gleich exklusivem Empfänger</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>336</MSGNR>
+     <TEXT>Produkt Gruppe &amp; ist gleich exklusiver Produkt Gruppe</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>337</MSGNR>
+     <TEXT>Produkt &amp; ist gleich exklusivem Produkt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>338</MSGNR>
+     <TEXT>Gruppierung &amp; ist gleich exklusiver Gruppierung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>339</MSGNR>
+     <TEXT>Differenziator &amp; ist gleich exklusivem Differenziator</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>340</MSGNR>
+     <TEXT>Sender und exklusiver Sender müssen vom gleichen Typ sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>341</MSGNR>
+     <TEXT>Empfänger und exklusiver Empfänger müssen vom gleichen Typ sein</TEXT>
+    </item>
+    <item>
      <SPRSL>F</SPRSL>
      <MSGNR>000</MSGNR>
      <TEXT>Le type de condition est manquant</TEXT>
@@ -5050,6 +5204,11 @@
      <SPRSL>F</SPRSL>
      <MSGNR>260</MSGNR>
      <TEXT>Type de répartition non valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>261</MSGNR>
+     <TEXT>&apos;&amp;1&apos; can not be selected as processing for turnover based distribution.</TEXT>
     </item>
     <item>
      <SPRSL>F</SPRSL>

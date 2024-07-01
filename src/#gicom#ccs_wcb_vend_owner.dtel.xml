@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_WCB_VEND_OWNER</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>/GICOM/LIFNR</DOMNAME>
+    <DOMNAME>LIFNR</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>55</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -19,8 +19,20 @@
     <DTELMASTER>E</DTELMASTER>
     <DEFFDNAME>VENDOR_OWNER</DEFFDNAME>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract: Owner Vendor</DDTEXT>
+     <REPTEXT>Owner Vendor</REPTEXT>
+     <SCRTEXT_S>Owner Vend</SCRTEXT_S>
+     <SCRTEXT_M>Owner Vendor</SCRTEXT_M>
+     <SCRTEXT_L>Owner Vendor</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

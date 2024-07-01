@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SERVICE_TYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/SERVICE_TYPE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Service type</DDTEXT>
+    <REPTEXT>Service Type</REPTEXT>
+    <SCRTEXT_S>Serv.Type</SCRTEXT_S>
+    <SCRTEXT_M>Service Type</SCRTEXT_M>
+    <SCRTEXT_L>Service Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Leistungsart</DDTEXT>
+     <REPTEXT>Leistungsart</REPTEXT>
+     <SCRTEXT_S>Leist. Art</SCRTEXT_S>
+     <SCRTEXT_M>Leistungsart</SCRTEXT_M>
+     <SCRTEXT_L>Leistungsart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de service</DDTEXT>
+     <REPTEXT>Type de service</REPTEXT>
+     <SCRTEXT_S>Type serv.</SCRTEXT_S>
+     <SCRTEXT_M>Type de service</SCRTEXT_M>
+     <SCRTEXT_L>Type de service</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ usługi</DDTEXT>
+     <REPTEXT>Typ usługi</REPTEXT>
+     <SCRTEXT_S>TypUsługi</SCRTEXT_S>
+     <SCRTEXT_M>Typ usługi</SCRTEXT_M>
+     <SCRTEXT_L>Typ usługi</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de serviço</DDTEXT>
+     <REPTEXT>Tipo de serviço</REPTEXT>
+     <SCRTEXT_S>Tp. serv.</SCRTEXT_S>
+     <SCRTEXT_M>Tipo de serviço</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de serviço</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de servicio</DDTEXT>
+     <REPTEXT>Clase de servicio</REPTEXT>
+     <SCRTEXT_S>Tp.serv.</SCRTEXT_S>
+     <SCRTEXT_M>Clase de servicio</SCRTEXT_M>
+     <SCRTEXT_L>Clase de servicio</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

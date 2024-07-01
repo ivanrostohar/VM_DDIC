@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SND_ORGLVL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ORGLVL</DOMNAME>
+    <HEADLEN>25</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>CCS Transfer customizing - Sender Organization level</DDTEXT>
+    <REPTEXT>Sender Organization Level</REPTEXT>
+    <SCRTEXT_S>Snd.O.Lvl</SCRTEXT_S>
+    <SCRTEXT_M>Snd. Org.Level</SCRTEXT_M>
+    <SCRTEXT_L>Sender Organization Level</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>CCS Transfer customizing - Sender Organisationlevel</DDTEXT>
+     <REPTEXT>Sender Organisationlevel</REPTEXT>
+     <SCRTEXT_S>Snd.O.Lvl</SCRTEXT_S>
+     <SCRTEXT_M>Snd. Org.Level</SCRTEXT_M>
+     <SCRTEXT_L>Sender Organisationlevel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CCS Transfer customizing - Sender Organization level</DDTEXT>
+     <REPTEXT>Sender Organization Level</REPTEXT>
+     <SCRTEXT_S>Snd.O.Lvl</SCRTEXT_S>
+     <SCRTEXT_M>Snd. Org.Level</SCRTEXT_M>
+     <SCRTEXT_L>Sender Organization Level</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

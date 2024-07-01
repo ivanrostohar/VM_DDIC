@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>ManKndKr.</SCRTEXT_S>
      <SCRTEXT_M>Man.Bel.,Lief.KrdAb.</SCRTEXT_M>
      <SCRTEXT_L>AbrProzArt man. Bel., Liefer. KredAbr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settl. Proc. Type for Manual Docs Supplier Settlement as AP</DDTEXT>
+     <REPTEXT>Settlement Proc. Type (Accounts Payable)</REPTEXT>
+     <SCRTEXT_S>ManDocsAP</SCRTEXT_S>
+     <SCRTEXT_M>Man.Docs Supplier AP</SCRTEXT_M>
+     <SCRTEXT_L>Sett. Proc Type Manual Docs Supplier AP</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

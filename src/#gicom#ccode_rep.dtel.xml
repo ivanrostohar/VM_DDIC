@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCODE_REP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BUKRS</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>31</SCRLEN3>
+    <DDTEXT>Representative company code</DDTEXT>
+    <REPTEXT>Rep. CCode</REPTEXT>
+    <SCRTEXT_S>Rep. CCode</SCRTEXT_S>
+    <SCRTEXT_M>Rep. CCode</SCRTEXT_M>
+    <SCRTEXT_L>Rep. CCode</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Repräsentierender Buchungskreis</DDTEXT>
+     <REPTEXT>Rep. BUKRS</REPTEXT>
+     <SCRTEXT_S>Rep. BUKRS</SCRTEXT_S>
+     <SCRTEXT_M>Repräsent. BUKRS</SCRTEXT_M>
+     <SCRTEXT_L>Repräsentierender Buchungskreis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Code de l’entreprise représentative</DDTEXT>
+     <REPTEXT>Rep. CodeC</REPTEXT>
+     <SCRTEXT_S>Rep. CodeC</SCRTEXT_S>
+     <SCRTEXT_M>Rep. CodeC</SCRTEXT_M>
+     <SCRTEXT_L>Rep. CodeC</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Kod firmy przedstawiciela</DDTEXT>
+     <REPTEXT>KodF prz.</REPTEXT>
+     <SCRTEXT_S>KodF prz.</SCRTEXT_S>
+     <SCRTEXT_M>KodF przedst.</SCRTEXT_M>
+     <SCRTEXT_L>KodF przedst.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Empresa representante</DDTEXT>
+     <REPTEXT>Emp Repres</REPTEXT>
+     <SCRTEXT_S>Emp Repres</SCRTEXT_S>
+     <SCRTEXT_M>Empresa repres.</SCRTEXT_M>
+     <SCRTEXT_L>Empresa representante</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Sociedad representativa</DDTEXT>
+     <REPTEXT>Soc. repr.</REPTEXT>
+     <SCRTEXT_S>Soc. repr.</SCRTEXT_S>
+     <SCRTEXT_M>Soc. repr.</SCRTEXT_M>
+     <SCRTEXT_L>Soc. repr.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

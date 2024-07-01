@@ -47,6 +47,15 @@
      <COMPTYPE>S</COMPTYPE>
     </DD03P>
    </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Connection table between VM and CCS (for Cond. -&gt; CC/Cond)</DDTEXT>
+    </item>
+   </DD02_TEXTS>
    <TABL_EXTRAS>
     <TDDAT>
      <TABNAME>/GICOM/CCS_VD</TABNAME>

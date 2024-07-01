@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Agency business: cancelled (reversed) document</DDTEXT>
+     <REPTEXT>Cancld doc</REPTEXT>
+     <SCRTEXT_S>Cancld doc</SCRTEXT_S>
+     <SCRTEXT_M>Cancelled doc.</SCRTEXT_M>
+     <SCRTEXT_L>Cancelled document</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

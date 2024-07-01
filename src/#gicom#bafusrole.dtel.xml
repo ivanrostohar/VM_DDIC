@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/BAFUSROLE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/BAFUSROLE</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>User Role</DDTEXT>
+    <REPTEXT>User Role</REPTEXT>
+    <SCRTEXT_S>User Role</SCRTEXT_S>
+    <SCRTEXT_M>User Role</SCRTEXT_M>
+    <SCRTEXT_L>User Role</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Benutzerrolle</DDTEXT>
+     <REPTEXT>Benutzerrolle</REPTEXT>
+     <SCRTEXT_S>BenRolle</SCRTEXT_S>
+     <SCRTEXT_M>Benutzerrolle</SCRTEXT_M>
+     <SCRTEXT_L>Benutzerrolle</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Rôle d’utilisateur</DDTEXT>
+     <REPTEXT>Rôle d’utilisateur</REPTEXT>
+     <SCRTEXT_S>Rôle util.</SCRTEXT_S>
+     <SCRTEXT_M>Rôle d’utilisateur</SCRTEXT_M>
+     <SCRTEXT_L>Rôle d’utilisateur</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Rola użytkownika</DDTEXT>
+     <REPTEXT>Rola użytkownika</REPTEXT>
+     <SCRTEXT_S>Rola uż.</SCRTEXT_S>
+     <SCRTEXT_M>Rola użytkownika</SCRTEXT_M>
+     <SCRTEXT_L>Rola użytkownika</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Função do usuário</DDTEXT>
+     <REPTEXT>Função do usuário</REPTEXT>
+     <SCRTEXT_S>Fun. usuá.</SCRTEXT_S>
+     <SCRTEXT_M>Função do usuário</SCRTEXT_M>
+     <SCRTEXT_L>Função do usuário</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Rol de usuario</DDTEXT>
+     <REPTEXT>Rol de usuario</REPTEXT>
+     <SCRTEXT_S>Rol de us.</SCRTEXT_S>
+     <SCRTEXT_M>Rol de usuario</SCRTEXT_M>
+     <SCRTEXT_L>Rol de usuario</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

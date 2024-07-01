@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TITLE_UOM</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TITLE</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Title of unit of measurement</DDTEXT>
+    <REPTEXT>Title</REPTEXT>
+    <SCRTEXT_S>Title</SCRTEXT_S>
+    <SCRTEXT_M>Title UOM</SCRTEXT_M>
+    <SCRTEXT_L>Title unit of measurement</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Titel der Mengeneinheit</DDTEXT>
+     <REPTEXT>Titel</REPTEXT>
+     <SCRTEXT_S>Titel</SCRTEXT_S>
+     <SCRTEXT_M>Titel ME</SCRTEXT_M>
+     <SCRTEXT_L>Titel Mengeneinheit</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Titre de l’unité de mesure</DDTEXT>
+     <REPTEXT>Titre</REPTEXT>
+     <SCRTEXT_S>Titre</SCRTEXT_S>
+     <SCRTEXT_M>Titre UOM</SCRTEXT_M>
+     <SCRTEXT_L>Titre de l’unité de mesure</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tytuł jednostki miary</DDTEXT>
+     <REPTEXT>Tytuł</REPTEXT>
+     <SCRTEXT_S>Tytuł</SCRTEXT_S>
+     <SCRTEXT_M>Tytuł JM</SCRTEXT_M>
+     <SCRTEXT_L>Tytuł jednostki miary</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Título da unidade de medida</DDTEXT>
+     <REPTEXT>Título</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Título da UM</SCRTEXT_M>
+     <SCRTEXT_L>Título da unidade de medida</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Título de la unidad de medida</DDTEXT>
+     <REPTEXT>Título</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Título unidad medida</SCRTEXT_M>
+     <SCRTEXT_L>Título de la unidad de medida</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

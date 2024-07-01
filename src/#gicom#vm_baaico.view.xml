@@ -55,11 +55,16 @@
    </DD27P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD25_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Gesamtengagement - Legende</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Total Commitment - Legend</DDTEXT>
     </item>
    </DD25_TEXTS>
   </asx:values>

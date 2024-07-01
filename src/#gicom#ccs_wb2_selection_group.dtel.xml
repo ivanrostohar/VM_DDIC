@@ -22,6 +22,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +32,14 @@
      <SCRTEXT_S>Gruppe</SCRTEXT_S>
      <SCRTEXT_M>Selektionsgrpp.</SCRTEXT_M>
      <SCRTEXT_L>Selektionsgruppe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Selection Group</DDTEXT>
+     <REPTEXT>Selection Group</REPTEXT>
+     <SCRTEXT_S>Group</SCRTEXT_S>
+     <SCRTEXT_M>Selection Group</SCRTEXT_M>
+     <SCRTEXT_L>Selection Group</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
    <LONGTEXTS>

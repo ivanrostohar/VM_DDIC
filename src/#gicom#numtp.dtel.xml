@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/NUMTP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>NUMTP</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>02</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Category of International Article Number (EAN)</DDTEXT>
+    <REPTEXT>Ct</REPTEXT>
+    <SCRTEXT_S>EAN cat.</SCRTEXT_S>
+    <SCRTEXT_M>EAN category</SCRTEXT_M>
+    <SCRTEXT_L>EAN category</SCRTEXT_L>
+    <APPLCLASS>MGW</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>EAN_CAT</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Nummerntyp der Europäischen Artikelnummer</DDTEXT>
+     <REPTEXT>Tp</REPTEXT>
+     <SCRTEXT_S>EAN-Typ</SCRTEXT_S>
+     <SCRTEXT_M>EAN-Typ</SCRTEXT_M>
+     <SCRTEXT_L>EAN-Typ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Category of International Article Number (EAN)</DDTEXT>
+     <REPTEXT>Ct</REPTEXT>
+     <SCRTEXT_S>EAN cat.</SCRTEXT_S>
+     <SCRTEXT_M>EAN category</SCRTEXT_M>
+     <SCRTEXT_L>EAN category</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Ctg.de número do nº europeu do artigo</DDTEXT>
+     <REPTEXT>Cg</REPTEXT>
+     <SCRTEXT_S>Ctg.EAN</SCRTEXT_S>
+     <SCRTEXT_M>Ctg.EAN</SCRTEXT_M>
+     <SCRTEXT_L>Ctg.EAN</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tipo de número del Número de Artículo Europeo</DDTEXT>
+     <REPTEXT>Tp</REPTEXT>
+     <SCRTEXT_S>Tipo EAN</SCRTEXT_S>
+     <SCRTEXT_M>Tipo EAN</SCRTEXT_M>
+     <SCRTEXT_L>Tipo EAN</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/NUMTP</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/NUMTP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Legt fest, wie das System eine intern zu vergebende</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:Artikelnummer,_Europäische&gt;Europäische Artikelnummer&lt;/&gt; (EAN)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ermittelt und welchen Prüfkriterien (Prüfziffern, Präfix, ...) die EAN</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dieses Typs genügen muß.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/NUMTP</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00004</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/NUMTP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Defines how the system determines an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&lt;GL:International_Article_Number&gt;International Article Number&lt;/&gt; (EAN)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to be assigned internally, and which check criteria (check digit,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>prefix, and so on) an EAN of this category must fulfil.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/NUMTP</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/NUMTP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Determina como o sistema determina um nº artigo europeu (EAN) a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>atribuir internamente e quais os critérios de verificação (dígitos de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>controle, prefixo, ...) o EAN desta categoria tem de satisfazer.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/NUMTP</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <TXTLINES>00003</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/NUMTP</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Fija el modo en el cual el sistema determina un número de artículo</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>europeo a asignar de forma interna y con qué criterios de control</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(cifras de control, prefijo, ...) debe cumplir el EAN de este tipo.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

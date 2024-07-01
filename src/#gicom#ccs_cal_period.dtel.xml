@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Periode</SCRTEXT_S>
      <SCRTEXT_M>Periode</SCRTEXT_M>
      <SCRTEXT_L>Kalenderperiode</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Calenderperiod</DDTEXT>
+     <REPTEXT>Calenderperiod</REPTEXT>
+     <SCRTEXT_S>Period</SCRTEXT_S>
+     <SCRTEXT_M>Period</SCRTEXT_M>
+     <SCRTEXT_L>Calenderperiod</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

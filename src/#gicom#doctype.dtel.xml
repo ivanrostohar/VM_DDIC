@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DOCTYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DOCTYPE</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>13</SCRLEN3>
+    <DDTEXT>Document Type</DDTEXT>
+    <REPTEXT>Document Type</REPTEXT>
+    <SCRTEXT_S>Doc.Type</SCRTEXT_S>
+    <SCRTEXT_M>Document Type</SCRTEXT_M>
+    <SCRTEXT_L>Document Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Belegart</DDTEXT>
+     <REPTEXT>Belegart</REPTEXT>
+     <SCRTEXT_S>BelArt</SCRTEXT_S>
+     <SCRTEXT_M>Belegart</SCRTEXT_M>
+     <SCRTEXT_L>Belegart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de document</DDTEXT>
+     <REPTEXT>Type document</REPTEXT>
+     <SCRTEXT_S>Typ doc.</SCRTEXT_S>
+     <SCRTEXT_M>Type document</SCRTEXT_M>
+     <SCRTEXT_L>Type document</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ dokumentu</DDTEXT>
+     <REPTEXT>Typ dokumentu</REPTEXT>
+     <SCRTEXT_S>TypDok</SCRTEXT_S>
+     <SCRTEXT_M>Typ dokumentu</SCRTEXT_M>
+     <SCRTEXT_L>Typ dokumentu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de documento</DDTEXT>
+     <REPTEXT>Tp. documento</REPTEXT>
+     <SCRTEXT_S>TpDoc.</SCRTEXT_S>
+     <SCRTEXT_M>Tp. documento</SCRTEXT_M>
+     <SCRTEXT_L>Tp. documento</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de documentos</DDTEXT>
+     <REPTEXT>Clase de doc.</REPTEXT>
+     <SCRTEXT_S>Tp.doc.</SCRTEXT_S>
+     <SCRTEXT_M>Clase de doc.</SCRTEXT_M>
+     <SCRTEXT_L>Clase de doc.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

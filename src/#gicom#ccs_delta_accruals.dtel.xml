@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_DELTA_ACCRUALS</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>ABAP_BOOLEAN</DOMNAME>
+    <DOMNAME>XFELD</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>21</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -18,10 +18,10 @@
     <SCRTEXT_L>Delta Accruals Active</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +31,14 @@
      <SCRTEXT_S>DeltaRück.</SCRTEXT_S>
      <SCRTEXT_M>Delta-Rückstellungen</SCRTEXT_M>
      <SCRTEXT_L>Delta-Rückstellungen aktiv</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Delta Accruals Active</DDTEXT>
+     <REPTEXT>Delta Accruals Active</REPTEXT>
+     <SCRTEXT_S>DeltaAccr.</SCRTEXT_S>
+     <SCRTEXT_M>Delta Accruals</SCRTEXT_M>
+     <SCRTEXT_L>Delta Accruals Active</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

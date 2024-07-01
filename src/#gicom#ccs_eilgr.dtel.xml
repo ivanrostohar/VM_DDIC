@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Country Groups for Import Processing in Foreign Trade</DDTEXT>
+     <REPTEXT>CGp</REPTEXT>
+     <SCRTEXT_S>CtryGroup</SCRTEXT_S>
+     <SCRTEXT_M>Country group</SCRTEXT_M>
+     <SCRTEXT_L>Country group import</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

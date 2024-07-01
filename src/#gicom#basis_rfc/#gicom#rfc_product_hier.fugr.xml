@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Product HIER Group</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GICOM/LRFC_PRODUCT_HIERTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GICOM/SAPLRFC_PRODUCT_HIER</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GICOM/RFC_READ_PRODUCT_HIER</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Read Product Hier API</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_PRODUCT_HIER</PARAMETER>
+       <TYP>/GICOM/CPRODUCT_HIER_A_STT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_PRODUCT_HIER_TXT</PARAMETER>
+       <TYP>/GICOM/CPRODUCT_HIER_TXT_A_STT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>/GICOM/BAPIRET_TT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_PRODUCT_HIER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Product Hierarchy</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_PRODUCT_HIER_TXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Product Hierarchy Texts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabletyp for gicom BAPIRET</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

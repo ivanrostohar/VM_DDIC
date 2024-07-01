@@ -1,0 +1,1817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>SHS Price List Messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>The obligatory field &apos;&amp;1&apos; is empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No material was found for GTIN &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>The price validity must be within the internal validity</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>The valid-to date must be greater than the valid-from date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>At least one of the key fields must be filled.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>The uploaded excel file was empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Price list header could not be saved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Saving an initial price list header is not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Price type &apos;&amp;1&apos; not allowed for upload with price type &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>There are no texts maintained for the dom values of &apos;&amp;1&apos; in language &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Could not read NG for BO ID &apos;&amp;1&apos;, BO Type &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>An error occured while saving the price list header&apos;s dimensions</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>The internal validity must be within the default contract validity (NGR)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Could not create agreement</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Could not create dimensions for the agreement</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>An error occured while reading the business object</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Illegal price type &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>No condition type found for class &apos;&amp;1&apos; in the calculation scheme</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>At least one sender or receiver was not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Could not read at least one differentiator</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Price list header could not be updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Only one &apos;&amp;1&apos; for material &apos;&amp;2&apos; may be uploaded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Price List is not allowed to be changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>The internal validity must be within the contract validity</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Price List successfully deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>An error occured while persisting Price Rel</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Price List successfully invalidated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>An error occured while deleting price from table &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>The pricelist was uploaded successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>No Logs found for Price List &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Texts not maintained for Price List</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Error while converting excel cell &apos;&amp;1&apos;, value &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Unit of measure &apos;&amp;1&apos; is not maintained in language &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Price List type &apos;&amp;1&apos; doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>The BAdI &apos;&amp;1&apos; is not implemented</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>No prices found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Overlapping Sim Agreement adjustment failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Material &apos;&amp;1&apos; does not exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Price Lists can only be changed in the origin Business Object</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Could not read Contract for BO ID &apos;&amp;1&apos;, BO Type &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Error while converting column &apos;&amp;1&apos;, value &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Price sub type &apos;&amp;1&apos; not allowed for upload with price sub type &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Illegal price sub type &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Price change may not result in negative value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Can&apos;t handle unknown element type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Validity could not be changed (no new value expected)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>BO type &amp;1 is expected but &amp;2 was supplied</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Some Prices are not changeable in this context</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>The new value for &apos;valid from&apos; is not a valid date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>The new value for &apos;valid to&apos; is not a valid date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>The contract status does not allow changes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>The negotiation status does not allow changes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>&amp;1 Prices of Price List &amp;2 were successfully edited</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Condition type &amp;1 could not be found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Duplicate Elements found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Active Price Agreement Termination failed</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <STEXT>SHS Preisliste Messages</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <STEXT>Messages de la liste des prix SHS</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <STEXT>Wiadomości cennika SHS</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <STEXT>Mensagens de lista de preços SHS</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_SHS_PL</ARBGB>
+     <STEXT>Mensajes de lista de precios de SHS</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Das obligatorische Feld &apos;&amp;1&apos; ist leer</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Es wurde kein Produkt für GTIN &amp;1 gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Die Preisgültigkeit muss innerhalb der internen Gültigkeit liegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Das Gültig-bis-Datum muss später sein als das Gültig-ab-Datum</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Mindestens ein Schlüsselfeld muss gefüllt sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Die hochgeladene Exceldatei war leer</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Preislisten-Header konnte nicht gespeichert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Das Speichern eines initialen Preislisten-Headers ist nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Preistyp &apos;&amp;1&apos; für Upload mit Preistyp &apos;&amp;2&apos; nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Für die Domänenwerte von &amp;1 sind in Sprache &amp;2 keine Texte gepflegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Verhandlung für BO ID &amp;1, BO Typ &amp;2 konnte nicht gelesen werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Beim Speichern der Dimensionen des Headers ist ein Fehler aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Die interne Gültigkeit muss in der Vorbelegungs-Vertragsgültigkeit liegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Vereinbarung konnte nicht erstellt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Es konnten keine Dimensionen für die Vereinbarung erstellt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Beim Lesen des Businessobjekts ist ein Fehler aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Unzulässiger Preistyp &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Keine Konditionsart für Konditionskl. &amp;1 im Kalkulationsschema gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Mindestens ein Sender oder Empfänger konnte nicht gefunden werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Mindestens ein Differentiator konnte nicht gefunden werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Preislistenheader konnte nicht geupdated werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Es darf nur ein &amp;1 für Produkt &amp;2 hochgeladen werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Die Preisliste darf nicht verändert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Die interne Gültigkeit muss innerhalb der Vertragsgültigkeit liegen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Die Preisliste wurde erfolgreich gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Ein Fehler ist während der Price Rel Persistierung aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Preisliste erfolgreich invalidiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Fehler beim Löschen eines Preises von Tabelle &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Die Preisliste wurde erfolgreich hochgeladen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Keine Logs gefunden für Preisliste &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Texte für Preisliste nicht gepflegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Fehler beim Konvertieren der Excelzelle &apos;&amp;1&apos;, Wert &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Die Mengeneinheit &amp;1 ist in Sprache &amp;2 nicht gepflegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Preislistentyp &amp;1 existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Der BAdI &amp;1 ist nicht implementiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Keine Preise gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Überlappende Sim Vereinbarung Anpassungen sind fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Produkt &apos;&amp;1&apos; existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Preislisten dürfen nur aus dem Ursprungsobjekt verändert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Vertrag für BO ID &amp;1, BO Typ &amp;2 konnte nicht gelesen werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Fehler beim Konvertieren der Spalte &apos;&amp;1&apos;, Wert &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Preissubtyp &amp;1 ist beim Upload mit Preissubtyp &amp;2 nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Unzulässiger Preissubtyp &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Änderung des Preises darf nicht zu negativem Wert führen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Ungekannter &apos;Element Type&apos; kann nicht verarbeitet werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Gültigkeit konnte nicht geändert werden (technisch nicht erwartet)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>BO-Typ &amp;1 wurde erwartet, aber &amp;2 liegt vor</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Manche Preise sind in diesem Kontext nicht veränderbar</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Der neue Wert für &quot;Gültig von&quot; hat kein Datumsformat</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Der neue Wert für &quot;Gültig bis&quot; hat kein Datumsformat</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Der Vertragsstatus erlaubt keine Änderung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Der Verhandlungsstatus erlaubt keine Änderung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>&amp;1 Preise von Preisliste &amp;2 wurden erfolgreich bearbeitet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Der Konditionstyp &amp;1 konnte nicht gefunden werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Doppelte Elemente gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Aktive Preisvereinbarung Terminierung ist fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Ligne &amp;1 : Le champ obligatoire &amp;2 est vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ligne &amp;1 : Aucun matériel n’a été trouvé pour le GTIN &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>La validité du prix doit être comprise dans la validité interne</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Ligne &amp;1 : La date validité doit être post. à la date début validité</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Ligne &amp;1 : Tous les champs clés sont vides. Veuillez remplir au moins un</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Le fichier Excel chargé était vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>L’en-tête de la liste de prix n’a pas pu être sauvegardé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>La sauvegarde d’un en-tête de liste de prix initial n’est pas autorisée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Le type de prix « &amp;1 » ne peut pas être téléchargé avec le type « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Aucun texte conservé pour les valeurs dom. « &amp;1 » dans la langue « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Impossible de lire NG pour ID BO « &amp;1 », Type BO « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Erreur d’enregistrement des dimensions de l’en-tête de la liste de prix</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>La val. interne doit être comprise dans la val. du cont. par défaut (NGR)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Impossible de créer un accord</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Impossible de créer des dimensions pour l’accord</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Une erreur est survenue lors de la lecture de l’objet commercial</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Type de prix illégal « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Type de condition introuvable pour la classe « &amp;1 » dans schéma de calcul</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Au moins un expéditeur ou un destinataire n’a pas été trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Impossible de lire au moins un différenciateur</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>L’en-tête de la liste de prix n’a pas pu être mis à jour</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Un seul « &amp;1 » pour le matériel « &amp;2 » peut être téléchargé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>La liste de prix ne peut pas être modifiée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>La validité interne doit être comprise dans la validité du contrat.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>La liste de prix a été supprimée avec succès.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Une erreur est survenue lors de la persistance du rapport de prix</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>La liste de prix a été invalidée avec succès.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Une erreur est survenue lors de la suppression du prix du tableau « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>La liste de prix a été téléchargée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Aucun journal trouvé pour la liste de prix « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Textes non conservés pour la liste de prix</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Erreur lors de la conversion de la cellule Excel « &amp;1 », valeur « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>L’unité de mesure « &amp;1 » n’est pas conservée dans la langue « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Le type de liste de prix « &amp;1 » n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Le BAdI « &amp;1 » n’est pas mis en œuvre</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Aucun prix trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Échec de l’ajustement de l’accord de simulation chevauchant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Le matériel « &amp;1 » n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Listes de prix uniquement modifiables dans l’objet commercial d’origine</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Impossible de lire le contrat pour ID BO « &amp;1 », type BO « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Erreur lors de la conversion de la colonne « &amp;1 », valeur « &amp;2 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Le sous-type de prix &amp;1 ne peut pas être téléchargé avec le sous-type &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Sous-type de prix « &amp;1 » illégal</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>La modification de prix ne peut pas entraîner de valeur négative</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Impossible de gérer le type d’élément inconnu</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>La validité n’a pas pu être modifiée (aucune nouvelle valeur attendue)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Le type BO &amp;1 est attendu, mais &amp;2 a été fourni</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Certains prix ne sont pas modifiables dans ce contexte</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>La nouvelle valeur pour « valable à partir de » n’est pas une date valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>La nouvelle valeur pour « valable jusqu’au » n’est pas une date valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Le statut du contrat n’autorise pas les modifications</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Le statut de négociation n’autorise pas les modifications</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Les prix &amp;1 de la liste de prix &amp;2 ont été modifiés avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Le type de condition &amp;1 est introuvable</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Éléments en double trouvés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Échec de la résiliation de l’accord de prix actif</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Pole obowiązkowe „&amp;1” jest puste</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Nie znaleziono materiału dla GTIN „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Ważność ceny musi mieścić się w ważności wewnętrznej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Data Obowiązuje do nie może być późniejsza niż data Obowiązuje od</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Należy wypełnić co najmniej jedno kluczowe pole.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Przesłany plik programu Excel był pusty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Nie można zapisać nagłówka cennika</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Zapisanie początkowego nagłówka cennika jest niedozwolone</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Typ ceny „&amp;1” nie może zostać przesłany z typem ceny „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Brak tekstów dla wartości DOM „&amp;1” w języku „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Nie można odczytać NG dla BO ID „&amp;1”, typ BO „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Wystąpił błąd podczas zapisywania wymiarów nagłówka cennika</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Ważność wewn. musi mieścić się w zakresie domyśl. ważn. kontraktu (NGR)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Nie można utworzyć umowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Nie można utworzyć wymiarów dla umowy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Wystąpił błąd podczas odczytywania obiektu biznesowego</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Niedozwolony typ ceny „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Nie znaleziono typu warunku dla klasy „&amp;1” w schemacie obliczeń</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Nie znaleziono co najmniej jednego nadawcy lub odbiorcy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Nie można odczytać co najmniej jednego wyróżnika</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Nie można zaktualizować nagłówka cennika</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Można przesłać tylko jeden „&amp;1” dla materiału „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Nie można zmienić cennika</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Ważność wewnętrzna musi mieścić się w zakresie ważności kontraktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Cennik został pomyślnie usunięty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Wystąpił błąd podczas zachowania trwałości relacji cen</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Cennik został pomyślnie unieważniony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Wystąpił błąd podczas usuwania ceny z tabeli „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Cennik został pomyślnie przesłany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Nie znaleziono dzienników dla cennika „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Brak tekstów dla cennika</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Wystąpił błąd podczas konwertow. komórki pliku Excel „&amp;1”, wartość „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Jednostka miary „&amp;1” nie jest obsługiwana w języku „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Typ cennika „&amp;1” nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Nie wdrożono BAdI „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Nie znaleziono cen</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Dostosowanie nakładających się umów Sim nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Materiał „&amp;1” nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Cenniki można zmieniać tylko w źródłowym obiekcie biznesowym</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Nie można odczytać kontraktu dla BO ID „&amp;1”, typ BO „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Wystąpił błąd podczas konwertowania kolumny „&amp;1”, wartość „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Typ podrzędny ceny „&amp;1”nie może zostać przesłany z typem podrz. ceny „&amp;2”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Niedozwolony typ podrzędny ceny „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Zmiana ceny nie może skutkować wartością ujemną</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Nie można obsłużyć nieznanego typu elementu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Nie można zmienić ważności (nie oczekiwano nowej wartości)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Oczekiwano typu BO &amp;1, odebrano typ &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Niektórych cen nie można zmienić w tym kontekście</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Nowa wartość dla pola „Obowiązuje od” nie jest prawidłową datą</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Nowa wartość dla pola „Obowiązuje do” nie jest prawidłową datą</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Stan kontraktu nie pozwala na wprowadzanie zmian</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Stan negocjacji nie pozwala na wprowadzanie zmian</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Pomyślnie edytowano ceny w liczbie &amp;1 z cennika &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Nie znaleziono typu warunku &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Znaleziono zduplikowane elementy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Wypowiedzenie aktywnej umowy cenowej nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>O campo obrigatório &apos;&amp;1&apos; está vazio</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Nenhum material encontrado para GTIN &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>A validade do preço deve estar dentro da validade interna</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>A data “Válido até” deve ser posterior à data “Válido de”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Pelo menos um dos campos-chave deve ser preenchido.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>O arquivo do Excel carregado estava vazio</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Não foi possível salvar o cabeçalho da lista de preços</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Não é permitido salvar um cabeçalho da lista de preços inicial</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Tipo de preço &apos;&amp;1&apos; não permitido para upload com tipo de preço &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Não há textos mantidos para valores de domínio de &apos;&amp;1&apos; no idioma &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Não foi possível ler NG para ID do BO &apos;&amp;1&apos;, tipo do BO &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Ocorreu um erro ao salvar as dimensões do cabeçalho da lista de preços</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Validade interna deve estar na validade do contrato predefinido (NGR)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Não foi possível criar o acordo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Não foi possível criar dimensões para o acordo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Ocorreu um erro ao ler o business object</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Tipo de preço ilegal &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Nenhum tipo de condição encontrado para classe &apos;&amp;1&apos; no esquema de cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Pelo menos um emissor ou receptor não foi encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Não foi possível ler pelo menos um diferenciador</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Não foi possível atualizar o cabeçalho da lista de preços</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Só é possível carregar um &apos;&amp;1&apos; para material &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>A lista de preços não pode ser modificada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Validade interna deve estar dentro da validade do contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Lista de preços excluída com sucesso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Ocorreu um erro ao persistir relação de preços</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Lista de preços invalidada com sucesso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Ocorreu um erro ao excluir preço da tabela &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>A lista de preços foi carregada com sucesso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Nenhum log encontrado para lista de preços &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Texto não mantido para lista de preços</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Erro ao converter célula do Excel &apos;&amp;1&apos;, valor &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Unidade de medida &apos;&amp;1&apos; não mantida no idioma &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>O tipo de lista de preços &apos;&amp;1&apos; não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>BAdI &apos;&amp;1&apos; não implementado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Nenhum preço encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Falha no ajuste de acordo de simulação de sobreposição</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Material &apos;&amp;1&apos; não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>As listas de preços só podem ser modificadas no business object de origem</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Não foi possível ler o contrato para ID do BO &apos;&amp;1&apos;, tipo do BO &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Erro ao converter coluna &apos;&amp;1&apos;, valor &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Subtipo de preço &apos;&amp;1&apos; não permitido para upload com subtipo de preço &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Subtipo de preço ilegal &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>A modificação de preço não pode resultar em valor negativo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Não é possível processar tipo de elemento desconhecido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>A validade não pode ser modificada (nenhum novo valor esperado)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Tipo de BO &amp;1 esperado, mas &amp;2 fornecido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Alguns preços não são alteráveis nesse contexto</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>O novo valor para &apos;válido de&apos; não é uma data válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>O novo valor para &apos;válido até&apos; não é uma data válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>O status do contrato não permite modificações</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>O status de negociação não permite modificações</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>&amp;1 preços da lista de preços &amp;2 foram editados com sucesso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Não foi possível encontrar o tipo de condição &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Elementos duplicados encontrados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Falha no encerramento do acordo de preços ativo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>El campo obligatorio &apos;&amp;1&apos; está vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No se ha encontrado material para GTIN &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>La validez del precio debe estar dentro de la validez interna</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>La fecha Válido hasta no debe ser mayor que la fecha Válido desde</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Al menos hay que rellenar uno de los campos clave</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>El archivo de Excel cargado estaba vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>No se ha podido guardar el encabezado de la lista de precios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>No se permite guardar un encabezado de lista de precios inicial</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Tipo de precio ‘&amp;1’ no permitido para cargar con tipo de precio &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>No hay textos actualizados para los valores de dom de &apos;&amp;1&apos; en idioma &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>No se ha podido leer NG para ID de BO &apos;&amp;1&apos;, tipo de BO &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Error al guardar las dimensiones del encabezado de la lista de precios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>La validez interna debe estar dentro de la del contrato propuesto (NGR)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>No se ha podido crear el acuerdo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>No se han podido crear las dimensiones del acuerdo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Se ha producido un error al leer el business object</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Tipo de precio ilegal &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>No hay tipo de condición para clase &apos;&amp;1&apos; en esquema de cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>No se ha encontrado al menos a un emisor o destinatario</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>No se ha podido leer al menos un diferenciador</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>No se ha podido actualizar el encabezado de la lista de precios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Solo se puede cargar un &apos;&amp;1&apos; para el material &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>La lista de precios no se puede modificar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>La validez interna debe estar dentro de la del contrato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>La lista de precios se ha eliminado con éxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Se ha producido un error al persistir la relación de precios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>La lista de precios se ha invalidado con éxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Se ha producido un error al borrar precio de la tabla &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>La lista de precios se ha cargado con éxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>No se han encontrado registros para lista de precios &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Textos no actualizados para lista de precios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Error al convertir la celda de Excel &apos;&amp;1&apos;, valor &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Unidad de medida &apos;&amp;1&apos; no actualizada en idioma &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>El tipo de lista de precios &apos;&amp;1&apos; no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>BAdI &apos;&amp;1&apos; no implementado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Precios no encontrados</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Error al ajustar acuerdo de simulación con solapamiento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>El material &apos;1&apos; no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Las listas de precios solo pueden cambiar en business object de origen</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No se ha podido leer el contrato para ID de BO &apos;&amp;1&apos;, tipo de BO &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Error al convertir la columna &apos;&amp;1&apos;, valor &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Subtipo de precio ‘&amp;1’ no permitido para carga con subtipo &apos;&amp;2&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Subtipo de precio ilegal &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>El cambio de precio no puede generar un valor negativo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>No se puede tratar un tipo de elemento desconocido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>No se ha podido modificar la validez (no se espera un nuevo valor)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Se espera tipo de BO &amp;1 pero se ha suministrado &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Algunos precios no son modificables en este contexto</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>El nuevo valor de &apos;Válido desde&apos; no es una fecha válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>El nuevo valor de &apos;Válido hasta&apos; no es una fecha válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>El estado del contrato no permite cambios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>El estado de negociación no permite cambios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Los precios &amp;1 de la lista de precios &amp;2 se han editado con éxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>No se ha encontrado el tipo de condición &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Se han encontrado elementos duplicados</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Error de finalización de acuerdo de precios activos</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

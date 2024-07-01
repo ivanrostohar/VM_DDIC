@@ -135,11 +135,16 @@
    </DD28J_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD25_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Pflege View für Verhandlungsrunden Typen</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Maintenance View for Negotiation Round Types</DDTEXT>
     </item>
    </DD25_TEXTS>
   </asx:values>

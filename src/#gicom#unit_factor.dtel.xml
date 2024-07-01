@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/UNIT_FACTOR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/UNIT_FACTOR</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Factor for Conversion - DO NOT USE IN DB TABLES!!!</DDTEXT>
+    <REPTEXT>Conversion Factor (Not for DB Use!!!)</REPTEXT>
+    <SCRTEXT_S>Conv.Fact.</SCRTEXT_S>
+    <SCRTEXT_M>Conversion Factor</SCRTEXT_M>
+    <SCRTEXT_L>Conversion Factor</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Faktor zur Umrechnung - NICHT IN DB-TABELLEN VERWENDEN!!!</DDTEXT>
+     <REPTEXT>Umrechnungsfaktor (Nicht für DB-Verwendung!!!)</REPTEXT>
+     <SCRTEXT_S>Umr.-Fakt.</SCRTEXT_S>
+     <SCRTEXT_M>Umrechnungsfaktor</SCRTEXT_M>
+     <SCRTEXT_L>Umrechnungsfaktor</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Factor for Conversion - DO NOT USE IN DB TABLES!!!</DDTEXT>
+     <REPTEXT>Conversion Factor (Not for DB Use!!!)</REPTEXT>
+     <SCRTEXT_S>Conv.Fact.</SCRTEXT_S>
+     <SCRTEXT_M>Conversion Factor</SCRTEXT_M>
+     <SCRTEXT_L>Conversion Factor</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

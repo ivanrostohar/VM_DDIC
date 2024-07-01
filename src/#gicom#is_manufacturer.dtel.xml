@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/IS_MANUFACTURER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Is a Manufacturer</DDTEXT>
+    <REPTEXT>Is a Manufacturer</REPTEXT>
+    <SCRTEXT_S>Manufact.</SCRTEXT_S>
+    <SCRTEXT_M>Is a Manufacturer</SCRTEXT_M>
+    <SCRTEXT_L>Is a Manufacturer</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Ist ein Hersteller</DDTEXT>
+     <REPTEXT>Ist ein Hersteller</REPTEXT>
+     <SCRTEXT_S>Hersteller</SCRTEXT_S>
+     <SCRTEXT_M>Ist ein Hersteller</SCRTEXT_M>
+     <SCRTEXT_L>Ist ein Hersteller</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Est un fabricant</DDTEXT>
+     <REPTEXT>Est un fabricant</REPTEXT>
+     <SCRTEXT_S>Fabricant</SCRTEXT_S>
+     <SCRTEXT_M>Est un fabricant</SCRTEXT_M>
+     <SCRTEXT_L>Est un fabricant</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Jest producentem</DDTEXT>
+     <REPTEXT>Jest producentem</REPTEXT>
+     <SCRTEXT_S>Producent</SCRTEXT_S>
+     <SCRTEXT_M>Jest producentem</SCRTEXT_M>
+     <SCRTEXT_L>Jest producentem</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>É um fabricante</DDTEXT>
+     <REPTEXT>É um fabricante</REPTEXT>
+     <SCRTEXT_S>Fabricante</SCRTEXT_S>
+     <SCRTEXT_M>É um fabricante</SCRTEXT_M>
+     <SCRTEXT_L>É um fabricante</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Es un fabricante</DDTEXT>
+     <REPTEXT>Es un fabricante</REPTEXT>
+     <SCRTEXT_S>Fabricante</SCRTEXT_S>
+     <SCRTEXT_M>Es un fabricante</SCRTEXT_M>
+     <SCRTEXT_L>Es un fabricante</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

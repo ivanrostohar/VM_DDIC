@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Num.</SCRTEXT_S>
      <SCRTEXT_M>Num.</SCRTEXT_M>
      <SCRTEXT_L>Nummer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Periodnumber for calendar</DDTEXT>
+     <REPTEXT>period number</REPTEXT>
+     <SCRTEXT_S>Num.</SCRTEXT_S>
+     <SCRTEXT_M>Num.</SCRTEXT_M>
+     <SCRTEXT_L>Number</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

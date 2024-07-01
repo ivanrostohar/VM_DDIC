@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/USAGE_START_DISTR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>DATS</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Usage start</DDTEXT>
+    <REPTEXT>Usage Start</REPTEXT>
+    <SCRTEXT_S>Use Start</SCRTEXT_S>
+    <SCRTEXT_M>Usage Start</SCRTEXT_M>
+    <SCRTEXT_L>Usage Start</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Gültig ab</DDTEXT>
+     <REPTEXT>Gültig ab</REPTEXT>
+     <SCRTEXT_S>Gültig ab</SCRTEXT_S>
+     <SCRTEXT_M>Gültig ab</SCRTEXT_M>
+     <SCRTEXT_L>Gültig ab</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Début d’uti.</DDTEXT>
+     <REPTEXT>Début d’uti.</REPTEXT>
+     <SCRTEXT_S>Déb. uti.</SCRTEXT_S>
+     <SCRTEXT_M>Début d’uti.</SCRTEXT_M>
+     <SCRTEXT_L>Début d’uti.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Początek użytkowania</DDTEXT>
+     <REPTEXT>Początek użytkowania</REPTEXT>
+     <SCRTEXT_S>Pocz użytk</SCRTEXT_S>
+     <SCRTEXT_M>Początek użytk</SCRTEXT_M>
+     <SCRTEXT_L>Początek użytkowania</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Início de utilização</DDTEXT>
+     <REPTEXT>Início de utilização</REPTEXT>
+     <SCRTEXT_S>Início uso</SCRTEXT_S>
+     <SCRTEXT_M>Início de utilização</SCRTEXT_M>
+     <SCRTEXT_L>Início de utilização</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Inicio de uso</DDTEXT>
+     <REPTEXT>Inicio de uso</REPTEXT>
+     <SCRTEXT_S>Inicio uso</SCRTEXT_S>
+     <SCRTEXT_M>Inicio de uso</SCRTEXT_M>
+     <SCRTEXT_L>Inicio de uso</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

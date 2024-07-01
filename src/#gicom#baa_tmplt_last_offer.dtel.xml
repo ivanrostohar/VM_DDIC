@@ -5,6 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/BAA_TMPLT_LAST_OFFER</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>STRING</DOMNAME>
     <HEADLEN>55</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>20</SCRLEN2>
@@ -15,12 +16,11 @@
     <SCRTEXT_M>Last offer</SCRTEXT_M>
     <SCRTEXT_L>Last offer</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
-    <DATATYPE>STRG</DATATYPE>
-    <LENG>000256</LENG>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <REFKIND>D</REFKIND>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +30,14 @@
      <SCRTEXT_S>L. Angebot</SCRTEXT_S>
      <SCRTEXT_M>Letztes Angebot</SCRTEXT_M>
      <SCRTEXT_L>Letztes Angebot</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Last offer</DDTEXT>
+     <REPTEXT>Last offer</REPTEXT>
+     <SCRTEXT_S>Last offer</SCRTEXT_S>
+     <SCRTEXT_M>Last offer</SCRTEXT_M>
+     <SCRTEXT_L>Last offer</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

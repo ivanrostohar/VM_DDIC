@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CALC_TYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CALC_TYPE</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Calculation type</DDTEXT>
+    <REPTEXT>Calc.type</REPTEXT>
+    <SCRTEXT_S>Type</SCRTEXT_S>
+    <SCRTEXT_M>Calc.type</SCRTEXT_M>
+    <SCRTEXT_L>Calculation type</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kalkulations-Typ</DDTEXT>
+     <REPTEXT>Kalk.Typ</REPTEXT>
+     <SCRTEXT_S>Typ</SCRTEXT_S>
+     <SCRTEXT_M>Kalk.Typ</SCRTEXT_M>
+     <SCRTEXT_L>Kalkulations-Typ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de calcul</DDTEXT>
+     <REPTEXT>Type cal.</REPTEXT>
+     <SCRTEXT_S>Type</SCRTEXT_S>
+     <SCRTEXT_M>Type cal.</SCRTEXT_M>
+     <SCRTEXT_L>Type de calcul</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ obliczenia</DDTEXT>
+     <REPTEXT>Typ oblicz.</REPTEXT>
+     <SCRTEXT_S>Typ</SCRTEXT_S>
+     <SCRTEXT_M>Typ oblicz.</SCRTEXT_M>
+     <SCRTEXT_L>Typ obliczenia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de cálculo</DDTEXT>
+     <REPTEXT>Tp.cálc.</REPTEXT>
+     <SCRTEXT_S>Tipo</SCRTEXT_S>
+     <SCRTEXT_M>Tp.cálc.</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de cálculo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de cálculo</DDTEXT>
+     <REPTEXT>Clase cálculo</REPTEXT>
+     <SCRTEXT_S>Clase</SCRTEXT_S>
+     <SCRTEXT_M>Clase cálculo</SCRTEXT_M>
+     <SCRTEXT_L>Clase de cálculo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

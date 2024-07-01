@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Variant condition</DDTEXT>
+     <REPTEXT>Variant</REPTEXT>
+     <SCRTEXT_S>Variant</SCRTEXT_S>
+     <SCRTEXT_M>Variant</SCRTEXT_M>
+     <SCRTEXT_L>Variant</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

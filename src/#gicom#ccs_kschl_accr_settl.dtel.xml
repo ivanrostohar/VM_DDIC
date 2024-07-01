@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_KSCHL_ACCR_SETTL</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>/GICOM/KSCHL</DOMNAME>
+    <DOMNAME>KSCHL</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>55</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -18,10 +18,10 @@
     <SCRTEXT_L>Condition Type Accruals from Settlement</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +31,14 @@
      <SCRTEXT_S>Rückst.Abr</SCRTEXT_S>
      <SCRTEXT_M>KondArt Rückst. Abr.</SCRTEXT_M>
      <SCRTEXT_L>KondArt Rückstellungen aus Abrechnung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Type Accruals from Settlement</DDTEXT>
+     <REPTEXT>Condition Type Accruals from Settlement</REPTEXT>
+     <SCRTEXT_S>Accr Settl</SCRTEXT_S>
+     <SCRTEXT_M>Cond Type Accr Settl</SCRTEXT_M>
+     <SCRTEXT_L>Condition Type Accruals from Settlement</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

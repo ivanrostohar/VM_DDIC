@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GICOM/BUSINESS_ID</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000006</LENG>
+    <OUTPUTLEN>000006</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Business ID</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>INVSND</DOMVALUE_L>
+     <DDTEXT>Invoice incoming</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>INVRCV</DOMVALUE_L>
+     <DDTEXT>Invoice outgoing</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>INVVAL</DOMVALUE_L>
+     <DDTEXT>Invoice verification</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>GMIEXT</DOMVALUE_L>
+     <DDTEXT>incoming goods from external</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>GMIINT</DOMVALUE_L>
+     <DDTEXT>incoming goods from internal</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>GMOINT</DOMVALUE_L>
+     <DDTEXT>outgoing goods to internal</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>GMOEXT</DOMVALUE_L>
+     <DDTEXT>outgoing goods to external</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>MADOWN</DOMVALUE_L>
+     <DDTEXT>Markdown</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>OROEXT</DOMVALUE_L>
+     <DDTEXT>Order to external</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>OROINT</DOMVALUE_L>
+     <DDTEXT>Order to internal</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ORIEXT</DOMVALUE_L>
+     <DDTEXT>Order from external</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ORIINT</DOMVALUE_L>
+     <DDTEXT>Order from internal</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>RINSND</DOMVALUE_L>
+     <DDTEXT>Return intern to sender</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>RINRCV</DOMVALUE_L>
+     <DDTEXT>Return customer to intern</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>RRCVSN</DOMVALUE_L>
+     <DDTEXT>Return customer to supplier</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>RCUPOS</DOMVALUE_L>
+     <DDTEXT>Customer return (POS)</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Geschäftsvorgang</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>ID de l’activité</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Identyfikator firmy</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>ID de negócios</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID empresarial</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>INVSND</DOMVALUE_L>
+     <DDTEXT>Rechnungseingang</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>INVSND</DOMVALUE_L>
+     <DDTEXT>Facture entrante</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>INVSND</DOMVALUE_L>
+     <DDTEXT>Faktura przychodząca</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>INVSND</DOMVALUE_L>
+     <DDTEXT>Entrada de fatura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>INVSND</DOMVALUE_L>
+     <DDTEXT>Factura entrante</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>INVRCV</DOMVALUE_L>
+     <DDTEXT>Rechnungsausgang</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>INVRCV</DOMVALUE_L>
+     <DDTEXT>Facture sortante</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>INVRCV</DOMVALUE_L>
+     <DDTEXT>Faktura wychodząca</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>INVRCV</DOMVALUE_L>
+     <DDTEXT>Saída de fatura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>INVRCV</DOMVALUE_L>
+     <DDTEXT>Factura saliente</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>INVVAL</DOMVALUE_L>
+     <DDTEXT>Rechnungsprüfung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>INVVAL</DOMVALUE_L>
+     <DDTEXT>Vérification de la facture</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>INVVAL</DOMVALUE_L>
+     <DDTEXT>Weryfikacja faktury</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>INVVAL</DOMVALUE_L>
+     <DDTEXT>Revisão de faturas</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>INVVAL</DOMVALUE_L>
+     <DDTEXT>Verificación de factura</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>GMIEXT</DOMVALUE_L>
+     <DDTEXT>Wareneingang von Extern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>GMIEXT</DOMVALUE_L>
+     <DDTEXT>marchandises entrantes en provenance de l’extérieur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>GMIEXT</DOMVALUE_L>
+     <DDTEXT>towary przychodzące z zewnątrz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>GMIEXT</DOMVALUE_L>
+     <DDTEXT>entrada de mercadorias de externo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>GMIEXT</DOMVALUE_L>
+     <DDTEXT>entrada de mercancías del exterior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>GMIINT</DOMVALUE_L>
+     <DDTEXT>Wareneingang von Intern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>GMIINT</DOMVALUE_L>
+     <DDTEXT>marchandises entrantes en provenance de l’intérieur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>GMIINT</DOMVALUE_L>
+     <DDTEXT>towary przychodzące z wewnątrz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>GMIINT</DOMVALUE_L>
+     <DDTEXT>entrada de mercadorias de interno</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>GMIINT</DOMVALUE_L>
+     <DDTEXT>entrada de mercancías del interior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>GMOINT</DOMVALUE_L>
+     <DDTEXT>Warenausgang an Intern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>GMOINT</DOMVALUE_L>
+     <DDTEXT>marchandises sortantes vers l’intérieur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>GMOINT</DOMVALUE_L>
+     <DDTEXT>towary wychodzące do wewnątrz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>GMOINT</DOMVALUE_L>
+     <DDTEXT>saída de mercadorias para interno</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>GMOINT</DOMVALUE_L>
+     <DDTEXT>salida de mercancías al interior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>GMOEXT</DOMVALUE_L>
+     <DDTEXT>Warenausgang an Extern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>GMOEXT</DOMVALUE_L>
+     <DDTEXT>marchandises sortantes vers l’extérieur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>GMOEXT</DOMVALUE_L>
+     <DDTEXT>towary wychodzące na zewnątrz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>GMOEXT</DOMVALUE_L>
+     <DDTEXT>saída de mercadorias para externo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>GMOEXT</DOMVALUE_L>
+     <DDTEXT>salida de mercancías al exterior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>MADOWN</DOMVALUE_L>
+     <DDTEXT>Abschreibung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>MADOWN</DOMVALUE_L>
+     <DDTEXT>Démarque</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>MADOWN</DOMVALUE_L>
+     <DDTEXT>Obniżka</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>MADOWN</DOMVALUE_L>
+     <DDTEXT>Redução do preço</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>MADOWN</DOMVALUE_L>
+     <DDTEXT>Reducción</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>OROEXT</DOMVALUE_L>
+     <DDTEXT>Bestellung / Auftrag an Extern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>OROEXT</DOMVALUE_L>
+     <DDTEXT>Commande vers l’extérieur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>OROEXT</DOMVALUE_L>
+     <DDTEXT>Zamówienie na zewnątrz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>OROEXT</DOMVALUE_L>
+     <DDTEXT>Ordem para externo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>OROEXT</DOMVALUE_L>
+     <DDTEXT>Pedido al exterior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>OROINT</DOMVALUE_L>
+     <DDTEXT>Bestellung / Auftrag an Intern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>OROINT</DOMVALUE_L>
+     <DDTEXT>Commande vers l’intérieur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>OROINT</DOMVALUE_L>
+     <DDTEXT>Zamówienie do wewnątrz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>OROINT</DOMVALUE_L>
+     <DDTEXT>Ordem para interno</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>OROINT</DOMVALUE_L>
+     <DDTEXT>Pedido al interior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ORIEXT</DOMVALUE_L>
+     <DDTEXT>Bestellung / Auftrag von Extern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ORIEXT</DOMVALUE_L>
+     <DDTEXT>Commande de l’extérieur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ORIEXT</DOMVALUE_L>
+     <DDTEXT>Zamówienie z zewnątrz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ORIEXT</DOMVALUE_L>
+     <DDTEXT>Ordem de externo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ORIEXT</DOMVALUE_L>
+     <DDTEXT>Pedido del exterior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ORIINT</DOMVALUE_L>
+     <DDTEXT>Bestellung / Auftrag von Intern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ORIINT</DOMVALUE_L>
+     <DDTEXT>Commande de l’intérieur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ORIINT</DOMVALUE_L>
+     <DDTEXT>Zamówienie z wewnątrz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ORIINT</DOMVALUE_L>
+     <DDTEXT>Ordem de interno</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ORIINT</DOMVALUE_L>
+     <DDTEXT>Pedido del interior</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>RINSND</DOMVALUE_L>
+     <DDTEXT>Rücksendung intern an Lieferant</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>RINSND</DOMVALUE_L>
+     <DDTEXT>Retour de l’intérieur à l’expéditeur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>RINSND</DOMVALUE_L>
+     <DDTEXT>Zwrot wewnętrzny do nadawcy</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RINSND</DOMVALUE_L>
+     <DDTEXT>Devolução de interno para emissor</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>RINSND</DOMVALUE_L>
+     <DDTEXT>Devolver interno al emisor</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>RINRCV</DOMVALUE_L>
+     <DDTEXT>Rücksendung Kunde an intern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>RINRCV</DOMVALUE_L>
+     <DDTEXT>Retour du client à l’intérieur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>RINRCV</DOMVALUE_L>
+     <DDTEXT>Zwrot klienta do wewnątrz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RINRCV</DOMVALUE_L>
+     <DDTEXT>Devolução de cliente para interno</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>RINRCV</DOMVALUE_L>
+     <DDTEXT>Devolver cliente al interno</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>RRCVSN</DOMVALUE_L>
+     <DDTEXT>Rücksendung Kunde an Lieferant</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>RRCVSN</DOMVALUE_L>
+     <DDTEXT>Retour du client au fournisseur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>RRCVSN</DOMVALUE_L>
+     <DDTEXT>Zwrot klienta do dostawcy</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RRCVSN</DOMVALUE_L>
+     <DDTEXT>Devolução de cliente para fornecedor</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>RRCVSN</DOMVALUE_L>
+     <DDTEXT>Devolver cliente al proveedor</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>RCUPOS</DOMVALUE_L>
+     <DDTEXT>Kunden-Rücksendung (POS)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>RCUPOS</DOMVALUE_L>
+     <DDTEXT>Retour client (POS)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>RCUPOS</DOMVALUE_L>
+     <DDTEXT>Zwrot przez klienta (POS)</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>RCUPOS</DOMVALUE_L>
+     <DDTEXT>Devolução de cliente</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>RCUPOS</DOMVALUE_L>
+     <DDTEXT>Devolución de cliente (punto de venta)</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

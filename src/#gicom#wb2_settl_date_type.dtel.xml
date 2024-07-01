@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Rebates: Settlement Date Type</DDTEXT>
+     <REPTEXT>Settlement Date Type</REPTEXT>
+     <SCRTEXT_S>SmtDteTy</SCRTEXT_S>
+     <SCRTEXT_M>Settlement Date Type</SCRTEXT_M>
+     <SCRTEXT_L>Settlement Date Type</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

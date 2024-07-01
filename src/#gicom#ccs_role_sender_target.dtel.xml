@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Role of target sender for disintegration</DDTEXT>
+     <REPTEXT>RoleSenderTarg.</REPTEXT>
+     <SCRTEXT_S>RoleSender</SCRTEXT_S>
+     <SCRTEXT_M>RoleSenderTarg.</SCRTEXT_M>
+     <SCRTEXT_L>RoleSenderTarget</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

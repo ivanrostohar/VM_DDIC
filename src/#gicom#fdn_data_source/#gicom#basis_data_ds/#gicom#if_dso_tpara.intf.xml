@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_DSO_TPARA</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>gicom DATA SOURCE Interface for TPARA Cust. Parameters</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_CUST_FOR_PARA</CMPNAME>
+     <SCONAME>IV_PARA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schlüssel des Parameter</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_CUST_FOR_PARA</CMPNAME>
+     <SCONAME>IV_PARA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Key of Parameter</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_CUST_FOR_PARA</CMPNAME>
+     <SCONAME>IV_PARA</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Key of Parameter</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

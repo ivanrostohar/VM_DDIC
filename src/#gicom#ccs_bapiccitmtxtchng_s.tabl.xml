@@ -69,11 +69,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Konditionskontrakt: Texte für Anspruchsberechtigte  Änderung</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract: Texts for Eligible Partners for Changes</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

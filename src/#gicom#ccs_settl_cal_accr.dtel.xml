@@ -22,6 +22,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +32,14 @@
      <SCRTEXT_S>DeltaRück.</SCRTEXT_S>
      <SCRTEXT_M>Delta-Rückstellungen</SCRTEXT_M>
      <SCRTEXT_L>Kalender Delta-Rückstellungen Abrechnung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract Settlement: Calendar Delta Accruals</DDTEXT>
+     <REPTEXT>Calendar Delta Accruals Settlement</REPTEXT>
+     <SCRTEXT_S>DeltaAccr.</SCRTEXT_S>
+     <SCRTEXT_M>Delta Accruals</SCRTEXT_M>
+     <SCRTEXT_L>Calendar Delta Accruals Settlement</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_DDL_CONSTANTS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>General Constants Definition</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_TR_OBJFUNC_K</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Keys</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_TR_OBJFUNC_K</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Object Keys</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_TR_OBJTYP_TABU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CV_TR_OBJTYP_TABU</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Object Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>UI Actions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTION</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>UI Actions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_BO_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Object Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_BO_TYPE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Business Object Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_CASE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>JSON Data Case</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_CASE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>JSON Data Case</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Document Mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MODE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Document Mode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MSGTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MSGTY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Message Types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PACKAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PACKAGE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Packages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PARAM_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter Names</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PARAM_NAME</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Parameter Names</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_TR_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Transport Request Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_TR_TYPE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Transport Request Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_UPDKZ</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update Indicator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_UPDKZ</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Update Indicator</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -5,6 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_KEY_DISTRIBUTION</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>STRING</DOMNAME>
     <HEADLEN>16</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>10</SCRLEN2>
@@ -15,16 +16,23 @@
     <SCRTEXT_M>Key func.</SCRTEXT_M>
     <SCRTEXT_L>CC Key functional</SCRTEXT_L>
     <DTELMASTER>D</DTELMASTER>
-    <DATATYPE>STRG</DATATYPE>
-    <LENG>000256</LENG>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <REFKIND>D</REFKIND>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Functional CCS Split Key</DDTEXT>
+     <REPTEXT>Key distribution</REPTEXT>
+     <SCRTEXT_S>Key distr</SCRTEXT_S>
+     <SCRTEXT_M>Key distr.</SCRTEXT_M>
+     <SCRTEXT_L>CC Key Distribution</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
      <DDTEXT>Functional CCS Split Key</DDTEXT>
      <REPTEXT>Key function</REPTEXT>
      <SCRTEXT_S>Key func</SCRTEXT_S>

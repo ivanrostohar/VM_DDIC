@@ -1,0 +1,2242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for Condition Calculation Structure</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Failed to access the database</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>The condition type could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>The condition group could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>The calculation schema could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>The usage profile could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>The customizing revision could not be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Failed to save condition type data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Failed to save condition group data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Failed to save calculation schema data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Failed to save usage profile data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Title missing for Condition Type &amp; in current language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Condition Type &amp; title missing for Partner &amp; in current language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Title missing for Condition Group &amp; in current language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Title missing for Calculation Schema &amp; in current language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Title missing for Calculation Schema &amp; Step &amp; in current language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Title missing for Usage Profile &amp; in current language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Title missing for Usage Profile &amp; Position &amp; in current language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Condition Type &amp; already exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Condition Group &amp; already exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Calculation Schema &amp; already exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Usage Profile &amp; already exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Checks carried out; messages issued</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Checks carried out; no messages issued</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Condition Type &amp; is created; but not assigned to Condition Group</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Parent Condition Group &amp; is not allowed as reference</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Self Condition Group is not allowed as reference</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Revision &amp; activated successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Condition Type &amp; is created; but not assigned to Calculation Schema</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Condition Type &amp; is created; but not assigned to Cond Grp and Calc Schema</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>&quot;Valid To&quot; date must be greater than &quot;Valid From&quot; date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>No revision exist for validation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>No revision exist for activation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Condition Calculation Structure Revision &quot;&amp;&quot; doesn&apos;t exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Title missing for Value-add &amp; in current language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Title missing for Value-added Chain &amp; in current language</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Value-add &amp; already exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Value-added chain &amp; already exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Value-add &amp; is created; but not assigned to Value-added chain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Calculation Schema &amp; is created; but not assigned to Value-add</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Failed to save Value Add Data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Failed to save Value Added Chain Data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Value Add Data map error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Value Added Chain Data map error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Value Add not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Value Added Chain not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>No Calculation Schema(s) found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>For price condition types, the calc. type must be &quot;Amount per Quantity&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>For price condition types, the grant date must be &quot; Immediate&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>For the selected purpose, the grant date must be &quot;Subsequent&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>For the selected grant date, the curr. type must be &quot;Document Currency&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>For the selected grant date, the calc. type must be &quot;Percentage&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>For fixed amount cond. types, the curr. type must not be &quot;Document&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>For variable scale base, changes at agreement level must be allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>For the selected scale base, the grant date must be &quot;Subsequent&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>For the selected scale base, the grant date must be &quot;Immediate&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Step &amp;1 contains Condition Type and Total Type.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>For grant date &quot;Subsequent&quot;, the basis of claim must be filled.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Condition type &amp;1 does not exist; but assigned to calculation schema &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Condition type &amp;1 does not exist; but assigned to condition group &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Step &amp;1 is not allowed to reference to a list- or delta-price</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Step &amp;1 has to be a Delta Price</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Step &amp;1 has to be a Order Price</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Step &amp;1 has to be a List- or Order-Price</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Step &amp;1 is mandatory and has to be a Delta-Price</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Step &amp;1 is mandatory and has to be an Order-Price</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Condition Type &amp;1 of step &amp;2 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Step &amp;1 needs the purpose Price-Delta</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Scale determination logic not allowed for fixed amount</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Disable ultimo MinMax only for immediate conditions with no fixed amount</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Multiple total type &amp;1 steps</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Multiple condition type &amp;1 steps</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <STEXT>Benachrichtigungsklasse für Vereinb.-Kalkulationsstruktur</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <STEXT>Classe de message pour la structure de calcul de condition</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <STEXT>Klasa komunikatów dla struktury obliczania warunków</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <STEXT>Classe de mensagens para estrutura de cálculo da condição</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_COND_CALC</ARBGB>
+     <STEXT>Clase de mensajes para estructura de cálculo de condiciones</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Es konnte auf die Datenbank nicht zugegriffen werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Die Konditionsart konnte nicht gelöscht werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Die Konditionsgruppe konnte nicht gelöscht werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Das Kalkulationsschema konnte nicht gelöscht werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Das Anwendungsprofil konnte nicht gelöscht werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Die Customizing-Überarbeitung konnte nicht gelöscht werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Daten der Konditionsart konnte nicht gespeichert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Daten der Konditionsgruppe konnte nicht gespeichert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Daten des Kalkulationsschemas konnten nicht gespeichert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Daten für das Anwendungsprofil konnten nicht geladen werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Titel für Konditionsart &amp; fehlt für die jetzige Sprache</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Konditionsart &amp; Titel fehlt für Partner &amp; in der jetzigen Sprache</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Titel fehlt für Konditionsgruppe &amp; in der jetzigen Sprache</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Titel fehlt für Kalkulationsschema &amp; in der jetzigen Sprache</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Titel fehlt für Kalkulationsschema &amp; Schritt &amp; in der jetzigen Sprache</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Titel fehlt für Anwendungsprofil &amp; in der jetzigen Sprache</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Titel fehlt für Anwendungsprofil &amp; Position &amp; in der jetzigen Sprache</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Konditionsart &amp; existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Konditionsgruppe &amp; existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Kalkulationsschema &amp; existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Anwendungsprofil &amp; existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Überprüfung durchgeführt; Nachrichten wurden ausgegeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Überprüfung durchgeführt; keine Nachrichten wurden ausgegeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Konditionsart &amp; wurde erstellt; ist aber keiner Konditionsgrp. zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Übergeordnete Konditionsgruppe &amp; nicht für Referenz erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Eigene Konditionsgruppe darf nicht referenziert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Überarbeitung &amp; erfolgreich aktiviert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Konditionsart &amp; wurde erstellt; ist aber keinem Kalk.schema zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>KoArt &amp; wurde erstellt; ist aber keiner Kond.grp und Kalk.sch. zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>&apos;Gültig von&apos; muss größer als &apos;Gültig bis&apos; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Es existiert keine Überarbeitung für die Validierung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Es existiert keine Überarbeitung für die Aktivierung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Vereinbarungs-Kalkulationsstruktur-Überarbeitung &quot;&amp;&quot; existiert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Titel fehlt für die Wertschöpfung &amp; in aktueller Sprache</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Titel fehlt für die Wertschöpfungskette &amp; in aktueller Sprache</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Wertschöpfung &amp; existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Wertschöpfungskette &amp; existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Wertschöpfung erstellt, aber noch nicht zugeordnet zu Wertschöpfungskette</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Kalkulationsschema ist erstellt, aber nicht zugewiesen zu Wertschöpfung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Speichern der Wertschöpfungsdaten fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Speichern der Wertschöpfungskettendaten fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Fehler bei Zuordnung von Wertschöpfungsdaten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Fehler bei Zuordnung von Daten der Wertschöpfungskette</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Wertschöpfung nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Wertschöpfungskette nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Kein(e) Kalkulationsschema(s) gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Für Preiskonditionsarten muss der Kalk.-Typ &quot;Dokumentenmenge&quot; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Für Preiskonditionsarten muss der Gewährungszeitpunkt &quot;Sofort&quot; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Für den gewählten Zweck muss der Gewährungszeitpunkt &quot;Nachträglich&quot; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Für den gewählten Gew.-Zeitpkt. muss die Kond.-Währung &quot;Dokument&quot; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Für den gewählten Gewährungszeitpunkt muss der Kalk.-Typ &quot;Prozent&quot; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Für Fixbetragskonditionsarten darf die Kond.-Währg. nicht &quot;Dokument&quot; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Für var. Staffelbasen müssen Änderungen auf Vereinb.-Ebene erlaubt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Für die gew. Staffelbasis muss der Gewährungszeitp. &quot;Nachträglich&quot; sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Für die gewählte Staffelbasis muss der Gewährungszeitpunkt &quot;Sofort&quot; sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Schritt &amp;1 enthält Konditionsart und Summenart</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Zuteilungsbeginn &quot;Nachträglich&quot; erfordert Anspruchsgrundlage ausfüllen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Konditionsart &amp;1 nicht vorhanden, aber Kalkulationsschema &amp;2 zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Konditionsart &amp;1 nicht vorhanden, aber Konditionsgruppe &amp;2 zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Schritt &amp;1 darf nicht zu einem Listen- oder Delta-Preis verweisen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Schritt &amp;1 muss ein Delta Preis sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Schritt &amp;1 muss ein Bestellungspreis sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Schritt &amp;1 muss ein Listen-/Bestellungspreis sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Schritt &amp;1 ist verpflichtend and muss ein Deltapreis sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Schritt &amp;1 ist verpflichtend und muss ein Bestellpreis sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Konditionstyp &amp;1 von Schritt &amp;2 wurde nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Schritt &amp;1 erfordert den Zweck Preisdelta</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Staffelbestimmungslogik nicht erlaubt für Festbeträge</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Ausschalten Ultimo MinMax nur für Sofortkondition ohne Festbetrag erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Mehrere Schritte mit Zwischensummentyp &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Mehrere Schritte mit Konditionstyp &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Échec de l’accès à la base de données</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Le type de condition n’a pas pu être supprimé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Le groupe de conditions n’a pas pu être supprimé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Le schéma de calcul n’a pas pu être supprimé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Le profil d’utilisation n’a pas pu être supprimé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>La révision de personnalisation n’a pas pu être supprimée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Échec de la sauvegarde des données du type de condition</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Échec de la sauvegarde des données du groupe de condition</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Échec de la sauvegarde des données du schéma de calcul</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Échec de la sauvegarde des données du profil d’utilisation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Titre manquant pour type condition &amp; dans langue actuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Type de condition &amp; titre manquant pour partenaire &amp; dans langue actuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Titre manquant pour groupe condition &amp; dans langue actuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Titre manquant pour schéma calcul &amp; dans langue actuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Titre manquant pour schéma calcul &amp; étape &amp; dans langue actuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Titre manquant pour profil d’utilisation &amp; dans langue actuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Titre manquant pour profil utilisation &amp; position &amp; dans langue actuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Le type de condition &amp; existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Le groupe de condition &amp; existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Le schéma de calcul &amp; existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Le profil d’utilisation &amp; existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Contrôles effectués ; messages émis</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Contrôles effectués ; aucun message émis</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Le type condition &amp; est créé, mais n’est pas affecté au groupe conditions</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Le groupe de condition parent &amp; n’est pas autorisé comme référence</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Le groupe auto de condition n’est pas autorisé comme référence</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Révision &amp; activée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Le type de condition &amp; est créé, mais n’est pas affecté schéma calcul</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Le type cond &amp; est créé mais pas affecté au group. cond. et schéma calcul</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>La date « Valable jusqu’à » doit être supérieure à la date « Valable de »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Aucune révision n’existe pour la validation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Aucune révision n’existe pour l’activation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>La révision de la structure de calcul des conditions « &amp; » n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Titre manquant pour valeur ajoutée &amp; dans langue actuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Titre manquant chaîne de valeur ajoutée &amp; dans langue actuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>La valeur ajoutée &amp; existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>La chaîne de valeur ajoutée &amp; existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>La valeur ajoutée &amp; est créée mais pas affectée à chaîne valeur ajoutée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Le schéma calcul &amp; est créé, mais pas affecté à chaîne valeur ajoutée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Échec de la sauvegarde des données de la valeur ajoutée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Échec de la sauvegarde des données de la chaîne de valeur ajoutée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Erreur de carte des données de la valeur ajoutée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Erreur de carte des données de la chaîne de valeur ajoutée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Valeur ajoutée non trouvée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Chaîne de valeur ajoutée non trouvée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Aucun schéma de calcul trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Pour types condi. de prix, type calc. doit être « Montant par quantité »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Pour types condi. de prix, la date d’octroi doit être « Immédiate »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Pour le but sélectionné, la date d’octroi doit être « Subséquente »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Pour date d’octroi sélect., type devise doit être « Devise du document »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Pour date d’octroi sélect., type calcul doit être « Pourcentage »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Pour types cond. à mont. fixe, type devise ne doit pas être « Document »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Pour base échelle variable, modif. au niv. accord doivent être autorisées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Pour base échelle sélect., date d’octroi doit être « Subséquente »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Pour base échelle sélect., date d’octroi doit être « Immédiate »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>L’étape &amp;1 contient le type de condition et le type total.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Pour la date d’octroi « ultérieure », la base réclam. doit être remplie.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Le type condition &amp;1 n’existe pas, mais est affecté au schéma calc. &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Le type condition &amp;1 n’existe pas, mais est affecté au group. cond. &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>L’étape &amp;1 ne doit pas faire référence à un prix catalogue ou Delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>L’étape &amp;1 doit être un prix delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>L’étape &amp;1 doit être un prix de commande</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>L’étape &amp;1 doit être un prix catalogue ou de la commande</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>L’étape &amp;1 est obligatoire et doit être un prix Delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>L’étape &amp;1 est obligatoire et doit être un prix de commande</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Type de condition &amp;1 de l’étape &amp;2 introuvable</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>L’étape &amp;1 a besoin de l’objectif de prix Delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Logique de détermination de l’échelle non autorisée pour le montant fixe</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Désac. dern. MinMax uniqu. pour conditions immédiates sans montant fixe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nie można uzyskać dostępu do bazy danych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Nie udało się usunąć typu warunku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nie udało się usunąć grupy warunków</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Nie udało się usunąć schematu obliczeń</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Nie udało się usunąć profilu użytkowania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Nie udało się usunąć wersji dostosowania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Nie udało się zapisać danych typu warunku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Nie udało się zapisać danych grupy warunków</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Nie udało się zapisać danych schematu obliczeń</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Nie udało się zapisać danych profilu użytkowania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Brak tytułu typu warunku &amp; w bieżącym języku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Brak tytułu typu warunku &amp; dla partnera &amp; w bieżącym języku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Brak tytułu grupy warunków &amp; w bieżącym języku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Brak tytułu schematu obliczeń &amp; w bieżącym języku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Brak tytułu kroku &amp; schematu obliczeń &amp; w bieżącym języku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Brak tytułu profilu użytkowania &amp; w bieżącym języku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Brak tytułu pozycji &amp; profilu użytkowania &amp; w bieżącym języku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Typ warunku &amp; już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Grupa warunków &amp; już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Schemat obliczeń &amp; już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Profil użytkowania &amp; już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Wykonano testy; zostały wygenerowane komunikaty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Wykonano testy; nie zostały wygenerowane komunikaty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Typ warunku &amp; został utworzony, ale nie przypisano go do grupy warunków</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Nadrzędna grupa warunków &amp; nie jest dozwolona jako odniesienie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Własna grupa warunków nie jest dozwolona jako odniesienie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Wersja &amp; została aktywowana</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Typ war. &amp; został utworzony, ale nie przypisano go do schematu obliczeń</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Typ war. &amp; został utw., ale nie przypisano go do gr. war. i schematu obl.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Data „Obowiązuje do” musi być późniejsza niż „Obowiązuje od”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Nie ma wersji do sprawdzenia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Nie ma wersji do aktywacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Wersja struktury obliczania warunków „&amp;” nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Brak tytułu wartości dodanej &amp; w bieżącym języku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Brak tytułu łańcucha wartości dodanej &amp; w bieżącym języku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Wartość dodana &amp; już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Łańcuch wartości dodanej &amp; już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Wart. dodana &amp; została utw., ale nie przypis. jej do łańcucha wart. dod.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Schemat obliczeń &amp; został utw., ale nie przypisano go do wart. dodanej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Nie udało się zapisać danych wartości dodanej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Nie udało się zapisać danych łańcucha wartości dodanej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Błąd mapowania danych wartości dodanej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Błąd mapowania danych łańcucha wartości dodanej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Nie znaleziono wartości dodanej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Nie znaleziono łańcucha wartości dodanej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Nie znaleziono schematów obliczeń</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>W przypadku typów warunków cen typem obliczeń musi być „Kwota za ilość”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>W przypadku typów warunków cen datą przyznania musi być „Natychmiast”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>W przypadku wybranego celu datą przyznania musi być „Kolejne”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>W przypadku wybranej daty przyznania typem waluty musi być „Waluta dok.”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>W przypadku wybranej daty przyznania typem obliczeń musi być „Procent”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>W przypadku typów warunków Stała kwota typem waluty nie może być „Dok.”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>W przypadku zmiennej podst. skal. zmiany na poz. umowy muszą być dozwol.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>W przypadku wybr. podst. skal. datą przyznania musi być „Kolejne”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>W przypadku wybr. podst. skal. datą przyznania musi być „Natychmiast”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Krok &amp;1 zawiera Typ warunku i Typ sumy.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>W przypadku daty przyzn. „Kolejne” podst. roszczenia musi być podana.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Typ war. &amp;1 nie istnieje, ale został przypisany do schematu obliczeń &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Typ war. &amp;1 nie istnieje, ale został przypisany do grupy warunków &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Krok &amp;1 nie może odnosić się do cennika lub różnicy cen</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Krok &amp;1 musi być różnicą cen</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Krok &amp;1 musi być ceną zamówienia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Krok &amp;1 musi być cennikiem lub ceną zamówienia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Krok &amp;1 jest wymagany i musi być różnicą cen</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Krok &amp;1 jest wymagany i musi być ceną zamówienia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Nie znaleziono typu warunku &amp;1 kroku &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Krok &amp;1 wymaga celu różnicy cen</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Logika określania skali jest niedozwolona w przypadku kwoty stałej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Wyłącz ultimo MinMax tylko dla bezpośrednich warunków bez kwoty stałej.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Erro ao acessar o banco de dados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>O tipo de condição não foi eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>O grupo de condições não foi eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>O esquema de cálculo não foi eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>O perfil de utilização não foi eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>A revisão de customizing não foi eliminada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Erro ao salvar os dados do tipo de condição</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Erro ao salvar os dados do grupo de condições</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Erro ao salvar os dados do esquema de cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Erro ao salvar os dados do perfil de utilização</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Título em falta para o tipo de condição &amp; no idioma atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Tipo de condição &amp; em falta para parceiro &amp; no idioma atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Título em falta para o grupo de condições &amp; no idioma atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Título em falta para o esquema de cálculo &amp; no idioma atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Título em falta p/ esquema cálculo &amp; etapa &amp; no idioma atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Título em falta para perfil de utilização &amp; no idioma atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Título em falta p/ perfil utiliz. &amp; pos. &amp; no idioma atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>O tipo de condição &amp; já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>O grupo de condições &amp; já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>O esquema de cálculo &amp; já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>O perfil de utilização &amp; já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Verificações efetuadas, mensagens enviadas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Verificações efetuadas, nenhuma mensagem enviada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Tipo condição &amp; criado, mas não atribuído ao grupo condições</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Grupo de condições superior &amp; não pode ser referência</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Grupo de condições próprio não pode ser referência</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Revisão &amp; ativada com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Tipo condição &amp; criado, mas não atribuído ao esquema cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>TpCond. &amp; criado, mas não atribuído a GrpCond. e EsqCálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>A data “Válido até” deve ser posterior à data “Válido de”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Não há revisões para validação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Não há revisões para ativação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Revisão da estrutura de cálculo de condição “&amp;” não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Título em falta para valor agregado &amp; no idioma atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Título em falta para cadeia de valor agregado &amp; no idioma atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>O valor agregado &amp; já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>A cadeia de valor agregado &amp; já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Valor agregado &amp; criado, mas não atribuído à cadeia de valor agregado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Esquema de cálculo &amp; criado, mas não atribuído ao valor agregado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Falha ao salvar dados do valor agregado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Falha ao salvar dados da cadeia de valor agregado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Erro do mapa de dados do valor agregado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Erro do mapa de dados da cadeia de valor agregado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Valor agregado não encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Cadeia de valor agregado não encontrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Nenhum esquema de cálculo encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>P. t. de cond. de pr., o t. de cálc. prec. ser &quot;Montante por quantidade&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Para tipos de cond. de preço, a data de concessão precisa ser &quot;Imediata&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Para a final. selecionada, a data de concessão precisa ser &quot;Subsequente&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Para a data de conc. sel., o t. de moeda prec. ser &quot;Moeda do documento&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Para a data de conc. selec., o tipo de cálculo precisa ser &quot;Percentual&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Para t. de cond. de mont. fixo, o tipo de moeda não pode ser &quot;Documento&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Para base de escala variável, é preciso permitir mod. no nível do acordo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Para a base de escala selec., a data de conc. precisa ser &quot;Subsequente&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Para a base de escala sel., a data de concessão precisa ser &quot;Imediata&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>A etapa &amp;1 contém tipo de condição e tipo de total.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Para data atribuição &quot;Subsequente&quot;; base reclamação deve ser preenchida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Tipo condição &amp;1 não existe mas foi atribuído aos esquemas cálculo &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Tipo condição &amp;1 não existe mas foi atribuído ao grupo condições &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Etapa &amp;1 não permitida para referência a um preço de lista ou delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Etapa &amp;1 deve ser um preço delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Etapa &amp;1 deve ser um preço do pedido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Etapa &amp;1 deve ser um preço de lista ou do pedido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Etapa &amp;1 é obrigatória e deve ser um preço delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Etapa &amp;1 é obrigatória e deve ser um preço do pedido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Tipo de condição &amp;1 da etapa &amp;2 não encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Etapa &amp;1 necessita de delta de preços de finalidade</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>A lógica de determinação de escala não é permitida para montante fixo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Desativar último MinMax só para condições imediatas sem montante fixo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No se ha podido acceder a la base de datos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No se ha podido borrar la clase de condición</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>No se ha podido borrar el grupo de condición</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No se ha podido borrar el esquema de cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>No se ha podido borrar el perfil de utilización</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>No se ha podido borrar la revisión de Customizing</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>No se han podido grabar los datos de la clase de condición</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>No se han podido grabar los datos del grupo de condición</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>No se han podido grabar los datos del esquema de cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No se han podido grabar los datos del perfil de utilización</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Falta el título de la clase de condición &amp; en el idioma actual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Falta título de cl.condición &amp; para el interlocutor &amp; en el idioma actual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Falta el título del grupo de condición &amp; en el idioma actual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Falta el título del esquema de cálculo &amp; en el idioma actual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Falta el título del esquema de cálculo &amp;, paso &amp;, en el idioma actual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Falta el título del perfil de utilización &amp; en el idioma actual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Falta el título de perfil de utilización &amp; posición &amp; en el idioma actual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>La clase de condición &amp; ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>El grupo de condición &amp; ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>El esquema de cálculo &amp; ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>El perfil de utilización &amp; ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>No se han realizado verificaciones; mensajes emitidos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>No se han realizado verificaciones; mensajes no emitidos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Clase de condición &amp; creada, pero no asignada a un grupo de condición</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Grupo de condición superior &amp; no permitido como referencia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Grupo de condición propio &amp; no permitido como referencia</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Revisión &amp; activada correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Clase de condición &amp; creada, pero no asignada a un esquema de cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Cl.condición &amp; creada, pero no asignada a un grp.condición y esq.cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>La fecha ‘Válido hasta’ tiene que ser mayor que ‘Válido desde’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>No hay ninguna revisión para la validación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>No hay ninguna revisión para la activación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>La revisión de la estructura del cálculo de condiciones &quot;&amp;&quot; no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Falta el título del valor añadido &amp; en el idioma actual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Falta el título de la cadena de valor añadido &amp; en el idioma actual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>El valor añadido &amp; ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>La cadena de valor añadido &amp; ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Valor añadido &amp; creado, pero no asignado a cadena de valor añadido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Esquema de cálculo &amp; creado, pero no asignado a valor añadido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Error al grabar datos de valor añadido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Error al grabar datos de cadena de valor añadido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Error de asignación de datos de valor añadido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Error de asignación de datos de cadena de valor añadido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Valor añadido no encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Cadena de valor añadido no encontrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>No se ha encontrado ningún esquema de cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>P. las cl. de cond. de pr., el tipo de cálculo debe ser Imp. por cant.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Para las cl. de cond. de pr., la fecha de asignación debe ser Inmediato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Para el propósito sel., la fecha de asignación debe ser Subsiguiente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Para la fecha de asignación, el tipo de moneda debe ser Moneda de doc.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Para la fecha de asignación sel., el tipo de cálculo debe ser Porcentaje</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Para tipos de cond. de imp. fijo, el tipo de moneda deber ser Documento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Para la b. de esc. de var., se deben perm. los camb. en el nivel de ac.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Para la base de escala sel., la fecha de asignación debe ser Subsiguiente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Para la base de escala sel., la fecha de asignación debe ser Inmediato</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>El paso &amp;1 contiene la clase de condición y el tipo de total.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Para fecha otorgamiento Subsiguiente; debe rellenarse base reclamación.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Clase condición &amp;1 no existe; pero está asignada a esquema cálculo &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Clase condición &amp;1 no existe; pero está asignada a grupo condiciones &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>El paso &amp;1 no puede hacer referencia a un precio de lista o delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>El paso &amp;1 tiene que ser un precio delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>El paso &amp;1 tiene que ser un precio de pedido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>El paso &amp;1 tiene que ser un precio de lista o pedido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>El paso &amp;1 es obligatorio y tiene que ser un precio delta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>El paso &amp;1 es obligatorio y tiene que ser un precio de pedido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Tipo de condición &amp;1 del paso &amp;2 no encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>El paso &amp;1 requiere el precio delta del propósito</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>No se permite la lógica de determ. de escala para el importe fijo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Deshabilitar MinMax final solo en condiciones inmediatas sin importe fijo</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

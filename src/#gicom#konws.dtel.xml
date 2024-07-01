@@ -23,6 +23,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
     <LANGU>P</LANGU>
     <LANGU>S</LANGU>
    </I18N_LANGS>
@@ -34,6 +35,14 @@
      <SCRTEXT_S>StaffWährg</SCRTEXT_S>
      <SCRTEXT_M>Staffelwährg</SCRTEXT_M>
      <SCRTEXT_L>Staffelwaehrung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Scale Currency</DDTEXT>
+     <REPTEXT>ScCur</REPTEXT>
+     <SCRTEXT_S>Scale Curr</SCRTEXT_S>
+     <SCRTEXT_M>Scale Currency</SCRTEXT_M>
+     <SCRTEXT_L>Scale Currency</SCRTEXT_L>
     </item>
     <item>
      <DDLANGUAGE>P</DDLANGUAGE>

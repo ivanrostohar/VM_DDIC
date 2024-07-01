@@ -1,0 +1,1228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/BDNX</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Dynamic Appendix Designer</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Layout &amp;1 saved successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Layout &amp;1 locked by user &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Layout &amp;1 has been deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Layout &amp;1 created successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Saving is not necessasry; No changes were made</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Layout is not saved successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No records found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Layout &amp;1 cannot be deleted; already in use</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Layout &amp;1 &amp;2 &amp;3 saved successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Saving failed due to internal communication errors</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Layout &amp;1 cannot be deleted; It does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Errors exists; Layout &amp;1 cannot be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Value cannot be deleted; It does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Errors exists; Value cannot be deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Values have been saved successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Invalid validity</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>This Context is already assigned to the Layout &amp;1 in between &amp;2 to &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Layout &amp;1 cannot be deleted. Values are maintained to this layout</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Layout &amp;1 cannot be deleted; Assignments exists to this layout</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Search help is not provided</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Search help &amp;1 does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Structure is not provided</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Structure &amp;1 does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Data Element is not provided</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Data Element &amp;1 does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Communication structure saved successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Field &amp;2 does not exist in structure &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Domain &amp;1 does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Domain is not provided</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>No Fixed values provided</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Mandatory field &amp;1 is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Table &amp;1 should have atleast one entry</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Invalid value for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>NMA saving failed due to internal errors</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Additional fields saving failed due to internal errors</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Additional fields copy from agreement &amp;1 to agreement &amp;2 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Checklist saving failed due to internal errors</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Internal Information saving failed due to internal errors</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <STEXT>Designer des dynamischen Anhangs</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <STEXT>Designer d’annexe dynamique</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <STEXT>Projektant dodatku dynamicznego</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <STEXT>Designer de anexo dinâmico</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/BDNX</ARBGB>
+     <STEXT>Diseñador de anexo dinámico</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Layout &amp;1 erfolgreich gespeichert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Layout &amp;1 gesperrt durch Anwender &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Layout &amp;1 wurde gelöscht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Layout &amp;1 erfolgreich erstellt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Speichern nicht notwendig. Keine Änderung vorgenommen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Layout nicht erfolgreich gespeichert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Keine Einträge gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Layout &amp;1 kann nicht gelöscht werden. Wird bereits verwendet.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Layout &amp;1 &amp;2 &amp;3 erfolgreich gespeichert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Speichern fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Layout &amp;1 kann nicht gelöscht werden. Es ist nicht vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Fehler vorhanden; Layout &amp;1 kann nicht gelöscht werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Wert ist nicht vorhanden und kann nicht gelöscht werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Fehler vorhanden; Wert kann nicht gelöscht werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Werte wurden erfolgreich gespeichert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Ungültige Gültigkeit</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Dieser Kontext ist Layout &amp;1 zwischen &amp;2 und &amp;3 zugewiesen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Layout &amp;1 kann nicht gelöscht werden. Werte sind zugewiesen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Layout &amp;1 kann nicht gelöscht werden da Zuordnungen existieren.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Suchhilfe steht nicht zur Verfügung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Suchhilfe &amp;1 ist nicht vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Struktur ist nicht vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Struktur &amp;1 exisitert nicht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Datenelement steht nicht zur Verfügung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Datenelement &amp;1 ist nicht vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Kommuninikationsstruktur erfolgreich gespeichert.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Feld &amp;2 exisitert nicht in Struktur &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Domäne &amp;1 exisitiert nicht.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Domäne steht nicht zur Verfügung.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Keine Festwerte zur Verfügung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Pflichtfeld &amp;1 fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Tabelle &amp;1 muss mindestens einen Eintrag haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Ungültiger Wert für &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Speichern von NMV ist durch interne Fehler fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Speichern zusätzlicher Felder fehlgeschlagen wegen interner Fehler</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Kopieren zusätzlicher Felder von Vereinb. &amp;1 nach &amp;2 fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Speichern der Checkliste aufgrund interner Fehler fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Speichern internen Informationen aufgrund interne Fehler fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>La mise en page &amp;1 a été sauvegardée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>La mise en page &amp;1 a été verrouillée par l’utilisateur &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>La mise en page &amp;1 a été supprimée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>La mise en page &amp;1 a été créée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>La sauvegarde n’est pas nécessaire ; aucune modif. n’a été apportée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>La mise en page n’a pas été sauvegardée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Aucun enregistrement n’a été trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>La mise en page &amp;1 ne peut pas être supprimée ; déjà utilisée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Les mises en page &amp;1 &amp;2 &amp;3 ont été sauvegardées avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>La sauvegarde a échoué en raison d’erreurs de communication interne</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>La mise en page &amp;1 ne peut pas être supprimée ; elle n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Les erreurs existent ; la mise en page &amp;1 ne peut pas être supprimée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>La valeur ne peut pas être supprimée ; elle n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Les erreurs existent ; la valeur ne peut pas être supprimée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Les valeurs ont été sauvegardées avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Validité invalide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Ce contexte est déjà attribué à la mise en page &amp;1 entre &amp;2 et &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Mise en page &amp;1 ne peut être supp. Valeurs maintenues dans mise en page</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Mise en page &amp;1 ne peut être supp. ; affectations pour mise en page</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>L’aide à la recherche n’est pas fournie</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>L’aide à la recherche &amp;1 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>La structure n’est pas fournie</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>La structure &amp;1 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>L’élément de données n’est pas fourni</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>L’élément de données &amp;1 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>La structure de communication a été sauvegardée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Le champ &amp;2 n’existe pas dans la structure &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Le domaine &amp;1 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Le domaine n’est pas fourni</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Aucune valeur fixe n’est fournie</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Le champ obligatoire &amp;1 est manquant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Le tableau &amp;1 doit contenir au moins une entrée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Valeur non valide pour &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>La sauvegarde NMA a échoué en raison d’erreurs internes</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>La sauvegarde des champs suppl. a échoué en raison d’erreurs internes</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>La copie des champs suppl. de l’accord &amp;1 vers l’accord &amp;2 a échoué.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Échec sauvegarde de liste contrôle en raison d’erreurs internes</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Échec de sauvegarde informations internes en raison d’erreurs internes</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Układ &amp;1 został zapisany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Układ &amp;1 został zablokowany przez użytkownika &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Układ &amp;1 został usunięty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Układ &amp;1 został utworzony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Zapisanie nie jest konieczne; nie wprowadzono zmian</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Układ nie został zapisany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Nie znaleziono rekordów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Nie można usunąć układu &amp;1; jest już używany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Układ &amp;1 &amp;2 &amp;3 został zapisany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Zapisanie nie powiodło się z powodu błędów komunikacji wewnętrznej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Nie można usunąć układu &amp;1; nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Istnieją błędy; nie można usunąć układu &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Nie można usunąć wartości; nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Istnieją błędy; nie można usunąć wartości</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Wartości zostały zapisane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Nieprawidłowa ważność</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Ten kontekst jest już przypisany do układu &amp;1 między &amp;2 a &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Nie można usunąć układu &amp;1. W tym układzie są utrzymywane wartości</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Nie można usunąć układu &amp;1; istnieją przypisania do tego układu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Nie zapewniono pomocy w wyszukiwaniu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Pomoc w wyszukiwaniu &amp;1 nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Nie zapewniono struktury danych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Struktura &amp;1 nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Nie zapewniono elementu danych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Element danych &amp;1 nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Struktura komunikacji została zapisana</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Pole &amp;2 nie istnieje w strukturze &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Domena &amp;1 nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Nie zapewniono domeny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Nie zapewniono wartości stałych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Brak pola obowiązkowego &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Tabela &amp;1 powinna zawierać co najmniej jedną pozycję</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Nieprawidłowa wartość &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Zapisanie umowy niepieniężnej nie udało się z powodu błędów wewnętrznych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Zapisywanie dodatkowych pól nie udało się z powodu błędów wewnętrznych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Kopiowanie dodatkowych pól z umowy &amp;1 do umowy &amp;2 nie udało się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Zapisanie listy kontrolnej nie udało się z powodu błędów wewnętrznych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Zapisanie informacji wewnętrznych nie udało się z powodu błędów wewnętrz.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Layout &amp;1 salvo com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Layout &amp;1 bloqueado pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>O layout &amp;1 foi eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Layout &amp;1 criado com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Não é necessário salvar, nenhuma modificação efetuada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>O layout não foi salvo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Nenhum registro encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>O layout &amp;1 não pode ser eliminado, já está sendo utilizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Layout &amp;1 &amp;2 &amp;3 salvo com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Não foi salvo devido a erros de comunicação interna</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>O layout &amp;1 não pode ser eliminado, pois não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Erro, o layout &amp;1 não pode ser eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>O valor não pode ser eliminado, pois não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Erro, o valor não pode ser eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Valores salvos com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Validade inválida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Contexto já atribuído ao layout &amp;1 entre &amp;2 e &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>O layout &amp;1 não pode ser eliminado. Valores atualizados para este layout</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Impossível eliminar layout &amp;1, existem atribs. a este layout</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Ajuda de pesquisa indisponível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>A ajuda de pesquisa &amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Estrutura indisponível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>A estrutura &amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Elemento de dados indisponível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>O elemento de dados &amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Escopo de comunicação salva com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>O campo &amp;2 não existe na estrutura &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>O domínio &amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Domínio indisponível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Nenhum valor fixo disponibilizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>O campo obrigatório &amp;1 está em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>A tabela &amp;1 deve ter pelo menos uma entrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Valor inválido para &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>NMA não foi salvo devido a erros internos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Campos adicionais não foram salvos devido a erros internos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Falha ao copiar campos adicionais do acordo &amp;1 para o &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Lista de verificação não foi salva devido a erros internos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Falha ao salvar informações internas devido a erros internos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>El layout &amp;1 se ha grabado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Layout &amp;1 bloqueado por el usuario &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Se ha borrado el layout &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>El layout &amp;1 se ha creado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No es necesario grabar; no se han realizado cambios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>El layout no se ha grabado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>No se han encontrado registros</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>El layout &amp;1 no se puede borrar; ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>El layout &amp;1 &amp;2 &amp;3 se ha grabado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>No se ha podido grabar debido a errores de comunicación interna</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>El layout &amp;1 no se puede borrar; no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Hay un error; el layout &amp;1 no se puede borrar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>El valor no se puede borrar; no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Hay un error; el valor no se puede borrar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Los valores se han grabado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Validez no válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Este contexto ya está asignado al layout &amp;1 entre &amp;2 y &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>El layout &amp;1 no se puede borrar Los valores se actualizan en este layout</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>El layout &amp;1 no se puede borrar; existen asignaciones en este layout</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>La ayuda para búsqueda no está disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>La ayuda para búsqueda &amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>La estructura no está disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>La estructura &amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>El elemento de datos no están disponibles</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>El elemento de datos &amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Estructura de comunicación grabado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>El campo &amp;2 no existe en la estructura &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>El dominio &amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>El dominio no está disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Valores fijos no disponibles</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Falta el campo obligatorio &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>La tabla &amp;1 debe tener como mínimo una entrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Valor no válido para &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Error al grabar NMA debido a errores internos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Error al grabar campos adicionales debido a errores internos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Error al copiar campos adicionales del acuerdo &amp;1 al acuerdo &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Error al grabar lista de comprobación debido a errores internos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Error al grabar información interna debido a errores internos</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

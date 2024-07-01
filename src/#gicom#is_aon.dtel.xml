@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/IS_AON</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>03</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Is authority of negotiation</DDTEXT>
+    <REPTEXT>Is authority of negotiation</REPTEXT>
+    <SCRTEXT_S>AON</SCRTEXT_S>
+    <SCRTEXT_M>Auth of negotiation</SCRTEXT_M>
+    <SCRTEXT_L>Is authority of negotiation</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Ist Hoheitsgebiet</DDTEXT>
+     <REPTEXT>Ist Hoheitsgebiet</REPTEXT>
+     <SCRTEXT_S>HHG</SCRTEXT_S>
+     <SCRTEXT_M>Hoheitsgebiet</SCRTEXT_M>
+     <SCRTEXT_L>Ist Hoheitsgebiet</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Est une autorité de négociation</DDTEXT>
+     <REPTEXT>Est une autorité de négociation</REPTEXT>
+     <SCRTEXT_S>AON</SCRTEXT_S>
+     <SCRTEXT_M>Auto. de négociation</SCRTEXT_M>
+     <SCRTEXT_L>Est une autorité de négociation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Jest centrum autoryzacji negocjacji</DDTEXT>
+     <REPTEXT>Jest centrum autoryzacji negocjacji</REPTEXT>
+     <SCRTEXT_S>CAN</SCRTEXT_S>
+     <SCRTEXT_M>Centr. autoryz. neg.</SCRTEXT_M>
+     <SCRTEXT_L>Jest centrum autoryzacji negocjacji</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>É autorização de negociação</DDTEXT>
+     <REPTEXT>É autorização de negociação</REPTEXT>
+     <SCRTEXT_S>AN</SCRTEXT_S>
+     <SCRTEXT_M>Autor. negociação</SCRTEXT_M>
+     <SCRTEXT_L>É autorização de negociação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Es la autoridad de negociación</DDTEXT>
+     <REPTEXT>Es la autoridad de negociación</REPTEXT>
+     <SCRTEXT_S>ADN</SCRTEXT_S>
+     <SCRTEXT_M>Autor.negociación</SCRTEXT_M>
+     <SCRTEXT_L>Es la autoridad de negociación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

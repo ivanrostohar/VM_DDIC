@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Nachfolger</SCRTEXT_S>
      <SCRTEXT_M>Kein Nachfolger</SCRTEXT_M>
      <SCRTEXT_L>Ausschluss vom Nachfolger</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Should an agreement be excluded from Successors</DDTEXT>
+     <REPTEXT>Exclude from Succession</REPTEXT>
+     <SCRTEXT_S>Succession</SCRTEXT_S>
+     <SCRTEXT_M>Exclude Succession</SCRTEXT_M>
+     <SCRTEXT_L>Exclude from Succession</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

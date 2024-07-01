@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_DSO_PARTICIPANTS</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Abstrakte DSO-Klasse für Teilnehmer</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Teilnehmer löschen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Teilnehmer löschen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Teilnehmer löschen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Teilnehmer erstellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Teilnehmer erstellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Teilnehmer erstellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Teilnehmer selektieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Teilnehmer selektieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Teilnehmer selektieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelne Teilnehmer selektieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Einzelne Teilnehmer selektieren</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Einzelne Teilnehmer selektieren</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>IT_R_PARTIC_ID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Rangetabellenstruktur für Teilnehmer-IDs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>IT_R_PARTIC_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range Table Structure for Participant IDs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>IT_R_PARTIC_ID</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Range Table Structure for Participant IDs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>EV_PARTIC_ID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Teilnehmer ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>EV_PARTIC_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Participant ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>EV_PARTIC_ID</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Participant ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>IT_PARTIC</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabelle mit Teilnehmern</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>IT_PARTIC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with Participants</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>IT_PARTIC</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table with Participants</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_PARTIC</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabelle mit Teilnehmern</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_PARTIC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with Participants</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_PARTIC</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table with Participants</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <SCONAME>ET_PARTIC</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabelle mit Teilnehmern</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <SCONAME>ET_PARTIC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with Participants</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <SCONAME>ET_PARTIC</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table with Participants</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <SCONAME>ITR_BO_ID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Business Object ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <SCONAME>ITR_BO_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Object ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <SCONAME>ITR_BO_ID</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Business Object ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <SCONAME>IV_BO_TYP</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Business Object Typ</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <SCONAME>IV_BO_TYP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Object Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_ID</CMPNAME>
+     <SCONAME>IV_BO_TYP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Business Object Type</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

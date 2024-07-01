@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_CONSTANTS_OM</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>gicom Constants for organizational model</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ART_DYNAMIC_PRIORITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ART_DYNAMIC_PRIORITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ART_DYNAMIC_PRIORITY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ART_PRIO_INCREMENTER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ART_PRIO_INCREMENTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ART_PRIO_INCREMENTER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ART_SELF_PRIORITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ART_SELF_PRIORITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ART_SELF_PRIORITY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MSG_CLASS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Arbeitsgebiet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MSG_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Arbeitsgebiet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MSG_CLASS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Arbeitsgebiet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_CLASS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einstelliges Kennzeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Einstelliges Kennzeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_CLASS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Einstelliges Kennzeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_DYNAMIC_PRIORITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_DYNAMIC_PRIORITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_DYNAMIC_PRIORITY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_PRIO_INCREMENTER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_PRIO_INCREMENTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_PRIO_INCREMENTER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_SELF_PRIORITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_SELF_PRIORITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ORG_SELF_PRIORITY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PRIO_INCREMENTER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PRIO_INCREMENTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_PRIO_INCREMENTER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ROOT_LEVEL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Organisations-Level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ROOT_LEVEL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Organisations-Level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ROOT_LEVEL</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Organisations-Level</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ROOT_PRIORITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ROOT_PRIORITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ROOT_PRIORITY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SELF_PRIORITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SELF_PRIORITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SELF_PRIORITY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Priorität in der Hierarchie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_TEMP_CHARACTER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einstelliges Kennzeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_TEMP_CHARACTER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Einstelliges Kennzeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_TEMP_CHARACTER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Einstelliges Kennzeichen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_UI_DEFAULT_COLOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>color green type - hex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_UI_DEFAULT_COLOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>color green type - hex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_UI_DEFAULT_COLOR</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>color green type - hex</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_UI_DEFAULT_ICON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>UI5 Icon</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_UI_DEFAULT_ICON</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>UI5 Icon</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_UI_DEFAULT_ICON</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>UI5 Icon</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ULTIMO_VALID_FROM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gültig von</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ULTIMO_VALID_FROM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gültig von</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ULTIMO_VALID_FROM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Gültig von</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ULTIMO_VALID_TO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gültig bis</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ULTIMO_VALID_TO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Gültig bis</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ULTIMO_VALID_TO</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Gültig bis</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

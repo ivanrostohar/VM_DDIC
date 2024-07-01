@@ -5,6 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_EKKOG</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR4</DOMNAME>
     <HEADLEN>55</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>20</SCRLEN2>
@@ -15,11 +16,21 @@
     <SCRTEXT_M>Condition Group</SCRTEXT_M>
     <SCRTEXT_L>Condition Group</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
-    <DATATYPE>CHAR</DATATYPE>
-    <LENG>000004</LENG>
-    <OUTPUTLEN>000004</OUTPUTLEN>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Group with Vendor</DDTEXT>
+     <REPTEXT>CoGr</REPTEXT>
+     <SCRTEXT_S>Cond. Grp</SCRTEXT_S>
+     <SCRTEXT_M>Condition Group</SCRTEXT_M>
+     <SCRTEXT_L>Condition Group</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

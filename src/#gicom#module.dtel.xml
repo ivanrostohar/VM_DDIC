@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/MODULE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/MODULE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>gicom application modules</DDTEXT>
+    <REPTEXT>Module Abbreviation</REPTEXT>
+    <SCRTEXT_S>Module</SCRTEXT_S>
+    <SCRTEXT_M>Module</SCRTEXT_M>
+    <SCRTEXT_L>Module Abbreviation</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>gicom Anwendungsmodule</DDTEXT>
+     <REPTEXT>Modul Abkürzung</REPTEXT>
+     <SCRTEXT_S>Modul</SCRTEXT_S>
+     <SCRTEXT_M>Modul</SCRTEXT_M>
+     <SCRTEXT_L>Modul Abkürzung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>modules d’application gicom</DDTEXT>
+     <REPTEXT>Abréviation du module</REPTEXT>
+     <SCRTEXT_S>Module</SCRTEXT_S>
+     <SCRTEXT_M>Module</SCRTEXT_M>
+     <SCRTEXT_L>Abréviation du module</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Moduły aplikacji Gicom</DDTEXT>
+     <REPTEXT>Skrót modułu</REPTEXT>
+     <SCRTEXT_S>Moduł</SCRTEXT_S>
+     <SCRTEXT_M>Moduł</SCRTEXT_M>
+     <SCRTEXT_L>Skrót modułu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>módulos de aplicação gicom</DDTEXT>
+     <REPTEXT>Abreviação do módulo</REPTEXT>
+     <SCRTEXT_S>Módulo</SCRTEXT_S>
+     <SCRTEXT_M>Módulo</SCRTEXT_M>
+     <SCRTEXT_L>Abreviação do módulo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>módulos de aplicación gicom</DDTEXT>
+     <REPTEXT>Abreviación de módulo</REPTEXT>
+     <SCRTEXT_S>Módulo</SCRTEXT_S>
+     <SCRTEXT_M>Módulo</SCRTEXT_M>
+     <SCRTEXT_L>Abreviación de módulo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

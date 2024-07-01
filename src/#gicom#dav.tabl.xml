@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/GICOM/DAV</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>TRANSP</TABCLASS>
+    <CLIDEP>X</CLIDEP>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Dynamic Appendix Values</DDTEXT>
+    <CONTFLAG>A</CONTFLAG>
+    <EXCLASS>4</EXCLASS>
+   </DD02V>
+   <DD09L>
+    <TABNAME>/GICOM/DAV</TABNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <TABKAT>0</TABKAT>
+    <TABART>APPL0</TABART>
+    <BUFALLOW>N</BUFALLOW>
+   </DD09L>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>CLNT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ROLLNAME>MANDT</ROLLNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <NOTNULL>X</NOTNULL>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/GICOM/DAV_KEY_S</PRECFIELD>
+     <NOTNULL>X</NOTNULL>
+     <MASK>      S</MASK>
+     <DDTEXT>Dynamic Appendix Values</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLUDE</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>/GICOM/DAV_DATA_S</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Dynamic Appendix Values Data Structure</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>DATA</GROUPNAME>
+    </DD03P>
+   </DD03P_TABLE>
+   <DD12V>
+    <DD12V>
+     <SQLTAB>/GICOM/DAV</SQLTAB>
+     <INDEXNAME>01</INDEXNAME>
+     <AS4LOCAL>A</AS4LOCAL>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Primary key</DDTEXT>
+    </DD12V>
+   </DD12V>
+   <DD17V>
+    <DD17V>
+     <SQLTAB>/GICOM/DAV</SQLTAB>
+     <INDEXNAME>01</INDEXNAME>
+     <POSITION>0001</POSITION>
+     <AS4LOCAL>A</AS4LOCAL>
+     <FIELDNAME>OBJTY</FIELDNAME>
+    </DD17V>
+    <DD17V>
+     <SQLTAB>/GICOM/DAV</SQLTAB>
+     <INDEXNAME>01</INDEXNAME>
+     <POSITION>0002</POSITION>
+     <AS4LOCAL>A</AS4LOCAL>
+     <FIELDNAME>OBJID</FIELDNAME>
+    </DD17V>
+    <DD17V>
+     <SQLTAB>/GICOM/DAV</SQLTAB>
+     <INDEXNAME>01</INDEXNAME>
+     <POSITION>0003</POSITION>
+     <AS4LOCAL>A</AS4LOCAL>
+     <FIELDNAME>LAYOUT</FIELDNAME>
+    </DD17V>
+   </DD17V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Dynamic Appendix Values</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+   <TABL_EXTRAS>
+    <TDDAT>
+     <TABNAME>/GICOM/DAV</TABNAME>
+     <CCLASS>&amp;NC&amp;</CCLASS>
+    </TDDAT>
+   </TABL_EXTRAS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

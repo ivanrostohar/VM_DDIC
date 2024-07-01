@@ -3895,6 +3895,16 @@
      <TEXT>Erreur au cours du BAdI de pré-affectation du contrat de modif.</TEXT>
     </item>
     <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>189</MSGNR>
+     <TEXT>Contact person &amp;1 does not exist</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>190</MSGNR>
+     <TEXT>Contact person &amp;1 is a SAP User or Vendor and thus not changeable.</TEXT>
+    </item>
+    <item>
      <SPRSL>L</SPRSL>
      <MSGNR>000</MSGNR>
      <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>

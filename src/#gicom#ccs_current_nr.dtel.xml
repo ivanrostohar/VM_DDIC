@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Run. Nr.</SCRTEXT_S>
      <SCRTEXT_M>Run. Nr.</SCRTEXT_M>
      <SCRTEXT_L>Runnig Number</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Current number</DDTEXT>
+     <REPTEXT>Lfd. Nr.</REPTEXT>
+     <SCRTEXT_S>Lfd. Nr.</SCRTEXT_S>
+     <SCRTEXT_M>Lfd. Nr.</SCRTEXT_M>
+     <SCRTEXT_L>Laufende Nummer</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

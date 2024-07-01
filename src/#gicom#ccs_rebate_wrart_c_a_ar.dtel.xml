@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>RckAuf.Db.</SCRTEXT_S>
      <SCRTEXT_M>Rückst.,Kunde,DbAbr.</SCRTEXT_M>
      <SCRTEXT_L>AbrProzArt RückstAuflös. Kunde DebitAbr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Proc. Type for Accruals Reversal for Cust. as AR</DDTEXT>
+     <REPTEXT>Settlement Proc. Type (Accounts Receiv.)</REPTEXT>
+     <SCRTEXT_S>AccRev AR</SCRTEXT_S>
+     <SCRTEXT_M>Accr Rev Customer AR</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Proc Type Accr. Reversal Cust. AR</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

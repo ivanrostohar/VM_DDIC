@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SAP_STATUS_CHANGE_NUM</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>NUM3</DOMNAME>
+    <HEADLEN>03</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Change number</DDTEXT>
+    <REPTEXT>ChN</REPTEXT>
+    <SCRTEXT_S>Change no.</SCRTEXT_S>
+    <SCRTEXT_M>Change number</SCRTEXT_M>
+    <SCRTEXT_L>Change number</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Änderungsnummer</DDTEXT>
+     <REPTEXT>ÄNr</REPTEXT>
+     <SCRTEXT_S>Änd.nummer</SCRTEXT_S>
+     <SCRTEXT_M>Änderungsnummer</SCRTEXT_M>
+     <SCRTEXT_L>Änderungsnummer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Change number</DDTEXT>
+     <REPTEXT>ChN</REPTEXT>
+     <SCRTEXT_S>Change no.</SCRTEXT_S>
+     <SCRTEXT_M>Change number</SCRTEXT_M>
+     <SCRTEXT_L>Change number</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Nº modificação</DDTEXT>
+     <REPTEXT>NºM</REPTEXT>
+     <SCRTEXT_S>Nº modific</SCRTEXT_S>
+     <SCRTEXT_M>Nº modificação</SCRTEXT_M>
+     <SCRTEXT_L>Nº modificação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Número de modificación</DDTEXT>
+     <REPTEXT>NºM</REPTEXT>
+     <SCRTEXT_S>Nº modif.</SCRTEXT_S>
+     <SCRTEXT_M>Nº modificación</SCRTEXT_M>
+     <SCRTEXT_L>Número modificación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

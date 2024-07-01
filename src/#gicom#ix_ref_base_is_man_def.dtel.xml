@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/IX_REF_BASE_IS_MAN_DEF</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/IX_REF_BASE_IS_MAN_DEF</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>Manual definition of the indexbasis</DDTEXT>
+    <REPTEXT>Man. Definition</REPTEXT>
+    <SCRTEXT_S>Man. Def.</SCRTEXT_S>
+    <SCRTEXT_M>Man. Definition</SCRTEXT_M>
+    <SCRTEXT_L>Manual definition</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Manuelle Definition der Indexbasis</DDTEXT>
+     <REPTEXT>Man. Definition</REPTEXT>
+     <SCRTEXT_S>Man. Def.</SCRTEXT_S>
+     <SCRTEXT_M>Man. Definition</SCRTEXT_M>
+     <SCRTEXT_L>Manuelle Definition</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Manual definition of the indexbasis</DDTEXT>
+     <REPTEXT>Man. Definition</REPTEXT>
+     <SCRTEXT_S>Man. Def.</SCRTEXT_S>
+     <SCRTEXT_M>Man. Definition</SCRTEXT_M>
+     <SCRTEXT_L>Manual definition</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

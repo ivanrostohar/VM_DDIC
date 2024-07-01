@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/GICOM/CONTR</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00153</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/GICOM/CONTR</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Within the maintenance of contract types, these are created and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>modified.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Caution: The maintenance of the contract types is not subjected to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>general parameters of SAP customizing and therefore is defined depending</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>on a system and the selected client. This way, modifications can be set</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>live within a short term. Consequently, the adaptations must be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>performed separately in all system environments.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>You access the definition of contract types via the view cluster</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/GICOM/VC_CONTR. Within the maintenance of the contract types, the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding folders are assigned to the contract type that is to be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>adjusted. Initially, a list of all defined contract types is displayed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>You new entries can be defined, existing entries can be view and edited.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>A contract type is defined by the combination of contract type ID, a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>description, a validity period and the underlying agreement model.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Furthermore, you can define different attributes for a contract type, a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>description of these is following. Primarily, the header data of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contract type are defined. Now, you create the individual subareas to be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned to the contract type.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The information on creation and modification is completed by the system.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The data entries are saved onto the following tables:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>* /GICOM/TCNT_TYP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>* /GICOM/TCNT_TYPT</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>* /GICOM/TCNT_TCTY</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>* /GICOM/TCNT_TROV</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>* /GICOM/TCNT_TDOC</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Within the details of a contract type the following fields need to be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintained:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Contract type: Within this field freely selected ID is maintained to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>define the contract. A maximum of 4 digits is allowed for the ID.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Valid from/until: A validity period is defined, within which the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>settings are valid for this contract type. By default the &quot;Until&quot; field</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is preset with the value 31.12.9999.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Agreement model: Within this field it can be chosen on which agreements</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>model the contract type is based. Further information can be seen within</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the user guide AD.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Possible selections are:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>ü,,Supplier contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>ü,,Customer contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>ü,,Internal customer contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>ü,,Distribution contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>ü,,Operating contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>ü,,Template</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>If AD is used exclusively, only the model &quot;Vendor contract&quot; is relevant.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Change: This field defines, whether changes can be made within an active</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contract. The following selections can be entered</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>No                                  It is not allowed to edit an active</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contract at all.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Yes, directly                   Editing an active contract is partially</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>allowed. The changeable</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>                                       attributes are defined within</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customizing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Yes, via Addendum       An active contract may only be edited via an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>addendum, which will</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>                                       eventually be released and set</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>active.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Techn Validity: When activating this checkbox, limited contracts may</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>receive a technical infinite validity.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>CCS Integration Control</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>§,,Checkbox &quot;Transfer to CCS&quot;:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>When activating this checkbox, the active contracts of this type are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transferred to the CCS via the interface for settlement. This requires a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>separate CCS customizing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Features</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>§,,Activate conditions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>When this is activated, the condition tab in the contract maintenance is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>shown which enables a creation of conditions in contracts of this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contract type.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>§,,Non-mon. agreements</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>When this is activated, the tab for Dynamic Appendix (NMAs) in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contract maintenance is shown which enables the creation of non-monetary</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>agreements in contracts of this type. The assignment of Dynamic Appendix</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>to a contract type, is maintained within the view cluster</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/GICOM/VC_TDYN.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Contract release</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>§,,Approval y./n.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE> Within this field you define whether the contract type is based on a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>release process or not. If a release process is required, the creation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of an approval is mandatory. If the field is inactivated, the contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is directly activated in status 70. You still create an approval, in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>order to be able to send for example info news via email about contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>releases.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step1: Contract types - texts</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>In this sub-item you define the description of the contract type for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>different languages.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>It is mandatory to enter at least one entry in this tab. You enter the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>description in the view cluster maintenance /GICOM/VC_CONTR within the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding contract types.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Language: In the field language, you enter the language key for which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the description is created. The language must be saved in the SAP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>language table and is selected via a search help or entered manually.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Title contract type:  The description for the selected contract type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is defined, depending on a language.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Acronym: An abbreviation of the contract type is entered for each</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>language.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step2: Condition types</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Within the contract type definition, it is possible to assign condition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type groups to a contract type.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Only the condition types of the assigned group and the individually</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assigned condition types are later allowed for the condition maintenance</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for this contract type.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Entries are optional. If no entries are made, all conditions will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>allowed for this contract type. The entries can be recorded within the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>view cluster /GICOM/VC_CONTR. To define the assignment the older</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>“Assigned condition types to contract type” is selected and the entries</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>are made.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Condition type group: It is defined which condition type groups are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>available for this contract type. If no entry is made, all condition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>types will be allowed for this contract type. The following field &quot;title</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition group&quot; is automatically filled with the corresponding title,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>as defined within the condition type group.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Condition type: Individual condition types that will available for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this contract type are listed. If no entry is made, all condition types</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>will be allowed for this contract type. The following field is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>automatically completed with the corresponding description.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Valid from / Valid to: The period of validity for the condition type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>group or individual conditions for this contract type is to be defined.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step3: Ranges of validity</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Within this tab it can be define for which levels of process and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational levels a contract of the selected contract type can be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>created.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>It is mandatory to maintain at least one entry. Entries are directly</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>recorded in the view cluster for the selected contract types.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Task level: The level of process for which contracts of this contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type are created is defined.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Organizational level: The organizational level which will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>available for the contract type is available. Then you can also select</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the contract type for all subordinated organizational levels. If a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contract is available for each organizational level, the upper</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational level must be maintained.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Settling Company Code: The settling company code for the contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type is entered, which leads to an exclusive settlement of through this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>company code. For exclusive AD use, the settling company code is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>irrelevant and therefore, maintenance is not required.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Valid from/ until: This defines the period of validity within which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the contract type will be available within this range of validity.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step4: Document definition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>In the tab document definition, you define the forms for the contract.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>At least one entry is mandatory in this tab. The entries are made via</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the maintenance view /GICOM/VM_TDOC or via the cluster view</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/GICOM/VC_CONTR within the sub-item definition of files.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Contract language: Here you define the contract language for which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this form must be retrieved. The standard SAP language value help is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>provided.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Jurisdiction: Per document type a legal jurisdiction is stored where</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the contract may be valid (for example, a department) and in which the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>form is retrieved. The jurisdiction must coincide with the entered range</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of validity.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Valid from/to: Here you can the validity of the document assignment.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

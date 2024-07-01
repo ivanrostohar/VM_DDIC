@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DATTP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DATTP</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>09</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>gicom copy Period Indicator for Shelf Life Expiration Date</DDTEXT>
+    <REPTEXT>Per. Ind.</REPTEXT>
+    <SCRTEXT_S>Per. Ind.</SCRTEXT_S>
+    <SCRTEXT_M>Period Ind.</SCRTEXT_M>
+    <SCRTEXT_L>Period Ind. for SLED</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>PERIOD_IND_EXPIRATION_DATE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Periodenkennzeichen für MHD</DDTEXT>
+     <REPTEXT>Per.kz.</REPTEXT>
+     <SCRTEXT_S>Period.kz.</SCRTEXT_S>
+     <SCRTEXT_M>Periodenkennz.</SCRTEXT_M>
+     <SCRTEXT_L>Periodenkennz. MHD</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>gicom copy Period Indicator for Shelf Life Expiration Date</DDTEXT>
+     <REPTEXT>Per. Ind.</REPTEXT>
+     <SCRTEXT_S>Per. Ind.</SCRTEXT_S>
+     <SCRTEXT_M>Period Ind.</SCRTEXT_M>
+     <SCRTEXT_L>Period Ind. for SLED</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

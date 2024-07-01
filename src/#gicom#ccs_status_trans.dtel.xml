@@ -20,11 +20,20 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Status der Übetragung nach CCS</DDTEXT>
+     <REPTEXT>Status</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status</SCRTEXT_M>
+     <SCRTEXT_L>Status</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Status of transfer to ccs</DDTEXT>
      <REPTEXT>Status</REPTEXT>
      <SCRTEXT_S>Status</SCRTEXT_S>
      <SCRTEXT_M>Status</SCRTEXT_M>

@@ -17,6 +17,18 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Objective for across negotiation round controlling</DDTEXT>
+     <SCRTEXT_S>angrc obj</SCRTEXT_S>
+     <SCRTEXT_M>across ngr ctrl obj</SCRTEXT_M>
+     <SCRTEXT_L>across negot. round controlling objectiv</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

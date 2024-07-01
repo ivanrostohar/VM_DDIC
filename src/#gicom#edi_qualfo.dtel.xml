@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/EDI_QUALFO</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/EDI_QUALFO</DOMNAME>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>IDOC qualifer organization</DDTEXT>
+    <SCRTEXT_S>Qualifier</SCRTEXT_S>
+    <SCRTEXT_M>Qualifier</SCRTEXT_M>
+    <SCRTEXT_L>Qualifier</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>IDOC Qualifier Organisation</DDTEXT>
+     <SCRTEXT_S>Qualifier</SCRTEXT_S>
+     <SCRTEXT_M>Qualifier</SCRTEXT_M>
+     <SCRTEXT_L>Qualifier</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>IDOC qualifer organization</DDTEXT>
+     <SCRTEXT_S>Qualifier</SCRTEXT_S>
+     <SCRTEXT_M>Qualifier</SCRTEXT_M>
+     <SCRTEXT_L>Qualifier</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

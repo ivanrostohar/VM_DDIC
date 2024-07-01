@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>keine Kon.</SCRTEXT_S>
      <SCRTEXT_M>Keine Kondit.</SCRTEXT_M>
      <SCRTEXT_L>Kondition. ausblend.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Hide Conditions Area in Condition Contract Maintenance</DDTEXT>
+     <REPTEXT>Hide Conditions Area</REPTEXT>
+     <SCRTEXT_S>No Condtns</SCRTEXT_S>
+     <SCRTEXT_M>No Conditions</SCRTEXT_M>
+     <SCRTEXT_L>Hide Conditions</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

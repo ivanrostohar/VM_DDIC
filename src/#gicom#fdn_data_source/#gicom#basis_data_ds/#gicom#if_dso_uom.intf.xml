@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_DSO_UOM</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface for BAdI: /GICOM/BADI_DS_UOM</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SEARCH</CMPNAME>
+     <SCONAME>IT_UOM</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Basismengeneinheit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEARCH</CMPNAME>
+     <SCONAME>IT_UOM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEARCH</CMPNAME>
+     <SCONAME>IT_UOM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEARCH</CMPNAME>
+     <SCONAME>RT_UOM</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Basismengeneinheit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEARCH</CMPNAME>
+     <SCONAME>RT_UOM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEARCH</CMPNAME>
+     <SCONAME>RT_UOM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Base Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_UOM</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp für Masseinheiten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_UOM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Units of Measurement</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_UOM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table Type for Units of Measurement</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_UOM_TXT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Mengeneinheiten - sprachenabhängige Texte</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_UOM_TXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Units of Measure - Language-Dependent Texts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_UOM_TXT</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Units of Measure - Language-Dependent Texts</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

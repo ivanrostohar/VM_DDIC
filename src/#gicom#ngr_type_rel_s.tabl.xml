@@ -26,11 +26,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Struktur zu Verhandlungsrundentyp und Ziel. rel. Flag</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Structure for Negotiation Round Type and Targ. Rel. Flag</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

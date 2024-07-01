@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Sales Organization</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GICOM/LRFC_SALES_ORGTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GICOM/SAPLRFC_SALES_ORG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GICOM/RFC_READ_SALES_ORG</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Read Sales Organizations</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_SALES_ORGS</PARAMETER>
+       <TYP>/GICOM/CSALES_ORG_A_STT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_SALES_ORGS_TXT</PARAMETER>
+       <TYP>/GICOM/CSALES_ORG_TXT_A_STT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>/GICOM/BAPIRET_TT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_SALES_ORGS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sales Organization</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_SALES_ORGS_TXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sales Organization Texts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabletyp for gicom BAPIRET</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

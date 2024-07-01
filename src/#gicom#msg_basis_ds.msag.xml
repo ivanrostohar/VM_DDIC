@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for DataSource Accesses</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Insert in table &amp;1 aborted. Errorcode: &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No entry for company code &amp;1 found. Errorcode: &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No entry for mass unit &amp;1 found. Errorcode: &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>No entry for identifier &amp;1 in table &amp;2 found.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Internal Error: &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No entries for selection parameters in table &amp;1 gefunden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Deleting for the selected entry not succesful.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Deleting in table &amp;1 not possible. No entrys.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Tax code &amp;1. country &amp;2. error: &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>No document found for reference number &amp;1. Table &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No document found for document number &amp;1. Table &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error during update table &amp;1 with key &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Delete for table &amp;1 and key &amp;2 aborted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Update on table &amp;1 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Unit of measurement &amp;1 and/or currency &amp;2 can&apos;t be converted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Customizing of table /GICOM/TPROCESS &quot;effective date of calc.&quot; is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Delete on table &amp;1 failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Address of business partner &amp;1 not found or incomplete.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>No unique entry found for selection parameters in table &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Failed to set database lock for table &amp;1. Errorcode: &amp;2.</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>/GICOM/MSG_BASIS_DS019</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00003</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/MSG_BASIS_DS019</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The database lock for the mentioned tabled failed.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This erros occurs to prevent from incorrect data sets</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When this happens in an idoc scenario, then reprocess the idoc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <STEXT>Nachrichtenklasse für DataSource-Zugriffe</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <STEXT>Classe de message pour les accès aux sources de données</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <STEXT>Klasa komunikatów dla dostępu do źródła danych</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <STEXT>Classe de mensagens para acessos à fonte de dados</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_BASIS_DS</ARBGB>
+     <STEXT>Clase de mensajes para accesos de origen de datos</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Einfügen in Tabelle &amp;1 fehlgeschlagen. Fehlercode: &amp;2 .</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Kein Eintrag für Ländercode &amp;1 gefunden. Fehlercode: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Kein Eintrag für Masseinheit &amp;1 gefunden. Fehlercode: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Kein Eintrag für Identifier &amp;1 in Tabelle &amp;2 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Interner Fehler: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Keine Einträge für Selektionsparameter in Tabelle &amp;1 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Löschen für den gewünschten Eintrag nicht erfolgreich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Löschen in Tabelle &amp;1 nicht möglich. Keine Eintrage.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Steuerkennzeichen &amp;1. Land &amp;2. Fehler: &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Kein Belege für Referennummer &amp;1 gefunden. Tabelle &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Kein Beleg für Belegnummer &amp;1 gefunden. Tabelle &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Update in Tabelle &amp;1 für Key &amp;2 fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Löschen in Tabelle &amp;1 für Key &amp;2 fehlgeschlagen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Update in Tabelle &amp;1 fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Mengeneinheit &amp;1 und/oder Währung &amp;2 sind nicht konvertierbar.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Customizing der Tabelle /GICOM/TPROCESS &quot;Stichtag der Kalkulation&quot; fehlt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Löschen in Tabelle &amp;1 fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Adresse des Geschäftspartners &amp;1 nicht gefunden oder unvollständig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Kein eindeutiger Eintrag für Selektionsparameter in Tabelle &amp;1 gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Datenbanksperre für Tabelle &amp;1 konnte nicht gesetzt werden. Fehlercode:&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Échec d’insertion dans le tableau &amp;1. Code d’erreur : &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Aucune entrée trouvée pour le code entreprise &amp;1. Code d’erreur : &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Aucune entrée trouvée pour l’unité de masse &amp;1. Code d’erreur : &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Aucune entrée trouvée pour ID &amp;1 dans le tableau &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erreur interne : &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Aucune entrée pour param de séle. dans le tableau &amp;1 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Échec de la suppression de l’entrée sélectionnée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Suppression impossible dans le tableau &amp;1. Aucune entrée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Code d’imposition &amp;1. Pays &amp;2. Erreur : &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Aucun document trouvé pour le numéro de référence &amp;1. Tableau &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Aucun document trouvé pour le numéro de document &amp;1. Tableau &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Erreur pendant la mise à jour du tableau &amp;1 avec la clé &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Échec de la suppression du tableau &amp;1 et de la clé &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Échec de la mise à jour du tableau &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>L’unité de mesure &amp;1 et/ou la devise &amp;2 ne peuvent pas être converties.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Personnalis. tableau /GICOM/TPROCESS « date eff. de calcul » manquante</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Échec de la suppression sur le tableau &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>L’adresse du partenaire commercial &amp;1 est introuvable ou incomplète.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Aucune entrée unique trouvée pour param. de sélec. dans le tableau &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Échec du verrouillage de la BD pour le tableau &amp;1. Code d’erreur : &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Wstawianie do tabeli &amp;1 przerwane. Kod błędu: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nie znaleziono pozycji dla kodu firmy &amp;1. Kod błędu: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Nie znaleziono pozycji dla jednostki masowej &amp;1. Kod błędu: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nie znaleziono pozycji dla identyfikatora &amp;1 w tabeli &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Błąd wewnętrzny: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Nie znaleziono pozycji dla parametrów wyboru w tabeli &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Usunięcie wybranej pozycji nie udało się.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Usunięcie w tabeli &amp;1 nie jest możliwe. Brak pozycji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Kod podatkowy &amp;1. Kraj &amp;2. Błąd: &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Nie znaleziono dokumentu dla numeru referencyjnego &amp;1. Tabela &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Nie znaleziono dokumentu o numerze &amp;1. Tabela &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Błąd podczas aktualizowania tabeli &amp;1 z kluczem &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Przerwano usuwanie w tabeli &amp;1 z kluczem &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Aktualizowanie tabeli &amp;1 nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Nie można przeliczyć jednostki miary &amp;1 lub waluty &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Brak dostosow. tabeli /GICOM/TPROCESS „Data pocz. obowiązywania obliczeń”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Usunięcie w tabeli &amp;1 nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Brak adresu partnera biznesowego &amp;1 lub adres jest niekompletny.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Nie znaleziono unikalnego wpisu dla parametrów wyboru w tabeli &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Nie można ustawić blokady bazy danych dla tabeli &amp;1. Kod błędu: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Entrada na tabela &amp;1 cancelada. Código de erro: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nenhuma entrada encontrada para a empresa &amp;1. Código de erro: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Nenhuma entrada encontrada para unidade de massa &amp;1. Código de erro: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nenhuma entrada encontrada p/ identificador &amp;1 na tabela &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erro interno: &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Nenh. entrada encontrada p/ parâmetros seleção na tabela &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>A eliminação da entrada selecionada falhou.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>A eliminação é impossível na tabela &amp;1. Nenhuma entrada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Código de imposto &amp;1. País &amp;2. Erro: &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Nenhum documento encontrado para nº de referência &amp;1. Tabela &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Nenhum documento encontrado para nº do documento &amp;1. Tabela &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Erro ao atualizar tabela &amp;1 com a chave &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Eliminação da tabela &amp;1 e chave &amp;2 cancelada.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>A atualização na tabela &amp;1 falhou.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Não é possível converter a UM &amp;1 e/ou a moeda &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Custom. tabela /GICOM/TPROCESS “data valid. cálc.” em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Falha ao realizar a exclusão na tabela &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Endereço do parceiro de negócios &amp;1 não encontrado ou incompleto.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Nenhuma entrada única encontrada para parâmetros de seleção na tabela &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Falha ao definir bloqueio do BD para a tabela &amp; 1. Código de erro: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Inserción en la tabla &amp;1 cancelada. Código de error: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No se ha encontrado ninguna entrada para la soc. &amp;1 Código de error: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>No se ha encontr.ninguna unidad de masa para la soc. &amp;1 Código d.err: &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>No existe ninguna entrada para el identificador &amp;1 en la tabla &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error interno: &amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>No existe ninguna entrada p.los parámetros de selección en la tabla &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>No se ha podido borrar la entrada seleccionada correctamente.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>No es posible borrar en la tabla &amp;1. Sin entradas.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error del indicador de impuestos &amp;1, país &amp;2: &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>No se ha encontrado ningún doc. para el Nº de referencia &amp;1. Tabla &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No se ha encontrado ningún doc. para el número de doc. &amp;1. Tabla &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error durante la actualización de la tabla &amp;1 con la clave &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Se ha cancelado el borrado de la tabla &amp;1 y la clave &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>No se ha podido actualizar la tabla &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>La unidad de medida y/o moneda no se puede convertir.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Falta Customizing de tabla /GICOM/TPROCESS &quot;fecha efectiva de cálc.&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Error al borrar la tabla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Dirección del interlocutor comercial &amp;1 no encontrada o incompleta.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>No existe una entrada única para los parám. de selección en la tabla &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Fallo al establecer bloqueo base de datos en tabla &amp;1. Código error: &amp;2.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

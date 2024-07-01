@@ -1,0 +1,983 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SGT_CATV16</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/SGT_SRCA16</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Segmentation Value</DDTEXT>
+    <REPTEXT>Segmentation Value</REPTEXT>
+    <SCRTEXT_S>Seg. Value</SCRTEXT_S>
+    <SCRTEXT_M>Seg. Value</SCRTEXT_M>
+    <SCRTEXT_L>Segmentation Value</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>SEGMENTATION_VALUE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Segmentierungswert</DDTEXT>
+     <REPTEXT>Segmentierungswert</REPTEXT>
+     <SCRTEXT_S>SegmWert</SCRTEXT_S>
+     <SCRTEXT_M>Segmentwert</SCRTEXT_M>
+     <SCRTEXT_L>Segmentierungswert</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Segmentation Value</DDTEXT>
+     <REPTEXT>Segmentation Value</REPTEXT>
+     <SCRTEXT_S>Seg. Value</SCRTEXT_S>
+     <SCRTEXT_M>Seg. Value</SCRTEXT_M>
+     <SCRTEXT_L>Segmentation Value</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Valor de segmentação</DDTEXT>
+     <REPTEXT>Valor segmentação</REPTEXT>
+     <SCRTEXT_S>Val.segm.</SCRTEXT_S>
+     <SCRTEXT_M>Val.segmentação</SCRTEXT_M>
+     <SCRTEXT_L>Valor de segmentação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Valor de segmentación</DDTEXT>
+     <REPTEXT>Valor segmentación</REPTEXT>
+     <SCRTEXT_S>Val.segm.</SCRTEXT_S>
+     <SCRTEXT_M>Val.segment.</SCRTEXT_M>
+     <SCRTEXT_L>Valor segmentación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/SGT_CATV16</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00048</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SGT_CATV16</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Segmentierungswert für Bedarfs- oder Bestandssegment, das einen Wert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eines Segmentierungsfelds oder eine Kombination von Werten für alle</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Segmentierungsfelder enthält.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Dieses Feld wird verwendet, um das Bedarfssegment für eine Komponente in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>einem Plan- und Fertigungsauftrag (während der Stücklistenauflösung)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>festzulegen, und wird basierend auf folgenden Konditionen aktiviert:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Kopfmaterial ist nicht segmentierungsrelevant.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Umfang der Segmentierungsstrategie für Kopfmaterial ist 2 (nur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bedarfssegmentierung).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Umfang der Segmentierungsstrategie für ein Komponentenmaterial ist 1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Bestands- und Bedarfssegmentierung) oder 2 (nur Bedarfssegmentierung).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Umfang der Segmentierungsstrategie für eine Kopfkomponente ist 1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Bestands- und Bedarfssegmentierung) und die Menge ist negativ (wenn das</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Ausgabematerial ein Nebenprodukt ist).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Hinweise</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Wenn das Ausgabematerial ein Kuppelprodukt ist, wird das Material in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Kopfmaterialstückliste als Komponente mit einer positiven Menge</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gepflegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Wenn das Ausgabematerial ein Nebenprodukt ist, wird das Material in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>der Kopfmaterialstückliste als Komponente mit einer negativen Menge</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gepflegt.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>In der folgenden Tabelle werden Konditionen erläutert, wenn das Feld</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Segmentwert aktiviert bzw. deaktiviert ist:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Kopf/Komponente,,,,Umfang 1,,,,Umfang 2,,,,Standard (kein Umfang),,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Nicht segmentierungsrelevant,,,,Deaktiviert,,,,Deaktiviert,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>Deaktiviert,,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Umfang 2,,,,Deaktiviert,,,,Aktiviert (Menge ist positiv),,,,Aktiviert</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(Menge ist positiv),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Umfang 1,,,,Aktiviert (Menge ist negativ),,,,Aktiviert (Menge ist</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>positiv),,,,Aktiviert (Menge ist positiv),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Umfang 1,,,,Deaktiviert (Menge ist positiv),,,,Aktiviert (Menge ist</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negativ),,,,Deaktiviert (Menge ist negativ),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Kanal und Qualität sind zwei Segmentierungsmerkmale, die in einer</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Segmentierungsstruktur mit folgenden Werten verwendet werden:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Kanal,,,,Qualität,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Großhandel,,,,Q1,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Einzelhandel,,,,Q2,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>E-Commerce,,,,Q3,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Zu den möglichen Segmentierungswerten gehören:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Großhandel und Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Großhandel und Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Großhandel und Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Einzelhandel und Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Einzelhandel und Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Einzelhandel und Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,E-Commerce und Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,E-Commerce und Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,E-Commerce und Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/SGT_CATV16</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00047</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SGT_CATV16</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Segmentation value for requirement segment or stock segment which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contains one value of a segmentation field or a combination of values</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for all segmentation fields.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This field is used to set the requirement segment for a component in a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>planned and production order (during BOM explosion) and is enabled based</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>on the following conditions:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Header material is not segmentation relevant.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Scope of segmentation strategy for header material is 2 (only</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>requirement segmentation).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Scope of segmentation strategy for a component material is 1 (stock</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and requirement segmentation) or 2 (only requirement segmentation).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Scope of segmentation strategy for a header component is 1 (stock and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>requirement segmentation) and the quantity is negative (if the output</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>material is a by-product).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Notes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,If the output material is a co-product, then the material is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintained as a component in the header material BOM with a positive</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>quantity.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,If the output material is a by-product, then the material is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintained as a component in the header material BOM with a negative</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>quantity.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The following table explains conditions when the Segment Value field is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enabled or disabled:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Header/Component,,,,Scope 1,,,,Scope 2,,,,Standard (No Scope),,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Non-Segmentation Relevant,,,,Disabled,,,,Disabled,,,,Disabled,,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Scope 2,,,,Disabled,,,,Enabled (Qty is Positive),,,,Enabled (Qty is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Positive),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Scope 1,,,,Enabled (Qty is Negative),,,,Enabled (Qty is Positive),,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>Enabled (Qty is Positive),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Scope 1,,,,Disabled (Qty is Positive),,,,Enabled (Qty is Negative),,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>Disabled (Qty is Negative),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Channel and Quality are two segmentation characteristics used in a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>segmentation structure with the following values:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Channel,,,,Quality,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Wholesale,,,,Q1,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Retail,,,,Q2,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>E-commerce,,,,Q3,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The following are the possible segmentation values:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Wholesale and Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Wholesale and Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Wholesale and Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Retail and Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Retail and Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Retail and Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,E-commerce and Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,E-commerce and Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,E-commerce and Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/SGT_CATV16</OBJECT>
+      <LANGU>P</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00050</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SGT_CATV16</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>P</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Valor de segmentação para o segmento de necessidade ou de estoque que</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contém um valor de um campo de segmentação ou uma combinação de valores</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>para todos os campos de segmentação.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Este campo é utilizado para definir o segmento de necessidades para um</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>componente em uma ordem planejada e ordem de produção (durante a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>explosão da lista técnica) e está ativado com base nas seguintes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condições:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,O material de cabeçalho não é relevante para segmentação.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,O escopo da estratégia de segmentação para o material de cabeçalho é</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>2 (somente segmentação de necessidades).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,O escopo da estratégia de segmentação para um material de componente</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>é 1 (segmentação de estoque e de necessidades) ou 2 (somente segmentação</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de necessidades).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,O escopo da estratégia de segmentação para um componente de cabeçalho</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>é 1 (segmentação de estoque e necessidades) e a quantidade é negativa</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(se o material de saída for um subproduto).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Notas</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Se o material de saída for um coproduto, o material é atualizado como</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>um componente na lista técnica de material de cabeçalho com uma</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>quantidade positiva.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Se o material de saída for um subproduto, o material é atualizado</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>como um componente na lista técnica de material de cabeçalho com uma</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>quantidade negativa.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>A seguinte tabela explica condições quando o campo Valor de segmento</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>está ativado ou desativado:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Cabeçalho/componente,,,,Escopo 1,,,,Escopo 2,,,,Padrão (nenhum escopo),,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Não relevante para segmentação,,,,Desativado,,,,Desativado,,,,Desativado</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>,,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Escopo 2,,,,Desativado,,,,Ativado (quantidade é positiva),,,,Ativado</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(quantidade é positiva),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Escopo 1,,,,Ativado (quantidade é negativa),,,,Ativado (quantidade é</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>positiva),,,,Ativado (quantidade é positiva),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Escopo 1,,,,Desativado (quantidade é positiva),,,,Ativado (quantidade é</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negativa),,,,Desativado (quantidade é negativa),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Canal e Qualidade são duas características de segmentação utilizadas na</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>estrutura de segmentação com os seguintes valores:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Canal,,,,Qualidade,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Comércio atacadista,,,,Q1,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Retail,,,,Q2,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>E-commerce,,,,Q3,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Os valores de segmentação possíveis são os seguintes:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Comércio atacadista e Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Comércio atacadista e Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Comércio atacadista e Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Retail e Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Retail e Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Retail e Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,E-commerce e Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,E-commerce e Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,E-commerce e Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/SGT_CATV16</OBJECT>
+      <LANGU>S</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0002</VERSION>
+      <TXTLINES>00050</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SGT_CATV16</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>S</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00002</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Valor de segmentación para la segmento de necesidades o de stock que</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>contiene un valor de un campo de segmentación o una combinación de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>valores para todos los campos de segmentación.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Este campo se utiliza para fijar el segmento de necesidades para un</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>componente en una orden previsional/de fabricación (durante el desglose</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>de la lista de materiales) y está activado en función de las siguientes</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condiciones:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,el material de cabecera no es relevante para la segmentación</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,el alcance de la estrategia de segmentación para el material de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cabecera es 2 (solamente segmentación de necesidades).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,el alcance de la estrategia de segmentación para un material de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>componente es 1 (segmentación de necesidades y de stock ) o 2 (solamente</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>segmentación de necesidades).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,el alcance de la estrategia de segmentación para un componente de</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cabecera es 1 (segmentación de necesidades y de stock ) y la cantidad es</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negativa (si el material de salida es un subproducto).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Notas</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,si el material de salida es un co-producto, en ese caso el material</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>se actualiza como un componente en la LMat del material de cabecera con</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>una cantidad positiva.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,si el material de salida es un subproducto, en ese caso el material</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>se actualiza como un componente en la LMat del material de cabecera con</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>una cantidad negativa.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>La siguiente tabla explica las condiciones si el campo Valor de segmento</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>está activado o desactivado:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Cabecera/Componente,,,,Ámbito 1,,,,Ámbito 2,,,,Estándar (sin ámbito),,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>No relevante para la segmentación,,,,Desactivado,,,,Desactivado,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>Desactivado,,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ámbito 2,,,,Desactivado,,,,Activado (cantidad positiva),,,,Activado</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(cantidad positiva),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ámbito 1,,,,Activado (cantidad negativa),,,,Activado (cantidad positiva)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>,,,,Activado (cantidad positiva),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ámbito 1,,,,Desactivado (cantidad positiva),,,,Activado (cantidad</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negativa),,,,Desactivado (cantidad negativa),,,,,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Canal y Calidad son dos características de segmentación utilizadas en</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>una estructura de segmentación con los siguientes valores:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Canal,,,,Calidad,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Venta al por mayor,,,,Q1,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Venta al por menor,,,,Q2,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Comercio electrónico,,,,Q3,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Los siguientes son los valores de segmentación posibles:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Venta al por mayor y Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Venta al por mayor y Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Venta al por mayor y Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Venta al por menor y Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Venta al por menor y Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Venta al por menor y Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Comercio electrónico y Q1</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Comercio electrónico y Q2</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Comercio electrónico y Q3</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

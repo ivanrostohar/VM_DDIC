@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Kunde Deb.</SCRTEXT_S>
      <SCRTEXT_M>Kunde - Debitoren</SCRTEXT_M>
      <SCRTEXT_L>Abrechnungsprozessart Kunde DebitAbr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Process Type for Customer Settlement as AR</DDTEXT>
+     <REPTEXT>Settlement Proc. Type (Accounts Receiv.)</REPTEXT>
+     <SCRTEXT_S>Cust. AR</SCRTEXT_S>
+     <SCRTEXT_M>Cust. Accts Receiv.</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Proc. Type Customer Settlement AR</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

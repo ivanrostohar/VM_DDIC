@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SPEC_PREIS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR15</DOMNAME>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Price by unit of measure (SPEC2000)</DDTEXT>
+    <SCRTEXT_S>Price</SCRTEXT_S>
+    <SCRTEXT_M>Price</SCRTEXT_M>
+    <SCRTEXT_L>Price</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Preis pro Mengeneinheit (SPEC2000)</DDTEXT>
+     <SCRTEXT_S>Preis</SCRTEXT_S>
+     <SCRTEXT_M>Preis</SCRTEXT_M>
+     <SCRTEXT_L>Preis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Price by unit of measure (SPEC2000)</DDTEXT>
+     <SCRTEXT_S>Price</SCRTEXT_S>
+     <SCRTEXT_M>Price</SCRTEXT_M>
+     <SCRTEXT_L>Price</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_SKTOF</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>ABAP_BOOLEAN</DOMNAME>
+    <DOMNAME>XFELD</DOMNAME>
     <HEADLEN>55</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>20</SCRLEN2>
@@ -17,8 +17,20 @@
     <SCRTEXT_L>Cash discount</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Cash discount indicator</DDTEXT>
+     <REPTEXT>CDc</REPTEXT>
+     <SCRTEXT_S>Cash.disc.</SCRTEXT_S>
+     <SCRTEXT_M>Cash discount</SCRTEXT_M>
+     <SCRTEXT_L>Cash discount</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

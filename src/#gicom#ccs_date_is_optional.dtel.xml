@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Gült.opt.</SCRTEXT_S>
      <SCRTEXT_M>Gültigkeit optional</SCRTEXT_M>
      <SCRTEXT_L>Konditionskontraktgültigkeit optional</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Entry of Condition Contract Validity is Optional</DDTEXT>
+     <REPTEXT>Condition Contract Validity is Optional</REPTEXT>
+     <SCRTEXT_S>ValidOpt</SCRTEXT_S>
+     <SCRTEXT_M>Validity is Optional</SCRTEXT_M>
+     <SCRTEXT_L>Condition Contract Validity is Optional</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

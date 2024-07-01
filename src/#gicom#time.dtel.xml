@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TIME</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TIME</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Time (hhmmss)</DDTEXT>
+    <REPTEXT>Time</REPTEXT>
+    <SCRTEXT_S>Time</SCRTEXT_S>
+    <SCRTEXT_M>Time</SCRTEXT_M>
+    <SCRTEXT_L>Time</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Zeit (hhmmss)</DDTEXT>
+     <REPTEXT>Zeit</REPTEXT>
+     <SCRTEXT_S>Zeit</SCRTEXT_S>
+     <SCRTEXT_M>Zeit</SCRTEXT_M>
+     <SCRTEXT_L>Zeit</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Heure (hhmmss)</DDTEXT>
+     <REPTEXT>Heure</REPTEXT>
+     <SCRTEXT_S>Heure</SCRTEXT_S>
+     <SCRTEXT_M>Heure</SCRTEXT_M>
+     <SCRTEXT_L>Heure</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Czas (ggmmss)</DDTEXT>
+     <REPTEXT>Czas</REPTEXT>
+     <SCRTEXT_S>Czas</SCRTEXT_S>
+     <SCRTEXT_M>Czas</SCRTEXT_M>
+     <SCRTEXT_L>Czas</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Hora (hhmmss)</DDTEXT>
+     <REPTEXT>Hora</REPTEXT>
+     <SCRTEXT_S>Hora</SCRTEXT_S>
+     <SCRTEXT_M>Hora</SCRTEXT_M>
+     <SCRTEXT_L>Hora</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tiempo (hhmmss)</DDTEXT>
+     <REPTEXT>Tiempo</REPTEXT>
+     <SCRTEXT_S>Tiempo</SCRTEXT_S>
+     <SCRTEXT_M>Tiempo</SCRTEXT_M>
+     <SCRTEXT_L>Tiempo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

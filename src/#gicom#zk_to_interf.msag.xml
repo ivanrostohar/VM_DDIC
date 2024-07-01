@@ -1,0 +1,1582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for Turnover Interface</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>invalid value &amp;1 in field &amp;2 at segment &amp;3 (&amp;4)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Invalid combination of condition values &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Invalid segment &amp;1 in IDOC &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Invalid amount &amp;1 of segment &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error during completion of the structure data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Obligatory field &amp;1 is empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Value &amp;1 is not available</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Error during validation of &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Succesfully validated &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Error during mapping to table /GICOM/BIZ_FLOW</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Error during mapping to table /GICOM/BIZ_TRANS</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error during mapping to table /GICOM/RESULT</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>In case function &amp;2 is used, field &amp;1 can not be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Valid to date is before valid from; calculation not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>No current revenue found; calculation not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>No revenue out of the preceding year found; calculation not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Valid to date is before valid from; simulation not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>No current revenue found; simulation not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Based on the data constellation grouping on level &amp;1 is not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Level &amp;2 grouping executed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Plant or department muss contain a value</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Document number &amp;1 for Business Case &amp;2 &amp;3 already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid qualifier &amp;1 for document reference</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Multiple qualifiers for the document reference; only one type allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Negative quantity not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>No reference documents found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>The FiFo assignment could [partly] not consider the price</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>[Partly] No reference documents during FiFo assignment found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>028</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>No reference (FiFo) for product &amp;1. (Price &amp;2, Quant. &amp;3, Rcv(OID) &amp;4)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>No price consid.(FiFo) for product &amp;1.(Price &amp;2, Quant. &amp;3, Rcv(OID) &amp;4)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Business ID could not be determined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Unknown business class id (&amp;1) for FiFo mapping</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Ambiguous document! (document send or received?)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>No producing country for product was passed for position &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Error during Document Flow Process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Error during Document Chain Process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>More than one on-invoice agreement with the same cond. type found (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>&amp;1 on-invoice agreements could not be saved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Price Condition Type for category &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>IDoc correction failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Biz ID could not get determinated (Wrong document reference?)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>IDoc correction failed because of multiple biz types</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>IDoc correction failed because of multiple entries per biz type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>IDoc correction failed because business type is not relevant anymore</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Only one plant or one department for all document positions allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Only one plant for all document positions allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Only one department for all document positions allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>BP &amp;1 was not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>More than one BP for ID &amp;1 was found</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <STEXT>Nachrichtenklasse für Umsatzsschnittstelle</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <STEXT>Classe de message pour l’interface du chiffre d’affaires</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <STEXT>Klasa komunikatów dla interfejsu obrotu</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <STEXT>Classe de mensagens para interface de faturamento</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/ZK_TO_INTERF</ARBGB>
+     <STEXT>Clase de mensajes para interfaz de volumen de negocios</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Ungültiger Wert &amp;1 für Feld &amp;2 in Segment &amp;3 (&amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Ungültige Kombination von Konditionswerten &amp;1 &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ungültiges Segment &amp;1 in IDOC &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Ungültige Anzahl &amp;1 des Segmentes &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler bei Vervollständigung der Strukturdaten.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Pflichtfeld &amp;1 ist nicht gefüllt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Wert &amp;1 ist nicht vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Fehler bei Validierung der &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Erfolgreiche Validierung der &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Fehler beim Mapping auf Tabelle /GICOM/BIZ_FLOW</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Fehler beim Mapping auf Tabelle /GICOM/BIZ_TRANS</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Fehler beim Mapping auf Tabelle /GICOM/RESULT</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Feld &amp;1 muss zur Nutzung der Funktion &amp;2 ebenfalls gefüllt sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Datum bis ist kleiner als Datum von. Hochrechnung nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Es wurden keine aktuellen Umsätze gefunden. Hochrechnung nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Es wurden keine Vorjahresumsätze gefunden. Hochrechnung nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Datum bis ist kleiner als Datum von. Simulation nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Es wurden keine aktuellen Umsätze gefunden. Simulation nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Gruppierung auf Ebene &amp;1 auf Grund der Datenkonstellation nicht möglich.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Gruppierung wurde auf Ebene &amp;2 durchgeführt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Werk oder Abteilung muss gefüllt sein.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Dokumentennummer &amp;1 für Geschäftsvorfall &amp;2 &amp;3 bereits vorhanden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Ungültigier Qualifier &amp;1 für Belegreferenz.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Mehrere Qualifier für Belegreferenz. Es ist nur eine Art erlaubt.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Negative Menge ist nicht zulässig.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Keine Referenzbelege gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Die FiFo-Zuordnung konnte [teilweise] nicht den Preis berücksichtigen.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>[Teilweise] Keine Referenzbelege bei FiFo-Zuordnung gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Keine Referenz (FiFo) für Produkt &amp;1.(Preis &amp;2,Menge &amp;3,Empf.(OID) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Keine Preisberück(FiFo) für Produkt &amp;1.(Preis &amp;2,Menge &amp;3,Empf.(OID) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Business ID konnte nicht ermittelt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Unbekannte Business-Class-ID (&amp;1) für FiFo-Mapping.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Uneindeutiges Dokument! (Dokument gesendet oder empfangen?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Kein Herstellerland für Produkt wurde an Position &amp;1 übergeben.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Fehler während des Dokumentenflussprozesses.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Fehler während des Dokumentkettenprozesses.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Mehr als eine Belegkondition mit derselben Konditionsart (&amp;1) gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>&amp;1 Belegkonditionen konnten nicht gespeichert werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Preis Konditionstyp für Kategorie &amp;1 wurde nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>IDoc Korrektur ist fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Biz ID konnte nicht bestimmt werden (Falsche Dokumentenreferenz?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>IDoc Korrektur fehlgeschlagen, da mehrere Geschäftstypen vorhanden sind.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>IDoc Korrektur fehlgeschlagen,da mehrere Einträge pro biz type existieren</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>IDoc Korrektur fehlgeschlagen,da der Geschäftstyp nicht mehr relevant ist</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Nur ein Werk oder eine Abteilung für alle Dokumentpositionen erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Nur ein Werk für alle Positionen des Dokuments erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Nur eine Abteilung für alle Positionen des Dokuments erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>BP &amp;1 wurde nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Mehr als ein BP für ID &amp;1 wurde gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>valeur invalide &amp;1 dans le champ &amp;2 au segment &amp;3 (&amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Combinaison invalide de valeurs de condition &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Segment &amp;1 invalide dans l’IDoc &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Montant &amp;1 non valide du segment &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erreur lors du remplissage des données de structure</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Le champ obligatoire &amp;1 est vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>La valeur &amp;1 n’est pas disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Erreur lors de la validation de &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Validation réussie de &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Erreur lors du mappage vers le tableau /GICOM/BIZ_FLOW</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Erreur lors du mappage vers le tableau /GICOM/BIZ_TRANS</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Erreur lors du mappage vers le tableau /GICOM/RESULT</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Si la fonction &amp;2 est utilisée, le champ &amp;1 ne peut pas être vide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>La date fin validité est antér. à date début validité ; calcul impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Aucune recette actuelle trouvée ; calcul impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Aucune recette année précédente n’a été trouvée ; calcul impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>La date fin validité est antér. à date début validité ; simul. impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Aucun recette actuelle trouvée ; simulation impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Sur la base de la constellation de données, groupem. niv. &amp;1 est impos.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Le groupement au niveau &amp;2 est exécuté</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>La division ou le département doit contenir une valeur</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Le numéro de document &amp;1 pour le cas d’activité &amp;2 &amp;3 existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Le qualificatif &amp;1 pour la référence du document est invalide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Plusieurs qualificatifs pour référence document ; un seul type autorisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Quantité négative non valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Aucun document de référence trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>L’affectation FiFo n’a [partiellement] pas pu prendre en compte le prix</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Aucun document de référence [partiel.] trouvé pendant l’affecta. FiFo</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Aucune référ. (FiFo) pour le prod. &amp;1. (Prix &amp;2, quant. &amp;3, Rcv (OID) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Aucun prix cons.(FiFo) pour prod. &amp;1. (Prix &amp;2, quant. &amp;3, Rcv (OID) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>L’ID de l’entreprise n’a pas pu être déterminé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>ID de classe d’entreprise inconnu (&amp;1) pour le mappage FiFo</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Document ambigu ! (document envoyé ou reçu ?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Aucun pays producteur pour produit n’a été transmis pour la position &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Erreur pendant le traitement de flux de documents</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Erreur pendant le traitement de chaîne de documents</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Plus d’un accord sur facture avec le même type de cond. a été trouvé (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Les accords sur facture &amp;1 n’ont pas pu être sauvegardés</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Type de condition de prix pour la catégorie &amp;1 non trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Échec de la correction d’IDoc</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>L’ID Biz n’a pas pu être déterminé (référence de document erronée ?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>La correction d’IDoc a échoué à cause de plusieurs types BIZ</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>La correction d’IDoc a échoué en raison d’entrées multiples par type BIZ</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>La correction d’IDoc a échoué parce que le type BIZ n’est plus pertinent.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Une division ou un départ. pour positions de document autorisées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Une division pour toutes positions de document autorisées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Un département pour toutes positions de document autorisées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>BP &amp;1 n’a pas été trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Plus d’un BP pour l’ID &amp;1 a été trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Nieprawidłowa wartość &amp;1 w polu &amp;2 w segmencie &amp;3 (&amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nieprawidłowa kombinacja wartości warunku &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Nieprawidłowy segment &amp;1 w IDOC &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nieprawidłowa kwota &amp;1 segmentu &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Błąd podczas uzupełniania danych struktury</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Pole obowiązkowe &amp;1 jest puste</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Wartość &amp;1 jest niedostępna</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Błąd podczas sprawdzania poprawności &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Pomyślnie zweryfikowano &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Błąd podczas mapowania do tabeli /GICOM/BIZ_FLOW</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Błąd podczas mapowania do tabeli /GICOM/BIZ_TRANS</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Błąd podczas mapowania do tabeli /GICOM/RESULT</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>W przypadku użycia funkcji &amp;2 pole &amp;1 nie może być puste</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Data Obowiąz. do przypada przed datą Obowiąz. od; obliczenie niemożliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Nie znaleziono bieżących przychodów; obliczenie jest niemożliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Nie znaleziono przychodów z poprzedniego roku; obliczenie jest niemożliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Data Obowiąz. do przypada przed datą Obowiąz. od; symulacja niemożliwa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Nie znaleziono bieżących przychodów; symulacja jest niemożliwa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Na podstawie konstelacji danych grupowanie na poziomie &amp;1 jest niemożliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Wykonano grupowanie na poziomie &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Zakład lub dział musi zawierać wartość</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Numer dokumentu &amp;1 dla przypadku biznesowego &amp;2 &amp;3 już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Nieprawidłowy kwalifikator &amp;1 dla odniesienia do dokumentu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Wiele kwalifikatorów dla odn. do dok.; dozwolony jest tylko jeden typ</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Ilość ujemna jest nieprawidłowa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Nie znaleziono dokumentów referencyjnych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Przypisanie FiFo mogło (częściowo) nie uwzględniać ceny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>(Częściowo) Nie znaleziono dok. ref. w takcie przypisywania FiFo</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Brak odn. (FiFo) dla prod. &amp;1. (Cena &amp;2, ilość &amp;3, odebr. (OID) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Nie uwzgl. ceny (FiFo) dla produktu &amp;1. (Cena &amp;2, ilość &amp;3, od. (OID) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Nie można określić identyfikatora firmy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Nieznany identyfikator klasy biznesowej (&amp;1) dla mapowania FiFo</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Niejednoznaczne dokumenty! (dokument wysłany czy odebrany?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Dla pozycji &amp;1 nie przekazano żadnego kraju produkującego dla produktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Wystąpił błąd w trakcie procesu przepływu dokumentów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Wystąpił błąd w trakcie procesu łańcucha dokumentów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Znaleziono więcej niż jedną umowę na fakt. z tym samym typem warunku (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Nie można zapisać umów na fakturze &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Nie znaleziono typu warunku ceny dla kategorii &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Korekta IDoc nie powiodła się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Nie można określić id. biznesowego (nieprawidłowe odniesienie do dok.?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Korekta IDoc nie powiodła się, ponieważ występuje wiele typów biznesowych</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Korekta IDoc nieudana, ponieważ występuje wiele poz. dla typu biznesowego</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Korekta IDoc nieudana, ponieważ typ biznesowy nie jest już istotny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Dozwolony jest tylko jeden zakład/dział dla wszystkich pozycji dokumentów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Dozwolony jest tylko jeden zakład dla wszystkich pozycji dokumentów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Dozwolony jest tylko jeden dział dla wszystkich pozycji dokumentów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Nie znaleziono BP &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Znaleziono więcej niż jeden BP dla ID &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Valor inválido &amp;1 no campo &amp;2 e segmento &amp;3 (&amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Combinação inválida de valores de condição &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Segmento inválido &amp;1 no IDoc &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Montante inválido &amp;1 do segmento &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erro ao completar dados da estrutura</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>O campo obrigatório &amp;1 está em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>O valor &amp;1 não está disponível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Erro durante a validação de &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>&amp;1 validado com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Erro durante o mapeamento para tabela /GICOM/TRANS</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Erro durante o mapeamento para tabela /GICOM/TRANS_POS</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Erro durante o mapeamento para tabela /GICOM/RESULT</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Caso função &amp;2 seja usada, campo &amp;1 não pode ficar em branco</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Data “Válido até” é anterior a “Válido de”, impossível calc.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Nenhuma receita atual encontrada, impossível calcular</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Nenhuma receita encontrada no ano anterior, impossível calc.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Data “Válido até” é anterior a “Válido de”, imposs. simular</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Nenhuma receita atual encontrada, impossível simular</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Agrupamento nível &amp;1 impossível c/ base constelação de dados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Agrupamento nível &amp;2 executado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>O centro ou departamento deve conter um valor</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Nº do documento &amp;1 para transação comercial &amp;2 &amp;3 já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Qualificador inválido &amp;1 para referência do documento</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Vários qualificadores p/ ref. doc., só um tipo permitido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Quantidade negativa inválida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Nenhum documento de referência encontrado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>A atribuição FIFO não considerou [parcialmente] o preço.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>[Parc.] Nenhum doc.ref. encontrado durante atribuição FIFO.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Sem referência (FIFO) para material &amp;1. (Preço &amp;2 quant. &amp;3, Rcv(OID) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Nenh. preço consid. (FIFO) p/ mat. &amp;1.(Preço &amp;2, quant. &amp;3, Rcv(OID) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>ID da transação não determinado.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>ID classe transação desconhecido (&amp;1) p/ mapeamento FIFO.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Documento ambíguo. (documento enviado ou recebido?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Não foi informado nenhum país de produção do material para a posição &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Erro durante processo de fluxo de documentos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Erro durante processo de cadeia de documentos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Encontrados mais de um acordo em fatura com mesmo tipo de condição (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Não foi possível salvar &amp;1 acordos em fatura</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Não foi encontrado o tipo de condição de preço para categoria &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Falha na correção de IDoc</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Não foi possível determinar o ID biz (referência de documento incorreta?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Falha na correção de IDoc, há vários tipos de biz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Falha na correção de IDoc, há várias entradas por tipo de biz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Falha na correção de IDoc, o tipo de negócio não é mais relevante</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Permitido só um centro ou departamento p/todas as posições de documentos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Permitido só um centro para todas as posições de documentos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Permitido só um departamento para todas as posições de documentos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>O PN &amp;1 não foi encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Encontrado mais de um PN para o ID &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Valor &amp;1 no válido en el campo &amp;2 del segmento &amp;3 (&amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Combinación no válida de los valores de condición &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Segmento &amp;1 no válido en el IDOC &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Importe &amp;1 no válido del segmento &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error al finalizar los datos de estructura</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>El campo obligatorio &amp;1 está vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>El valor &amp;1 no está disponible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Error al validar &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>&amp;1 se ha validado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Error durante la asignación a la tabla /GICOM/TRANS</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Error durante la asignación a la tabla /GICOM/TRANS_POS</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error durante la asignación a la tabla /GICOM/RESULT</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>En caso de que se utilice la función &amp;2, el campo &amp;1 no puede estar vacío</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Fecha Válido hasta anterior a Válido desde; imposible realizar el cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>No hay ingresos actuales; no se puede realizar el cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>No hay ingresos durante el año anterior; imposible realizar el cálculo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Fecha Válido hasta anterior a Válido desde; simulación imposible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>No hay ingresos actuales; no se puede realizar la simulación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Agrupación de constelación basada en datos en el nivel &amp;1 no es posible</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Se ha ejecutado la agrupación del nivel &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>El centro o departamento deben contener un valor</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Número de documento &amp;1 para operación comercial &amp;2 &amp;3 ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Calificador &amp;1 no válido para referencia de documento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Varios calificadores p.referencia de documento; solo se permite una clase</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Cantidad negativa no válida.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>No se han encontrado documentos de referencia.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>La asignación FiFo podría no tener en cuenta el precio [parcialmente].</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>[Parcialmente] Docs.referencia no encontrados durante la asignación FiFo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Ninguna ref.(FiFo) para material &amp;1. (Precio &amp;2, cant. &amp;3, dest.(IDO) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>No s.tiene cuenta prec.(FiFo) d.mat.&amp;1. (Pr. &amp;2, cant. &amp;3, dest.(IDO) &amp;4)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>No se ha podido determinar el ID empresarial</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>ID de clase empresarial desconocido (&amp;1) para asignación FiFo.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Documento ambiguo. (¿Documento enviado o recibido?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>No se ha transf. ningún país de prod. del material para la posición &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Error en el proceso de flujo de documentos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Error en el proceso de cadena de documentos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Existe más de un acuerdo en factura con el mismo tipo de condición (&amp;1)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>&amp;1 acuerdos en factura no se han podido grabar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>No existe clase de condición de precio para categoría &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>La corrección de documento intermedio ha fallado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>ID tipo empres.no se ha podido determinar (¿referencia docum.incorrecta?)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Corrección doc.interm.ha fallado porque hay varios tipos empresariales</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Corrección doc.interm.ha fallado porque hay varias entradas p.tipo empr.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Corrección docum.interm.ha fallado porque tipo empr.ya no es relevante</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Solo se permite una planta o depart. para todas las posic. del documento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Solo se permite una planta para todas las posiciones del documento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Solo se permite un departamento para todas las posiciones del documento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>El IC &amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Se ha encontrado más de un IC para ID &amp;1</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

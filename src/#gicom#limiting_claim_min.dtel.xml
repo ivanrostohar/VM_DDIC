@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/LIMITING_CLAIM_MIN</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/LIMIT</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>24</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>24</SCRLEN3>
+    <DDTEXT>Limiting claim minimum</DDTEXT>
+    <REPTEXT>Limiting claim min.</REPTEXT>
+    <SCRTEXT_S>L.clm min</SCRTEXT_S>
+    <SCRTEXT_M>Limit.claim mi</SCRTEXT_M>
+    <SCRTEXT_L>Limiting claim min.</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Deckelungsertrag minimum</DDTEXT>
+     <REPTEXT>Deckelungsertrag Minimum</REPTEXT>
+     <SCRTEXT_S>Deck. Min.</SCRTEXT_S>
+     <SCRTEXT_M>Deckelung Min.</SCRTEXT_M>
+     <SCRTEXT_L>Deckelungsertrag Minimum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Limiting claim minimum</DDTEXT>
+     <REPTEXT>Limiting claim min.</REPTEXT>
+     <SCRTEXT_S>L.clm min</SCRTEXT_S>
+     <SCRTEXT_M>Limit.claim mi</SCRTEXT_M>
+     <SCRTEXT_L>Limiting claim min.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

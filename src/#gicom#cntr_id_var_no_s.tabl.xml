@@ -22,11 +22,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Struktur mit VetragsNr und Variantennummer (für Selektion)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Structure with Contract No. and Variant No. (for Selection)</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

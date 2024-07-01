@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZGI_CUST</OBJCT>
+    <FIEL1>ACTVT</FIEL1>
+    <FIEL2>ZGI_CUSOBJ</FIEL2>
+    <OCLSS>ZGI</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZGI_CUST</OBJECT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZGI_CUST</OBJCT>
+    <FLAG3>N</FLAG3>
+    <FLAG4>A</FLAG4>
+    <FLAG5>A</FLAG5>
+   </TOBJVORFLG>
+   <TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_CUST</BROBJ>
+     <ACTVT>01</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_CUST</BROBJ>
+     <ACTVT>02</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_CUST</BROBJ>
+     <ACTVT>03</ACTVT>
+    </TACTZ>
+   </TACTZ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

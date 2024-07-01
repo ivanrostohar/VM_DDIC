@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_SETTL_CAL_DATE_TO</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>ABAP_BOOLEAN</DOMNAME>
+    <DOMNAME>XFELD</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>40</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -18,10 +18,10 @@
     <SCRTEXT_L>Check Settlement Date for Date to Exist</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +31,14 @@
      <SCRTEXT_S>Prf,Ab.bis</SCRTEXT_S>
      <SCRTEXT_M>Prüfung, Ab.Dtm Dt.b</SCRTEXT_M>
      <SCRTEXT_L>Prüfung auf Abrechnungsdatum z.Datum bis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CCS: Check Settlement Date for Date to Exist</DDTEXT>
+     <REPTEXT>Check Settlement Date for Date to Exist</REPTEXT>
+     <SCRTEXT_S>Ch SettlTo</SCRTEXT_S>
+     <SCRTEXT_M>Check SettlDat DatTo</SCRTEXT_M>
+     <SCRTEXT_L>Check Settlement Date for Date to Exist</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Sales deal</DDTEXT>
+     <REPTEXT>Sales deal</REPTEXT>
+     <SCRTEXT_S>Sales deal</SCRTEXT_S>
+     <SCRTEXT_M>Sales deal</SCRTEXT_M>
+     <SCRTEXT_L>Sales deal</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>MM KGrup</SCRTEXT_S>
      <SCRTEXT_M>MM KondGruppe</SCRTEXT_M>
      <SCRTEXT_L>Konditionsartengruppe Einkauf</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Group of Purchasing Condition Types/Tables</DDTEXT>
+     <REPTEXT>MM Cnd Grp</REPTEXT>
+     <SCRTEXT_S>MM Cnd Grp</SCRTEXT_S>
+     <SCRTEXT_M>MM Cond. Group</SCRTEXT_M>
+     <SCRTEXT_L>Purchasing Condition Type Group</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DETERM_SETTL_CCODE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DETERM_SETTL_CCODE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>(Implicit) Determination method for settl. comp.code</DDTEXT>
+    <REPTEXT>CoCo Determ.</REPTEXT>
+    <SCRTEXT_S>CC Determ.</SCRTEXT_S>
+    <SCRTEXT_M>CoCo Determ.</SCRTEXT_M>
+    <SCRTEXT_L>settl. CoCo determination</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>(Implizite) Bestimmungsmethode für den abrechnenden BuKrs</DDTEXT>
+     <REPTEXT>Ermittlung BuKrs</REPTEXT>
+     <SCRTEXT_S>BuKrs Erm</SCRTEXT_S>
+     <SCRTEXT_M>Ermittlung BuKrs</SCRTEXT_M>
+     <SCRTEXT_L>Ermittlung abr. BuKrs</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>(Implicit) Determination method for settl. comp.code</DDTEXT>
+     <REPTEXT>CoCo Determ.</REPTEXT>
+     <SCRTEXT_S>CC Determ.</SCRTEXT_S>
+     <SCRTEXT_M>CoCo Determ.</SCRTEXT_M>
+     <SCRTEXT_L>settl. CoCo determination</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

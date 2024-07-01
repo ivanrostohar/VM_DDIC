@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
     <LANGU>P</LANGU>
     <LANGU>S</LANGU>
    </I18N_LANGS>
@@ -31,6 +32,14 @@
      <SCRTEXT_S>Abg./Aufl.</SCRTEXT_S>
      <SCRTEXT_M>Abgrenzung/Auflösung</SCRTEXT_M>
      <SCRTEXT_L>Abgrenzung/Auflösung aktiv</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Accruals Deferral Active</DDTEXT>
+     <REPTEXT>Accruals Deferral Active</REPTEXT>
+     <SCRTEXT_S>Accr Defer</SCRTEXT_S>
+     <SCRTEXT_M>Accruals Deferral</SCRTEXT_M>
+     <SCRTEXT_L>Accruals Deferral Active</SCRTEXT_L>
     </item>
     <item>
      <DDLANGUAGE>P</DDLANGUAGE>

@@ -1,0 +1,4514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages Organization units</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>No purchase information for vendor &amp;1 and company code &amp;2 found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Could not determine settling company code for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Insert into table &amp;1 failed for key &amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Update of table &amp;1 failed for &amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Read from table &amp;1 failed for &amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Delete from table &amp;1 failed for &amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;1 &amp;2 successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Failed to &amp;2 &amp;1; duplicate entries found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>One organization level is required as company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 &amp;2 must have relation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;1 &amp;2 must have at least one &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp;1 &amp;2 must have relation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Organization unit &amp;1 must have company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 currently locked by user &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>There are no dynamic organization units to show</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Validation successful - no errors found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Failed to create new version for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>New version for &amp;1 created successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp;1 &amp;2 must have group company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Organization unit &amp;1 must have representative company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>At least one organization unit must have operator company code</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Changes not possible in productive system</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>One product level is required as product group</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Product unit &amp;1 must have product group</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>One level is required as cost center</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Lowest level should be real</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Invalid arguments - BoID is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Invalid arguments - BoTyp is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Enter valid model</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Organization unit &amp;1 must have cost center</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Org.(int)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Model data not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>At least one organization level must have the breakdown</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Abbreviation: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Title: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Level: &amp;1 does not exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Company code: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Company code: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Company code: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>Purchase org: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Purchase org: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Purchase org: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Purchase group: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Purchase group: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Purchase group: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Cost Center: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Cost Center: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Cost Center: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Sales organization: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Sales organization: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Sales organization: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Distribution channel: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Distribution channel: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Distribution channel: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Division: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Division: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Division: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Plant: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Plant: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Plant: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Product Hierarchy: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Product Hierarchy: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Product Hierarchy: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Product Group: &amp;1 is not allowed to maintain</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Product Group: &amp;1 should be maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Product Group: &amp;1 is already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>There is no unit exists with id &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>Level: &apos;&amp;1&apos; does not exists of org unit &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Unassignment is not possible: There is no relations for this unit &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Unassignment is not possible: The unit &amp;1 has matrix relation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Unassignment is not possible: The unit &amp;1 has matrix relation childs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Reassignment is not possible: There is no relations for this unit &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>072</MSGNR>
+     <TEXT>Reassignment is not possible: The unit &amp;1 has matrix relation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Reassignment is not possible: The unit &amp;1 has matrix relation childs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Reassignment is not possible: The unit &amp;1 is under root node</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>075</MSGNR>
+     <TEXT>Unassignment is not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>076</MSGNR>
+     <TEXT>Reassignment is not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>077</MSGNR>
+     <TEXT>Child unit should not be root node</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>078</MSGNR>
+     <TEXT>There is no valid level relation for this unit relation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>079</MSGNR>
+     <TEXT>The child unit &amp;1 already have direct relations</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>080</MSGNR>
+     <TEXT>Child node must be in hierachy level as parent is in matrix level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>Child unit &amp;1 does not have heirarchy relation as parent is in matrix lvl</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>Child unit &amp;1 must be in same hierarchy for the parent of matrix unit &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Org class: &amp;1 is not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Level type: &amp;1 is not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Object type: &amp;1 is not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>Synchronize values are not allowed for virtual org class</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Sales organization is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>Purchage organization is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>Purchaging group is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Cost center is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>091</MSGNR>
+     <TEXT>Company code is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>092</MSGNR>
+     <TEXT>Distribution channel is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>093</MSGNR>
+     <TEXT>Division is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>094</MSGNR>
+     <TEXT>Plant is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>095</MSGNR>
+     <TEXT>Product group is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>096</MSGNR>
+     <TEXT>Product hierarchy is already assigned to another level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>097</MSGNR>
+     <TEXT>Sales area is incorrect</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>098</MSGNR>
+     <TEXT>Object type should be both(internal/external) for assigned sync values</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>099</MSGNR>
+     <TEXT>External level must be matrix only</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Product level must be hierarchical only</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Do not allow to link Dync Org Unit for internal object type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Child level: &amp;1 should not be root node</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Child level: &amp;1 should be hierarchial for matrix level type of parent &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Child level: &amp;1 should be mandatory for matrix level type of parent &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Parent level: &amp;1 shold be hierarchial for matrix level type of child &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Parent level: &amp;1 should be mandatory for matrix level type of child &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Error while deleting the version</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>An error occurred by inserting the table &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>An error occurred by updating the table &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Error while deleting the organization level</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Error while deleting the organization level relation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>112</MSGNR>
+     <TEXT>Error while deleting the organization unit</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>113</MSGNR>
+     <TEXT>Error while deleting the organization unit relation</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>114</MSGNR>
+     <TEXT>child of level &amp;1 has realations with higher level matrix</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>115</MSGNR>
+     <TEXT>The level &amp;1 has matrix relations; first break the matrix relations</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>116</MSGNR>
+     <TEXT>Unassignment of root level doesn&apos;t possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>117</MSGNR>
+     <TEXT>&amp;1 priority generation failed due to incorrect order ranking customizing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>118</MSGNR>
+     <TEXT>Error while saving the version &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>119</MSGNR>
+     <TEXT>Error while saving the level &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>120</MSGNR>
+     <TEXT>Error while saving the unit &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>121</MSGNR>
+     <TEXT>Error while saving the level relation &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>122</MSGNR>
+     <TEXT>The level &amp;1 is in relation; Deletion not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>123</MSGNR>
+     <TEXT>The unit &amp;1 is in active state; Deletion not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>124</MSGNR>
+     <TEXT>The unit &amp;1 is in relation; Deletion not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>125</MSGNR>
+     <TEXT>Error while saving the unit relation &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>126</MSGNR>
+     <TEXT>The level &amp;1 is in active state; Deletion not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>127</MSGNR>
+     <TEXT>Validation failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>128</MSGNR>
+     <TEXT>Invalid version &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>129</MSGNR>
+     <TEXT>Invalid level &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>130</MSGNR>
+     <TEXT>Invalid unit &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>131</MSGNR>
+     <TEXT>Activation failed; due to versions overlap</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>132</MSGNR>
+     <TEXT>Model data adjusted successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>133</MSGNR>
+     <TEXT>Maintain Creation date mandatory</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>134</MSGNR>
+     <TEXT>Termination date must be greater than Creation date</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>135</MSGNR>
+     <TEXT>Redetermination of &amp;1 priorities has been done successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>136</MSGNR>
+     <TEXT>Error found when try to migrate the level sequence number</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>137</MSGNR>
+     <TEXT>Adjustment of the levels sequence number is failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>138</MSGNR>
+     <TEXT>Model data save failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>139</MSGNR>
+     <TEXT>Invalid version validity, Could not create a new version.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>140</MSGNR>
+     <TEXT>No purchase group found for AON &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>141</MSGNR>
+     <TEXT>No purchase group found for AON</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>142</MSGNR>
+     <TEXT>No sales date for AON &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <MSGNR>143</MSGNR>
+     <TEXT>Org Parent not found</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <STEXT>Nachrichtenklasse für Organisationseinheiten (intern/extern)</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <STEXT>Unités d’organisation des messages</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <STEXT>Komunikaty — jednostki organizacyjne</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <STEXT>Mensagens unidades organizacionais</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_ORG_01</ARBGB>
+     <STEXT>Mensajes de unidades de organización</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Keine Einkäuferinformationen für den Lif. &amp;1 und den BuKrs &amp;2 vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Abrechnender Buchungskreis zu &amp;1 nicht ermittelbar</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Einfügen in Tabelle &amp;1 für Schlüssel &amp;2&amp;3&amp;4 fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Update der Tabelle &amp;1 für &amp;2&amp;3&amp;4 fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Lesen aus Tabelle &amp;1 zu &amp;2&amp;3&amp;4 fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Löschen aus Tabelle &amp;1 zu &amp;2&amp;3&amp;4 fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;1 &amp;2 erfolgreich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp;2 für &amp;1 fehlgeschlagen; Doppelte Einträge gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Eine Organisationseinheit wird als Buchungskreis benötigt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 &amp;2 muss eine Beziehung haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;1 &amp;2 muss mindestens eine &amp;3 haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp;1 &amp;2 muss eine Beziehung haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Organisationseinheit &amp;1 benötigt die Angabe eines Buchungskreises</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 ist momentan durch Benutzer &amp;2 gesperrt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Es gibt derzeit keine dynamischen Organisationseinheiten zur Anzeige</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Validierung erfolgreich - keine Fehler gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Anlage einer neuen Version für &amp;1 fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Neue Version wurde erfolgreich angelegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp;1 &amp;2 muss Gruppenbuchungskreis haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Organisationseinheit &amp;1 muss repräsentativen Buchungskreis haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Mindesten eine Orgeinheit muss einen Betreiber Buchungskreis haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Keine Änderungen möglich auf Produktiv-System</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Eine Produktebene wird als Produktgruppe benötigt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Produkteinheit &amp;1 muss Produktgruppe haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Eine Ebene wird als Kostenstelle benötigt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Unterste Ebene sollte real sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Ungültige Parameter - BoID is nicht gefüllt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Ungültige Parameter - BoTyp ist nicht gefüllt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Gültiges Modell eingeben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Organisationeinheit &amp;1 muss eine Kostenstelle haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Org.(int)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Keine Daten gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Mindestens ein Organisationslevel muss den Zerfall haben</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Abbreviation: &amp;1 is already exists</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Title: &amp;1 is already exists</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Level: &amp;1 does not exists</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Buchungskreis: &amp;1 darf nicht gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Buchungskreis: &amp;1 soll gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Buchungskreis: &amp;1 wird bereits verwendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Einkaufsorganisation: &amp;1 darf nicht gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Einkaufsorganisation: &amp;1 soll gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Einkaufsorganisation: &amp;1 ist bereits verwendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Einkäufergruppe: &amp;1 darf nicht gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Einkäufergruppe: &amp;1 soll gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Einkäufergruppe: &amp;1 ist bereits verwendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Kostenstelle: &amp;1 darf nicht gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Kostenstelle: &amp;1 soll gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Kostenstelle: &amp;1 ist bereits belegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Verkaufsorganisation: &amp;1 darf nicht gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Verkaufsorganisation: &amp;1 sollte gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Verkaufsorganisation: &amp;1 wird bereits verwendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Vertriebskanal: &amp;1 darf nicht gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Vertriebskanal: &amp;1 sollte gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Vertriebskanal: &amp;1 ist bereits belegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Abteilung: &amp;1 darf nicht gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Abteilung: &amp;1 sollte gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Abteilung: &amp;1 wird bereits verwendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Werk: &amp;1 darf nicht gepflegt werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Werk: &amp;1 sollte gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Werk: &amp;1 wird bereits verwendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Produkthierarchie: &amp;1 darf nicht gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Produkthierarchie: &amp;1 sollte gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Produkthierarchie: &amp;1 wird bereits verwendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Produktgruppe: &amp;1 darf nicht gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Produktgruppe: &amp;1 sollte gepflegt werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Produktgruppe: &amp;1 wird bereits verwendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Es existiert keine Einheit mit der ID &apos;&amp;1&apos;.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Level:&apos;&amp;1&apos; besteht nicht aus der Organisationseinheit &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Aufheben nicht möglich: Es besteht keine Beziehung für die Einheit &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Aufheben nicht möglich: Einheit &amp;1 hat Matrixbeziehung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Aufheben nicht möglich: Kinder der Einheit &amp;1 haben Matrixbeziehung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Neuzuweisung nicht möglich: Keine Beziehung für Einheit &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Neuzuweisung nicht möglich: Einheit &amp;1 hat Matrixbeziehung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Neuzuweisung nicht möglich: Kinder der Einheit &amp;1 haben Matrixbeziehung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Neuzuweisung nicht möglich: Einheit &amp;1 ist unter dem Ursprungsknoten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Eine Aufhebung der Zuordnung ist nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Eine Neuzuordnung ist nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Nachgelagerte Einheit sollte keine Wurzelknoten sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Für diese Einheitsbeziehung gibt es keine gültige Stufenbeziehung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Die untergeordnete Einheit &amp;1 hat bereits direkte Beziehungen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Kind muss in der Hierarchiebene sein, wenn Eltern in der Matrixebene sind</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Kind &amp;1 hat keine Hierarchie für Eltern in Matrixebene</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Kind &amp;1 muss in der selben Hierarchie sein wie die Eltern in der Matrix</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Org class: &amp;1 is not a valid value</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Ebenentyp &quot;&amp;1&quot; ist nicht gültig</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Objekttyp: &amp;1 ist nicht gültig</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Synchronisierung der Werte ist für virtuelle Org-Klassen nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Die Verkaufsorganisation ist bereits einer anderen Ebene zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Die Einkaufsorganisation ist bereits einer anderen Ebene zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Einkäufergruppe ist bereits einer anderen Ebene zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Kostenstelle ist bereits einer anderen Stufe zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Der Buchungskreis ist bereits einer anderen Ebene zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Der Vertriebsweg ist bereits einer anderen Ebene zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Abteilung ist bereits einer anderen Ebene zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Werk ist bereits einer anderen Ebene zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Die Produktgruppe ist bereits einer anderen Ebene zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Die Produkthierarchie ist bereits einer anderen Ebene zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Vertriebsbereich ist inkorrekt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Objekt muss intern und extern sein um synchroniserte Werte zuzuweisen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Externe Ebene muss nur Matrix sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Die Produktebene darf nur hierarchisch sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Verbindung von Dync Org. Einheiten nicht für interne Objekttypen erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Nachgelagerte Ebene: &amp;1 sollte nicht der Wurzelknoten sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Kinderebene: &amp;1 sollte für Matrixebene der Eltern &amp;2 hierarchisch sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Kinderebene: &amp;1 sollte für die Matrixebene der Eltern &amp;2 notwendig sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Elternebene: &amp;1 sollte für Matrixebenentyp des Kindes hierarchisch sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Elternebene: &amp;1 sollte für Matrixebenentyp des Kindes notwendig sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Fehler beim Löschen der Version</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Beim Einfügen der Tabelle&apos;&amp;1&apos; ist ein Fehler aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Es ist ein Fehler beim Aktualisieren der Tabelle&apos;&amp;1&apos; aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Fehler beim Löschen der Organisationsebene</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Fehler beim Löschen der Organisationsebenenbeziehung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Fehler beim Löschen der Organisationseinheit</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Fehler beim Löschen der Organisationseinheitenbeziehung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Kind des Levels &amp;1 hat Beziehungen mit höherer Matrix</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Die Ebene &amp;1 hat Matrixbeziehungen; diese müssen er aufgelöst werden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Aufhebung der Zuweisung der Wurzelebene ist nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Reihenfolgengeneration von &amp;1 fehlgeschlagen, Customizing korrigieren</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Fehler beim Speichern der Version &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Fehler beim Speichern der Ebene &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Fehler beim Speichern des Einheit &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Fehler beim Speichern der Stufenrelation &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Die Ebene &amp;1 steht in Beziehung; Löschen nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>Die Einheit &amp;1 befindet sich im aktiven Zustand; Löschen nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Die Einheit &amp;1 hat eine Beziehung; Löschen nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Fehler beim Speichern der Einheitenbeziehung &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Die Ebene &amp;1 ist im aktiven Zustand; Löschen nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Validierung ist fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Ungültige Version &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Ungültige Ebene &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Ungültige Einheit &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Aktivierung fehlgeschlagen aufgrund von Versionsüberschneidungen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Modelldaten erfolgreich angepasst</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Erstellungsdatum pflegen obligatorisch</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Das Kündigungsdatum muss größer als das Erstellungsdatum sein</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Die Neubestimmung der &amp;1 Prioritäten wurde erfolgreich durchgeführt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Fehler beim Versuch, die Ebenen-Sequenznummer zu migrieren, gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Das Anpassen der Sequenznummer der Ebenen ist fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Modelldatenspeicherung fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Ungültige Versionsgültigkeit, konnte keine neue Version erstellen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Keine Einkaufsgruppe für Hoheitsgebiet &amp;1 gefunden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Keine Einkäufergruppe für Hoheitsgebiet gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Kein Verkaufsdatum für Hoheitsgebiet &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Übergeordnete Organisation nicht gefunden</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Aucune info. d’achat pour fournis. &amp;1 et code entreprise &amp;2 trouvée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Impossible de déterminer le code de l’entreprise du décompte pour &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Échec de l’insertion dans le tableau &amp;1 pour la clé &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Échec de la mise à jour du tableau &amp;1 pour &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Échec de la lecture du tableau &amp;1 pour &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Échec de la suppression du tableau &amp;1 pour &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;1 &amp;2 avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Échec de &amp;2 &amp;1 ; entrées en double trouvées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Un niveau d’org. est requis comme code de l’entreprise</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 &amp;2 doivent avoir une relation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;1 &amp;2 doit avoir au moins un &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp;1 &amp;2 doivent avoir une relation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>L’unité d’org. &amp;1 doit avoir un code de l’entreprise</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 actuellement verrouillé par l’utilisateur &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Il n’y a pas d’unités d’organisation dynamiques à afficher</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Validation réussie - aucune erreur trouvée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Échec de la création d’une nouvelle version pour &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>La nouvelle version de &amp;1 a été créée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp;1 &amp;2 doivent avoir un code du groupe d’entreprise</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>L’unité d’org. &amp;1 doit avoir un code de l’entreprise représentative</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Au moins une unité d’org. doit avoir un code de l’entreprise d’opérateur</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Modifications impossibles dans le système de production</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Un niveau de produit est requis comme groupe de produits</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>L’unité de produit &amp;1 doit avoir un groupe de produits</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Un niveau est requis pour le centre de coût</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Le niveau le plus bas doit être réel</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Arguments non valides - ID BO est manquant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Arguments non valides - type BO est manquant</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Saisir un modèle valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>L’unité d’organisation &amp;1 doit avoir un centre de coûts</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Org. (int)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Données du modèle non trouvées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Au moins un niveau d’organisation doit avoir la ventilation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Abréviation : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Titre : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Niveau : &amp;1 n’existe pas</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Code de l’entreprise : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Code de l’entreprise : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Code de l’entreprise : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Org. d’achats : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Org. d’achats : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Org. d’achats : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Groupe d’achats : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Groupe d’achats : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Groupe d’achats : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Centre de coût : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Centre de coût : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Centre de coût : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Organisation de vente : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Organisation de vente : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Organisation de vente : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Canal de répartition : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Canal de répartition : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Canal de répartition : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Division : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Division : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Division : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Division : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Division : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Division : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Hiérarchie du produit : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Hiérarchie du produit : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Hiérarchie du produit : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Groupe de produits : &amp;1 n’est pas autorisé à gérer</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Groupe de produits : &amp;1 devrait être géré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Groupe de produits : &amp;1 est déjà utilisé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Il n’existe pas d’unité avec l’ID « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Niveau : « &amp;1 » n’existe pas dans l’unité org. &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Désaffectation impossible : Il n’y a pas de relations pour unité &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Désaffectation impossible : L’unité &amp;1 a une relation matricielle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Désaffectation impossible : L’unité &amp;1 a des enfants relation matri.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Réaffectation impossible : Il n’y a pas de relations pour unité &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Réaffectation impossible : L’unité &amp;1 a une relation matricielle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Réaffectation impossible : L’unité &amp;1 a des enfants relation matri.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Réaffectation impossible : L’unité &amp;1 est sous le nœud racine</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>La désaffectation n’est pas possible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>La réaffectation n’est pas possible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>L’unité enfant ne doit pas être le nœud racine</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Il n’existe pas de relation de niveau valide pour cette relation d’unité</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>L’unité enfant &amp;1 a déjà des relations directes</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Le nœud enfant doit être au niveau hiérar. car parent est niveau matrice</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>L’unité enfant &amp;1 n’a pas de relat. hiérar. car parent est niveau matrice</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>L’unité enfant &amp;1 doit être dans même hiér. que parent unité matrice &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Classe d’org. : &amp;1 n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Type de niveau : &amp;1 n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Type d’objet : &amp;1 n’est pas valide</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Les valeurs de synchro. ne sont pas autoris. pour classe org. virtuelle</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>L’organisation des ventes est déjà affectée à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>L’organisation d’achats est déjà affectée à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Le groupe d’achats est déjà affecté à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Le centre de coûts est déjà affecté à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Le code de l’entreprise est déjà affecté à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Le canal de répartition est déjà affecté à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>La division est déjà affectée à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>La division est déjà affectée à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Le groupe de produits est déjà affecté à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>La hiérarchie du produit est déjà affectée à un autre niveau</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>La zone de vente est incorrecte</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Le type obj. doit être les deux (int./ext.) pour valeu. de synch. affect.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Le niveau externe doit être matriciel uniquement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Le niveau du produit doit être hiérarchique uniquement</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Ne pas permettre de lier unité d’org. dync. pour le type d’objet interne</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Niveau enfant : &amp;1 ne devrait pas être le nœud racine</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Niveau enfant : &amp;1 doit être hiérarc. pour type niv. matrice parent &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Niveau enfant : &amp;1 doit être oblig. pour type niv. matrice parent &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Niveau parent : &amp;1 doit être hiérarc. pour type niv. matrice enfant &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Niveau parent : &amp;1 doit être oblig. pour type niveau matrice enfant &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Erreur lors de la suppression de la version</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Une erreur s’est produite lors de l’insertion du tableau « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Une erreur s’est produite lors de la mise à jour du tableau « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Erreur lors de la suppression d’un niveau d’organisation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Erreur lors de la suppression de la relation du niveau d’organisation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Erreur lors de la suppression de l’unité d’organisation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Erreur lors de la suppression de la relation entre unités d’organisation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>enfant du niveau &amp;1 a des relations avec une matrice de niveau supérieur</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Le niveau &amp;1 a des relations matric. ; rompre d’abord relations matric.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>La désaffectation du niveau racine n’est pas possible.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>La génér. de prio. &amp;1 a échoué en raison personn. incorr. ordre class.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Erreur lors de la sauvegarde de la version &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Erreur lors de la sauvegarde du niveau &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Erreur lors de la sauvegarde de l’unité &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Erreur lors de la sauvegarde du niveau relation &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Le niveau &amp;1 est en relation ; suppression impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>L’unité &amp;1 est à l’état actif ; suppression impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>L’unité &amp;1 est en relation ; suppression impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Erreur lors de la sauvegarde de l’unité relation &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Le niveau &amp;1 est à l’état actif ; suppression impossible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Échec de la validation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Version non valide &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Niveau non valide &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Unité non valide &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>L’activation a échoué ; en raison d’un chevauchement de versions</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Les données du modèle ont été ajustées avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Gérer la date de création obligatoire</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>La date de résiliation doit être supérieure à la date de création</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>La redétermination des &amp;1 priorités a été effectuée avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Erreur trouvée lors de tentative migration du numéro de séque. niveaux</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>L’ajustement du numéro de séquence des niveaux a échoué</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>La sauvegarde des données du modèle a échoué</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Validité de la version non valide, impossible de créer nouvelle version.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Aucun groupe d’achats trouvé pour AON &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Aucun groupe d’achats trouvé pour AON</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Aucune date de vente pour AON &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Org. parent non trouvé</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Nie znaleziono informacji o zakupie dla dostawcy &amp;1 oraz kodu firmy &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Nie można określić kodu firmy rozliczającej dla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Nie powiodło się wstawienie do tabeli &amp;1 dla klucza &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Aktualizowanie tabeli &amp;1 nie powiodło się dla &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Odczyt z tabeli &amp;1 nie powiódł się dla &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Usunięcie z tabeli &amp;1 nie powiodło się dla &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;1 &amp;2 — powodzenie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Nie udało się &amp;2 &amp;1; znaleziono zduplikowane wpisy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Jako kod firmy wymagany jest jeden poziom organizacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 &amp;2 musi mieć relację</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;1 &amp;2 musi mieć co najmniej jeden &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp;1 &amp;2 musi mieć relację</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Jednostka organizacyjna &amp;1 musi mieć kod firmy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 obecnie zablokowane przez użytkownika &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Brak dynamicznych jednostek organizacyjnych do pokazania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Weryfikacja powiodła się — nie znaleziono błędów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Nie udało się utworzyć nowej wersji dla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Utworzono nową wersję dla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp;1 &amp;2 musi mieć grupowy kod firmy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Jednostka organizacyjna &amp;1 musi mieć kod firmy przedstawiciela</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Co najmniej jedna jednostka organizacyjna musi mieć kod firmy operatora</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Zmiany w systemie produkcyjnym nie są możliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Jako grupa produktów wymagany jest jeden poziom produktu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Jednostka produktu &amp;1 musi mieć grupę produktów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Jako centrum kosztów wymagany jest jeden poziom</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Najniższy poziom powinien być rzeczywisty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Nieprawidłowe argumenty — brak BoID</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Nieprawidłowe argumenty — brak BoTyp</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Wprowadź prawidłowy model</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Jednostka organizacyjna &amp;1 musi mieć centrum kosztów</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Org. (wewn.)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Nie znaleziono danych modelu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Co najmniej jeden poziom organizacji musi mieć podział</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Skrót: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Tytuł: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Poziom: &amp;1 nie istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Kod firmy: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Kod firmy: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Kod firmy: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Organizacja zakupowa: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Organizacja zakupowa: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Organizacja zakupowa: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Grupa zakupowa: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Grupa zakupowa: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Grupa zakupowa: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Centrum kosztów: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Centrum kosztów: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Centrum kosztów: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Organizacja sprzedażowa: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Organizacja sprzedażowa: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Organizacja sprzedażowa: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Kanał dystrybucji: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Kanał dystrybucji: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Kanał dystrybucji: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Dział: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Dział: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Dział: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Zakład: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Zakład: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Zakład: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Hierarchia produktów: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Hierarchia produktów: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Hierarchia produktów: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Grupa produktów: &amp;1 nie można zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Grupa produktów: &amp;1 należy zachowywać</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Grupa produktów: &amp;1 jest już używane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Nie istnieje jednostka o identyfikatorze „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Poziom: „&amp;1” nie istnieje w jednostce organizacyjnej &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Cofn. przypisania niemożliwe: Brak relacji dla tej jednostki &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Cofn. przypisania niemożliwe: Jedn. &amp;1 ma relację macierzową</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Cofn. przypisania niemożl.: Jedn. &amp;1 ma jedn. podrz. w relacji macierz.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Zmiana przypis. niemożliwa: Nie ma relacji dla tej jednostki &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>Zmiana przypis. niemożliwa: Jednostka &amp;1 ma relację macierzową</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Zmiana przypis. niemożl.: Jedn. &amp;1 ma jedn. podrz. w relacji macierzowej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Zmiana przypis. niemożliwa: Jedn. &amp;1 znajduje się pod węzłem gł.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Cofn. przypisania niemożliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>Zmiana przypis. niemożliwa</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Jednostka podrzędna nie powinna być węzłem głównym</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Brak prawidłowej relacji poziomu dla tej relacji jednostki</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>Jednostka podrzędna &amp;1 ma już bezpośrednie relacje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Węz. podrz. musi być na poz. hier., bo węz. nadrz. jest na poz. macierzy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Jedn. podrz. &amp;1 nie ma rel. hier., bo jedn. nadrz. jest na poz. macierzy</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Jedn. podrz. &amp;1 ma być w tej samej hier. co jedn. nadrz. jedn. mac. &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Klasa organizacji: &amp;1 jest nieprawidłowe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Typ poziomu: &amp;1 jest nieprawidłowe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Typ obiektu: &amp;1 jest nieprawidłowe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Synchronizowanie wart. nie jest dozw. dla wirtualnej klasy organizacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Organizacja sprzedażowa jest już przypisana do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Organizacja zakupowa jest już przypisana do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Grupa zakupowa jest już przypisana do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Centrum kosztów jest już przypisane do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>Kod firmy jest już przypisany do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>Kanał dystrybucji jest już przypisany do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>Podział jest już przypisany do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>Zakład jest już przypisany do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>Grupa produktów jest już przypisana do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>Hierarchia produktów jest już przypisana do innego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>Obszar sprzedaży jest niepoprawny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Typ ob. powinien być wewn. i zewn. dla przypis. wart. synchr.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>Poziom zewnętrzny może być tylko macierzą</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>Poziom produktu może być tylko hierarchiczny</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Nie zezwalaj na łączenie dynamicznej jedn. org. dla typu obiektu wewn.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Poziom podrzędny: &amp;1 nie może być węzłem głównym</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Poz. podrz.: &amp;1 musi być hierarch. dla typu poz. macierzy el. nadrz. &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Poz. podrz.: &amp;1 musi być obowiązk. dla typu poz. macierzy el. nadrz. &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Poz. nadrz.: &amp;1 musi być hierarch. dla typu poz. macierzy el. podrz. &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Poz. nadrz.: &amp;1 musi być obowiązk. dla typu poz. macierzy el. podrz. &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Błąd podczas usuwania wersji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Wystąpił błąd podczas wstawiania tabeli „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Wystąpił błąd podczas aktualizowania tabeli „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Błąd podczas usuwania poziomu organizacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Błąd podczas usuwania relacji poziomu organizacji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Błąd podczas usuwania jednostki organizacyjnej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Błąd podczas usuwania relacji jednostki organizacyjnej</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>element podrzędny poziomu &amp;1 ma relacje z macierzą wyższego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>Poziom &amp;1 ma relacje macierzowe; najpierw zerwij relacje macierzowe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>Cofnięcie przypisania poziomu głównego nie jest możliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Generowanie priorytetów &amp;1 nieudane: niepopr. dostosow. kolejności rangi</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Błąd podczas zapisywania wersji &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Błąd podczas zapisywania poziomu &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Błąd podczas zapisywania jednostki &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Błąd podczas zapisywania relacji poziomu &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>Poziom &amp;1 jest w relacji; usunięcie niemożliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>Jednostka &amp;1 jest w stanie aktywnym; usunięcie niemożliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>Jednostka &amp;1 jest w relacji; usunięcie niemożliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Błąd podczas zapisywania relacji jednostki &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>Poziom &amp;1 jest w stanie aktywnym; usunięcie niemożliwe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Weryfikacja nie powiodła się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Nieprawidłowa wersja &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Nieprawidłowy poziom &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Nieprawidłowa jednostka &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Aktywacja nie powiodła się z powodu nakładania się wersji</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Dane modelu zostały pomyślnie skorygowane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Zachowanie daty utworzenia jest obowiązkowe</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>Data rozwiązania musi być późniejsza niż data utworzenia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Ponowne określenie priorytetów &amp;1 zostało wykonane pomyślnie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Wykryto błąd podczas próby migracji numeru kolejnego poziomu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Dostosowanie numeru kolejnego poziomu nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Nie udało się zapisać danych modelu</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Nieprawidłowa ważność wersji, nie można utworzyć nowej wersji.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Nie znaleziono grupy zakupowej dla CAN &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Nie znaleziono grupy zakupowej dla CAN</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Brak daty sprzedaży dla CAN &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Nie znaleziono organizacji nadrzędnej</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Nenh. info. compras encontrada p/ fornecedor &amp;1 e empresa &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Empresa liquidadora não determinada para &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Erro ao inserir na tabela &amp;1 para chave &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Erro ao atualizar tabela &amp;1 para &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erro ao ler da tabela &amp;1 para &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Erro ao eliminar da tabela &amp;1 para &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;1 &amp;2 com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Erro ao &amp;2 &amp;1, entradas duplicadas encontradas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Um nível organizacional é necessário como empresa</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 &amp;2 deve ter relação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;1 &amp;2 deve ter pelo menos um &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp;1 &amp;2 deve ter relação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>A unidade organizacional &amp;1 deve ter empresa</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 bloqueado pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Não há unidades organizacionais dinâmicas a exibir</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Validação com êxito - nenhum erro encontrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Erro ao criar nova versão para &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Nova versão para &amp;1 criada com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp;1 &amp;2 deve ter grupo empresa</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>A unidade organizacional &amp;1 deve ter empresa representante</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Pelo menos uma unidade organiz. deve ter operador empresa</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Modificações impossíveis no sistema produtivo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Um nível de artigo é necessário como grupo de artigos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>A unidade de artigo &amp;1 deve ter grupo de artigos</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Um nível é necessário como centro de custo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>O menor nível deve ser real</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Argumentos inválidos - ID do BO em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Argumentos inválidos - tipo do BO em falta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Inserir modelo válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>A unidade organizacional &amp;1 deve ter centro de custo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Org.(int)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Dados não encontrados</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Pelo menos um nível organizacional deve ter lista expandida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Abreviação: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Título: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Nível: &amp;1 não existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Código da empresa: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Código da empresa: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Código da empresa: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Organização de compras: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Organização de compras: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Organização de compras: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Grupo de compras: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Grupo de compras: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Grupo de compras: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Centro de custo: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Centro de custo: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Centro de custo: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Organização de vendas: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Organização de vendas: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Organização de vendas: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Canal de distribuição: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Canal de distribuição: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Canal de distribuição: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Divisão: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Divisão: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Divisão: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Centro: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Centro: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Centro: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Hierarquia de produtos: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Hierarquia de produtos: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Hierarquia de produtos: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Grupo de materiais: &amp;1 não pode ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Grupo de materiais: &amp;1 precisa ser atualizado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Grupo de materiais: &amp;1 já está em uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Não existe nenhuma unidade com id &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Nível: &quot;&amp;1&quot; não existe na unidade organizacional &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Anulação de atribuição não é possível: nenhuma relação dessa unidade &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Anulação de atribuição não é possível: unidade &amp;1 tem relação com matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Anulação de atribuição não é possível: unid. &amp;1 tem rel. nív. inf. matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>A reatribuição não é possível: nenhuma relação dessa unidade &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>A reatribuição não é possível: unidade &amp;1 tem relação com matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>A reatribuição não é possível: unid. &amp;1 tem rel. nív. inf. matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>A reatribuição não é possível: unidade &amp;1 está no nó raiz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>Anulação de atribuição não é possível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>A reatribuição não é possível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>Unidade de nível inferior não pode ser nó raiz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>Nenhuma relação de nível válido para essa relação da unidade</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>A unidade de nível inferior &amp;1 já tem relações diretas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Nó inferior deve estar nível hierarquia como o superior no nível matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Unidade inferior &amp;1 não tem rel. hierárquica como superior nível matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Unid. inf. &amp;1 deve estar na mesma hierarquia do superior unid. matriz &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Classe org.: &amp;1 não é válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Tipo de nível: &amp;1 não é válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Tipo do objeto: &amp;1 não é válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>A sincronização de valores não é permitida para classe org. virtual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>A organização de vendas já está atribuída a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>A organização de compras já está atribuída a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>O grupo de compradores já está atribuído a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>O centro de custo já está atribuído a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>O código da empresa já está atribuído a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>O canal de distribuição já está atribuído a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>A divisão já está atribuída a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>O centro já está atribuído a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>O grupo de materiais já está atribuído a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>A hierarquia de produto já está atribuído a outro nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>A área de vendas está incorreta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>Tipo objeto deve ser ambos (interno/externo) para valores sincron. atrib.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>O nível externo precisa ser somente matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>O nível de artigo precisa ser somente matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>Não permita vincular Unid. org. dinâm. para tipo de objeto interno</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Nível inferior: &amp;1 não pode ser nó raiz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Nível inferior: &amp;1 deve ser hierárquico para tipo nív. matriz superior &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Nível inferior: &amp;1 deve ser obrigatório para tipo nív. matriz superior &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Nível superior: &amp;1 deve ser hierárquico para tipo nív. matriz inferior &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Nível superior: &amp;1 deve ser obrigatório para tipo nív. matriz inferior &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Erro ao excluir a versão</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Ocorreu um erro ao inserir a tabela “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Ocorreu um erro ao atualizar a tabela “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Erro ao excluir o nível de organização</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Erro ao excluir a relação de nível de organização</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Erro ao excluir a unidade organizacional</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Erro ao excluir a relação da unidade organizacional</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>inferior de nível &amp;1 tem relações com matriz de nível superior</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>O nível &amp;1 tem relações de matriz; primeiro rompe relações de matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>A anulação de atribuição do nível raiz não é possível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Falha ao gerar prioridade &amp;1, personalização classif. ordem incorreta</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Erro ao salvar a versão &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Erro ao salvar o nível &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Erro ao salvar a unidade &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Erro ao salvar a relação de nível &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>O nível &amp;1 está na relação; a exclusão não é possível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>A unidade &amp;1 está em estado ativo; a exclusão não é possível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>A unidade &amp;1 está na relação; a exclusão não é possível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Erro ao salvar a relação de unidade &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>O nível &amp;1 está em estado ativo; a exclusão não é possível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Falha na validação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Versão &amp;1 inválida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Nível &amp;1 inválido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Unidade &amp;1 inválida</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Falha na ativação devido à sobreposição de versões</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Dados do modelo ajustados com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>A atualização da data de criação é obrigatória</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>A data de término precisa ser posterior à data de criação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>Nova determinação de prioridades &amp;1 realizada com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Erro ao tentar migrar o número sequencial de nível</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Falha no ajuste do número sequencial de níveis</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Falha ao salvar dados do modelo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Validade da versão inválida, não foi possível criar uma nova versão.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>Nenhum grupo de compras encontrado para AON &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>Nenhum grupo de compras encontrado para AON</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Nenhuma data de venda para AON &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>Org. superior não encontrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>No hay información de compras para el proveedor &amp;1 y la sociedad &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No se ha podido determinar la sociedad de liquidación de &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>La inserción en la tabla &amp;1 ha fallado para la clave &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>La actualización de la tabla &amp;1 ha fallado para la clave &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>La lectura de la tabla &amp;1 ha fallado para la clave &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>El borrado de la tabla &amp;1 ha fallado para la clave &amp;2&amp;3&amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>&amp;1 &amp;2 realizado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp;2 &amp;1 imposible; se han encontrado entradas duplicadas</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Es necesario un nivel de organización como sociedad</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1 &amp;2 deben estar relacionados</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>&amp;1 &amp;2 deben tener al menos un &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>&amp;1 &amp;2 deben estar relacionados</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>La unidad organizativa &amp;1 debe tener una sociedad</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>&amp;1 está actualmente bloqueado por el usuario &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>No hay unidades de organización dinámicas para mostrar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Validación correcta; no se han encontrado errores</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>No se ha podido crear una nueva versión para &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Nueva versión para &amp;1 creada correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>&amp;1 &amp;2 deben tener una sociedad de grupo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>La unidad organizativa &amp;1 debe tener una sociedad representativa</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Al menos una unidad organizativa debe tener sociedad de operador</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>No se pueden hacer modificaciones en el sistema productivo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Es necesario un nivel de artículo en el sistema productivo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>La unidad de artículo &amp;1 debe tener un grupo de artículo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Es necesario un nivel como centro de coste</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>El nivel más bajo debe ser real</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Argumentos no válidos; falta ID de business object</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Argumentos no válidos; falta clase de business object</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Introduzca un modelo válido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>La unidad organizativa &amp;1 debe tener un centro de coste</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Org.(int.)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>No existen datos</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Al menos un nivel de organización debe tener el desglose</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Abreviatura: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Título: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Nivel: &amp;1 no existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Sociedad: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Sociedad: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Sociedad: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Organización de compras: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Organización de compras: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Organización de compras: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Grupo de compras: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Grupo de compras: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Grupo de compras: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Centro de coste: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Centro de coste: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Centro de coste: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Organización de ventas: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Organización de ventas: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Organización de ventas: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Canal de distribución: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Canal de distribución: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Canal de distribución: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>División: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>División: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>División: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Centro: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Centro: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Centro: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Jerarquía de productos: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Jerarquía de productos: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Jerarquía de productos: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Grupo de material: &amp;1 no puede actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Grupo de material: &amp;1 se debe actualizar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Grupo de material: &amp;1 ya está en uso</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>No existe ninguna unidad con id &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Nivel: &apos;&amp;1&apos; no existe para unidad organizativa &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>No es posible anular la asignación: No exist.relac.para esta unidad &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>No es posible anular la asignación: La unidad &amp;1 tiene una relac.matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>No es posible anular la asignación: La unidad &amp;1 tiene relac.matriz subs.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>No es posible real.reasignación: No exist.relac.para esta unidad &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>072</MSGNR>
+     <TEXT>No es posible real.reasignación: La unidad &amp;1 tiene una relac.matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>No es posible real.reasignación: La unidad &amp;1 tiene relac.matriz subs.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>No es posible real.reasignación: La unidad &amp;1 está en el nodo raíz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>075</MSGNR>
+     <TEXT>No es posible anular la asignación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>076</MSGNR>
+     <TEXT>No es posible realizar la reasignación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>077</MSGNR>
+     <TEXT>La unidad inferior no debe ser un nodo raíz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>078</MSGNR>
+     <TEXT>No exist.relac.nivel vál.para esta relación unid.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>079</MSGNR>
+     <TEXT>La unidad inferior &amp;1 ya tiene relaciones directas</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>080</MSGNR>
+     <TEXT>Nodo inf.debe estar en nivel jerarq.como el superior está en nivel matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Unidad inf.&amp;1 no tiene relac.jerar.porque superior está en niv.matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Unidad inf.&amp;1 debe estar en misma jerar.que superior de unidad matriz &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Clase organizativa: &amp;1 no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Clase de nivel: &amp;1 no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Clase de objeto: &amp;1 no es válida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>No se permite sincronizar valores para clase organizativa virtual</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>La organización de ventas ya está asignada a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>La organización de compras ya está asignada a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>El grupo de compras ya está asignado a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>El centro de coste ya está asignado a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>091</MSGNR>
+     <TEXT>La sociedad ya está asignada a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>092</MSGNR>
+     <TEXT>El canal de distribución ya está asignado a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>093</MSGNR>
+     <TEXT>La división ya está asignada a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>094</MSGNR>
+     <TEXT>El centro ya está asignado a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>095</MSGNR>
+     <TEXT>El grupo de materiales ya está asignado a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>096</MSGNR>
+     <TEXT>La jerarquía de producto ya está asignada a otro nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>097</MSGNR>
+     <TEXT>El área de ventas es incorrecta</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>098</MSGNR>
+     <TEXT>La clase de objeto debe ser interno/externo para valores de sincr.asign.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>099</MSGNR>
+     <TEXT>El nivel externo debe ser solo de matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>El nivel art.debe ser solo de jerárquico</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>No permitir vincular unidad organizativa din.para clase de objeto interno</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>Nivel inferior: &amp;1 no debe ser un nodo raíz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Nivel inferior: &amp;1 debe ser jerárquico para cl.nivel de matriz de sup.&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Nivel inferior: &amp;1 debe ser obligatorio para cl.nivel de matriz de sup.&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Nivel superior: &amp;1 debe ser jerárquico para cl.nivel de matriz de inf.&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>106</MSGNR>
+     <TEXT>Nivel superior: &amp;1 debe ser obligatorio para cl.nivel de matriz de inf.&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>107</MSGNR>
+     <TEXT>Error al eliminar la versión</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>108</MSGNR>
+     <TEXT>Se ha producido un error al insertar la tabla ‘&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>109</MSGNR>
+     <TEXT>Se ha producido un error al actualizar la tabla &apos;&amp;1’</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>110</MSGNR>
+     <TEXT>Error al eliminar el nivel de organización</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>111</MSGNR>
+     <TEXT>Error al eliminar la relación del nivel de organización</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>112</MSGNR>
+     <TEXT>Error al eliminar la unidad organizativa</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>113</MSGNR>
+     <TEXT>Error al eliminar la relación de la unidad organizativa</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>114</MSGNR>
+     <TEXT>Inf.nivel &amp;1 tiene relaciones con matriz de nivel superior</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>115</MSGNR>
+     <TEXT>El nivel &amp;1 tiene relac.matriz; primero desglose las relac.matriz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>116</MSGNR>
+     <TEXT>No es posible anular la asignación de nivel raíz</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>117</MSGNR>
+     <TEXT>Error de gener.priorid.&amp;1 debido a Custom.orden clas.incorrecto</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>118</MSGNR>
+     <TEXT>Error al grabar la versión &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>119</MSGNR>
+     <TEXT>Error al grabar el nivel &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>120</MSGNR>
+     <TEXT>Error al grabar la unidad &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>121</MSGNR>
+     <TEXT>Error al grabar la relación de nivel &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>122</MSGNR>
+     <TEXT>El nivel &amp;1 está relacionado; no es posible eliminar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>123</MSGNR>
+     <TEXT>La unidad &amp;1 tiene estado activo; no es posible eliminar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>124</MSGNR>
+     <TEXT>La unidad &amp;1 está relacionada; no es posible eliminar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>125</MSGNR>
+     <TEXT>Error al grabar la relación de unidad &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>126</MSGNR>
+     <TEXT>El nivel &amp;1 tiene estado activo; no es posible eliminar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>127</MSGNR>
+     <TEXT>Error de validación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>128</MSGNR>
+     <TEXT>Error de validación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>129</MSGNR>
+     <TEXT>Nivel no válido &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>130</MSGNR>
+     <TEXT>Unidad no válida &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>131</MSGNR>
+     <TEXT>Activación fallida debido a superposición de versiones</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>132</MSGNR>
+     <TEXT>Datos de modelo ajustados correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>133</MSGNR>
+     <TEXT>Actualización de fecha de creación obligatoria</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>134</MSGNR>
+     <TEXT>La fecha de finalización debe ser mayor que la fecha de creación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>135</MSGNR>
+     <TEXT>La redeterminación de &amp;1 prioridades se ha realizado correctamente</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>136</MSGNR>
+     <TEXT>Se ha prod.un error al migrar el número de secuencia de nivel</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>137</MSGNR>
+     <TEXT>Ajuste fallido de número de secuencia de niveles</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>138</MSGNR>
+     <TEXT>Error al grabar datos de modelo</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>139</MSGNR>
+     <TEXT>Validez de versión no válida; no se pudo crear una versión nueva.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>140</MSGNR>
+     <TEXT>No existe ningún grupo de compras para AON &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>141</MSGNR>
+     <TEXT>No existe ningún grupo de compras para AON</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>142</MSGNR>
+     <TEXT>Ninguna fecha de ventas para AON &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>143</MSGNR>
+     <TEXT>La organización principal no existe</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

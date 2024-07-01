@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
     <LANGU>P</LANGU>
     <LANGU>S</LANGU>
    </I18N_LANGS>
@@ -32,6 +33,14 @@
      <SCRTEXT_S>DeltaAb.Kr</SCRTEXT_S>
      <SCRTEXT_M>DeltaAbr. Lief. Kred</SCRTEXT_M>
      <SCRTEXT_L>AbrBelegart DeltaAbr. Lief. als Kreditor</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settl. Doc. Type for Delta Settlement for Supplier as AP</DDTEXT>
+     <REPTEXT>Settlement Doc. Type (Accounts Payable)</REPTEXT>
+     <SCRTEXT_S>DeltSettAP</SCRTEXT_S>
+     <SCRTEXT_M>DeltaSett Suppl. AP</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Doc. Type DeltaSett. Suppl. AP</SCRTEXT_L>
     </item>
     <item>
      <DDLANGUAGE>P</DDLANGUAGE>

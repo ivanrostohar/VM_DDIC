@@ -23,6 +23,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -32,6 +33,14 @@
      <SCRTEXT_S>MatGrp 3</SCRTEXT_S>
      <SCRTEXT_M>MaterialGrp 3</SCRTEXT_M>
      <SCRTEXT_L>Materialgruppe 3</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Material group 3</DDTEXT>
+     <REPTEXT>MG 3</REPTEXT>
+     <SCRTEXT_S>Matl grp 3</SCRTEXT_S>
+     <SCRTEXT_M>MaterialGroup 3</SCRTEXT_M>
+     <SCRTEXT_L>Material group 3</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

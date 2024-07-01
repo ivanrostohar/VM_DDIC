@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Zahl. Ziel</SCRTEXT_S>
      <SCRTEXT_M>Zahlungsziel</SCRTEXT_M>
      <SCRTEXT_L>Zahlungsziel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Flag to activate payment target</DDTEXT>
+     <REPTEXT>payment target</REPTEXT>
+     <SCRTEXT_S>paymnt tar</SCRTEXT_S>
+     <SCRTEXT_M>payment target</SCRTEXT_M>
+     <SCRTEXT_L>payment target</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

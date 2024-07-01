@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>KritÄnd.</SCRTEXT_S>
      <SCRTEXT_M>Kritische Änderungen</SCRTEXT_M>
      <SCRTEXT_L>Gruppe kritischer Änderungen</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Critical Changes Group</DDTEXT>
+     <REPTEXT>Critical Changes Group</REPTEXT>
+     <SCRTEXT_S>CritChange</SCRTEXT_S>
+     <SCRTEXT_M>Critical Changes</SCRTEXT_M>
+     <SCRTEXT_L>Critical Changes Group</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

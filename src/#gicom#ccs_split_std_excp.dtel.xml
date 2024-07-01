@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>CCS interface split standard exception</DDTEXT>
+     <REPTEXT>Split standard exception</REPTEXT>
+     <SCRTEXT_S>Sp. st. ex</SCRTEXT_S>
+     <SCRTEXT_M>Splt. std. excp.</SCRTEXT_M>
+     <SCRTEXT_L>Split standard exception</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

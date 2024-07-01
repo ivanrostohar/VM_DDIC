@@ -53,11 +53,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Dokumentendefinition zur Vertragskonfiguration</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Contract Type - Document definition</DDTEXT>
     </item>
    </DD02_TEXTS>
    <TABL_EXTRAS>

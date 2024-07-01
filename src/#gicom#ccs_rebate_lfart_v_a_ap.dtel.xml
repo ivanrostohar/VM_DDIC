@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>RA Lf. Krd</SCRTEXT_S>
      <SCRTEXT_M>RückAufl. Lief. Deb.</SCRTEXT_M>
      <SCRTEXT_L>AbrBelArt RückstAuflös. Lief. Kreditor.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Doc. Type for Accruals Reversal for Suppl. as AP</DDTEXT>
+     <REPTEXT>Settlement Doc. Type (Accounts Payable)</REPTEXT>
+     <SCRTEXT_S>AR Supp AP</SCRTEXT_S>
+     <SCRTEXT_M>Accruals Supplier AP</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Doc. Type Accr. Reversal Supp. AP</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

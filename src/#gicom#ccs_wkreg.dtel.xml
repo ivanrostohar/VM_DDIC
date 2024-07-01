@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Region in which plant is located</DDTEXT>
+     <REPTEXT>Reg</REPTEXT>
+     <SCRTEXT_S>PlntRegion</SCRTEXT_S>
+     <SCRTEXT_M>Region-dlv.plnt</SCRTEXT_M>
+     <SCRTEXT_L>Region of dlv.plant</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

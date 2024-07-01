@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>TabGrp Ums</SCRTEXT_S>
      <SCRTEXT_M>TabGruppe Umsatz</SCRTEXT_M>
      <SCRTEXT_L>Tabellengruppe Umsatz</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Business Volume Table Group</DDTEXT>
+     <REPTEXT>BV Table Group</REPTEXT>
+     <SCRTEXT_S>BVTab Grp.</SCRTEXT_S>
+     <SCRTEXT_M>BusVol Table Group</SCRTEXT_M>
+     <SCRTEXT_L>Business Volume Table Group</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SIM_FRGMT_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/SIM_FRGMT_ID</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Simulation fragment ID</DDTEXT>
+    <REPTEXT>Sim.fragm. ID</REPTEXT>
+    <SCRTEXT_S>Sim.frg ID</SCRTEXT_S>
+    <SCRTEXT_M>Sim.fragm. ID</SCRTEXT_M>
+    <SCRTEXT_L>Simulation fragment ID</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Simulationsfragment-ID</DDTEXT>
+     <REPTEXT>Sim.fragm. ID</REPTEXT>
+     <SCRTEXT_S>Sim.frg ID</SCRTEXT_S>
+     <SCRTEXT_M>Sim.fragm. ID</SCRTEXT_M>
+     <SCRTEXT_L>Simulationsfragment-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>ID de fragment de simulation</DDTEXT>
+     <REPTEXT>Frag. sim. ID</REPTEXT>
+     <SCRTEXT_S>ID fr sim.</SCRTEXT_S>
+     <SCRTEXT_M>Frag. sim. ID</SCRTEXT_M>
+     <SCRTEXT_L>ID de fragment de simulation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Identyfikator fragmentu symulacji</DDTEXT>
+     <REPTEXT>ID fragm.sym.</REPTEXT>
+     <SCRTEXT_S>ID frg sym</SCRTEXT_S>
+     <SCRTEXT_M>ID fragm.sym.</SCRTEXT_M>
+     <SCRTEXT_L>Identyfikator fragmentu symulacji</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>ID de fragmento de simulação</DDTEXT>
+     <REPTEXT>Fragm. sim. ID</REPTEXT>
+     <SCRTEXT_S>IDFragSim.</SCRTEXT_S>
+     <SCRTEXT_M>Fragm. sim. ID</SCRTEXT_M>
+     <SCRTEXT_L>ID de fragmento de simulação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>ID de fragmento de simulación</DDTEXT>
+     <REPTEXT>Frag.simulación ID</REPTEXT>
+     <SCRTEXT_S>ID frg.sm.</SCRTEXT_S>
+     <SCRTEXT_M>Frag.simulación ID</SCRTEXT_M>
+     <SCRTEXT_L>ID de fragmento de simulación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

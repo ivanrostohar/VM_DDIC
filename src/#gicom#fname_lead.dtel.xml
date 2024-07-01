@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/FNAME_LEAD</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BU_NAME</DOMNAME>
+    <HEADLEN>18</HEADLEN>
+    <SCRLEN1>02</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>18</SCRLEN3>
+    <DDTEXT>Negotiation lead</DDTEXT>
+    <REPTEXT>Negotiation lead</REPTEXT>
+    <SCRTEXT_S>NL</SCRTEXT_S>
+    <SCRTEXT_M>Negotiation lead</SCRTEXT_M>
+    <SCRTEXT_L>Negotiation lead</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verhandlungsführer</DDTEXT>
+     <REPTEXT>Verhandlungsführer</REPTEXT>
+     <SCRTEXT_S>VF</SCRTEXT_S>
+     <SCRTEXT_M>Verhandlungsführer</SCRTEXT_M>
+     <SCRTEXT_L>Verhandlungsführer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Resp. négociation</DDTEXT>
+     <REPTEXT>Resp. négociation</REPTEXT>
+     <SCRTEXT_S>RD</SCRTEXT_S>
+     <SCRTEXT_M>Resp. négociation</SCRTEXT_M>
+     <SCRTEXT_L>Resp. négociation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Kierownik negocjacji</DDTEXT>
+     <REPTEXT>Kierownik neg.</REPTEXT>
+     <SCRTEXT_S>KN</SCRTEXT_S>
+     <SCRTEXT_M>Kierownik neg.</SCRTEXT_M>
+     <SCRTEXT_L>Kierownik neg.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Lead de negociação</DDTEXT>
+     <REPTEXT>Lead negociação</REPTEXT>
+     <SCRTEXT_S>LN</SCRTEXT_S>
+     <SCRTEXT_M>Lead negociação</SCRTEXT_M>
+     <SCRTEXT_L>Lead negociação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Lead negociación</DDTEXT>
+     <REPTEXT>Lead negociación</REPTEXT>
+     <SCRTEXT_S>LN</SCRTEXT_S>
+     <SCRTEXT_M>Lead negociación</SCRTEXT_M>
+     <SCRTEXT_L>Lead negociación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

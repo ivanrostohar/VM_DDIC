@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Kunde Kre.</SCRTEXT_S>
      <SCRTEXT_M>Kunde Kreditorenabr.</SCRTEXT_M>
      <SCRTEXT_L>Abrechnungsbelegart Kunde Kreditorenabr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Document Type for Customer Settlement as AP</DDTEXT>
+     <REPTEXT>Settlement Doc. Type (Accounts Payable)</REPTEXT>
+     <SCRTEXT_S>CustomerAP</SCRTEXT_S>
+     <SCRTEXT_M>Cust. Acc. Payable</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Doc. Type Customer Settlement AP</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

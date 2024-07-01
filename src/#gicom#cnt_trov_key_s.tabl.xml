@@ -149,11 +149,16 @@
    </DD08V_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Schlüssel des Vertragstyps zum Geltungsbereich</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Key of Contract Type for Validity Area</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

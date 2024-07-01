@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>OffeneBel.</SCRTEXT_S>
      <SCRTEXT_M>Offene AbrechnBelege</SCRTEXT_M>
      <SCRTEXT_L>Anzahl offener Abrechnungsbelege</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Rebates: Number of open settlement documents</DDTEXT>
+     <REPTEXT>Open Settl Docs</REPTEXT>
+     <SCRTEXT_S>Open Docs</SCRTEXT_S>
+     <SCRTEXT_M>Open Settlement Docs</SCRTEXT_M>
+     <SCRTEXT_L>Number of open settlement documents</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

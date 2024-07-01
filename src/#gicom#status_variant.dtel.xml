@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/STATUS_VARIANT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/STATUS_VARIANT</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Status of a Variant</DDTEXT>
+    <REPTEXT>Variant Status</REPTEXT>
+    <SCRTEXT_S>Status</SCRTEXT_S>
+    <SCRTEXT_M>Variant Status</SCRTEXT_M>
+    <SCRTEXT_L>Status of a Variant</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Status einer Variante</DDTEXT>
+     <REPTEXT>Status Variante</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status Variante</SCRTEXT_M>
+     <SCRTEXT_L>Status einer Variante</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Statut de la variante</DDTEXT>
+     <REPTEXT>Statut de la variante</REPTEXT>
+     <SCRTEXT_S>Statut</SCRTEXT_S>
+     <SCRTEXT_M>Stat. variante</SCRTEXT_M>
+     <SCRTEXT_L>Statut de la variante</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Stan wariantu</DDTEXT>
+     <REPTEXT>Stan wariantu</REPTEXT>
+     <SCRTEXT_S>Stan</SCRTEXT_S>
+     <SCRTEXT_M>Stan wariantu</SCRTEXT_M>
+     <SCRTEXT_L>Stan wariantu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Status de uma variante</DDTEXT>
+     <REPTEXT>Status da variante</REPTEXT>
+     <SCRTEXT_S>Status</SCRTEXT_S>
+     <SCRTEXT_M>Status da variante</SCRTEXT_M>
+     <SCRTEXT_L>Status de uma variante</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Estado de una variante</DDTEXT>
+     <REPTEXT>Estado de variante</REPTEXT>
+     <SCRTEXT_S>Estado</SCRTEXT_S>
+     <SCRTEXT_M>Estado de variante</SCRTEXT_M>
+     <SCRTEXT_L>Estado de una variante</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

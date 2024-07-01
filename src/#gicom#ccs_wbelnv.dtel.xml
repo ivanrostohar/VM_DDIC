@@ -5,6 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_WBELNV</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR10</DOMNAME>
     <HEADLEN>10</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
     <SCRLEN2>20</SCRLEN2>
@@ -15,11 +16,21 @@
     <SCRTEXT_M>Reference doc.</SCRTEXT_M>
     <SCRTEXT_L>Reference document</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
-    <DATATYPE>CHAR</DATATYPE>
-    <LENG>000010</LENG>
-    <OUTPUTLEN>000010</OUTPUTLEN>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Agency business: Document number of the reference document</DDTEXT>
+     <REPTEXT>Ref.doc.</REPTEXT>
+     <SCRTEXT_S>Ref.doc.</SCRTEXT_S>
+     <SCRTEXT_M>Reference doc.</SCRTEXT_M>
+     <SCRTEXT_L>Reference document</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

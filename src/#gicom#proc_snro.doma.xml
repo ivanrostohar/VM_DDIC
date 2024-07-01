@@ -1,0 +1,1345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GICOM/PROC_SNRO</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000004</LENG>
+    <OUTPUTLEN>000004</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Number Range - Process</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS10</DOMVALUE_L>
+     <DDTEXT>Time Reference</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS20</DOMVALUE_L>
+     <DDTEXT>Dimension</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS30</DOMVALUE_L>
+     <DDTEXT>Date</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS40</DOMVALUE_L>
+     <DDTEXT>Org.ID - intern</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS50</DOMVALUE_L>
+     <DDTEXT>Org.ID - extern</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS60</DOMVALUE_L>
+     <DDTEXT>Participant</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VD10</DOMVALUE_L>
+     <DDTEXT>Contract</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VD20</DOMVALUE_L>
+     <DDTEXT>Agreement</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VU10</DOMVALUE_L>
+     <DDTEXT>Negotiation Round</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VU11</DOMVALUE_L>
+     <DDTEXT>Negotiation</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ZK10</DOMVALUE_L>
+     <DDTEXT>Transaction</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ZK20</DOMVALUE_L>
+     <DDTEXT>Simulation reason</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ZK21</DOMVALUE_L>
+     <DDTEXT>Simulation fragment</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ZK22</DOMVALUE_L>
+     <DDTEXT>Simulated Transaction</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ZK31</DOMVALUE_L>
+     <DDTEXT>Calculation header</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ZK40</DOMVALUE_L>
+     <DDTEXT>Distribution</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>ZK50</DOMVALUE_L>
+     <DDTEXT>Simulated Distribution</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VD30</DOMVALUE_L>
+     <DDTEXT>Service type</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS01</DOMVALUE_L>
+     <DDTEXT>Template</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS02</DOMVALUE_L>
+     <DDTEXT>Layout Designer</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS03</DOMVALUE_L>
+     <DDTEXT>Text Repository</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS04</DOMVALUE_L>
+     <DDTEXT>View Editor</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS80</DOMVALUE_L>
+     <DDTEXT>Differentiator</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS90</DOMVALUE_L>
+     <DDTEXT>Usage Profile</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS05</DOMVALUE_L>
+     <DDTEXT>Value Add</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS06</DOMVALUE_L>
+     <DDTEXT>Value Added Chain</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS07</DOMVALUE_L>
+     <DDTEXT>QM Analysis</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS12</DOMVALUE_L>
+     <DDTEXT>Customizing Grouping Definition</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>BS13</DOMVALUE_L>
+     <DDTEXT>Master Data Grouping Definition</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VP10</DOMVALUE_L>
+     <DDTEXT>Settlement</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VP20</DOMVALUE_L>
+     <DDTEXT>Turnover Adjustment Run</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VP30</DOMVALUE_L>
+     <DDTEXT>Turnover Adjustment Header</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>CC01</DOMVALUE_L>
+     <DDTEXT>Business Model</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PL01</DOMVALUE_L>
+     <DDTEXT>Price List</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>VD40</DOMVALUE_L>
+     <DDTEXT>Distribution Key</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>PM01</DOMVALUE_L>
+     <DDTEXT>Performance Measurement</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Nummernkreis-Prozess</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Plage de numéros – Traitement</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Zakres numerów — proces</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Intervalo de numeração - Processo</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Número de rango - Proceso</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <DD07_TEXTS>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS10</DOMVALUE_L>
+     <DDTEXT>Zeitreferenz</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS10</DOMVALUE_L>
+     <DDTEXT>Référence temporelle</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS10</DOMVALUE_L>
+     <DDTEXT>Odniesienie do czasu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS10</DOMVALUE_L>
+     <DDTEXT>Referência cronológica</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS10</DOMVALUE_L>
+     <DDTEXT>Referencia de tiempo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS20</DOMVALUE_L>
+     <DDTEXT>Dimension</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS20</DOMVALUE_L>
+     <DDTEXT>Dimension</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS20</DOMVALUE_L>
+     <DDTEXT>Wymiar</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS20</DOMVALUE_L>
+     <DDTEXT>Dimensão</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS20</DOMVALUE_L>
+     <DDTEXT>Dimensión</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS30</DOMVALUE_L>
+     <DDTEXT>Termin</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS30</DOMVALUE_L>
+     <DDTEXT>Date</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS30</DOMVALUE_L>
+     <DDTEXT>Data</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS30</DOMVALUE_L>
+     <DDTEXT>Data</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS30</DOMVALUE_L>
+     <DDTEXT>Fecha</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS40</DOMVALUE_L>
+     <DDTEXT>Org.ID - intern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS40</DOMVALUE_L>
+     <DDTEXT>ID org. - interne</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS40</DOMVALUE_L>
+     <DDTEXT>Identyfikator organizacji — wewn.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS40</DOMVALUE_L>
+     <DDTEXT>ID org. - interno</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS40</DOMVALUE_L>
+     <DDTEXT>ID organización - interno</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS50</DOMVALUE_L>
+     <DDTEXT>Org.ID - extern</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS50</DOMVALUE_L>
+     <DDTEXT>ID org. - externe</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS50</DOMVALUE_L>
+     <DDTEXT>Identyfikator organizacji — zewn.</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS50</DOMVALUE_L>
+     <DDTEXT>ID org. - externo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS50</DOMVALUE_L>
+     <DDTEXT>ID organización - externo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS60</DOMVALUE_L>
+     <DDTEXT>Teilnehmer</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS60</DOMVALUE_L>
+     <DDTEXT>Participant</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS60</DOMVALUE_L>
+     <DDTEXT>Uczestnik</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS60</DOMVALUE_L>
+     <DDTEXT>Participante</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS60</DOMVALUE_L>
+     <DDTEXT>Participante</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VD10</DOMVALUE_L>
+     <DDTEXT>Vertrag</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VD10</DOMVALUE_L>
+     <DDTEXT>Contrat</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VD10</DOMVALUE_L>
+     <DDTEXT>Kontrakt</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VD10</DOMVALUE_L>
+     <DDTEXT>Contrato</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0007</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VD10</DOMVALUE_L>
+     <DDTEXT>Contrato</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VD20</DOMVALUE_L>
+     <DDTEXT>Vereinbarung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VD20</DOMVALUE_L>
+     <DDTEXT>Accord</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VD20</DOMVALUE_L>
+     <DDTEXT>Umowa</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VD20</DOMVALUE_L>
+     <DDTEXT>Acordo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0008</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VD20</DOMVALUE_L>
+     <DDTEXT>Acuerdo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VU10</DOMVALUE_L>
+     <DDTEXT>Verhandlungsrunde</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VU10</DOMVALUE_L>
+     <DDTEXT>Cycle de négociation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VU10</DOMVALUE_L>
+     <DDTEXT>Runda negocjacji</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VU10</DOMVALUE_L>
+     <DDTEXT>Rodada de negociações</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0009</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VU10</DOMVALUE_L>
+     <DDTEXT>Ronda de negociación</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VU11</DOMVALUE_L>
+     <DDTEXT>Verhandlung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VU11</DOMVALUE_L>
+     <DDTEXT>Négociation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VU11</DOMVALUE_L>
+     <DDTEXT>Negocjacje</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VU11</DOMVALUE_L>
+     <DDTEXT>Negociação</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0010</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VU11</DOMVALUE_L>
+     <DDTEXT>Negociación</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ZK10</DOMVALUE_L>
+     <DDTEXT>Transaktion</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ZK10</DOMVALUE_L>
+     <DDTEXT>Transaction</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ZK10</DOMVALUE_L>
+     <DDTEXT>Transakcja</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ZK10</DOMVALUE_L>
+     <DDTEXT>Transação</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0011</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ZK10</DOMVALUE_L>
+     <DDTEXT>Transacción</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ZK20</DOMVALUE_L>
+     <DDTEXT>Simulationsgrund</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ZK20</DOMVALUE_L>
+     <DDTEXT>Raison de la simulation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ZK20</DOMVALUE_L>
+     <DDTEXT>Przyczyna symulacji</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ZK20</DOMVALUE_L>
+     <DDTEXT>Motivo da simulação</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0012</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ZK20</DOMVALUE_L>
+     <DDTEXT>Razón de simulación</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ZK21</DOMVALUE_L>
+     <DDTEXT>Simulationsfragment</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ZK21</DOMVALUE_L>
+     <DDTEXT>Fragment de simulation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ZK21</DOMVALUE_L>
+     <DDTEXT>Fragment symulacji</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ZK21</DOMVALUE_L>
+     <DDTEXT>Fragmento de simulação</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0013</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ZK21</DOMVALUE_L>
+     <DDTEXT>Fragmento de simulación</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ZK22</DOMVALUE_L>
+     <DDTEXT>simulierte Transaktion</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ZK22</DOMVALUE_L>
+     <DDTEXT>Transaction simulée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ZK22</DOMVALUE_L>
+     <DDTEXT>Symulowana transakcja</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ZK22</DOMVALUE_L>
+     <DDTEXT>Transação simulada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0014</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ZK22</DOMVALUE_L>
+     <DDTEXT>Transacción simulada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ZK31</DOMVALUE_L>
+     <DDTEXT>Kalkulations-Kopf</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ZK31</DOMVALUE_L>
+     <DDTEXT>En-tête de calcul</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ZK31</DOMVALUE_L>
+     <DDTEXT>Nagłówek obliczeń</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ZK31</DOMVALUE_L>
+     <DDTEXT>Cabeçalho de cálculo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0015</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ZK31</DOMVALUE_L>
+     <DDTEXT>Cabecera de cálculo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ZK40</DOMVALUE_L>
+     <DDTEXT>Verteilung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ZK40</DOMVALUE_L>
+     <DDTEXT>Répartition</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ZK40</DOMVALUE_L>
+     <DDTEXT>Dystrybucja</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ZK40</DOMVALUE_L>
+     <DDTEXT>Distribuição</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0016</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ZK40</DOMVALUE_L>
+     <DDTEXT>Distribución</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>ZK50</DOMVALUE_L>
+     <DDTEXT>Simulierte Verteilung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>ZK50</DOMVALUE_L>
+     <DDTEXT>Répartition simulée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>ZK50</DOMVALUE_L>
+     <DDTEXT>Symulowana dystrybucja</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>ZK50</DOMVALUE_L>
+     <DDTEXT>Distribuição simulada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0017</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>ZK50</DOMVALUE_L>
+     <DDTEXT>Distribución simulada</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VD30</DOMVALUE_L>
+     <DDTEXT>Leistungsart</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VD30</DOMVALUE_L>
+     <DDTEXT>Type de service</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VD30</DOMVALUE_L>
+     <DDTEXT>Typ usługi</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VD30</DOMVALUE_L>
+     <DDTEXT>Tipo de serviço</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0018</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VD30</DOMVALUE_L>
+     <DDTEXT>Clase de servicio</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS01</DOMVALUE_L>
+     <DDTEXT>Template</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS01</DOMVALUE_L>
+     <DDTEXT>Modèle</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS01</DOMVALUE_L>
+     <DDTEXT>Szablon</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS01</DOMVALUE_L>
+     <DDTEXT>Modelo</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0019</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS01</DOMVALUE_L>
+     <DDTEXT>Plantilla</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS02</DOMVALUE_L>
+     <DDTEXT>Layout Designer</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS02</DOMVALUE_L>
+     <DDTEXT>Designer de mise en page</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS02</DOMVALUE_L>
+     <DDTEXT>Projektant układu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS02</DOMVALUE_L>
+     <DDTEXT>Designer de layout</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0020</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS02</DOMVALUE_L>
+     <DDTEXT>Diseñador de layout</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS03</DOMVALUE_L>
+     <DDTEXT>Text Repository</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS03</DOMVALUE_L>
+     <DDTEXT>Dépôt de texte</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS03</DOMVALUE_L>
+     <DDTEXT>Repozytorium tekstu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS03</DOMVALUE_L>
+     <DDTEXT>Repositório de textos</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0021</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS03</DOMVALUE_L>
+     <DDTEXT>Repository de texto</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS04</DOMVALUE_L>
+     <DDTEXT>View Editor</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS04</DOMVALUE_L>
+     <DDTEXT>Afficher Éditeur</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS04</DOMVALUE_L>
+     <DDTEXT>Edytor widoku</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS04</DOMVALUE_L>
+     <DDTEXT>Editor de visão</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0022</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS04</DOMVALUE_L>
+     <DDTEXT>Editor de vistas</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS80</DOMVALUE_L>
+     <DDTEXT>Konditionsgruppen</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS80</DOMVALUE_L>
+     <DDTEXT>Groupe de conditions</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS80</DOMVALUE_L>
+     <DDTEXT>Grupa warunków</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS80</DOMVALUE_L>
+     <DDTEXT>Grupo de condições</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0023</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS80</DOMVALUE_L>
+     <DDTEXT>Grupo de condiciones</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS90</DOMVALUE_L>
+     <DDTEXT>Anwendungsprofil</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS90</DOMVALUE_L>
+     <DDTEXT>Profil d’utilisation</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS90</DOMVALUE_L>
+     <DDTEXT>Profil użytkowania</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS90</DOMVALUE_L>
+     <DDTEXT>Perfil de utilização</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0024</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS90</DOMVALUE_L>
+     <DDTEXT>Perfil de uso</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS05</DOMVALUE_L>
+     <DDTEXT>Wertschöpfung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS05</DOMVALUE_L>
+     <DDTEXT>Valeur ajoutée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS05</DOMVALUE_L>
+     <DDTEXT>Wartość dodana</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS05</DOMVALUE_L>
+     <DDTEXT>Valor agregado</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0025</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS05</DOMVALUE_L>
+     <DDTEXT>Valor añadido</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS06</DOMVALUE_L>
+     <DDTEXT>Wertschöpfungskette</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS06</DOMVALUE_L>
+     <DDTEXT>Chaîne de valeur ajoutée</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS06</DOMVALUE_L>
+     <DDTEXT>Łańcuch wartości dodanej</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS06</DOMVALUE_L>
+     <DDTEXT>Cadeia de valor agregado</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0026</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS06</DOMVALUE_L>
+     <DDTEXT>Cadena de valor añadido</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS07</DOMVALUE_L>
+     <DDTEXT>QM Analyse</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS07</DOMVALUE_L>
+     <DDTEXT>Analyse QM</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS07</DOMVALUE_L>
+     <DDTEXT>Analiza QM</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS07</DOMVALUE_L>
+     <DDTEXT>Análise de QM</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0027</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS07</DOMVALUE_L>
+     <DDTEXT>Análisis QM</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS12</DOMVALUE_L>
+     <DDTEXT>Customizing Gruppierungsdefinition</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS12</DOMVALUE_L>
+     <DDTEXT>Personnalisation de la définition du groupement</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS12</DOMVALUE_L>
+     <DDTEXT>Dostosowywanie definicji grupowania</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS12</DOMVALUE_L>
+     <DDTEXT>Definição de agrupamento de customizing</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0028</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS12</DOMVALUE_L>
+     <DDTEXT>Definición de agrupación de Customizing</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>BS13</DOMVALUE_L>
+     <DDTEXT>Masterdaten Gruppierungsdefinition</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>BS13</DOMVALUE_L>
+     <DDTEXT>Définition du groupement des données maître</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>BS13</DOMVALUE_L>
+     <DDTEXT>Definicja grupowania danych głównych</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>BS13</DOMVALUE_L>
+     <DDTEXT>Definição de agrupamento de dados mestre</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0029</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>BS13</DOMVALUE_L>
+     <DDTEXT>Definición de agrupación de datos maestros</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VP10</DOMVALUE_L>
+     <DDTEXT>Abrechnung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VP10</DOMVALUE_L>
+     <DDTEXT>Décompte</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VP10</DOMVALUE_L>
+     <DDTEXT>Rozliczenie</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VP10</DOMVALUE_L>
+     <DDTEXT>Liquidação</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0030</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VP10</DOMVALUE_L>
+     <DDTEXT>Liquidación</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VP20</DOMVALUE_L>
+     <DDTEXT>Umsatzanpassungslauf</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VP20</DOMVALUE_L>
+     <DDTEXT>Cycle d’ajustement du chiffre d’affaires</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VP20</DOMVALUE_L>
+     <DDTEXT>Przebieg korekty obrotu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VP20</DOMVALUE_L>
+     <DDTEXT>Execução de ajuste do faturamento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0031</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VP20</DOMVALUE_L>
+     <DDTEXT>Ejecución de ajuste de volumen de negocios</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VP30</DOMVALUE_L>
+     <DDTEXT>Umsatzanpassung-Kopfzeile</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VP30</DOMVALUE_L>
+     <DDTEXT>En-tête de l’ajustement du chiffre d’affaires</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VP30</DOMVALUE_L>
+     <DDTEXT>Nagłówek korekty obrotu</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VP30</DOMVALUE_L>
+     <DDTEXT>Cabeçalho de ajuste do faturamento</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0032</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VP30</DOMVALUE_L>
+     <DDTEXT>Cabecera de ajuste de volumen de negocios</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>CC01</DOMVALUE_L>
+     <DDTEXT>Geschäftsmodell</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>CC01</DOMVALUE_L>
+     <DDTEXT>Modèle d’activité</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>CC01</DOMVALUE_L>
+     <DDTEXT>Model biznesowy</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>CC01</DOMVALUE_L>
+     <DDTEXT>Modelo de negócios</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0033</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>CC01</DOMVALUE_L>
+     <DDTEXT>Modelo de empresa</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PL01</DOMVALUE_L>
+     <DDTEXT>Preisliste</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PL01</DOMVALUE_L>
+     <DDTEXT>Liste de prix</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PL01</DOMVALUE_L>
+     <DDTEXT>Cennik</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PL01</DOMVALUE_L>
+     <DDTEXT>Lista de preços</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0034</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PL01</DOMVALUE_L>
+     <DDTEXT>Lista de precios</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>VD40</DOMVALUE_L>
+     <DDTEXT>Verteilungsschlüssel</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>VD40</DOMVALUE_L>
+     <DDTEXT>Clé de répartition</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>VD40</DOMVALUE_L>
+     <DDTEXT>Klucz rozdziału</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>VD40</DOMVALUE_L>
+     <DDTEXT>Chave de distribuição</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0035</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>VD40</DOMVALUE_L>
+     <DDTEXT>Clave de distribución</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>PM01</DOMVALUE_L>
+     <DDTEXT>Performance-Messung</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DOMVALUE_L>PM01</DOMVALUE_L>
+     <DDTEXT>Mesure de la performance</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DOMVALUE_L>PM01</DOMVALUE_L>
+     <DDTEXT>Pomiar wydajności</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DOMVALUE_L>PM01</DOMVALUE_L>
+     <DDTEXT>Medição de desempenho</DDTEXT>
+    </item>
+    <item>
+     <VALPOS>0036</VALPOS>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DOMVALUE_L>PM01</DOMVALUE_L>
+     <DDTEXT>Medición del rendimiento</DDTEXT>
+    </item>
+   </DD07_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

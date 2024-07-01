@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Teil.,KrAb</SCRTEXT_S>
      <SCRTEXT_M>Teilabr. KrAb. Kunde</SCRTEXT_M>
      <SCRTEXT_L>AbrProzArt Teilabrechnung Kunde KredAbr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settl. Proc. Type for Partial Settlement for Customer as AP</DDTEXT>
+     <REPTEXT>Settlement Proc. Type (Accounts Payable)</REPTEXT>
+     <SCRTEXT_S>PartSettAP</SCRTEXT_S>
+     <SCRTEXT_M>PartSett Customer AP</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Proc. Type PartSett. Cust. AP</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -99,11 +99,16 @@
    </DD28J_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD25_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Zuordnung Dokumentendefinition zu Vertragstyp</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Assignment of document definition to contract type</DDTEXT>
     </item>
    </DD25_TEXTS>
   </asx:values>

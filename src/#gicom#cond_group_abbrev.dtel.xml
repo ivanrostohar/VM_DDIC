@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/COND_GROUP_ABBREV</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/COND_GROUP_ABBREV</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Condition Group Abbreviation</DDTEXT>
+    <REPTEXT>Condition Group Abbreviation</REPTEXT>
+    <SCRTEXT_S>Cd Grp Abr</SCRTEXT_S>
+    <SCRTEXT_M>Cond. Group Abbre</SCRTEXT_M>
+    <SCRTEXT_L>Condition Group Abbreviation</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Konditionsgruppen-Abkürzung</DDTEXT>
+     <REPTEXT>Konditionsgruppen-Abkürzung</REPTEXT>
+     <SCRTEXT_S>Kd Grp Abr</SCRTEXT_S>
+     <SCRTEXT_M>Kond.gruppen-Abkür</SCRTEXT_M>
+     <SCRTEXT_L>Konditionsgruppen-Abkürzung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Abréviation du groupe de conditions</DDTEXT>
+     <REPTEXT>Abréviation du groupe de conditions</REPTEXT>
+     <SCRTEXT_S>Abr Grp Cd</SCRTEXT_S>
+     <SCRTEXT_M>Cond. Abrév. group.</SCRTEXT_M>
+     <SCRTEXT_L>Abréviation groupe conditions</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Skrót grupy warunków</DDTEXT>
+     <REPTEXT>Skrót grupy warunków</REPTEXT>
+     <SCRTEXT_S>Skr gr war</SCRTEXT_S>
+     <SCRTEXT_M>Skrót grupy war</SCRTEXT_M>
+     <SCRTEXT_L>Skrót grupy warunków</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Abreviatura grupo de condições</DDTEXT>
+     <REPTEXT>Abreviatura grupo de condições</REPTEXT>
+     <SCRTEXT_S>AbrGrpCd.</SCRTEXT_S>
+     <SCRTEXT_M>Abrev. GrpCond.</SCRTEXT_M>
+     <SCRTEXT_L>Abreviatura grupo de condições</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Abreviatura de grupo de condición</DDTEXT>
+     <REPTEXT>Abreviatura de grupo de condición</REPTEXT>
+     <SCRTEXT_S>Ab.GCnd.</SCRTEXT_S>
+     <SCRTEXT_M>Condición Abrev.grp.</SCRTEXT_M>
+     <SCRTEXT_L>Abreviatura de grupo de cond.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

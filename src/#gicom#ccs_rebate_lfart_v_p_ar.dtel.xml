@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>Prof.,DbA.</SCRTEXT_S>
      <SCRTEXT_M>Pro-forma Lief. DbAb</SCRTEXT_M>
      <SCRTEXT_L>AbrechBelArt Pro-forma-Abr. Lief. Debit.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settl. Doc. Type for Proforma Settlement for Supplier as AR</DDTEXT>
+     <REPTEXT>Settlement Doc. Type (Accounts Receiv.)</REPTEXT>
+     <SCRTEXT_S>ProformaAR</SCRTEXT_S>
+     <SCRTEXT_M>Proforma Supplier AR</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Doc. Type Proforma Stt. Suppl. AR</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

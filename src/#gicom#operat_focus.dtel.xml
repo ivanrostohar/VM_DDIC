@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/OPERAT_FOCUS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/OPERAT_FOCUS</DOMNAME>
+    <HEADLEN>15</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>15</SCRLEN3>
+    <DDTEXT>Operator Focus</DDTEXT>
+    <REPTEXT>Operator Focus</REPTEXT>
+    <SCRTEXT_S>Opr.Focus</SCRTEXT_S>
+    <SCRTEXT_M>Operator Focus</SCRTEXT_M>
+    <SCRTEXT_L>Operator Focus</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Betreiber Fokus</DDTEXT>
+     <REPTEXT>Betreiber Fokus</REPTEXT>
+     <SCRTEXT_S>Betr.Fokus</SCRTEXT_S>
+     <SCRTEXT_M>Betreiber Fokus</SCRTEXT_M>
+     <SCRTEXT_L>Betreiber Fokus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Objectif de l’opérateur</DDTEXT>
+     <REPTEXT>Obj. opérat.</REPTEXT>
+     <SCRTEXT_S>Obj. opér.</SCRTEXT_S>
+     <SCRTEXT_M>Obj. opérat.</SCRTEXT_M>
+     <SCRTEXT_L>Obj. opérat.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Centrum uwagi operatora</DDTEXT>
+     <REPTEXT>Centr.uw.oper.</REPTEXT>
+     <SCRTEXT_S>C.uwagiOp</SCRTEXT_S>
+     <SCRTEXT_M>Centr.uw.oper.</SCRTEXT_M>
+     <SCRTEXT_L>Centr.uw.oper.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Foco do operador</DDTEXT>
+     <REPTEXT>Foco do oper.</REPTEXT>
+     <SCRTEXT_S>FocoOper.</SCRTEXT_S>
+     <SCRTEXT_M>Foco do oper.</SCRTEXT_M>
+     <SCRTEXT_L>Foco do oper.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Foco de operador</DDTEXT>
+     <REPTEXT>Foco de operad.</REPTEXT>
+     <SCRTEXT_S>Foco oper.</SCRTEXT_S>
+     <SCRTEXT_M>Foco de operad.</SCRTEXT_M>
+     <SCRTEXT_L>Foco de operad.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

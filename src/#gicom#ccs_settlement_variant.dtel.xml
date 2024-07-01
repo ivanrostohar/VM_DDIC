@@ -22,6 +22,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +32,14 @@
      <SCRTEXT_S>Abrchvar.</SCRTEXT_S>
      <SCRTEXT_M>Abrechnungsvar.</SCRTEXT_M>
      <SCRTEXT_L>Abrechnungsvar.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Variant</DDTEXT>
+     <REPTEXT>Settlement Variant</REPTEXT>
+     <SCRTEXT_S>Sttl. Var.</SCRTEXT_S>
+     <SCRTEXT_M>Settlement Variant</SCRTEXT_M>
+     <SCRTEXT_L>Settlement Variant</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

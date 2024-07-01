@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Kopie von WB2_SETTLEMENT_TYPE_VENDOR</DDTEXT>
+     <REPTEXT>AbrechnArt Liefer.</REPTEXT>
+     <SCRTEXT_S>Abr. Lief</SCRTEXT_S>
+     <SCRTEXT_M>AbrechnArt Liefer.</SCRTEXT_M>
+     <SCRTEXT_L>AbrechnArt Lieferant</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

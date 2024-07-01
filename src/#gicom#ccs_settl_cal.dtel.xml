@@ -22,6 +22,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +32,14 @@
      <SCRTEXT_S>Kalender</SCRTEXT_S>
      <SCRTEXT_M>Abrechnungskalender</SCRTEXT_M>
      <SCRTEXT_L>Kalender Endabrechnung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract Settlement: Settlement Calendar</DDTEXT>
+     <REPTEXT>Calendar Final Settlement</REPTEXT>
+     <SCRTEXT_S>Calendar</SCRTEXT_S>
+     <SCRTEXT_M>Settlement Calendar</SCRTEXT_M>
+     <SCRTEXT_L>Calendar Final Settlement</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

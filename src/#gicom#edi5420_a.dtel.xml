@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/EDI5420_A</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/EDIF5420</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Condition record per unit</DDTEXT>
+    <REPTEXT>Condition record</REPTEXT>
+    <SCRTEXT_S>Cond. rec.</SCRTEXT_S>
+    <SCRTEXT_M>Cond. record</SCRTEXT_M>
+    <SCRTEXT_L>Condition record</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Konditionssatz pro Einheit</DDTEXT>
+     <REPTEXT>Konditionssatz</REPTEXT>
+     <SCRTEXT_S>K.Satz</SCRTEXT_S>
+     <SCRTEXT_M>K.Satz</SCRTEXT_M>
+     <SCRTEXT_L>Konditionssatz</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition record per unit</DDTEXT>
+     <REPTEXT>Condition record</REPTEXT>
+     <SCRTEXT_S>Cond. rec.</SCRTEXT_S>
+     <SCRTEXT_M>Cond. record</SCRTEXT_M>
+     <SCRTEXT_L>Condition record</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Modus</SCRTEXT_S>
      <SCRTEXT_M>Trans.Modus</SCRTEXT_M>
      <SCRTEXT_L>Transfermodus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>transfer mode from AD to SAP CC</DDTEXT>
+     <REPTEXT>Trans.Mode</REPTEXT>
+     <SCRTEXT_S>Mode</SCRTEXT_S>
+     <SCRTEXT_M>Trans.Mode</SCRTEXT_M>
+     <SCRTEXT_L>Transfer Mode</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

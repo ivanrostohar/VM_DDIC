@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENQU" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/GICOM/E_CNTR</VIEWNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>E</AGGTYPE>
+    <ROOTTAB>/GICOM/CNTR</ROOTTAB>
+    <DDTEXT>Lock Object for Contracts</DDTEXT>
+   </DD25V>
+   <DD26E_TABLE>
+    <DD26E>
+     <VIEWNAME>/GICOM/E_CNTR</VIEWNAME>
+     <TABNAME>/GICOM/CNTR</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/GICOM/CNTR</FORTABNAME>
+     <ENQMODE>E</ENQMODE>
+    </DD26E>
+   </DD26E_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWNAME>/GICOM/E_CNTR</VIEWNAME>
+     <OBJPOS>0001</OBJPOS>
+     <VIEWFIELD>CLNT</VIEWFIELD>
+     <TABNAME>/GICOM/CNTR</TABNAME>
+     <FIELDNAME>CLNT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ENQMODE>E</ENQMODE>
+     <CHECKTABLE>T000</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWNAME>/GICOM/E_CNTR</VIEWNAME>
+     <OBJPOS>0002</OBJPOS>
+     <VIEWFIELD>ID</VIEWFIELD>
+     <TABNAME>/GICOM/CNTR</TABNAME>
+     <FIELDNAME>ID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <ENQMODE>E</ENQMODE>
+     <CONVEXIT>ALPHA</CONVEXIT>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

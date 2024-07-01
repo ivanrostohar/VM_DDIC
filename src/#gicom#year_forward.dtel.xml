@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Jahr</SCRTEXT_S>
      <SCRTEXT_M>Vorg. Jahr</SCRTEXT_M>
      <SCRTEXT_L>Vorgetragenes Jahr</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Year, for what is forward existing</DDTEXT>
+     <REPTEXT>Forw. Year</REPTEXT>
+     <SCRTEXT_S>Year</SCRTEXT_S>
+     <SCRTEXT_M>Forw. Year</SCRTEXT_M>
+     <SCRTEXT_L>Forwarded Year</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -33,11 +33,16 @@
    </DD03P_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Splitfelder für VD-&gt;CCS  (für nur einen Kontrakt)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Split fields for VM-&gt; CCS (for one contract only)</DDTEXT>
     </item>
    </DD02_TEXTS>
   </asx:values>

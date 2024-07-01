@@ -23,6 +23,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -32,6 +33,14 @@
      <SCRTEXT_S>VarSchl.</SCRTEXT_S>
      <SCRTEXT_M>VarSchl.</SCRTEXT_M>
      <SCRTEXT_L>Variabler Schlüssel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Variable key 255 Character</DDTEXT>
+     <REPTEXT>VarKey</REPTEXT>
+     <SCRTEXT_S>VarKey</SCRTEXT_S>
+     <SCRTEXT_M>VarKey</SCRTEXT_M>
+     <SCRTEXT_L>Variable key</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

@@ -73,11 +73,16 @@
    </DD08V_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Kalender der Vereinbarung (für Abschl./Vorausz.)</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Agreement - Calendar</DDTEXT>
     </item>
    </DD02_TEXTS>
    <TABL_EXTRAS>

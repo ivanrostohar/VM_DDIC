@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Volume rebate group</DDTEXT>
+     <REPTEXT>VRG</REPTEXT>
+     <SCRTEXT_S>Rebate grp</SCRTEXT_S>
+     <SCRTEXT_M>Vol. rebate grp</SCRTEXT_M>
+     <SCRTEXT_L>Volume rebate group</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

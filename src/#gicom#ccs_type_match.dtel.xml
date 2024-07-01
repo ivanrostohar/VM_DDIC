@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Match Type</DDTEXT>
+     <REPTEXT>Match Type</REPTEXT>
+     <SCRTEXT_S>Match Type</SCRTEXT_S>
+     <SCRTEXT_M>Match Type</SCRTEXT_M>
+     <SCRTEXT_L>Match Type</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

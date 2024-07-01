@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZGI_VU</OBJCT>
+    <FIEL1>ACTVT</FIEL1>
+    <FIEL2>ZGI_PRONGR</FIEL2>
+    <FIEL3>ZGI_AON</FIEL3>
+    <FIEL4>ZGI_AONFLA</FIEL4>
+    <FIEL5>ZGI_NGRTYP</FIEL5>
+    <FIEL6>ZGI_ROLLVU</FIEL6>
+    <FIEL7>ZGI_AGREEM</FIEL7>
+    <OCLSS>ZGI</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZGI_VU</OBJECT>
+    <TTEXT>gicom Negotiation assistance</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZGI_VU</OBJCT>
+   </TOBJVORFLG>
+   <TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_VU</BROBJ>
+     <ACTVT>01</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_VU</BROBJ>
+     <ACTVT>02</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_VU</BROBJ>
+     <ACTVT>03</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_VU</BROBJ>
+     <ACTVT>06</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_VU</BROBJ>
+     <ACTVT>36</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_VU</BROBJ>
+     <ACTVT>43</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZGI_VU</BROBJ>
+     <ACTVT>98</ACTVT>
+    </TACTZ>
+   </TACTZ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

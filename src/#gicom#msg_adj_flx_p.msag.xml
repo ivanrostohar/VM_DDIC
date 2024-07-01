@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for Adjusting to Flexible Calendar Periods</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No Authorization for Transaction /GICOM/ADJ_FLX_PRD</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Dry Run: &amp;1 entries would get updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Hard Run: &amp;1 entries were updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error while updating &amp;1 to &amp;2</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+     <STEXT>Nachrichtenklasse zum Anpassen der flex. Kalenderperioden</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+     <STEXT>Classe de messages pour adapt. aux périodes calendrier flex.</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+     <STEXT>Klasa komunikatów dla dostos. do elastyczn. okresów kalend.</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+     <STEXT>Classe de mensagem p/ajuste a períodos calendário flexíveis</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_ADJ_FLX_P</ARBGB>
+     <STEXT>Clase de mensaje para ajust. a per. de calendario flexibles</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Keine Authorisierung für die Transaktion /GICOM/ADJ_FLX_PRD</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Probelauf: &amp;1 Einträge wären aktualisiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Echtlauf: &amp;1 Einträge wurden aktualisiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler beim Update von &amp;1 zu &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Aucune autorisation pour la transaction /GICOM/ADJ_FLX_PRD</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Exécution à vide : &amp;1 entrées seraient mises à jour</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Exécution forcée : &amp;1 entrées ont été mises à jour</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erreur lors de la mise à jour de &amp;1 vers &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Brak autoryzacji transakcji /GICOM/ADJ_FLX_PRD</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Przebieg próbny: zaktualizowano by następującą liczbę wpisów — &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Przebieg pod obciążeniem: zaktualizowane wpisy — &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Podczas aktualizacji &amp;1 do &amp;2 wystąpił błąd</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Sem autorização para transação /GICOM/ADJ_FLX_PRD</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Execução de teste: &amp;1 entradas seriam atualizadas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Execução intensiva: &amp;1 entradas foram atualizadas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Erro ao atualizar &amp;1 para &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No tiene autorización para la transacción /GICOM/ADJ_FLX_PRD</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ejec. test: &amp;1 entradas se actualizarían</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Ejec. difícil: Se han actualizado &amp;1 entradas</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error al actualizar &amp;1 a &amp;2</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

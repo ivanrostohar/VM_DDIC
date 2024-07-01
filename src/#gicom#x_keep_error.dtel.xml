@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/X_KEEP_ERROR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Keep flag for error log entries</DDTEXT>
+    <REPTEXT>Keep</REPTEXT>
+    <SCRTEXT_S>Keep</SCRTEXT_S>
+    <SCRTEXT_M>Keep</SCRTEXT_M>
+    <SCRTEXT_L>Keep</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Zeichen ob Fehler behalten werden soll</DDTEXT>
+     <REPTEXT>Behalten</REPTEXT>
+     <SCRTEXT_S>Behalten</SCRTEXT_S>
+     <SCRTEXT_M>Behalten</SCRTEXT_M>
+     <SCRTEXT_L>Behalten</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Keep flag for error log entries</DDTEXT>
+     <REPTEXT>Keep</REPTEXT>
+     <SCRTEXT_S>Keep</SCRTEXT_S>
+     <SCRTEXT_M>Keep</SCRTEXT_M>
+     <SCRTEXT_L>Keep</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

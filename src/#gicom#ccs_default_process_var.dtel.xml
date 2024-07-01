@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
     <LANGU>P</LANGU>
     <LANGU>S</LANGU>
    </I18N_LANGS>
@@ -31,6 +32,14 @@
      <SCRTEXT_S>StdVariant</SCRTEXT_S>
      <SCRTEXT_M>StandProzessvariante</SCRTEXT_M>
      <SCRTEXT_L>Standardkonditionskontrakt-Prozessvar.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Default Process Variant</DDTEXT>
+     <REPTEXT>Default Condition Contract Process Variant</REPTEXT>
+     <SCRTEXT_S>Default V.</SCRTEXT_S>
+     <SCRTEXT_M>Default Proc. Var.</SCRTEXT_M>
+     <SCRTEXT_L>Default Condition Contr. Process Variant</SCRTEXT_L>
     </item>
     <item>
      <DDLANGUAGE>P</DDLANGUAGE>

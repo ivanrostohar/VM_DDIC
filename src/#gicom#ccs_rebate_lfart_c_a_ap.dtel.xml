@@ -21,6 +21,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +31,14 @@
      <SCRTEXT_S>RA Kde Krd</SCRTEXT_S>
      <SCRTEXT_M>Rückst.,Kunde,k.Abr.</SCRTEXT_M>
      <SCRTEXT_L>AbrBelArt RückstAuflös. Kunde KreditAbr.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Settlement Doc. Type for Accruals Reversal for Cust. as AP</DDTEXT>
+     <REPTEXT>Settlement Doc. Type (Accounts Payable)</REPTEXT>
+     <SCRTEXT_S>AR Cust AP</SCRTEXT_S>
+     <SCRTEXT_M>Accruals Customer AP</SCRTEXT_M>
+     <SCRTEXT_L>Settl. Doc. Type Accr. Reversal Cust. AP</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

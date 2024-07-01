@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/INPUT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR30</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Input text</DDTEXT>
+    <REPTEXT>Input text</REPTEXT>
+    <SCRTEXT_S>Input txt.</SCRTEXT_S>
+    <SCRTEXT_M>Input text</SCRTEXT_M>
+    <SCRTEXT_L>Input text</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Eingabetext</DDTEXT>
+     <REPTEXT>Eingabetext</REPTEXT>
+     <SCRTEXT_S>Eing. Text</SCRTEXT_S>
+     <SCRTEXT_M>Eingabetext</SCRTEXT_M>
+     <SCRTEXT_L>Eingabetext</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Input text</DDTEXT>
+     <REPTEXT>Input text</REPTEXT>
+     <SCRTEXT_S>Input txt.</SCRTEXT_S>
+     <SCRTEXT_M>Input text</SCRTEXT_M>
+     <SCRTEXT_L>Input text</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

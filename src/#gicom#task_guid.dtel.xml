@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TASK_GUID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/GUID_C32</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>GUID of Task in Task Scheduling Framework</DDTEXT>
+    <REPTEXT>Task Guid</REPTEXT>
+    <SCRTEXT_S>Task Guid</SCRTEXT_S>
+    <SCRTEXT_M>Task Guid</SCRTEXT_M>
+    <SCRTEXT_L>Task Guid</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>GUID der Aufgabe im Aufgabenplan-Framework</DDTEXT>
+     <REPTEXT>Aufgabe Guid</REPTEXT>
+     <SCRTEXT_S>Aufg. Guid</SCRTEXT_S>
+     <SCRTEXT_M>Aufgabe Guid</SCRTEXT_M>
+     <SCRTEXT_L>Aufgabe Guid</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>GUID de la tâche du cadre de planification des tâches</DDTEXT>
+     <REPTEXT>Tâche GUID</REPTEXT>
+     <SCRTEXT_S>Tâche GUID</SCRTEXT_S>
+     <SCRTEXT_M>Tâche GUID</SCRTEXT_M>
+     <SCRTEXT_L>Tâche GUID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>GUID zadania w strukturze planowania zadań</DDTEXT>
+     <REPTEXT>GUID zadania</REPTEXT>
+     <SCRTEXT_S>GUID zad.</SCRTEXT_S>
+     <SCRTEXT_M>GUID zadania</SCRTEXT_M>
+     <SCRTEXT_L>GUID zadania</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>GUID de tarefa no Framework de programação de tarefas</DDTEXT>
+     <REPTEXT>GUID de tarefa</REPTEXT>
+     <SCRTEXT_S>GUID trf.</SCRTEXT_S>
+     <SCRTEXT_M>GUID de tarefa</SCRTEXT_M>
+     <SCRTEXT_L>GUID de tarefa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>GUID de tarea en el framework de programación de tareas</DDTEXT>
+     <REPTEXT>GUID de tarea</REPTEXT>
+     <SCRTEXT_S>GUID tarea</SCRTEXT_S>
+     <SCRTEXT_M>GUID de tarea</SCRTEXT_M>
+     <SCRTEXT_L>GUID de tarea</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

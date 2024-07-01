@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/ALLOW_ACCRUAL</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>ABAP_BOOLEAN</DOMNAME>
+    <DOMNAME>XFELD</DOMNAME>
     <HEADLEN>12</HEADLEN>
     <SCRLEN1>07</SCRLEN1>
     <SCRLEN2>07</SCRLEN2>
@@ -17,10 +17,10 @@
     <SCRTEXT_L>Accrual</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -30,6 +30,14 @@
      <SCRTEXT_S>Rückst.</SCRTEXT_S>
      <SCRTEXT_M>Rückst.</SCRTEXT_M>
      <SCRTEXT_L>Rückstellung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Flag: CCM Accrual allowed</DDTEXT>
+     <REPTEXT>Accrual</REPTEXT>
+     <SCRTEXT_S>Accrual</SCRTEXT_S>
+     <SCRTEXT_M>Accrual</SCRTEXT_M>
+     <SCRTEXT_L>Accrual</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

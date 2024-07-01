@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message class for addendum</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Addendum has been set in release by &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>An error occurred by inserting the table &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>An error occurred by updating the table &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>A new addendum &amp;1 - in preparation - is not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Addenda are not allowed for contract type &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>No agreements have been modified - an approval is not necesssary</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Copying addendum &amp;1 is not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Addendum has been released by &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Addendum has been invalidated by &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Addendum has been rejected by &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No agreement relations (/GICOM/AGRMT_REL) found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Contract is currently in the approval process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Addendum can only be deleted in status &quot;in preparation&quot;.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <STEXT>Nachrichtenklasse für das Addendum</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <STEXT>Classe de message pour l’addendum</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <STEXT>Klasa komunikatów dla aneksu</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <STEXT>Classe de mensagens para suplemento</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/MSG_ADDEND_01</ARBGB>
+     <STEXT>Clase de mensaje para suplemento</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Addendum wurde von &quot;&amp;1&quot; in Freigabe gesetzt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Ein Fehler ist beim Einfügen in der Tabelle &amp;1 aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ein Fehler ist beim Aktualisieren der Tabelle &amp;1 aufgetreten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Ein neues Addendum &amp;1 - in Vorbereitung - ist nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Addenda sind nicht erlaubt für Vertragstyp &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Es wurden keine Vereinbarungen geändert - Keine Freigabe erforderlich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Eine Kopie von Addendum &amp;1 ist nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Addendum wurde freigegeben von &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Addendum wurde ungültig gesetzt von &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Addendumfreigabe wurde abgelehnt von &quot;&amp;1&quot;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Keine Vereinbarungsbeziehungen (/GICOM/AGRMT_REL) vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Der Vertrag ist zurzeit in einem Genehmigungsprozess</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Addendum kann nur im Status &quot;in Vorbereitung&quot; gelöscht werden.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>L’addendum a été défini dans la publication par « &amp;1 ».</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Une erreur s’est produite lors de l’insertion du tableau &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Une erreur s’est produite lors de la mise à jour du tableau &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Un nouvel addendum &amp;1, en préparation, n’est pas autorisé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Les addenda ne sont pas autorisés pour le type de contrat « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Aucun accord n’a été modifié ; une approbation n’est pas nécessaire</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>La copie de l’addendum &amp;1 n’est pas autorisée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>L’addendum a été publié par « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>L’addendum a été invalidé par « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>L’addendum a été rejeté par « &amp;1 »</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Aucune relation d’accord (/GICOM/AGRMT_REL) trouvée</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Le contrat est actuellement en cours d’approbation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>L’addenda ne peut être supprimé qu’à l’état « en préparation ».</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Aneks został ustawiony w zwolnieniu przez „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Wystąpił błąd podczas wstawiania tabeli &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Wystąpił błąd podczas aktualizowania tabeli &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Nowy aneks &amp;1 — w przygotowaniu — jest niedozwolony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Aneksy są niedozwolone dla kontraktu typu „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Nie zmodyfikowano żadnej umowy — zatwierdzenie nie jest potrzebne</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Kopiowanie aneksu &amp;1 nie jest dozwolone</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Aneks został zwolniony przez „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Aneks został unieważniony przez „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Aneks został odrzucony przez „&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Nie znaleziono relacji umów (/GICOM/AGRMT_REL)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Kontrakt jest obecnie w trakcie zatwierdzania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Aneks można usunąć tylko wtedy, gdy ma status „w przygotowaniu”.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>O suplemento foi definido em liberação por “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Ocorreu um erro ao inserir a tabela &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ocorreu um erro ao atualizar a tabela &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Um novo suplemento &amp;1 - em preparação - não é permitido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Os suplementos não são permitidos para tipo de contrato “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Nenhum acordo modificado - aprovação desnecessária</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Não é permitido copiar o suplemento &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>O suplemento foi liberado por “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>O suplemento foi invalidado por “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>O suplemento foi rejeitado por “&amp;1”</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Nenhuma relação de acordo (/GICOM/AGRMT_REL) encontrada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>O contrato está em processo de aprovação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>O adendo só pode ser excluído no status “em preparação”.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1’ ha fijado el suplemento en la liberación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Se ha producido un error al insertar la tabla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Se ha producido un error al actualizar la tabla &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>No está permitido un nuevo suplemento &amp;1 en preparación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No se permiten suplementos para la clase de contrato &apos;&amp;1&apos;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>No se han modificado acuerdos; no es necesaria una aprobación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>La copia del suplemento &amp;1 no está permitida</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>&amp;1’ ha liberado el suplemento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>&amp;1’ ha invalidado el suplemento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>&amp;1’ ha rechazado el suplemento</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>No existe ninguna relación de acuerdo (/GICOM/AGRMT_REL)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>El contrato se encuentra en el proceso de aprobación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>La adenda solo puede eliminarse en estado &quot;en preparación&quot;.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/COND_GUID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CCS_GUID_C32</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>28</SCRLEN3>
+    <DDTEXT>GUID of SAP condition in CCS</DDTEXT>
+    <REPTEXT>Cond. GUID</REPTEXT>
+    <SCRTEXT_S>Cond. GUID</SCRTEXT_S>
+    <SCRTEXT_M>GUID of Cond.</SCRTEXT_M>
+    <SCRTEXT_L>GUID of SAP condition in CCS</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>GUID SAP Konditionen in CCS</DDTEXT>
+     <REPTEXT>Kond. GUID</REPTEXT>
+     <SCRTEXT_S>GUID Kond.</SCRTEXT_S>
+     <SCRTEXT_M>GUID Kondi.</SCRTEXT_M>
+     <SCRTEXT_L>GUID SAP Konditionen in CCS</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>GUID of SAP condition in CCS</DDTEXT>
+     <REPTEXT>Cond. GUID</REPTEXT>
+     <SCRTEXT_S>Cond. GUID</SCRTEXT_S>
+     <SCRTEXT_M>GUID of Cond.</SCRTEXT_M>
+     <SCRTEXT_L>GUID of SAP condition in CCS</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

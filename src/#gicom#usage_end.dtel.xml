@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/USAGE_END</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DATE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>end date of usage</DDTEXT>
+    <REPTEXT>Usage end date</REPTEXT>
+    <SCRTEXT_S>End</SCRTEXT_S>
+    <SCRTEXT_M>Usage end</SCRTEXT_M>
+    <SCRTEXT_L>Usage end date</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verwendbar bis</DDTEXT>
+     <REPTEXT>Verwendbar bis</REPTEXT>
+     <SCRTEXT_S>Ende</SCRTEXT_S>
+     <SCRTEXT_M>Verwendbar bis</SCRTEXT_M>
+     <SCRTEXT_L>Verwendbar bis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>date de fin d’utilisation</DDTEXT>
+     <REPTEXT>Date de fin d’utilisation</REPTEXT>
+     <SCRTEXT_S>Fin</SCRTEXT_S>
+     <SCRTEXT_M>Fin d’utilisation</SCRTEXT_M>
+     <SCRTEXT_L>Date de fin d’utilisation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Data końca użytkowania</DDTEXT>
+     <REPTEXT>Data końca użytkowania</REPTEXT>
+     <SCRTEXT_S>Koniec</SCRTEXT_S>
+     <SCRTEXT_M>Koniec użytkowania</SCRTEXT_M>
+     <SCRTEXT_L>Data końca użytkowania</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Data de fim do uso</DDTEXT>
+     <REPTEXT>Data de fim do uso</REPTEXT>
+     <SCRTEXT_S>Fim</SCRTEXT_S>
+     <SCRTEXT_M>Fim do uso</SCRTEXT_M>
+     <SCRTEXT_L>Data de fim do uso</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>fecha de fin del uso</DDTEXT>
+     <REPTEXT>Fecha de fin del uso</REPTEXT>
+     <SCRTEXT_S>Fin</SCRTEXT_S>
+     <SCRTEXT_M>Fin del uso</SCRTEXT_M>
+     <SCRTEXT_L>Fecha de fin del uso</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

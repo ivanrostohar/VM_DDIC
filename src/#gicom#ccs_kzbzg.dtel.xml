@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Scale basis indicator</DDTEXT>
+     <REPTEXT>ScBas</REPTEXT>
+     <SCRTEXT_S>ScaleBasis</SCRTEXT_S>
+     <SCRTEXT_M>Scale basis</SCRTEXT_M>
+     <SCRTEXT_L>Scale basis</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

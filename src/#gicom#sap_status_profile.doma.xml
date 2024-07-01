@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GICOM/SAP_STATUS_PROFILE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000008</LENG>
+    <OUTPUTLEN>000008</OUTPUTLEN>
+    <ENTITYTAB>TJ20</ENTITYTAB>
+    <DDTEXT>Status profile</DDTEXT>
+    <APPLCLASS>BSV</APPLCLASS>
+   </DD01V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Statusschema</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Profil du statut</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Profil stanu</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Esquema de status</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Esquema de status</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DO</ID>
+      <OBJECT>/GICOM/SAP_STATUS_PROFILE</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>T</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SAP_STATUS_PROFILE</TDNAME>
+      <TDID>DO</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ein Statusschema ist eine abgeschlossene Einheit bestehend aus mehreren</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(externen) Einzelstatus inclusive Vorgangs- und Statussteuerung. Ein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Objekt, das die zentrale Statusverwaltung nutzt, ist fest mit einem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Statusschema verbunden. Die Bedeutung eines externen Status ist nur</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>innerhalb eines Statusschemas definiert.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DO</ID>
+      <OBJECT>/GICOM/SAP_STATUS_PROFILE</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>T</TYP>
+      <VERSION>0003</VERSION>
+      <TXTLINES>00005</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/SAP_STATUS_PROFILE</TDNAME>
+      <TDID>DO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A status profile is a self-contained unit consisting of several</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>(external) individual statuses including transaction and status control.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>An object that uses central status management is permanently linked to a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>status profile. The meaning of an external status is only defined within</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a status profile.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TITLE_ORGLVL</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TITLE</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Org.level title.</DDTEXT>
+    <REPTEXT>Title</REPTEXT>
+    <SCRTEXT_S>Title</SCRTEXT_S>
+    <SCRTEXT_M>Title</SCRTEXT_M>
+    <SCRTEXT_L>Org.level title</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Titel des Org.-Level</DDTEXT>
+     <REPTEXT>Titel</REPTEXT>
+     <SCRTEXT_S>Titel</SCRTEXT_S>
+     <SCRTEXT_M>Titel</SCRTEXT_M>
+     <SCRTEXT_L>Titel des Org.Level</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Titre niv. org.</DDTEXT>
+     <REPTEXT>Titre</REPTEXT>
+     <SCRTEXT_S>Titre</SCRTEXT_S>
+     <SCRTEXT_M>Titre</SCRTEXT_M>
+     <SCRTEXT_L>Titre niv. org.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tytuł poz.org.</DDTEXT>
+     <REPTEXT>Tytuł</REPTEXT>
+     <SCRTEXT_S>Tytuł</SCRTEXT_S>
+     <SCRTEXT_M>Tytuł</SCRTEXT_M>
+     <SCRTEXT_L>Tytuł poz.org</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Título NívOrg.</DDTEXT>
+     <REPTEXT>Título</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Título</SCRTEXT_M>
+     <SCRTEXT_L>Título NívOrg.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tít.nivel org.</DDTEXT>
+     <REPTEXT>Título</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Título</SCRTEXT_M>
+     <SCRTEXT_L>Tít.nivel org.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

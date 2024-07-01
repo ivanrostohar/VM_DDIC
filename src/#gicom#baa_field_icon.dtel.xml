@@ -20,6 +20,7 @@
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -29,6 +30,14 @@
      <SCRTEXT_S>Icon</SCRTEXT_S>
      <SCRTEXT_M>Feld-Icon</SCRTEXT_M>
      <SCRTEXT_L>Feld-Icon</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Field icon for business at all</DDTEXT>
+     <REPTEXT>Field icon</REPTEXT>
+     <SCRTEXT_S>Icon</SCRTEXT_S>
+     <SCRTEXT_M>Field icon</SCRTEXT_M>
+     <SCRTEXT_L>Field icon</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>

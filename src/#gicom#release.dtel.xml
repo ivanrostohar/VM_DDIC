@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/RELEASE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>35</SCRLEN3>
+    <DDTEXT>Activates a contract approval process</DDTEXT>
+    <REPTEXT>Approval</REPTEXT>
+    <SCRTEXT_S>Approval</SCRTEXT_S>
+    <SCRTEXT_M>Approval proces</SCRTEXT_M>
+    <SCRTEXT_L>contract approval process flag</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Aktiviert einen Vertragsfreigabeprozess</DDTEXT>
+     <REPTEXT>Freigabe</REPTEXT>
+     <SCRTEXT_S>Freigabe</SCRTEXT_S>
+     <SCRTEXT_M>Freigabeprozess</SCRTEXT_M>
+     <SCRTEXT_L>Kennzeichen Vertragsfreigabeprozess</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Activates a contract approval process</DDTEXT>
+     <REPTEXT>Approval</REPTEXT>
+     <SCRTEXT_S>Approval</SCRTEXT_S>
+     <SCRTEXT_M>Approval proces</SCRTEXT_M>
+     <SCRTEXT_L>contract approval process flag</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

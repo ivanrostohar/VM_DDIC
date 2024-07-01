@@ -127,11 +127,16 @@
    </DD08V_TABLE>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD02_TEXTS>
     <item>
      <DDLANGUAGE>D</DDLANGUAGE>
      <DDTEXT>Zuordnung Konditionen zu Verhandlungsrunden</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Assignment condition type to negotiation round</DDTEXT>
     </item>
    </DD02_TEXTS>
    <TABL_EXTRAS>

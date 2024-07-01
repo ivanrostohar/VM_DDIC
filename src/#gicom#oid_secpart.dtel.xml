@@ -18,6 +18,19 @@
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
    </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Secondary Partner</DDTEXT>
+     <REPTEXT>Secondary Partner</REPTEXT>
+     <SCRTEXT_S>Sec. Part.</SCRTEXT_S>
+     <SCRTEXT_M>Secondary Partner</SCRTEXT_M>
+     <SCRTEXT_L>Secondary Partner</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
   </asx:values>
  </asx:abap>
 </abapGit>

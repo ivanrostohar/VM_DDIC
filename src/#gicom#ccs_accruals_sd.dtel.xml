@@ -5,7 +5,7 @@
    <DD04V>
     <ROLLNAME>/GICOM/CCS_ACCRUALS_SD</ROLLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DOMNAME>ABAP_BOOLEAN</DOMNAME>
+    <DOMNAME>XFELD</DOMNAME>
     <LOGFLAG>X</LOGFLAG>
     <HEADLEN>40</HEADLEN>
     <SCRLEN1>10</SCRLEN1>
@@ -18,10 +18,10 @@
     <SCRTEXT_L>Accruals from Sales</SCRTEXT_L>
     <DTELMASTER>E</DTELMASTER>
     <REFKIND>D</REFKIND>
-    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
    </DD04V>
    <I18N_LANGS>
     <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
    </I18N_LANGS>
    <DD04_TEXTS>
     <item>
@@ -31,6 +31,14 @@
      <SCRTEXT_S>Rück. Ver.</SCRTEXT_S>
      <SCRTEXT_M>Rückst. Verk.</SCRTEXT_M>
      <SCRTEXT_L>Rückstell. aus Verk.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Contract Settlement: Accruals from Sales</DDTEXT>
+     <REPTEXT>Accruals from Sales</REPTEXT>
+     <SCRTEXT_S>Accr.Sales</SCRTEXT_S>
+     <SCRTEXT_M>Accruals Sales</SCRTEXT_M>
+     <SCRTEXT_L>Accruals from Sales</SCRTEXT_L>
     </item>
    </DD04_TEXTS>
   </asx:values>
