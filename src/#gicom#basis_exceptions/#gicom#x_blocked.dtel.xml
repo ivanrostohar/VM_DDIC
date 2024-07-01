@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/X_BLOCKED</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Blocked flag</DDTEXT>
+    <REPTEXT>Blocked</REPTEXT>
+    <SCRTEXT_S>Blocked</SCRTEXT_S>
+    <SCRTEXT_M>Blocked</SCRTEXT_M>
+    <SCRTEXT_L>Blocked</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kennzeichen &quot;Gesperrt&quot;</DDTEXT>
+     <REPTEXT>Gesperrt</REPTEXT>
+     <SCRTEXT_S>Gesperrt</SCRTEXT_S>
+     <SCRTEXT_M>Gesperrt</SCRTEXT_M>
+     <SCRTEXT_L>Gesperrt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Drapeau bloqué</DDTEXT>
+     <REPTEXT>Bloqué</REPTEXT>
+     <SCRTEXT_S>Bloqué</SCRTEXT_S>
+     <SCRTEXT_M>Bloqué</SCRTEXT_M>
+     <SCRTEXT_L>Bloqué</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Flaga Zablokowano</DDTEXT>
+     <REPTEXT>Zablokowano</REPTEXT>
+     <SCRTEXT_S>Zablokow.</SCRTEXT_S>
+     <SCRTEXT_M>Zablokowano</SCRTEXT_M>
+     <SCRTEXT_L>Zablokowano</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Flag bloqueado</DDTEXT>
+     <REPTEXT>Bloqueado</REPTEXT>
+     <SCRTEXT_S>Bloqueado</SCRTEXT_S>
+     <SCRTEXT_M>Bloqueado</SCRTEXT_M>
+     <SCRTEXT_L>Bloqueado</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Indicador bloqueado</DDTEXT>
+     <REPTEXT>Bloqueado</REPTEXT>
+     <SCRTEXT_S>Bloqueado</SCRTEXT_S>
+     <SCRTEXT_M>Bloqueado</SCRTEXT_M>
+     <SCRTEXT_L>Bloqueado</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

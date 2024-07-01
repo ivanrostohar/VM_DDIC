@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/GICOM/AMOUNT_VALUE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000031</LENG>
+    <OUTPUTLEN>000037</OUTPUTLEN>
+    <DECIMALS>000014</DECIMALS>
+    <SIGNFLAG>X</SIGNFLAG>
+    <DDTEXT>Domain for CL_AMOUNT --- DO NOT USE FOR DB FIELDS!!!!!!!</DDTEXT>
+   </DD01V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD01_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Dom. für CL_AMOUNT --- NICHT BEI DB-FELDERN VERWENDEN!!!!!!!</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Domaine CL_AMOUNT --- NE PAS UTILISER POUR LES CHAMPS DB !</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Dom. dla wart. CL_AMOUNT --- NIE UŻYWAĆ DLA PÓL BAZY DANYCH!</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Domínio p/ CL_AMOUNT --- NÃO UTILIZAR P/ CAMPOS de BD!!!!!!!</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Dominio para CL_AMOUNT --- ¡NO UTILIZAR PARA CAMPOS DE BD!</DDTEXT>
+    </item>
+   </DD01_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

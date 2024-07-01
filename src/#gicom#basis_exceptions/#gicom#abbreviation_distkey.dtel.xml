@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ABBREVIATION_DISTKEY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABBREVIATION</DOMNAME>
+    <HEADLEN>25</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Abbreviation for distribution key</DDTEXT>
+    <REPTEXT>Abbr. DistKey</REPTEXT>
+    <SCRTEXT_S>Abbr.</SCRTEXT_S>
+    <SCRTEXT_M>Abbr. DistKey</SCRTEXT_M>
+    <SCRTEXT_L>Abbr. DistKey</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Abkürzung für Verteilschlüssel</DDTEXT>
+     <REPTEXT>Abk. Verteilschlüssel</REPTEXT>
+     <SCRTEXT_S>Abk.</SCRTEXT_S>
+     <SCRTEXT_M>Abk. VertSchl</SCRTEXT_M>
+     <SCRTEXT_L>Abk. Verteilschlüssel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Abréviation de clé de répartition</DDTEXT>
+     <REPTEXT>Abré. Clé répar.</REPTEXT>
+     <SCRTEXT_S>Abré.</SCRTEXT_S>
+     <SCRTEXT_M>Abré. Clé rép.</SCRTEXT_M>
+     <SCRTEXT_L>Abré. Clé répar.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Skrót od klucza dystrybucji</DDTEXT>
+     <REPTEXT>Skrót KluczDystr</REPTEXT>
+     <SCRTEXT_S>Skrót</SCRTEXT_S>
+     <SCRTEXT_M>Skrót KlDystr</SCRTEXT_M>
+     <SCRTEXT_L>Skrót KluczDystr</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Abreviatura para chave de distribuição</DDTEXT>
+     <REPTEXT>Abr. ChvDist.</REPTEXT>
+     <SCRTEXT_S>Abr.</SCRTEXT_S>
+     <SCRTEXT_M>Abr. ChvDist.</SCRTEXT_M>
+     <SCRTEXT_L>Abr. ChvDist.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Abreviatura para clave de distribución</DDTEXT>
+     <REPTEXT>Abrev. ClaveDis</REPTEXT>
+     <SCRTEXT_S>Abrev.</SCRTEXT_S>
+     <SCRTEXT_M>Abrev. ClaveDis</SCRTEXT_M>
+     <SCRTEXT_L>Abrev. ClaveDis</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CNTRY_SENDER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>LAND1</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Sending Country</DDTEXT>
+    <REPTEXT>Country send</REPTEXT>
+    <SCRTEXT_S>Cntry send</SCRTEXT_S>
+    <SCRTEXT_M>Country send</SCRTEXT_M>
+    <SCRTEXT_L>Sending Country</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Warenbezugsland</DDTEXT>
+     <REPTEXT>Warenbezugsland</REPTEXT>
+     <SCRTEXT_S>Wbez.land</SCRTEXT_S>
+     <SCRTEXT_M>Warenbezugsland</SCRTEXT_M>
+     <SCRTEXT_L>Warenbezugsland</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Sending Country</DDTEXT>
+     <REPTEXT>Country send</REPTEXT>
+     <SCRTEXT_S>Cntry send</SCRTEXT_S>
+     <SCRTEXT_M>Country send</SCRTEXT_M>
+     <SCRTEXT_L>Sending Country</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

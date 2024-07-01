@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/AUDITOR_USER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR12</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Auditor User</DDTEXT>
+    <REPTEXT>Auditor User</REPTEXT>
+    <SCRTEXT_S>User</SCRTEXT_S>
+    <SCRTEXT_M>User</SCRTEXT_M>
+    <SCRTEXT_L>Auditor User</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Prüfer</DDTEXT>
+     <REPTEXT>Prüfer</REPTEXT>
+     <SCRTEXT_S>Prüfer</SCRTEXT_S>
+     <SCRTEXT_M>Prüfer</SCRTEXT_M>
+     <SCRTEXT_L>Prüfer</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Auditor User</DDTEXT>
+     <REPTEXT>Auditor User</REPTEXT>
+     <SCRTEXT_S>User</SCRTEXT_S>
+     <SCRTEXT_M>User</SCRTEXT_M>
+     <SCRTEXT_L>Auditor User</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

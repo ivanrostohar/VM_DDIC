@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TR_LENGTH_SOURCE_FIELD</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>INT1</DOMNAME>
+    <HEADLEN>05</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>31</SCRLEN3>
+    <DDTEXT>Length Source Field in Transfer Manager</DDTEXT>
+    <REPTEXT>Lngth</REPTEXT>
+    <SCRTEXT_S>Length</SCRTEXT_S>
+    <SCRTEXT_M>Lngth Srce Fld</SCRTEXT_M>
+    <SCRTEXT_L>Lngth Srce Fld Transfer Manager</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Length Source Field in Transfer Manager</DDTEXT>
+     <REPTEXT>Lngth</REPTEXT>
+     <SCRTEXT_S>Length</SCRTEXT_S>
+     <SCRTEXT_M>Lngth Srce Fld</SCRTEXT_M>
+     <SCRTEXT_L>Lngth Srce Fld Transfer Manager</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

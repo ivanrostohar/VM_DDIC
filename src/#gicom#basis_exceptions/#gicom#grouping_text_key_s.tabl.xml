@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>/GICOM/GROUPING_TEXT_KEY_S</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Key Fields: Grouping Text Table</DDTEXT>
+    <MASTERLANG>D</MASTERLANG>
+    <EXCLASS>1</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>GROUPING</FIELDNAME>
+     <ROLLNAME>/GICOM/GROUPING</ROLLNAME>
+     <CHECKTABLE>/GICOM/TGRP</CHECKTABLE>
+     <ADMINFIELD>0</ADMINFIELD>
+     <SHLPORIGIN>P</SHLPORIGIN>
+     <COMPTYPE>E</COMPTYPE>
+    </DD03P>
+   </DD03P_TABLE>
+   <DD05M_TABLE>
+    <DD05M>
+     <FIELDNAME>GROUPING</FIELDNAME>
+     <FORTABLE>SYST</FORTABLE>
+     <FORKEY>MANDT</FORKEY>
+     <CHECKTABLE>/GICOM/TGRP</CHECKTABLE>
+     <CHECKFIELD>CLNT</CHECKFIELD>
+     <PRIMPOS>0001</PRIMPOS>
+     <DOMNAME>MANDT</DOMNAME>
+     <DATATYPE>CLNT</DATATYPE>
+    </DD05M>
+    <DD05M>
+     <FIELDNAME>GROUPING</FIELDNAME>
+     <FORTABLE>/GICOM/GROUPING_TEXT_KEY_S</FORTABLE>
+     <FORKEY>GROUPING</FORKEY>
+     <CHECKTABLE>/GICOM/TGRP</CHECKTABLE>
+     <CHECKFIELD>GROUPING</CHECKFIELD>
+     <PRIMPOS>0002</PRIMPOS>
+     <DOMNAME>/GICOM/GROUPING</DOMNAME>
+     <DATATYPE>CHAR</DATATYPE>
+    </DD05M>
+   </DD05M_TABLE>
+   <DD08V_TABLE>
+    <DD08V>
+     <FIELDNAME>GROUPING</FIELDNAME>
+     <CHECKTABLE>/GICOM/TGRP</CHECKTABLE>
+     <CHECKFLAG>X</CHECKFLAG>
+    </DD08V>
+   </DD08V_TABLE>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Schlüsselfelder Gruppierung Texttabelle</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Key Fields: Grouping Text Table</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/EDI5189_A</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/EDIF5189</DOMNAME>
+    <HEADLEN>05</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>05</SCRLEN2>
+    <SCRLEN3>05</SCRLEN3>
+    <DDTEXT>Condition type (coded)</DDTEXT>
+    <REPTEXT>C.typ</REPTEXT>
+    <SCRTEXT_S>C.Typ</SCRTEXT_S>
+    <SCRTEXT_M>C.typ</SCRTEXT_M>
+    <SCRTEXT_L>C.typ</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Konditionsart (codiert)</DDTEXT>
+     <REPTEXT>K.Art</REPTEXT>
+     <SCRTEXT_S>K.Art</SCRTEXT_S>
+     <SCRTEXT_M>K.Art</SCRTEXT_M>
+     <SCRTEXT_L>K.Art</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition type (coded)</DDTEXT>
+     <REPTEXT>C.typ</REPTEXT>
+     <SCRTEXT_S>C.Typ</SCRTEXT_S>
+     <SCRTEXT_M>C.typ</SCRTEXT_M>
+     <SCRTEXT_L>C.typ</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

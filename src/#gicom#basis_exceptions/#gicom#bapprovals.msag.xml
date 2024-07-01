@@ -1,0 +1,2663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Approval FLow</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Error creating the reminder</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Approval flow &amp;1 with version &amp;2 has been saved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Approval flow &amp;1 with version &amp;2 locked by user &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>User role &amp;1 locked by user &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>There are no approval flows to process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Saving is not neccessary; No changes were made</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Approval flow &amp;1 with version &amp;2 has been deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Failed to process the approval request. Please restart the application</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Step &amp;1 already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Activity &amp;1 in step &amp;2 already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>This entry already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>There are no user roles to process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>The insert for the user role failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>User role &amp;1 has been saved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Saving is not neccessary; No changes were made</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>User role &amp;1 has been deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Negotiator &amp;1 has been saved</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Negotiator &amp;1 locked by user &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Negotiator &amp;1 has been deleted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>There are no Negotiators to process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Saving is not neccessary; No changes were made</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>The insert for the Negotiator failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Reminder has been created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Activity &amp;1 confirmed by user &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Approval flow cancelled by user &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Approval flow restarted by user &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Approval flow one step back by user &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Approval flow &amp;1 has been initiated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Multiple approval steps are not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Manual step is not allowed after approval step</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>More than one activity is not allowed for approve step &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>User Role &amp;1 is already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>The insert for the dynamic document failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Dynamic document &amp;1 has been created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Approval flow &amp;1 has been started</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Approval flow &amp;1 with version &amp;2 is locked; No changes possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Approval flow &amp;1 is in progress; New flow not allowed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Dynamic appendix &amp;1 locked by user &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Saving is not possible in stateless mode</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>You are not authorized to &amp;1 the &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>You are not authorized to perform activities</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>Confirmation in approval for release at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Rejection in approval for release at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>One step back in approval for release at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Restart of approval for release at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Confirmation in approval for correction at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Rejection in approval for correction at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>One step back in approval for correction at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>Restart of approval for correction at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Confirmation in approval for invalidate at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Rejection in approval for invalidate at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>One step back in approval for invalidate at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Restart of approval for invalidate at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Confirmation in approval for cancellation at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Rejection in approval for cancellation at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>One step back in approval for cancellation at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Restart of approval for cancellation at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Confirmation in approval for termination at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Rejection in approval for termination at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>One step back in approval for termination at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Restart of approval for termination at activity &amp;1 (comment: &apos;&amp;2&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Confirmation in approval for release add. &amp;1 at activity &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Rejection in approval for release add. &amp;1 at activity &amp;2 (comment: &apos;&amp;3&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>One step back in approval for release add. &amp;1 at act. &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Restart of approval for release addendum &amp;1 at activity &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Confirmation in approval for add. &amp;1 invalidate at act. &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Rejection in approval for add. &amp;1 invalidate at activity &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>One step back in approval for invalidate add. &amp;1 at act. &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Restart of approval for invalidate add. &amp;1 at activity &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Approval flow &amp;1 changes not possible because of newer version &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Cannot step back approval process; there is no previous step defined</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Cannot step back approval process; It is a restart step</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>072</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>073</MSGNR>
+     <TEXT>Approval flow &amp;1 has a newer version &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>074</MSGNR>
+     <TEXT>Saving not possible because of Approval flow &amp;1 has newer version &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>081</MSGNR>
+     <TEXT>Role &amp;1 is assigned as an assistant role to some users</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>082</MSGNR>
+     <TEXT>Role &amp;1 is assigned in the &amp;2 approval process</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>083</MSGNR>
+     <TEXT>Role &amp;1 is assigned in some activities</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>084</MSGNR>
+     <TEXT>Activity has already been completed by user &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>085</MSGNR>
+     <TEXT>Approval flow has already been completed; Please refresh the list</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>086</MSGNR>
+     <TEXT>No data available to process further</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>087</MSGNR>
+     <TEXT>Processing initiated for Contract &amp;/&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>088</MSGNR>
+     <TEXT>No further processing required for Contract &amp;/&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>089</MSGNR>
+     <TEXT>Processing has been terminated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <MSGNR>090</MSGNR>
+     <TEXT>Processing has been done successfully</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>D</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <STEXT>Freigabeprozess</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>F</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <STEXT>Flux d’approbation</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>L</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <STEXT>Przepływ zatwierdzania</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>P</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <STEXT>Fluxo de aprovação</STEXT>
+    </T100T>
+    <T100T>
+     <SPRSL>S</SPRSL>
+     <ARBGB>/GICOM/BAPPROVALS</ARBGB>
+     <STEXT>Flujo de aprobación</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Fehler beim Erstellen der Erinnerung</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Freigabeprozess &amp;1 mit Version &amp;2 wurde gespeichert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Freigabeprozess &amp;1 mit Version &amp;2 gesperrt durch Benutzer &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Benutzerrolle &amp;1 gesperrt durch Benutzer &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Kein Freigabeprozess zur Verarbeitung vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Speichern nicht nötig; Keine Änderungen vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Freigabeprozess &amp;1 mit Version &amp;2 wurde gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Einfügen des Freigabeprozesses fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Schritt &amp;1 existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Aktivität &amp;1 in Schritt &amp;2 existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Dieser Eintrag existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Keine Benutzerrollen zu verarbeiten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Einfügen der Benutzerrolle fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Benutzerrolle &amp;1 wurde gespeichert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Speichern ist nicht nötig; Keine Änderungen vorhanden</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Benutzerolle &amp;1 wurde gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Verhandler &amp;1 wurde gespeichert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Verhandler &amp;1 gesperrt durch Benutzer &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Verhandler &amp;1 wurde gelöscht</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Keine Verhandler zu verarbeiten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Speichern nicht nötig; Keine Änderung vorgenommen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Das Einfügen des Verhandlers ist fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Erinnerung wurde angelegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Aktivität &amp;1 bestätigt von Benutzer &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Freigabeprozess abgebrochen durch Benutzer &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Freigabeprozess neugestartet durch Benutzer &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Freigabeprozess wurde einen Schritt zurückgesetzt durch Benutzer &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Freigabeprozess &amp;1 wurde initialisiert</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Mehrere Freigabeschritte sind nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Ein manueller Schritt ist nach dem Freigabeschritt nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Mehr als eine Aktivität ist für den Freigabschritt &amp;1 nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Benutzerrolle &amp;1 existiert bereits</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Das Einfügen für das dynamische Dokument ist fehlgeschlagen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Dynamisches Dokument &amp;1 wurde angelegt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Freigabeprozess &amp;1 wurde gestartet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Freigabeprozess &amp;1 mit Version &amp;2 ist gesperrt; Keine Änderungen möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Freigabeprozess &amp;1 ist bereits gestartet: Neustart ist nicht erlaubt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Dynamischer Anhang &amp;1 ist von Benutzer &amp;2 gesperrt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Speichern ist im zustandslosen Modus nicht möglich</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Keine Berechtigung zur &amp;1 des &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Keine Berechtigung zum Ausführen von Aktivitäten</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Bestätigung Aktivität &amp;1 bei Genehmigung Freigabe (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Ablehnung Aktivität &amp;1 bei Genehmigung Freigabe (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Schritt zurück in Genehmigung Freigabe bei Aktivität &amp;1 (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Neustart Genehmigung Freigabe bei Aktivität &amp;1 (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Bestätigung Aktivität &amp;1 bei Genehmigung Korrektur (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Ablehnung Aktivität &amp;1 bei Genehmigung Korrektur (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Schritt zurück in Genehmigung Korrektur bei Aktivität &amp;1 (Komm.: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Neustart Genehmigung Korrektur bei Aktivität &amp;1 (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Bestätigung Aktivität &amp;1 bei Genehmigung Ungültig setzen (Komm.: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Ablehnung Aktivität &amp;1 bei Genehmigung Ungültig setzen (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Schritt zurück in Genehm. Ungültig setzen bei Aktivität &amp;1 (Komm.: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Neustart Genehmigung Ungültig setzen bei Aktivität &amp;1 (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Bestätigung Aktivität &amp;1 bei Genehmigung Kündigung (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Ablehnung Aktivität &amp;1 bei Genehmigung Kündigung (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Schritt zurück in Genehmigung Kündigung bei Aktivität &amp;1 (Komm.: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Neustart Genehmigung Kündigung bei Aktivität &amp;1 (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Bestätigung Aktivität &amp;1 bei Genehmigung Terminierung (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Ablehnung Aktivität &amp;1 bei Genehmigung Terminierung (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Schritt zurück in Genehmigung Terminierung bei Aktivität &amp;1 (Komm.: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Neustart Genehmigung Terminierung bei Aktivität &amp;1 (Kommentar: &quot;&amp;2&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Bestätigung Aktivität &amp;2 bei Genehm. Freigabe für Add. &amp;1 (Komm.: &quot;&amp;3&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Ablehnung Aktivität &amp;2 bei Genehmigung Freigbae für Add. &amp;1 (Komm.: &quot;&amp;3&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Schritt zurück in Gen.Freigabe für Add. &amp;1 bei Aktivität &amp;2 (Komm.: &quot;&amp;3&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Neustart Genehmigung Freigabe für Add. &amp;1 bei Aktivität &amp;2 (Komm.: &quot;&amp;3&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Bestätigung Akt. &amp;2 bei Genehm. ungültig setzen von Add. &amp;1 (Komm.: &quot;&amp;3&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Ablehnung Aktivität &amp;2 bei Gen. ungültig setzen von Add. &amp;1 (Komm.: &quot;&amp;3&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Schritt zurück in Gen. ungültig setzen Add. &amp;1 bei Akt. &amp;2 (Komm.: &quot;&amp;3&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Neustart Genehm. ungültig setzen für Add. &amp;1 bei Akt. &amp;2 (Komm.: &quot;&amp;3&quot;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Änderungen Genehmigungsprozess &amp;1 nicht möglich wegen neuerer Version &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Schritt zurück im GenehmigProzess nicht mögl., kein Vorgängerschritt def.</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Schritt zurück im GenehmigProzess nicht mögl.; es ist ein Neustartschritt</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Freigabeablauf &amp;1 hat eine neuere Version &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Speichern nicht möglich, Freigabeprozess &amp;1 hat neuere Version &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Rolle &amp;1 ist als Assistentenrolle zu einigen Anwendern zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Rolle &amp;1 ist im &amp;2 Genehmigungsprozess zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Rolle &amp;1 ist in einigen Aktivitäten zugeordnet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Aktivität wurde bereits von dem Nutzer &amp;1 abgeschlossen</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Freigaberablauf ist bereits abgeschlossen; Bitte laden Sie die Liste neu</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Keine Daten für die weitere Verarbeitung verfügbar</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Verarbeitung für Vertrag &amp;/&amp; eingeleitet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Keine weitere Bearbeitung erforderlich für Vertrag &amp;/&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Verarbeitung wurde beendet</TEXT>
+    </item>
+    <item>
+     <SPRSL>D</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Verarbeitung wurde erfolgreich ausgeführt</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Erreur lors de la création du rappel</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Le flux d’approbation &amp;1 avec la version &amp;2 a été sauvegardé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Flux d’approbation &amp;1 avec version &amp;2 verrouillé par l’utilisateur &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Rôle d’utilisateur &amp;1 verrouillé par l’utilisateur &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Il n’y a pas de flux d’approbation à traiter</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>La sauvegarde n’est pas nécessaire ; aucune modif. n’a été apportée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Le flux d’approbation &amp;1 avec la version &amp;2 a été supprimé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Échec traitement demande approbation. Veuillez redémarrer l’appli.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>L’étape &amp;1 existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>L’activité &amp;1 de l’étape &amp;2 existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Cette entrée existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Il n’y a pas de rôle d’utilisateur à traiter</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>L’insertion pour le rôle d’utilisateur a échoué</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Le rôle d’utilisateur &amp;1 a été sauvegardé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>La sauvegarde n’est pas nécessaire ; aucune modif. n’a été apportée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Le rôle d’utilisateur &amp;1 a été supprimé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Le négociateur &amp;1 a été sauvegardé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Négociateur &amp;1 verrouillé par l’utilisateur &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Le négociateur &amp;1 a été supprimé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Il n’y a pas de négociateurs à traiter</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>La sauvegarde n’est pas nécessaire ; aucune modif. n’a été apportée.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>L’insertion pour le négociateur a échoué</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Le rappel a été créé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Activité &amp;1 confirmée par l’utilisateur &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Flux d’approbation annulé par l’utilisateur &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Flux d’approbation redémarré par l’utilisateur &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Flux d’approbation une étape en arrière par l’utilisateur &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Le flux d’approbation &amp;1 a été lancé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Les étapes d’approbation multiples ne sont pas autorisées</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>L’étape manuelle n’est pas autorisée après l’étape d’approbation</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Plusieurs activités ne sont pas autorisées pour l’étape d’approbation &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Le rôle d’utilisateur &amp;1 existe déjà</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Échec insertion du document dynamique</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Le document dynamique &amp;1 a été créé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Le flux d’approbation &amp;1 a été démarré</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Le flux d’appro. &amp;1 avec vers. &amp;2 est verrouillé ; aucune modif. possible</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Le flux d’approb. &amp;1 est en cours ; un nouveau flux n’est pas autorisé.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Annexe dynamique &amp;1 verrouillée par l’utilisateur &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>La sauvegarde n’est pas possible en mode sans état</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Vous n’êtes pas autorisé à &amp;1 le &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Vous n’êtes pas autorisé à effectuer des activités</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Confirm. dans approb. de publication à l’activité &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Refus approb. Publication activité &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Une étape en arrière dans approb. publi. activité &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Redémarrage approb. publi. activité &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Confirm. dans approb. de correction de l’activité &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Refus approbation de correction de l’activité &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Une étape en arrière dans approb. correc. activité &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Redémarrage de l’approb. correc. activité &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Confirm. dans l’appro. d’invalider activité &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Refus de l’appro. d’invalider activité &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Une étape en arrière dans approb. invalider acti. &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Redémarrage de l’approb. invalider activ. &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Confirm. dans l’appro. d’annuler activité &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Refus de l’appro. d’annuler activité &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Une étape en arrière dans approb. d’annuler acti. &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Redémarrage de l’approb. d’annuler activ. &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Confirm. dans l’appro. de résilier activité &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Refus de l’appro. de résilier activité &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Une étape en arrière dans approb. de résilier acti. &amp;1 (comment : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Redémarrage de l’approb. de résilier activ. &amp;1 (commentaire : ’&amp;2’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Confirm. dans approb. publi add. &amp;1 à activité &amp;2 (commen. : ’&amp;3’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Refus approb. de publi. add. &amp;1 activité &amp;2 (commentaire : ’&amp;3’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Une étape en arrière dans approb. publ. add. &amp;1 à act. &amp;2 (com : ’&amp;3’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Redémarrage dans approb. publi add. &amp;1 à activité &amp;2 (comment. : ’&amp;3’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Confirm. dans approb. pour add. &amp;1 et invalider à acti. &amp;2 (com : ’&amp;3’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Refus approb. pour add. &amp;1 invalider activité &amp;2 (commentaire : ’&amp;3’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Une étape en arrière dans approb. inval. add. &amp;1 à acti. &amp;2 (com : ’&amp;3’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Redémarrage dans l’appro. d’invalid. add. &amp;1 à acti. &amp;2 (commen. : ’&amp;3’)</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Les modif. du flux d’appro. &amp;1 non possibles en raison de nouv. ver. &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Imposs. revenir arrière proces. approb. ; aucune étape précéd. définie</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Imposs. revenir arrière proces. approb. ; étape de redémarrage</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>072</MSGNR>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Le flux d’approbation &amp;1 a une version plus récente &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Sauvegarde impos. car flux d’approbation &amp;1 a une version plus récente &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Le rôle &amp;1 est affecté comme rôle d’assistant à certains utilisateurs.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Le rôle &amp;1 est affecté dans le processus d’approbation &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Le rôle &amp;1 est affecté dans certaines activités</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>L’activité a déjà été réalisée par l’utilisateur &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Le flux d’approbation est déjà terminé ; veuillez rafraîchir la liste.</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Aucune donnée disponible pour un traitement ultérieur</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Traitement initié pour contrat &amp;/&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Aucun traitement supplémentaire n’est requis pour le contrat &amp;/&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Le traitement a été terminé</TEXT>
+    </item>
+    <item>
+     <SPRSL>F</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Le traitement a été effectué avec succès</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Błąd podczas tworzenia przypomnienia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Zapisano przepływ zatwierdzania &amp;1 w wersji &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Przepł. zatw. &amp;1 w wersji &amp;2 został zablokowany przez użytkownika &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Rola użytkownika &amp;1 została zablokowana przez użytkownika &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Brak przepływów zatwierdzania do przetwarzania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Zapisanie nie jest konieczne; nie wprowadzono zmian</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Usunięto przepływ zatwierdzania &amp;1 w wersji &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Nie udało się przetworzyć prośby o zatw. Uruchom ponownie apl.</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Krok &amp;1 już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Czynność &amp;1 w kroku &amp;2 już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Ta pozycja już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Brak ról użytkownika do przetwarzania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Wstawienie roli użytkownika nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Rola użytkownika &amp;1 została zapisana</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Zapisanie nie jest konieczne; nie wprowadzono zmian</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Rola użytkownika &amp;1 została usunięta</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Negocjator &amp;1 został zapisany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Negocjator &amp;1 został zablokowany przez użytkownika &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Negocjator &amp;1 został usunięty</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Brak negocjatorów do przetwarzania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Zapisanie nie jest konieczne; nie wprowadzono zmian</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Wstawienie negocjatora nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Utworzono przypomnienie</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Czynność &amp;1 została potwierdzona przez użytkownika &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Przepływ zatwierdzania został anulowany przez użytkownika &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Przepływ zatwierdzania został ponownie uruchomiony przez użytkownika &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Przepływ zatwierdzania został cofnięty o jeden krok przez użytkownika &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Przepływ zatwierdzania &amp;1 został zainicjowany</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Wielość kroków zatwierdzania nie jest dozwolona</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>Krok ręczny nie jest dozwolony po kroku zatwierdzania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Więcej niż jedna czynność nie jest dozwolona w kroku zatwierdzania &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>Rola użytkownika &amp;1 już istnieje</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>Wstawienie dokumentu dynamicznego nie powiodło się</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Dokument dynamiczny &amp;1 został utworzony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Rozpoczęto przepływ zatwierdzania &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Przepł. zatw. &amp;1 w wersji &amp;2 jest zablokowany; nie można wprowadzić zmian</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Przepływ zatwierdzania &amp;1 jest w toku; nowy przepływ niedozwolony</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Dynamiczny dodatek &amp;1 został zablokowany przez użytkownika &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Zapisywanie nie jest możliwe w trybie bezstanowym</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Nie masz uprawnień do &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Nie masz uprawnień do wykonywania czynności</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Potwierdzenie zatwierdzenia zwolnienia w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Odrzucenie zatwierdzenia zwolnienia w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Cofn. o jeden krok zatw. zwolnienia w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Ponowne uruchom. zatw. zwolnienia w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Potwierdzenie zatwierdzenia korekty w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Odrzucenie zatwierdzenia korekty w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Cofn. o jeden krok zatw. korekty w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Ponowne uruchom. zatw. korekty w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Potwierdz. zatw. unieważn. w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Odrzucenie zatwierdzenia unieważnienia w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Cofn. o jeden krok zatw. unieważn. w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Ponowne uruchom. zatw. unieważn. w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Potwierdzenie zatwierdzenia anulowania w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Odrzucenie zatwierdzenia anulowania w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Cofn. o jeden krok zatw. anulowania w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Ponowne uruchom. zatw. anulowania w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Potwierdz. zatw. wypowiedzenia w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Odrzucenie zatwierdzenia wypowiedzenia w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Cofn. o jeden krok zatw. wypowiedzenia w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Ponowne uruchom. zatw. wypowiedzenia w czynności &amp;1 (komentarz: „&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Potwierdz. zatw. zwolnienia aneksu &amp;1 w czynności &amp;2 (komentarz: „&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Odrzucenie zatw. zwolnienia aneksu &amp;1 w czynności &amp;2 (komentarz: „&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Cofn. o jeden krok zatw. zwoln. aneksu &amp;1 w czynn. &amp;2 (koment.: „&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Ponowne uruchom. zatw. zwoln. aneksu &amp;1 w czynności &amp;2 (komentarz: „&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Potwierdz. zatw. unieważn. aneksu &amp;1 w czynności &amp;2 (koment.: „&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Odrzucenie zatw. unieważn. aneksu &amp;1 w czynności &amp;2 (komentarz: „&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Cofn. o jeden krok zatw. unieważn. aneksu &amp;1 w czynn. &amp;2 (koment.: „&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Ponowne uruchom. zatw. unieważn. aneksu &amp;1 w czynności &amp;2 (koment.: „&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Zmiany w przepływie zatw. &amp;1 są niemożliwe z powodu nowszej wersji &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Nie można cofnąć procesu zatw.; nie zdefiniowano poprzedniego kroku</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Nie można cofnąć procesu zatw.; jest to krok ponownego uruchomienia</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>Przepływ zatwierdzania &amp;1 ma nowszą wersję &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Zapisanie jest niemożliwe, ponieważ przepł. zatw. &amp;1 ma nowszą wersję &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Rola &amp;1 jest przypisana jako rola asystenta do niektórych użytkowników</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Rola &amp;1 jest przypisana w procesie zatwierdzania &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>Rola &amp;1 jest przypisana w niektórych czynnościach</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>Czynność została już ukończona przez użytkownika &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>Przepływ zatwierdzania został już ukończony; odśwież listę</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Brak danych do dalszego przetwarzania</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Zainicjowano przetwarzanie dla kontraktu &amp;/&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Nie jest wymagane dalsze przetwarzanie dla kontraktu &amp;/&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Przetwarzanie zostało przerwane</TEXT>
+    </item>
+    <item>
+     <SPRSL>L</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Przetwarzanie zostało wykonane pomyślnie</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Erro ao criar o lembrete</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Fluxo de aprovação &amp;1 com versão &amp;2 salvo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Fluxo de aprovação &amp;1 c/ versão &amp;2 bloqueado pelo usuário &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Função de usuário &amp;1 bloqueada pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Não há fluxos de aprovação a processar</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Não é necessário salvar, nenhuma modificação efetuada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Fluxo de aprovação &amp;1 com versão &amp;2 eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Falha ao processar a solicitação de aprovação. Reinicie a aplicação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>A etapa &amp;1 já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>A atividade &amp;1 na etapa &amp;2 já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Esta entrada já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Não há funções de usuário a processar</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>Erro ao inserir a função do usuário</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>A função de usuário &amp;1 foi salva</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>Não é necessário salvar, nenhuma modificação efetuada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>A função de usuário &amp;1 foi eliminada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>O comprador &amp;1 foi salvo</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Comprador &amp;1 bloqueado pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>O comprador &amp;1 foi eliminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>Não há compradores a processar</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>Não é necessário salvar, nenhuma modificação efetuada</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>Erro ao inserir o comprador</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>O lembrete foi criado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Atividade &amp;1 confirmada pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Fluxo de aprovação cancelado pelo usuário &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Fluxo de aprovação reiniciado pelo usuário &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>Fluxo de aprovação atrasado uma etapa pelo usuário &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Fluxo de aprovação &amp;1 iniciado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>Várias etapas de aprovação não permitidas</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>A etapa manual não é permitida após a etapa de aprovação</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>Mais de uma atividade não permitida p/ etapa de aprovação &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>A função de usuário &amp;1 já existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>A inserção para o documento dinâmico falhou</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>O documento dinâmico &amp;1 foi criado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>O fluxo de aprovação &amp;1 foi iniciado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Fluxo aprov. &amp;1 c/ versão &amp;2 bloqueado, impossível modificar</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Fluxo de aprovação &amp;1 em progresso, novo fluxo não permitido</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Anexo dinâmico &amp;1 bloqueado pelo usuário &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>Não é possível salvar no modo sem estado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>Você não está autorizado a &amp;1 o &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>Você não está autorizado a executar atividades</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Confirm. em aprovação p/ liberação atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Rejeição em aprovação p/ liberação atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Uma etapa atrás em aprov. p/ liber. atividade &amp;1 (coment.: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Reinício da aprovação p/ liberação atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Confirm. em aprovação p/ correção atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Rejeição em aprovação p/ correção atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Uma etapa atrás em aprov. p/ corr. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Reinício da aprovação p/ correção atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Confirm. em aprovação p/ invalid. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Rejeição em aprovação p/ invalid. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Uma etapa atrás em aprov. p/ invalid. atividade &amp;1 (coment.: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Reinício da aprovação p/ invalid. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Confirm. em aprovação p/ cancel. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Rejeição em aprovação p/ cancel. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Uma etapa atrás em aprov. p/ cancel. atividade &amp;1 (coment.: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Reinício da aprovação p/ cancel. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Confirm. em aprovação p/ encerr. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Rejeição em aprovação p/ encerr. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Uma etapa atrás em aprov. p/ encerr. atividade &amp;1 (coment.: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Reinício da aprovação p/ encerr. atividade &amp;1 (comentário: “&amp;2”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Confirm. em aprov. p/ liber. supl. &amp;1 atvd. &amp;2 (comentário: “&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Rejeição em aprov. p/ liber. supl. &amp;1 atvd. &amp;2 (comentário: “&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Uma etapa atrás em aprov. p/ liber. supl. &amp;1 atvd. &amp;2 (coment.: “&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Reinício aprov. p/ liber. supl. &amp;1 atvd. &amp;2 (comentário: “&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Confirm. em aprov. p/ suplemento &amp;1 invalid. atividade &amp;2 (coment.: “&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Rejeição aprov. p/ supl. &amp;1 invalid. atividade &amp;2 (coment.: “&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Uma etapa atrás em aprov. p/ invalidar supl. &amp;1 atvd. &amp;2 (coment.: “&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Reinício aprov. p/ invalid. supl. &amp;1 atvd. &amp;2 (comentário: “&amp;3”)</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Impossível mod. fluxo aprov. &amp;1 devido versão &amp;2 mais atual</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Impossível voltar processo aprov.; sem etapa anterior def.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>Não é poss. recuar no proc. de aprov.; trata-se de uma etapa de reinic.</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>O fluxo de aprovação &amp;1 tem uma versão mais atual: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>Impossível salvar, fluxo aprov. &amp;1 tem versão mais atual: &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>Função &amp;1 atribuída como função assist. a alguns usuários</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>Função &amp;1 atribuída no processo de aprovação &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>A função &amp;1 está atribuída em algumas atividades</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>A atividade já foi concluída pelo usuário &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>O fluxo de aprovação já foi concluído. Atualize a lista</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>Não há dados para continuar o processamento</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Processamento iniciado para o contrato &amp;/&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>Desnecessário continuar processamento para o contrato &amp;/&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>O processamento foi encerrado</TEXT>
+    </item>
+    <item>
+     <SPRSL>P</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>O processamento foi efetuado com êxito</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>000</MSGNR>
+     <TEXT>Error en la creación del recordatorio</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Se ha grabado el flujo de aprobación &amp;1 con la versión &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Flujo de aprobación &amp;1 con la versión &amp;2 bloqueado por el usuario &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Rol de usuario &amp;1 bloqueado por el usuario &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No existen flujos de aprobación a tratar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>No es necesario grabar; no se han realizado cambios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Se ha borrado el flujo de aprobación &amp;1 con la versión &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>No se ha podido procesar la solicitud de aprobación Reinicie la apl.</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>El paso &amp;1 ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>La actividad &amp;1 en el paso &amp;2 ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>La entrada ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>No existen roles de usuario a tratar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>012</MSGNR>
+     <TEXT>La inserción del rol de usuario ha fallado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>013</MSGNR>
+     <TEXT>Se ha grabado el rol de usuario &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>014</MSGNR>
+     <TEXT>No es necesario grabar; no se han realizado cambios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>015</MSGNR>
+     <TEXT>Se ha borrado el rol de usuario &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>016</MSGNR>
+     <TEXT>Se ha grabado el comprador &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>017</MSGNR>
+     <TEXT>Comprador &amp;1 bloqueado por el usuario &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>018</MSGNR>
+     <TEXT>Se ha borrado el comprador &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>019</MSGNR>
+     <TEXT>No existen compradores a tratar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>020</MSGNR>
+     <TEXT>No es necesario grabar; no se han realizado cambios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>021</MSGNR>
+     <TEXT>La inserción del comprador ha fallado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>022</MSGNR>
+     <TEXT>Se ha creado un recordatorio</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>023</MSGNR>
+     <TEXT>Actividad &amp;1 confirmada por el usuario &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>024</MSGNR>
+     <TEXT>Flujo de aprobación cancelado por el usuario &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>025</MSGNR>
+     <TEXT>Flujo de aprobación reiniciado por el usuario &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>026</MSGNR>
+     <TEXT>El usuario &amp;1 ha vuelto un paso atrás en el flujo de aprobación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>027</MSGNR>
+     <TEXT>Se ha iniciado el flujo de aprobación &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>028</MSGNR>
+     <TEXT>No se permiten varios pasos de aprobación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>029</MSGNR>
+     <TEXT>No se permiten realizar un paso manual tras el paso de aprobación</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>030</MSGNR>
+     <TEXT>No se permite más de una actividad para aprobar el paso &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>031</MSGNR>
+     <TEXT>El rol de usuario &amp;1 ya existe</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>032</MSGNR>
+     <TEXT>La inserción del documento dinámico ha fallado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>033</MSGNR>
+     <TEXT>Se ha creado el documento dinámico &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>034</MSGNR>
+     <TEXT>Se ha iniciado el flujo de aprobación &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>035</MSGNR>
+     <TEXT>Flujo aprobación &amp;1 con versión &amp;2 bloqueado; no es posible hacer cambios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>036</MSGNR>
+     <TEXT>Flujo de aprobación &amp;1 en progreso; nuevo flujo no permitido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>037</MSGNR>
+     <TEXT>Anexo dinámico &amp;1 bloqueado por el usuario &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>038</MSGNR>
+     <TEXT>No es posible guardar en el modo sin estado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>039</MSGNR>
+     <TEXT>No tiene autorización para &amp;1 &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>040</MSGNR>
+     <TEXT>No tiene autorización para realizar actividades</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>041</MSGNR>
+     <TEXT>Confirm. d.aprobación de liberación de la actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>042</MSGNR>
+     <TEXT>Rechazo de la aprob. de liberación de la actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>043</MSGNR>
+     <TEXT>Volver un paso en la aprob. de liberación de activ.&amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>044</MSGNR>
+     <TEXT>Reinicio de la aprob. de liberación de la actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>045</MSGNR>
+     <TEXT>Confirmación de aprob.de corrección en la actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>046</MSGNR>
+     <TEXT>Rechazo de aprobación de corrección en la actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>047</MSGNR>
+     <TEXT>Volver un paso en la aprob. de corrección en activ.&amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>048</MSGNR>
+     <TEXT>Reinicio de la aprob. de corrección en la actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>049</MSGNR>
+     <TEXT>Confirmación de aprob. de invalidación en actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>050</MSGNR>
+     <TEXT>Rechazo de aprob. de invalidación en la actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>051</MSGNR>
+     <TEXT>Volver un paso en la aprob. de inval.en actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>052</MSGNR>
+     <TEXT>Reinicio de la aprob. de invalidación en actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>053</MSGNR>
+     <TEXT>Confirmación de aprob. de cancelación en actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>054</MSGNR>
+     <TEXT>Rechazo de aprob. de cancelación en la actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>055</MSGNR>
+     <TEXT>Volver un paso en la aprob. de cancelación en activ.&amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>056</MSGNR>
+     <TEXT>Reinicio de la aprob. de cancelación en actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>057</MSGNR>
+     <TEXT>Confirmación de aprob. de finalización en actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>058</MSGNR>
+     <TEXT>Confirmación de aprob. de finalización en actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>059</MSGNR>
+     <TEXT>Volver un paso en la aprob. de final.en actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>060</MSGNR>
+     <TEXT>Reinicio de la aprob. de finalización en actividad &amp;1 (comentario: &apos;&amp;2&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>061</MSGNR>
+     <TEXT>Confirmación de aprob. de supl.liberación de la act.&amp;2 (comentario: &apos;&amp;3&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>062</MSGNR>
+     <TEXT>Rechazo de la aprob. de supl.liberación de la act.&amp;2 (comentario: &apos;&amp;3&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>063</MSGNR>
+     <TEXT>Volver un paso en la aprob.del supl.liber. &amp;1 de la act. &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>064</MSGNR>
+     <TEXT>Confirmación de aprob. de supl.liberación de act.&amp;2 (comentario: &apos;&amp;3&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>065</MSGNR>
+     <TEXT>Confirm. de aprob.de invalid.de suplemento &amp;1 en la act. &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>066</MSGNR>
+     <TEXT>Rechazo de aprob.de invalidación de suplemento &amp;1 en act.&amp;2 (comnt: &apos;&amp;3&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>067</MSGNR>
+     <TEXT>Volver un paso en la aprob.del supl.inval. &amp;1 de la act. &amp;2 (cmnt.: &apos;&amp;3&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>068</MSGNR>
+     <TEXT>Confirmación de aprob. de supl.invalidación de act.&amp;2 (comentario: &apos;&amp;3&apos;)</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>069</MSGNR>
+     <TEXT>Imposible hacer cambios en flujo de aprob.&amp;1 debido a la nueva versión &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>070</MSGNR>
+     <TEXT>Imposible ir atrás en el proceso de aprob.; paso anterior no definido</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>071</MSGNR>
+     <TEXT>No se puede retroc. un paso en el proc. de aprob.; es un paso de reinicio</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>073</MSGNR>
+     <TEXT>El flujo de aprobación &amp;1 tiene una versión más reciente &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>074</MSGNR>
+     <TEXT>No es pos.grabar porque el flujo aprob.&amp;1 tiene una versión más rec.&amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>081</MSGNR>
+     <TEXT>El rol &amp;1 se ha asignado como rol asistente a algunos usuarios</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>082</MSGNR>
+     <TEXT>El rol &amp;1 se ha asignado en el proceso de aprobación &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>083</MSGNR>
+     <TEXT>El rol &amp;1 se ha asignado a algunas actividades</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>084</MSGNR>
+     <TEXT>El usuario &amp;1 ya ha completado la actividad</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>085</MSGNR>
+     <TEXT>El flujo de aprobación ya se ha completado; actualice la lista</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>086</MSGNR>
+     <TEXT>No hay más datos disponibles para procesar</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>087</MSGNR>
+     <TEXT>Procesamiento iniciado para contrato &amp;/&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>088</MSGNR>
+     <TEXT>No es necesario seguir procesando contrato &amp;/&amp;</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>089</MSGNR>
+     <TEXT>Procesamiento terminado</TEXT>
+    </item>
+    <item>
+     <SPRSL>S</SPRSL>
+     <MSGNR>090</MSGNR>
+     <TEXT>Procesamiento realizado correctamente</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

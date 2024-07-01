@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Payment Terms</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GICOM/LRFC_PAYMTERMTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GICOM/SAPLRFC_PAYMTERM</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GICOM/RFC_READ_PAYMTERM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>RFC - Read -  Payment Term</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_PAYMTERM</PARAMETER>
+       <TYP>/GICOM/PAYMTERM_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_PAYMTERM_TXT</PARAMETER>
+       <TYP>/GICOM/PAYMTERM_TXT_TT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>/GICOM/BAPIRET_TT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>SYSTEM_FAILURE</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>COMMUNICATION_FAILURE</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_PAYMTERM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for Payment Terms</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_PAYMTERM_TXT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for Payment Term Texts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for gicom BAPIRET</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SYSTEM_FAILURE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>System Failures</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>COMMUNICATION_FAILURE</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Communication Failures</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

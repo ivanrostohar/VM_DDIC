@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/GT_SLOT_NUMBER_FORMAT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>13</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>13</SCRLEN3>
+    <DDTEXT>Number format in generic table slot</DDTEXT>
+    <REPTEXT>Number Format</REPTEXT>
+    <SCRTEXT_S>Num. Form.</SCRTEXT_S>
+    <SCRTEXT_M>Number Format</SCRTEXT_M>
+    <SCRTEXT_L>Number Format</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Number format in generic table slot</DDTEXT>
+     <REPTEXT>Number Format</REPTEXT>
+     <SCRTEXT_S>Num. Form.</SCRTEXT_S>
+     <SCRTEXT_M>Number Format</SCRTEXT_M>
+     <SCRTEXT_L>Number Format</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

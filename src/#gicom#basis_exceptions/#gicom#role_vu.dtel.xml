@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ROLE_VU</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ROLE_VU</DOMNAME>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>08</SCRLEN2>
+    <SCRLEN3>08</SCRLEN3>
+    <DDTEXT>Negotiation-Support Role</DDTEXT>
+    <REPTEXT>Role NS</REPTEXT>
+    <SCRTEXT_S>Role NS</SCRTEXT_S>
+    <SCRTEXT_M>Role NS</SCRTEXT_M>
+    <SCRTEXT_L>Role NS</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>VU Rolle</DDTEXT>
+     <REPTEXT>VU Rolle</REPTEXT>
+     <SCRTEXT_S>VU Rolle</SCRTEXT_S>
+     <SCRTEXT_M>VU Rolle</SCRTEXT_M>
+     <SCRTEXT_L>VU Rolle</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Negotiation-Support Role</DDTEXT>
+     <REPTEXT>Role NS</REPTEXT>
+     <SCRTEXT_S>Role NS</SCRTEXT_S>
+     <SCRTEXT_M>Role NS</SCRTEXT_M>
+     <SCRTEXT_L>Role NS</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

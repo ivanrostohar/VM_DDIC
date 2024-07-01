@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/EDI5278_A</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/EDIF5278</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>VAT rate</DDTEXT>
+    <REPTEXT>VAT rate</REPTEXT>
+    <SCRTEXT_S>VAT rate</SCRTEXT_S>
+    <SCRTEXT_M>VAT rate</SCRTEXT_M>
+    <SCRTEXT_L>VAT rate</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Mehrwertsteuersatz</DDTEXT>
+     <REPTEXT>MwSt.Satz</REPTEXT>
+     <SCRTEXT_S>MwSt.Satz</SCRTEXT_S>
+     <SCRTEXT_M>MwSt.Satz</SCRTEXT_M>
+     <SCRTEXT_L>MwSt.Satz</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>VAT rate</DDTEXT>
+     <REPTEXT>VAT rate</REPTEXT>
+     <SCRTEXT_S>VAT rate</SCRTEXT_S>
+     <SCRTEXT_M>VAT rate</SCRTEXT_M>
+     <SCRTEXT_L>VAT rate</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

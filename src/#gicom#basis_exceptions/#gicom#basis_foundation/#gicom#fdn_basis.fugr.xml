@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Foundation Function Group for Basis</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GICOM/LFDN_BASISTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GICOM/SAPLFDN_BASIS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GICOM/BAPIRET2_SHOW</FUNCNAME>
+     <SHORT_TEXT>Displays BAPIRET Messages in Popup; Also displayed in job log #nice</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_BAPIRET2_TAB</PARAMETER>
+       <DBSTRUCT>BAPIRET2</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_BAPIRET2_TAB</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

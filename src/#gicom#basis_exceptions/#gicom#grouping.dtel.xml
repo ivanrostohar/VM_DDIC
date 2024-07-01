@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/GROUPING</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/GROUPING</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>ID of Grouping</DDTEXT>
+    <REPTEXT>Brand/Grouping</REPTEXT>
+    <SCRTEXT_S>Grp.</SCRTEXT_S>
+    <SCRTEXT_M>Brand/Grouping</SCRTEXT_M>
+    <SCRTEXT_L>Brand/Grouping</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>ID der Gruppierung</DDTEXT>
+     <REPTEXT>Gruppierung</REPTEXT>
+     <SCRTEXT_S>Grupp.</SCRTEXT_S>
+     <SCRTEXT_M>Gruppierung</SCRTEXT_M>
+     <SCRTEXT_L>Gruppierung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>ID de groupement</DDTEXT>
+     <REPTEXT>Marque/groupement</REPTEXT>
+     <SCRTEXT_S>Grp.</SCRTEXT_S>
+     <SCRTEXT_M>Marque/groupement</SCRTEXT_M>
+     <SCRTEXT_L>Marque/groupement</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Identyfikator grupowania</DDTEXT>
+     <REPTEXT>Marka/grupowanie</REPTEXT>
+     <SCRTEXT_S>Grup.</SCRTEXT_S>
+     <SCRTEXT_M>Marka/grupowanie</SCRTEXT_M>
+     <SCRTEXT_L>Marka/grupowanie</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Marca/agrupamento</DDTEXT>
+     <REPTEXT>Marca/agrupamento</REPTEXT>
+     <SCRTEXT_S>Grp.</SCRTEXT_S>
+     <SCRTEXT_M>Marca/agrupamento</SCRTEXT_M>
+     <SCRTEXT_L>Marca/agrupamento</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Marca/agrupación</DDTEXT>
+     <REPTEXT>Marca/agrupación</REPTEXT>
+     <SCRTEXT_S>Gpo.</SCRTEXT_S>
+     <SCRTEXT_M>Marca/agrupación</SCRTEXT_M>
+     <SCRTEXT_L>Marca/agrupación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/GICOM/PRPRCD</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00043</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/GICOM/PRPRCD</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In principle, the pricing procedure is used by the gicom evaluation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>component. Thereupon the revenue demands are calculated. Even though the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>evaluation component uses the pricing procedure, the maintenance of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>previously defined condition types is required. Otherwise an error is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>displayed in the AD. The pricing procedure is also required for any</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>future simulation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The pricing procedure divided into header data and position data. It is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintained via the view cluster /GICOM/VC_PRPRCD.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step1: Header data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The header data includes an ID and the checkbox which determines whether</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>it’s a standard pricing procedure or not. Once the header is defined the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>relevant condition types can be determined at position level. Condition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>types are inserted automatically into the gicom standard bar. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>guarantees that the condition type is considered for all processes that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>use the standard bar. If deviating and/or supplier specific bars are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>used, further customizing will be required.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step2: Position data</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The positions for the single bars are generated with the following</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parameters</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Step:  Defines the step within the scheme. The scheme will be run</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>through ascending within the evaluation.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Condition type: Indicates the condition type for which the conditions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>are retrieved for the calculation. Only the condition type base must be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>indicated. Additive variants of condition types are considered</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>automatically in the evaluation. Additive conditions of a condition type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>therein have no reference base reducing effect.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Title of cond. type: The name of the condition type in the language</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the registration.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Ref. step C: This displays a reference value (corresponding to a step</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>from the current bar) the condition refers to. The reference value is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>always calculated by the gross value from which all conditions are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>deducted up to the specified condition reference step. For purposes of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unification and transparency one reference step must be specified for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>each condition type.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Tip: For fixed amount conditions and conditions with alternative</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>quantity units, the reference scale must always include the first step,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>which should refer to the condition type 0001, because these conditions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>refer to the net product value.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

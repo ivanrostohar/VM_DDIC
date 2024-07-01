@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/PRICING_TOTAL_TYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/PRICING_TOTAL_TYPE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Subtotal Pricing Type</DDTEXT>
+    <REPTEXT>Pricing Total Type</REPTEXT>
+    <SCRTEXT_S>TotalType</SCRTEXT_S>
+    <SCRTEXT_M>Pr. Total Type</SCRTEXT_M>
+    <SCRTEXT_L>Pricing Total Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Zwischensumme Preisfindungsart</DDTEXT>
+     <REPTEXT>Gesamtpreisfindungsart</REPTEXT>
+     <SCRTEXT_S>Gesamtart</SCRTEXT_S>
+     <SCRTEXT_M>GesamtpreisfindArt</SCRTEXT_M>
+     <SCRTEXT_L>Gesamtpreisfindungsart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de tarification sous-totale</DDTEXT>
+     <REPTEXT>Type de tarification totale</REPTEXT>
+     <SCRTEXT_S>Type total</SCRTEXT_S>
+     <SCRTEXT_M>Type tarif.totale</SCRTEXT_M>
+     <SCRTEXT_L>Type de tarification totale</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ ceny częściowej</DDTEXT>
+     <REPTEXT>Typ ceny łącznej</REPTEXT>
+     <SCRTEXT_S>TypSumy</SCRTEXT_S>
+     <SCRTEXT_M>Typ ceny łącznej</SCRTEXT_M>
+     <SCRTEXT_L>Typ ceny łącznej</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de subtotal de preço</DDTEXT>
+     <REPTEXT>Tipo de total de preço</REPTEXT>
+     <SCRTEXT_S>Tp.total</SCRTEXT_S>
+     <SCRTEXT_M>Tp. total preço</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de total de preço</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Tipo de precio subtotal</DDTEXT>
+     <REPTEXT>Tipo de precio total</REPTEXT>
+     <SCRTEXT_S>TipoTotal</SCRTEXT_S>
+     <SCRTEXT_M>Tipo de precio total</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de precio total</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

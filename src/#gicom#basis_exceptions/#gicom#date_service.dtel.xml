@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DATE_SERVICE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>DATS</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>06</SCRLEN1>
+    <SCRLEN2>12</SCRLEN2>
+    <SCRLEN3>14</SCRLEN3>
+    <DDTEXT>Service date</DDTEXT>
+    <REPTEXT>Service date</REPTEXT>
+    <SCRTEXT_S>SerDat</SCRTEXT_S>
+    <SCRTEXT_M>Service date</SCRTEXT_M>
+    <SCRTEXT_L>Service date</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Leistungsdatum</DDTEXT>
+     <REPTEXT>Leistungsdatum</REPTEXT>
+     <SCRTEXT_S>Leidat</SCRTEXT_S>
+     <SCRTEXT_M>LeistungsDat</SCRTEXT_M>
+     <SCRTEXT_L>Leistungsdatum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Service date</DDTEXT>
+     <REPTEXT>Service date</REPTEXT>
+     <SCRTEXT_S>SerDat</SCRTEXT_S>
+     <SCRTEXT_M>Service date</SCRTEXT_M>
+     <SCRTEXT_L>Service date</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

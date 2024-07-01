@@ -1,0 +1,7 @@
+interface /GICOM/IF_CONST_DISTRIBUTION
+  public .
+
+
+  constants GC_CAUSER_CONSUMPTION_ALLOC type /GICOM/DISTRIBUTION_MODE value 'A' ##NO_TEXT.
+  constants GC_ASSORTMENT_CONSUMPTION type /GICOM/DISTRIBUTION_MODE value 'B' ##NO_TEXT.
+endinterface.

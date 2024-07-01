@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CREATED_ON</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TZNTSTMPS</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Created on</DDTEXT>
+    <REPTEXT>Created on</REPTEXT>
+    <SCRTEXT_S>CrtdOn</SCRTEXT_S>
+    <SCRTEXT_M>Created on</SCRTEXT_M>
+    <SCRTEXT_L>Created on</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Angelegt am</DDTEXT>
+     <REPTEXT>Angelegt am</REPTEXT>
+     <SCRTEXT_S>Angel. am</SCRTEXT_S>
+     <SCRTEXT_M>Angelegt am</SCRTEXT_M>
+     <SCRTEXT_L>Angelegt am</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Créé le</DDTEXT>
+     <REPTEXT>Créé le</REPTEXT>
+     <SCRTEXT_S>Crée le</SCRTEXT_S>
+     <SCRTEXT_M>Créé le</SCRTEXT_M>
+     <SCRTEXT_L>Créé le</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Utworzono</DDTEXT>
+     <REPTEXT>Utworzono</REPTEXT>
+     <SCRTEXT_S>Utworz</SCRTEXT_S>
+     <SCRTEXT_M>Utworzono</SCRTEXT_M>
+     <SCRTEXT_L>Utworzono</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Criado em</DDTEXT>
+     <REPTEXT>Criado em</REPTEXT>
+     <SCRTEXT_S>CrdEm</SCRTEXT_S>
+     <SCRTEXT_M>Criado em</SCRTEXT_M>
+     <SCRTEXT_L>Criado em</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Creado el</DDTEXT>
+     <REPTEXT>Creado el</REPTEXT>
+     <SCRTEXT_S>Creado el</SCRTEXT_S>
+     <SCRTEXT_M>Creado el</SCRTEXT_M>
+     <SCRTEXT_L>Creado el</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

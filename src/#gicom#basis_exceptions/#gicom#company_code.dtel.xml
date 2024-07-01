@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/COMPANY_CODE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/COMPANY_CODE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Company code (BUKRS)</DDTEXT>
+    <REPTEXT>Company Code</REPTEXT>
+    <SCRTEXT_S>Co. Code</SCRTEXT_S>
+    <SCRTEXT_M>Company Code</SCRTEXT_M>
+    <SCRTEXT_L>Company Code</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Buchungskreis (BUKRS)</DDTEXT>
+     <REPTEXT>Buchungskreis</REPTEXT>
+     <SCRTEXT_S>Bukrs.</SCRTEXT_S>
+     <SCRTEXT_M>Buchungskreis</SCRTEXT_M>
+     <SCRTEXT_L>Buchungskreis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Code de l’entreprise (BUKRS)</DDTEXT>
+     <REPTEXT>Code de l’entreprise</REPTEXT>
+     <SCRTEXT_S>Code Co.</SCRTEXT_S>
+     <SCRTEXT_M>Code de l’entreprise</SCRTEXT_M>
+     <SCRTEXT_L>Code de l’entreprise</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Kod firmy (BUKRS)</DDTEXT>
+     <REPTEXT>Kod firmy</REPTEXT>
+     <SCRTEXT_S>Kod firmy</SCRTEXT_S>
+     <SCRTEXT_M>Kod firmy</SCRTEXT_M>
+     <SCRTEXT_L>Kod firmy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Empresa (BUKRS)</DDTEXT>
+     <REPTEXT>Código da empresa</REPTEXT>
+     <SCRTEXT_S>Cód. empr.</SCRTEXT_S>
+     <SCRTEXT_M>Código da empresa</SCRTEXT_M>
+     <SCRTEXT_L>Código da empresa</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Sociedad (BUKRS)</DDTEXT>
+     <REPTEXT>Sociedad</REPTEXT>
+     <SCRTEXT_S>Sociedad</SCRTEXT_S>
+     <SCRTEXT_M>Sociedad</SCRTEXT_M>
+     <SCRTEXT_L>Sociedad</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

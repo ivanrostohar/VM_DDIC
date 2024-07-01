@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/REF_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/REF_ID</DOMNAME>
+    <HEADLEN>28</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>11</SCRLEN3>
+    <DDTEXT>Reference ID for Object Condition Type/Group</DDTEXT>
+    <REPTEXT>Ref. ID (AcctTy/AcctTyGrp)</REPTEXT>
+    <SCRTEXT_S>RefID</SCRTEXT_S>
+    <SCRTEXT_M>Ref. ID</SCRTEXT_M>
+    <SCRTEXT_L>Ref. ID</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>ReferenzID auf Objekt Konditionsart/gruppe</DDTEXT>
+     <REPTEXT>Referenz ID (KoArt/KoArtGrp)</REPTEXT>
+     <SCRTEXT_S>RefID</SCRTEXT_S>
+     <SCRTEXT_M>Referenz ID</SCRTEXT_M>
+     <SCRTEXT_L>Referenz ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Reference ID for Object Condition Type/Group</DDTEXT>
+     <REPTEXT>Ref. ID (AcctTy/AcctTyGrp)</REPTEXT>
+     <SCRTEXT_S>RefID</SCRTEXT_S>
+     <SCRTEXT_M>Ref. ID</SCRTEXT_M>
+     <SCRTEXT_L>Ref. ID</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

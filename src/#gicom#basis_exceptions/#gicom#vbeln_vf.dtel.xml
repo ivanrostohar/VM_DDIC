@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/VBELN_VF</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <MEMORYID>VF</MEMORYID>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Billing Document</DDTEXT>
+    <REPTEXT>Bill. Doc.</REPTEXT>
+    <SCRTEXT_S>Bill. Doc.</SCRTEXT_S>
+    <SCRTEXT_M>Billing Doc.</SCRTEXT_M>
+    <SCRTEXT_L>Billing Document</SCRTEXT_L>
+    <APPLCLASS>VF</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Faktura</DDTEXT>
+     <REPTEXT>Faktura</REPTEXT>
+     <SCRTEXT_S>Faktura</SCRTEXT_S>
+     <SCRTEXT_M>Faktura</SCRTEXT_M>
+     <SCRTEXT_L>Faktura</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Billing Document</DDTEXT>
+     <REPTEXT>Bill. Doc.</REPTEXT>
+     <SCRTEXT_S>Bill. Doc.</SCRTEXT_S>
+     <SCRTEXT_M>Billing Doc.</SCRTEXT_M>
+     <SCRTEXT_L>Billing Document</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Documento de faturamento</DDTEXT>
+     <REPTEXT>Doc.fat.</REPTEXT>
+     <SCRTEXT_S>Doc.fat.</SCRTEXT_S>
+     <SCRTEXT_M>Doc.faturamento</SCRTEXT_M>
+     <SCRTEXT_L>Doc.faturamento</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Documento de facturación</DDTEXT>
+     <REPTEXT>Doc.fact.</REPTEXT>
+     <SCRTEXT_S>Doc.fact.</SCRTEXT_S>
+     <SCRTEXT_M>Doc.facturación</SCRTEXT_M>
+     <SCRTEXT_L>Doc.facturación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

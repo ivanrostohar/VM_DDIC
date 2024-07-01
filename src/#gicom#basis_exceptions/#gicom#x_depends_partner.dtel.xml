@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/X_DEPENDS_PARTNER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>business partner depending</DDTEXT>
+    <REPTEXT>Partner Depending</REPTEXT>
+    <SCRTEXT_S>Part.Depen</SCRTEXT_S>
+    <SCRTEXT_M>Parnter Depend.</SCRTEXT_M>
+    <SCRTEXT_L>Partner Depending</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Geschäftspartner abhängig</DDTEXT>
+     <REPTEXT>Partner abhängig</REPTEXT>
+     <SCRTEXT_S>Part. abh.</SCRTEXT_S>
+     <SCRTEXT_M>Partner abhängig</SCRTEXT_M>
+     <SCRTEXT_L>Partner abhängig</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>partenaire commercial dépendant</DDTEXT>
+     <REPTEXT>Partenaire dépendant</REPTEXT>
+     <SCRTEXT_S>Part. dép.</SCRTEXT_S>
+     <SCRTEXT_M>Parte. dépen.</SCRTEXT_M>
+     <SCRTEXT_L>Partenaire dépendant</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>zależnie od partnera biznesowego</DDTEXT>
+     <REPTEXT>Zależnie od partnera</REPTEXT>
+     <SCRTEXT_S>ZalOdPart</SCRTEXT_S>
+     <SCRTEXT_M>Zal. od partnera</SCRTEXT_M>
+     <SCRTEXT_L>Zależnie od partnera</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Dependência de parceiro de negócios</DDTEXT>
+     <REPTEXT>Dependência de parceiro</REPTEXT>
+     <SCRTEXT_S>DepParc.</SCRTEXT_S>
+     <SCRTEXT_M>Depend.parceiro</SCRTEXT_M>
+     <SCRTEXT_L>Dependência de parceiro</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>dependiente del interlocutor comercial</DDTEXT>
+     <REPTEXT>Dependiente de interlocutor</REPTEXT>
+     <SCRTEXT_S>Dep.int.</SCRTEXT_S>
+     <SCRTEXT_M>Depend. interl.</SCRTEXT_M>
+     <SCRTEXT_L>Dependiente de interlocutor</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/NAME_LAST</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BU_NAME</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Last name</DDTEXT>
+    <REPTEXT>Last name</REPTEXT>
+    <SCRTEXT_S>Last name</SCRTEXT_S>
+    <SCRTEXT_M>Last name</SCRTEXT_M>
+    <SCRTEXT_L>Last name</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Nachname</DDTEXT>
+     <REPTEXT>Nachname</REPTEXT>
+     <SCRTEXT_S>Nachn.</SCRTEXT_S>
+     <SCRTEXT_M>Nachname</SCRTEXT_M>
+     <SCRTEXT_L>Nachname</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Nom de famille</DDTEXT>
+     <REPTEXT>Nom de famille</REPTEXT>
+     <SCRTEXT_S>Nom fam.</SCRTEXT_S>
+     <SCRTEXT_M>Nom de famille</SCRTEXT_M>
+     <SCRTEXT_L>Nom de famille</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Nazwisko</DDTEXT>
+     <REPTEXT>Nazwisko</REPTEXT>
+     <SCRTEXT_S>Nazwisko</SCRTEXT_S>
+     <SCRTEXT_M>Nazwisko</SCRTEXT_M>
+     <SCRTEXT_L>Nazwisko</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Sobrenome</DDTEXT>
+     <REPTEXT>Sobrenome</REPTEXT>
+     <SCRTEXT_S>Sobrenome</SCRTEXT_S>
+     <SCRTEXT_M>Sobrenome</SCRTEXT_M>
+     <SCRTEXT_L>Sobrenome</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Apellido</DDTEXT>
+     <REPTEXT>Apellido</REPTEXT>
+     <SCRTEXT_S>Apellido</SCRTEXT_S>
+     <SCRTEXT_M>Apellido</SCRTEXT_M>
+     <SCRTEXT_L>Apellido</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

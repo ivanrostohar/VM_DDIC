@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CHANGED_ON</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TZNTSTMPS</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Changed on</DDTEXT>
+    <REPTEXT>Changed on</REPTEXT>
+    <SCRTEXT_S>ChngdOn</SCRTEXT_S>
+    <SCRTEXT_M>Changed on</SCRTEXT_M>
+    <SCRTEXT_L>Changed on</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Bearbeitet am</DDTEXT>
+     <REPTEXT>Bearbeitet am</REPTEXT>
+     <SCRTEXT_S>Bearb. am</SCRTEXT_S>
+     <SCRTEXT_M>Bearbeitet am</SCRTEXT_M>
+     <SCRTEXT_L>Bearbeitet am</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Modifié le</DDTEXT>
+     <REPTEXT>Modifié le</REPTEXT>
+     <SCRTEXT_S>Modif. le</SCRTEXT_S>
+     <SCRTEXT_M>Modifié le</SCRTEXT_M>
+     <SCRTEXT_L>Modifié le</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Zmieniono</DDTEXT>
+     <REPTEXT>Zmieniono</REPTEXT>
+     <SCRTEXT_S>Zmn</SCRTEXT_S>
+     <SCRTEXT_M>Zmieniono</SCRTEXT_M>
+     <SCRTEXT_L>Zmieniono</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Modificado em</DDTEXT>
+     <REPTEXT>Modificado em</REPTEXT>
+     <SCRTEXT_S>ModifEm</SCRTEXT_S>
+     <SCRTEXT_M>Modificado em</SCRTEXT_M>
+     <SCRTEXT_L>Modificado em</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Cambiado el</DDTEXT>
+     <REPTEXT>Cambiado el</REPTEXT>
+     <SCRTEXT_S>Camb. el</SCRTEXT_S>
+     <SCRTEXT_M>Cambiado el</SCRTEXT_M>
+     <SCRTEXT_L>Cambiado el</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

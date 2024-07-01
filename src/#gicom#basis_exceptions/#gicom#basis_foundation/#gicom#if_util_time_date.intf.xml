@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_UTIL_TIME_DATE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface for util time date</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Subtracts the difference between two dates from a date</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Subtracts the difference between two dates from a date</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>EV_SUB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Difference between the dates. Unit is stored in ev_type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>EV_SUB</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Difference between the dates. Unit is stored in ev_type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>EV_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unit of difference between the dates</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>EV_TYPE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Unit of difference between the dates</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>IV_DATE_FROM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Time range start date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>IV_DATE_FROM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Time range start date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>IV_DATE_SUB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date the difference is subtracted from</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>IV_DATE_SUB</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Date the difference is subtracted from</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>IV_DATE_TO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Time range end date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>IV_DATE_TO</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Time range end date</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>RV_DATE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Date with the range subtracted from @iv_date_sub</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SUBTRACT_TIME_DIFF_FROM_DATE</CMPNAME>
+     <SCONAME>RV_DATE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Date with the range subtracted from @iv_date_sub</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

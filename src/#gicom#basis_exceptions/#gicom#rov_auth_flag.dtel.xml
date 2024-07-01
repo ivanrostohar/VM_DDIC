@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ROV_AUTH_FLAG</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ROV_AUTH_FLAG</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Hierarchy flag range of validity</DDTEXT>
+    <REPTEXT>Hierarchy flag range of validity</REPTEXT>
+    <SCRTEXT_S>Hier.F.ROV</SCRTEXT_S>
+    <SCRTEXT_M>Hier. flag ROV</SCRTEXT_M>
+    <SCRTEXT_L>Hierarchy flag range of validity</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Hierarchie Kennzeichen Geltungsbereich</DDTEXT>
+     <REPTEXT>Hierarchie Kennzeichen Geltungsbereich</REPTEXT>
+     <SCRTEXT_S>Hier.Kz.Gb</SCRTEXT_S>
+     <SCRTEXT_M>Hier. Kz Geltungsbe.</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchie Kennzeichen Geltungsbereich</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Hierarchy flag range of validity</DDTEXT>
+     <REPTEXT>Hierarchy flag range of validity</REPTEXT>
+     <SCRTEXT_S>Hier.F.ROV</SCRTEXT_S>
+     <SCRTEXT_M>Hier. flag ROV</SCRTEXT_M>
+     <SCRTEXT_L>Hierarchy flag range of validity</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

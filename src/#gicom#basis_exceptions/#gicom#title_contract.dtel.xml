@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TITLE_CONTRACT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TITLE</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Contract title</DDTEXT>
+    <REPTEXT>Contract Title</REPTEXT>
+    <SCRTEXT_S>Title</SCRTEXT_S>
+    <SCRTEXT_M>Contract Title</SCRTEXT_M>
+    <SCRTEXT_L>Contract Title</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Vertragstitel</DDTEXT>
+     <REPTEXT>Vertragstitel</REPTEXT>
+     <SCRTEXT_S>Titel</SCRTEXT_S>
+     <SCRTEXT_M>Vertragstitel</SCRTEXT_M>
+     <SCRTEXT_L>Vertragstitel</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Titre du contrat</DDTEXT>
+     <REPTEXT>Titre du contrat</REPTEXT>
+     <SCRTEXT_S>Titre</SCRTEXT_S>
+     <SCRTEXT_M>Titre du contrat</SCRTEXT_M>
+     <SCRTEXT_L>Titre du contrat</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tytuł kontraktu</DDTEXT>
+     <REPTEXT>Tytuł kontraktu</REPTEXT>
+     <SCRTEXT_S>Tytuł</SCRTEXT_S>
+     <SCRTEXT_M>Tytuł kontraktu</SCRTEXT_M>
+     <SCRTEXT_L>Tytuł kontraktu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Título do contrato</DDTEXT>
+     <REPTEXT>Título do contrato</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Título do contrato</SCRTEXT_M>
+     <SCRTEXT_L>Título do contrato</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Título de contrato</DDTEXT>
+     <REPTEXT>Título contrato</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Título contrato</SCRTEXT_M>
+     <SCRTEXT_L>Título de contrato</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/REG_FORM_TXT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TEXT30</DOMNAME>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>07</SCRLEN1>
+    <SCRLEN2>07</SCRLEN2>
+    <SCRLEN3>16</SCRLEN3>
+    <DDTEXT>Text of Regulation Form</DDTEXT>
+    <REPTEXT>Regulation Form</REPTEXT>
+    <SCRTEXT_S>RegForm</SCRTEXT_S>
+    <SCRTEXT_M>RegForm</SCRTEXT_M>
+    <SCRTEXT_L>Regulation Form</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Text Regulierungsform</DDTEXT>
+     <REPTEXT>Regulierungsform</REPTEXT>
+     <SCRTEXT_S>RegForm</SCRTEXT_S>
+     <SCRTEXT_M>RegForm</SCRTEXT_M>
+     <SCRTEXT_L>Regulierungsform</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Texte du formulaire de régulation</DDTEXT>
+     <REPTEXT>Formu. de rég.</REPTEXT>
+     <SCRTEXT_S>For rég</SCRTEXT_S>
+     <SCRTEXT_M>For rég</SCRTEXT_M>
+     <SCRTEXT_L>Formu. de rég.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tekst formularza zgodności z przepisami</DDTEXT>
+     <REPTEXT>Form. zg. z prz.</REPTEXT>
+     <SCRTEXT_S>FormReg</SCRTEXT_S>
+     <SCRTEXT_M>FormReg</SCRTEXT_M>
+     <SCRTEXT_L>Form. zg. z prz.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Texto do formulário de regulamento</DDTEXT>
+     <REPTEXT>Form. regul.</REPTEXT>
+     <SCRTEXT_S>FormReg</SCRTEXT_S>
+     <SCRTEXT_M>FormReg</SCRTEXT_M>
+     <SCRTEXT_L>Form. regul.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Texto de formulario de regulación</DDTEXT>
+     <REPTEXT>Form.regulación</REPTEXT>
+     <SCRTEXT_S>FormReg</SCRTEXT_S>
+     <SCRTEXT_M>FormReg</SCRTEXT_M>
+     <SCRTEXT_L>Form.regulación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

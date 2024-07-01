@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/GICOM/CL_RFC_HELPER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Helper Class for RFC Handling</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>EXEPTION_TO_BAPIRET</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Umwandeln einer Exeption in ein Bapiret</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXEPTION_TO_BAPIRET</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert an Exception to a BAPIRET</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXEPTION_TO_BAPIRET</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Convert an Exception to a BAPIRET</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EXEPTION_TO_BAPIRET</CMPNAME>
+     <SCONAME>ET_RETURN</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>BAPIRET Tabellentyp</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXEPTION_TO_BAPIRET</CMPNAME>
+     <SCONAME>ET_RETURN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAPIRET Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXEPTION_TO_BAPIRET</CMPNAME>
+     <SCONAME>ET_RETURN</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>BAPIRET Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXEPTION_TO_BAPIRET</CMPNAME>
+     <SCONAME>IO_EXEPTION</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstrakte Oberklasse aller globalen Exceptions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXEPTION_TO_BAPIRET</CMPNAME>
+     <SCONAME>IO_EXEPTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Abstract Superclass of All Global Exceptions</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXEPTION_TO_BAPIRET</CMPNAME>
+     <SCONAME>IO_EXEPTION</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Abstract Superclass of All Global Exceptions</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

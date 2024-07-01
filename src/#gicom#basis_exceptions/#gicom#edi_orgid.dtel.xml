@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/EDI_ORGID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>CHAR35</DOMNAME>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>IDOC organization</DDTEXT>
+    <SCRTEXT_S>Organiz.</SCRTEXT_S>
+    <SCRTEXT_M>Organization</SCRTEXT_M>
+    <SCRTEXT_L>Organization</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>IDOC Organisation</DDTEXT>
+     <SCRTEXT_S>Organis.</SCRTEXT_S>
+     <SCRTEXT_M>Organisation</SCRTEXT_M>
+     <SCRTEXT_L>Organisation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>IDOC organization</DDTEXT>
+     <SCRTEXT_S>Organiz.</SCRTEXT_S>
+     <SCRTEXT_M>Organization</SCRTEXT_M>
+     <SCRTEXT_L>Organization</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

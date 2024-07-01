@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ID_ALGORITHM</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ID_ALGORITHM</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Defines how Business ID (Name) is determined</DDTEXT>
+    <REPTEXT>ID Algorithm</REPTEXT>
+    <SCRTEXT_S>ID Algo</SCRTEXT_S>
+    <SCRTEXT_M>ID Algorithm</SCRTEXT_M>
+    <SCRTEXT_L>ID Algorithm</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Bestimmt wie ID ermittelt wird</DDTEXT>
+     <REPTEXT>ID Algorithmus</REPTEXT>
+     <SCRTEXT_S>ID Algo.</SCRTEXT_S>
+     <SCRTEXT_M>ID Algorithmus</SCRTEXT_M>
+     <SCRTEXT_L>ID Algorithmus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Définit comment l’ID (nom) de l’activité est déterminé</DDTEXT>
+     <REPTEXT>ID de l’algorithme</REPTEXT>
+     <SCRTEXT_S>ID Algo</SCRTEXT_S>
+     <SCRTEXT_M>ID de l’algorithme</SCRTEXT_M>
+     <SCRTEXT_L>ID de l’algorithme</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Definiuje sposób określania identyfikatora (nazwy) firmy</DDTEXT>
+     <REPTEXT>Algorytm identyfikatora</REPTEXT>
+     <SCRTEXT_S>Alg. ID</SCRTEXT_S>
+     <SCRTEXT_M>Algorytm id.</SCRTEXT_M>
+     <SCRTEXT_L>Algorytm identyfikatora</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Define como o ID de negócios (nome) é determinado</DDTEXT>
+     <REPTEXT>Algoritmo de ID</REPTEXT>
+     <SCRTEXT_S>Algo.ID</SCRTEXT_S>
+     <SCRTEXT_M>Algoritmo de ID</SCRTEXT_M>
+     <SCRTEXT_L>Algoritmo de ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Define cómo se determina el ID de empresa (nombre)</DDTEXT>
+     <REPTEXT>ID del algoritmo</REPTEXT>
+     <SCRTEXT_S>ID algorit</SCRTEXT_S>
+     <SCRTEXT_M>ID del algoritmo</SCRTEXT_M>
+     <SCRTEXT_L>ID del algoritmo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/ID_ALGORITHM</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0003</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00013</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/ID_ALGORITHM</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00003</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This Flag defines how the business id (Name column in table) will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>evaluated. If it is set to automated the id will be fetched using the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>implementing class from the grouping type by calling the get_id method.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>If it is set to manual the business id needs to be manually entered by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the user.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The technical ids for groupings will get created using number range</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object defined in the customizing (Number range process &quot;BS12&quot; and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&quot;BS13&quot;).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Customizing groupings offer a &quot;compatibility mode&quot;, if this mode is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enabled (using a tpara switch) we also use the business identifier as</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>technical id.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Master data grouping technical ids will be always determined using</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number range objects.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ALLOW_PREPAY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ALLOW</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Discount/Prepayment allowed</DDTEXT>
+    <REPTEXT>Disc/Pre allowed</REPTEXT>
+    <SCRTEXT_S>Disc/Pre</SCRTEXT_S>
+    <SCRTEXT_M>Disc/Pre allowed</SCRTEXT_M>
+    <SCRTEXT_L>Discount/Prepayment allowed</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Abschläge/Vorauszahlung erlaubt</DDTEXT>
+     <REPTEXT>Abs./Vor. erl.</REPTEXT>
+     <SCRTEXT_S>Abs./Vor.</SCRTEXT_S>
+     <SCRTEXT_M>Abs./Vor. erl.</SCRTEXT_M>
+     <SCRTEXT_L>Abschläge/Vorauszahlung erlaubt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Remise/acompte autorisé</DDTEXT>
+     <REPTEXT>Remi/Acomp autorisé</REPTEXT>
+     <SCRTEXT_S>Remi/Acomp</SCRTEXT_S>
+     <SCRTEXT_M>Remi/Acomp autorisé</SCRTEXT_M>
+     <SCRTEXT_L>Remise/acompte autorisé</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Rabat/przedpłata dozwolone</DDTEXT>
+     <REPTEXT>Rab./prz. dozwolone</REPTEXT>
+     <SCRTEXT_S>Rab./prz.</SCRTEXT_S>
+     <SCRTEXT_M>Rab./prz. dozwolone</SCRTEXT_M>
+     <SCRTEXT_L>Rabat/przedpłata dozwolone</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Desconto/pagamento antecipado permitido</DDTEXT>
+     <REPTEXT>Desc/PgAntPermitido</REPTEXT>
+     <SCRTEXT_S>Desc/PgAnt</SCRTEXT_S>
+     <SCRTEXT_M>Desc/PgAntPermitido</SCRTEXT_M>
+     <SCRTEXT_L>Desconto/pagamento antecipado permitido</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Descuento/prepago permitido</DDTEXT>
+     <REPTEXT>Desc./pre. permitido</REPTEXT>
+     <SCRTEXT_S>Desc./pre.</SCRTEXT_S>
+     <SCRTEXT_M>Desc./pre. permitido</SCRTEXT_M>
+     <SCRTEXT_L>Descuento/prepago permitido</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

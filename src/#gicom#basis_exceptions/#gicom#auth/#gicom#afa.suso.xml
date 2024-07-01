@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>/GICOM/AFA</OBJCT>
+    <FIEL1>ACTVT</FIEL1>
+    <FIEL2>/GICOM/BOT</FIEL2>
+    <FIEL3>/GICOM/AON</FIEL3>
+    <FIEL4>/GICOM/ROV</FIEL4>
+    <FIEL5>/GICOM/ACT</FIEL5>
+    <OCLSS>/GIC</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>/GICOM/AFA</OBJECT>
+    <TTEXT>Approval Activities</TTEXT>
+   </TOBJT>
+   <TACTZ>
+    <TACTZ>
+     <BROBJ>/GICOM/AFA</BROBJ>
+     <ACTVT>16</ACTVT>
+    </TACTZ>
+   </TACTZ>
+  </asx:values>
+ </asx:abap>
+</abapGit>

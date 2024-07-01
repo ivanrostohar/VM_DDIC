@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TITLE_WORK_STATUS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TITLE</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Work status title</DDTEXT>
+    <REPTEXT>Arbeitsstatus Titel</REPTEXT>
+    <SCRTEXT_S>Title</SCRTEXT_S>
+    <SCRTEXT_M>Arbeitsstatus Titel</SCRTEXT_M>
+    <SCRTEXT_L>Arbeitsstatus Titel</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Titel des Arbeitsstatus</DDTEXT>
+     <REPTEXT>Titel Stat.</REPTEXT>
+     <SCRTEXT_S>Titel</SCRTEXT_S>
+     <SCRTEXT_M>Titel Stat.</SCRTEXT_M>
+     <SCRTEXT_L>Titel Arbeitsstatus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Titre du statut de travail</DDTEXT>
+     <REPTEXT>Statut titre</REPTEXT>
+     <SCRTEXT_S>Titre</SCRTEXT_S>
+     <SCRTEXT_M>Statut titre</SCRTEXT_M>
+     <SCRTEXT_L>Titre du statut de travail</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tytuł stanu pracy</DDTEXT>
+     <REPTEXT>Tyt. stanu</REPTEXT>
+     <SCRTEXT_S>Tytuł</SCRTEXT_S>
+     <SCRTEXT_M>Tyt. stanu</SCRTEXT_M>
+     <SCRTEXT_L>Tytuł stanu pracy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Título do status do trabalho</DDTEXT>
+     <REPTEXT>Título status</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Título status</SCRTEXT_M>
+     <SCRTEXT_L>Título do status do trabalho</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Título del estado de trabajo</DDTEXT>
+     <REPTEXT>Estado de título</REPTEXT>
+     <SCRTEXT_S>Título</SCRTEXT_S>
+     <SCRTEXT_M>Estado de título</SCRTEXT_M>
+     <SCRTEXT_L>Título del estado de trabajo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

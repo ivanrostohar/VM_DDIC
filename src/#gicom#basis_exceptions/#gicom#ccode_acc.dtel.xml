@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CCODE_ACC</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BUKRS</DOMNAME>
+    <HEADLEN>23</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>23</SCRLEN3>
+    <DDTEXT>Booking company code</DDTEXT>
+    <REPTEXT>Booking company code</REPTEXT>
+    <SCRTEXT_S>Book.CoCo</SCRTEXT_S>
+    <SCRTEXT_M>Booking CoCo</SCRTEXT_M>
+    <SCRTEXT_L>Booking company code</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Buchender Buchungskreis</DDTEXT>
+     <REPTEXT>Buchender Buchungskreis</REPTEXT>
+     <SCRTEXT_S>Buch.BKRS</SCRTEXT_S>
+     <SCRTEXT_M>Buchender BUKRS</SCRTEXT_M>
+     <SCRTEXT_L>Buchender Buchungskreis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Booking company code</DDTEXT>
+     <REPTEXT>Booking company code</REPTEXT>
+     <SCRTEXT_S>Book.CoCo</SCRTEXT_S>
+     <SCRTEXT_M>Booking CoCo</SCRTEXT_M>
+     <SCRTEXT_L>Booking company code</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

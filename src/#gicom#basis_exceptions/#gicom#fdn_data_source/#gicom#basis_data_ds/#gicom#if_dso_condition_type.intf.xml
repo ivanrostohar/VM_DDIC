@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_DSO_CONDITION_TYPE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>gicom DATA SOURCE Interface for User</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_COND_TYPE_WHERE_USED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Check condition type where used</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_COND_TYPE_WHERE_USED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check condition type where used</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_COND_TYPE_WHERE_USED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Check condition type where used</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Delete condition types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete condition types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Delete condition types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Delete condition types Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete condition types Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Delete condition types Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Create new condition types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new condition types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Create new condition types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Create new condition types Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new condition types Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Create new condition types Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Select Details</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_AGRMT_DEFAULTS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Select Agreement Defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_AGRMT_DEFAULTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select Agreement Defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_AGRMT_DEFAULTS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Select Agreement Defaults</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Select Details Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select Details Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Select Details Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_TITLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Selektiert die Partnerspezifischen Konditionsarten-Texte</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_TITLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select Partner-Specific Condition Type Texts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_TITLE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Select Partner-Specific Condition Type Texts</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_TITLES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Select all titles</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_TITLES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select all titles</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_TITLES</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Select all titles</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Upare condition types data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Upare condition types data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Upare condition types data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Update condition types data Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update condition types data Draft</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Update condition types data Draft</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_COND_TYPE_WHERE_USED</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_COND_TYPE_WHERE_USED</CMPNAME>
+     <SCONAME>IV_COND_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>ITR_COND_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Range-Tabelle für Konditionsart</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <SCONAME>ITR_COND_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Range-Tabelle für Konditionsart</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>IT_CONDITION_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>RT_CONDITION_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <SCONAME>IT_CONDITION_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <SCONAME>RT_CONDITION_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_AGRMT_DEFAULTS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Agreement Defaults - Table type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_AGRMT_DEFAULTS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Agreement Defaults - Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_AGRMT_DEFAULTS</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Agreement Defaults - Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_CONDITION_TITLE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp für Kundenspezifische Konditionsarten-Texte</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_CONDITION_TITLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Customer-Specific Condition Type Texts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_CONDITION_TITLE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table Type for Customer-Specific Condition Type Texts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_CONDITION_TYPES</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_CONDITION_TYPES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Condition Type (Attributes)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ET_CONDITION_TYPES</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Condition Type (Attributes)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ITR_COND_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Range-Tabelle für Konditionsart</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ITR_COND_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Range Table for Condition Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ITR_COND_TYPE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Range Table for Condition Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>IT_SELOPT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Selektionsoptionen für Suchhilfen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>IV_VALID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gültig bis</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>IV_VALID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Valid to</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>IV_VALID</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Valid to</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_AGRMT_DEFAULTS</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_AGRMT_DEFAULTS</CMPNAME>
+     <SCONAME>ITR_COND_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Range-Tabelle für Konditionsart</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_AGRMT_DEFAULTS</CMPNAME>
+     <SCONAME>RT_AGRMT_DFLT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Agreement Defaults - Table type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <SCONAME>ET_CONDITION_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <SCONAME>ITR_COND_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Range-Tabelle für Konditionsart</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <SCONAME>IT_SELOPT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Selektionsoptionen für Suchhilfen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <SCONAME>IV_VALID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gültig bis</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLE</CMPNAME>
+     <SCONAME>ET_COND_TITLE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tabellentyp für Kundenspezifische Konditionsarten-Texte</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLE</CMPNAME>
+     <SCONAME>ET_COND_TITLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Customer-Specific Condition Type Texts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLE</CMPNAME>
+     <SCONAME>ET_COND_TITLE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table Type for Customer-Specific Condition Type Texts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLE</CMPNAME>
+     <SCONAME>I_PARTNER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verhandlungspartner (Objekt-ID)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLE</CMPNAME>
+     <SCONAME>I_PARTNER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Negotiating Partner (Object ID)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLE</CMPNAME>
+     <SCONAME>I_PARTNER</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Negotiating Partner (Object ID)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLES</CMPNAME>
+     <SCONAME>ET_PARTNER_TITLE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Attributtabellentyp Kundenspezifische Konditionsarten-Texte</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLES</CMPNAME>
+     <SCONAME>ET_TITLE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsartentext Tabellentyp</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLES</CMPNAME>
+     <SCONAME>ITR_COND_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Range-Tabelle für Konditionsart</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_TITLES</CMPNAME>
+     <SCONAME>IV_PARTNER</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Verhandlungspartner (Objekt-ID)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <SCONAME>IT_CONDITION_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <SCONAME>RT_CONDITION_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <SCONAME>IT_CONDITION_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <SCONAME>RT_CONDITION_TYPE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konditionsart (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

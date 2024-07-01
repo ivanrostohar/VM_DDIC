@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SHS_PRICE_SUB_TYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/SHS_PRICE_SUB_TYPE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>SHS Price Sub Type</DDTEXT>
+    <REPTEXT>Price Sub Type</REPTEXT>
+    <SCRTEXT_S>Sub Type</SCRTEXT_S>
+    <SCRTEXT_M>Price Sub Type</SCRTEXT_M>
+    <SCRTEXT_L>Price Sub Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>SHS Preissubtyp</DDTEXT>
+     <REPTEXT>Preissubtyp</REPTEXT>
+     <SCRTEXT_S>Subtyp</SCRTEXT_S>
+     <SCRTEXT_M>Preissubtyp</SCRTEXT_M>
+     <SCRTEXT_L>Preissubtyp</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Sous-type de prix SHS</DDTEXT>
+     <REPTEXT>Sous-type de prix</REPTEXT>
+     <SCRTEXT_S>Sous-type</SCRTEXT_S>
+     <SCRTEXT_M>Sous-type de prix</SCRTEXT_M>
+     <SCRTEXT_L>Sous-type de prix</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ podrzędny cen SHS</DDTEXT>
+     <REPTEXT>Typ podrzędny ceny</REPTEXT>
+     <SCRTEXT_S>Podtyp</SCRTEXT_S>
+     <SCRTEXT_M>Typ podrzędny ceny</SCRTEXT_M>
+     <SCRTEXT_L>Typ podrzędny ceny</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Subtipo de preços SHS</DDTEXT>
+     <REPTEXT>Subtipo de preços</REPTEXT>
+     <SCRTEXT_S>Subtipo</SCRTEXT_S>
+     <SCRTEXT_M>Subtipo de preços</SCRTEXT_M>
+     <SCRTEXT_L>Subtipo de preços</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Subtipo de precios de SHS</DDTEXT>
+     <REPTEXT>Subtipo de precio</REPTEXT>
+     <SCRTEXT_S>Subclase</SCRTEXT_S>
+     <SCRTEXT_M>Subtipo de precio</SCRTEXT_M>
+     <SCRTEXT_L>Subtipo de precio</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

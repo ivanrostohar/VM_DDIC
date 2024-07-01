@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/AGRMT_OPS_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/AGRMT_OPS_ID</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Agreement Operations ID</DDTEXT>
+    <REPTEXT>Agrmt Ops ID</REPTEXT>
+    <SCRTEXT_S>Agr.Ops ID</SCRTEXT_S>
+    <SCRTEXT_M>Agrmt Ops ID</SCRTEXT_M>
+    <SCRTEXT_L>Agreement Operations ID</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>ID der effektiven Vereinbarung</DDTEXT>
+     <REPTEXT>ID der effektiven Vereinbarung</REPTEXT>
+     <SCRTEXT_S>ID eff Veb</SCRTEXT_S>
+     <SCRTEXT_M>ID eff. Vereinbarung</SCRTEXT_M>
+     <SCRTEXT_L>ID der effektiven Vereinbarung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Agreement Operations ID</DDTEXT>
+     <REPTEXT>Agrmt Ops ID</REPTEXT>
+     <SCRTEXT_S>Agr.Ops ID</SCRTEXT_S>
+     <SCRTEXT_M>Agrmt Ops ID</SCRTEXT_M>
+     <SCRTEXT_L>Agreement Operations ID</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

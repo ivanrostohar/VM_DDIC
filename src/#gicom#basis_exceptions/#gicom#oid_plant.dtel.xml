@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/OID_PLANT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/OID</DOMNAME>
+    <HEADLEN>07</HEADLEN>
+    <SCRLEN1>07</SCRLEN1>
+    <SCRLEN2>07</SCRLEN2>
+    <SCRLEN3>07</SCRLEN3>
+    <DDTEXT>Plant OID</DDTEXT>
+    <REPTEXT>PlntOID</REPTEXT>
+    <SCRTEXT_S>PlntOID</SCRTEXT_S>
+    <SCRTEXT_M>PlntOID</SCRTEXT_M>
+    <SCRTEXT_L>PlntOID</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>OID für Werk</DDTEXT>
+     <REPTEXT>WerkOID</REPTEXT>
+     <SCRTEXT_S>WerkOID</SCRTEXT_S>
+     <SCRTEXT_M>WerkOID</SCRTEXT_M>
+     <SCRTEXT_L>WerkOID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Plant OID</DDTEXT>
+     <REPTEXT>PlntOID</REPTEXT>
+     <SCRTEXT_S>PlntOID</SCRTEXT_S>
+     <SCRTEXT_M>PlntOID</SCRTEXT_M>
+     <SCRTEXT_L>PlntOID</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

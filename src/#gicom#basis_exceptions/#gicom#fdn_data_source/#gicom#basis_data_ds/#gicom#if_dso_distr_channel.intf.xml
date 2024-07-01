@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_DSO_DISTR_CHANNEL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>interface for distribution channel</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DISTR_CHANNEL</CMPNAME>
+     <SCONAME>ET_DISTR_CHANL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Distribution Channel</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DISTR_CHANNEL</CMPNAME>
+     <SCONAME>ET_DISTR_CHANL</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Distribution Channel</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DISTR_CHANNEL</CMPNAME>
+     <SCONAME>ET_DISTR_CHANL_TXT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Distribution Channel Texts</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DISTR_CHANNEL</CMPNAME>
+     <SCONAME>ET_DISTR_CHANL_TXT</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Distribution Channel Texts</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/NAME_FIRST</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BU_NAME</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>First name</DDTEXT>
+    <REPTEXT>First name</REPTEXT>
+    <SCRTEXT_S>First name</SCRTEXT_S>
+    <SCRTEXT_M>First name</SCRTEXT_M>
+    <SCRTEXT_L>First name</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Vorname</DDTEXT>
+     <REPTEXT>Vorname</REPTEXT>
+     <SCRTEXT_S>Vorname</SCRTEXT_S>
+     <SCRTEXT_M>Vorname</SCRTEXT_M>
+     <SCRTEXT_L>Vorname</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Prénom</DDTEXT>
+     <REPTEXT>Prénom</REPTEXT>
+     <SCRTEXT_S>Prénom</SCRTEXT_S>
+     <SCRTEXT_M>Prénom</SCRTEXT_M>
+     <SCRTEXT_L>Prénom</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Imię</DDTEXT>
+     <REPTEXT>Imię</REPTEXT>
+     <SCRTEXT_S>Imię</SCRTEXT_S>
+     <SCRTEXT_M>Imię</SCRTEXT_M>
+     <SCRTEXT_L>Imię</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Primeiro nome</DDTEXT>
+     <REPTEXT>Primeiro nome</REPTEXT>
+     <SCRTEXT_S>1º nome</SCRTEXT_S>
+     <SCRTEXT_M>Primeiro nome</SCRTEXT_M>
+     <SCRTEXT_L>Primeiro nome</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Nombre</DDTEXT>
+     <REPTEXT>Nombre</REPTEXT>
+     <SCRTEXT_S>Nombre</SCRTEXT_S>
+     <SCRTEXT_M>Nombre</SCRTEXT_M>
+     <SCRTEXT_L>Nombre</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

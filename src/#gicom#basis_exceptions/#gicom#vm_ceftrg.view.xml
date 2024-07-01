@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/GICOM/VM_CEFTRG</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>/GICOM/TCEFTRG</ROOTTAB>
+    <DDTEXT>Maintenance View for Target Structures</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <VIEWGRANT>R</VIEWGRANT>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/GICOM/VM_CEFTRG</VIEWNAME>
+     <TABNAME>/GICOM/TCEFTRG</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/GICOM/TCEFTRG</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>CLNT</VIEWFIELD>
+     <TABNAME>/GICOM/TCEFTRG</TABNAME>
+     <FIELDNAME>CLNT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <RDONLY>H</RDONLY>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>BO_TYP</VIEWFIELD>
+     <TABNAME>/GICOM/TCEFTRG</TABNAME>
+     <FIELDNAME>BO_TYP</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <RDONLY>S</RDONLY>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>SPOT</VIEWFIELD>
+     <TABNAME>/GICOM/TCEFTRG</TABNAME>
+     <FIELDNAME>SPOT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <RDONLY>S</RDONLY>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>TARGET_STRUCTURE</VIEWFIELD>
+     <TABNAME>/GICOM/TCEFTRG</TABNAME>
+     <FIELDNAME>TARGET_STRUCTURE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+   </DD27P_TABLE>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD25_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Pflege von Zielstrukturen</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Maintenance View for Target Structures</DDTEXT>
+    </item>
+   </DD25_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

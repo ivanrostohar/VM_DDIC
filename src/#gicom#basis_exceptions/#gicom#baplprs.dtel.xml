@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/BAPLPRS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/BAPLPRS</DOMNAME>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>Application Process</DDTEXT>
+    <REPTEXT>Application Process</REPTEXT>
+    <SCRTEXT_S>App.Proces</SCRTEXT_S>
+    <SCRTEXT_M>Application Process</SCRTEXT_M>
+    <SCRTEXT_L>Application Process</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Application Prozess</DDTEXT>
+     <REPTEXT>Application Prozess</REPTEXT>
+     <SCRTEXT_S>ApplProz</SCRTEXT_S>
+     <SCRTEXT_M>Application Prozess</SCRTEXT_M>
+     <SCRTEXT_L>Application Prozess</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Traitement de l’application</DDTEXT>
+     <REPTEXT>Trait. application</REPTEXT>
+     <SCRTEXT_S>Trai. app.</SCRTEXT_S>
+     <SCRTEXT_M>Trait. application</SCRTEXT_M>
+     <SCRTEXT_L>Trait. application</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Proces składania wniosków</DDTEXT>
+     <REPTEXT>Proc. skł. wniosków</REPTEXT>
+     <SCRTEXT_S>Pr.skł.wn.</SCRTEXT_S>
+     <SCRTEXT_M>Proc. skł. wniosków</SCRTEXT_M>
+     <SCRTEXT_L>Proc. skł. wniosków</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Processo de aplicação</DDTEXT>
+     <REPTEXT>Processo aplicação</REPTEXT>
+     <SCRTEXT_S>Proc. apl.</SCRTEXT_S>
+     <SCRTEXT_M>Processo aplicação</SCRTEXT_M>
+     <SCRTEXT_L>Processo aplicação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Proceso de aplicación</DDTEXT>
+     <REPTEXT>Proceso de aplic.</REPTEXT>
+     <SCRTEXT_S>Prc.aprb.</SCRTEXT_S>
+     <SCRTEXT_M>Proceso de aplic.</SCRTEXT_M>
+     <SCRTEXT_L>Proceso de aplic.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

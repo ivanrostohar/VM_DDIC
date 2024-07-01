@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/GICOM/SRCTYP</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00028</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/GICOM/SRCTYP</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Sourcing types are another component of the four gicom condition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>dimensions. The defined sourcing types can be used in the condition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintenance in the AD. The sourcing type indicates the channel through</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>which the goods are or were purchased (for example: For deliveries to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the central warehouse the trade partner guarantees better conditions</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>than for a decentralized delivery, because shipment costs will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>clearly higher for him).</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,The ID is maintained as a four-digit token of the reference type in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the table /GICOM/VM_SRCTYP. The ID must be numerical and defined as a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>consecutive number. Here you also enter the identifier for the language</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>EN. The corresponding sourcing type is entered automatically in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>table /GICOM/SRC_TYPT with the language EN. If the sourcing type is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>deleted, the entry in the text table that was generated automatically</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>will be deleted as well.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,Other texts in other languages can be created in the table</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/GICOM/TSRC_TYPT. Also, the SAP table for languages is stored as F4</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>help.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>·,,In the condition maintenance, the sourcing types entered in these</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>tables are stored in the F4 function for the sourcing type field.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>You can define the values for the fields in the below manner</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>Sourcing Type           Title of sourcing type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>      A</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>      B</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

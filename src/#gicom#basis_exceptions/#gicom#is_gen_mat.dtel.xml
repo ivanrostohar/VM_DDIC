@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/IS_GEN_MAT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Indicator: Generic Material</DDTEXT>
+    <REPTEXT>Generic Material</REPTEXT>
+    <SCRTEXT_S>GenericMat</SCRTEXT_S>
+    <SCRTEXT_M>Generic Material</SCRTEXT_M>
+    <SCRTEXT_L>Generic Material</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Kennzeichen Sammelmaterial</DDTEXT>
+     <REPTEXT>Sammelmaterial Kennzeichen</REPTEXT>
+     <SCRTEXT_S>Sammelmat.</SCRTEXT_S>
+     <SCRTEXT_M>Sammelmaterial</SCRTEXT_M>
+     <SCRTEXT_L>Sammelmaterial Kennzeichen</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Indicateur : Matériel générique</DDTEXT>
+     <REPTEXT>Matériel générique</REPTEXT>
+     <SCRTEXT_S>Mat. géné.</SCRTEXT_S>
+     <SCRTEXT_M>Matériel générique</SCRTEXT_M>
+     <SCRTEXT_L>Matériel générique</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Wskaźnik: Materiał ogólny</DDTEXT>
+     <REPTEXT>Materiał ogólny</REPTEXT>
+     <SCRTEXT_S>MatOgólny</SCRTEXT_S>
+     <SCRTEXT_M>Materiał ogólny</SCRTEXT_M>
+     <SCRTEXT_L>Materiał ogólny</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Código: Material genérico</DDTEXT>
+     <REPTEXT>Flag MatGen. editável</REPTEXT>
+     <SCRTEXT_S>MatGen.</SCRTEXT_S>
+     <SCRTEXT_M>FlagMat. gen. edit.</SCRTEXT_M>
+     <SCRTEXT_L>Código: Material genérico editável</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>material genérico: Material genérico</DDTEXT>
+     <REPTEXT>Marcar material genérico  Editable</REPTEXT>
+     <SCRTEXT_S>Indic. de</SCRTEXT_S>
+     <SCRTEXT_M>Marcar mat.gen.edit.</SCRTEXT_M>
+     <SCRTEXT_L>material genérico: Mat. Genér. editable</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

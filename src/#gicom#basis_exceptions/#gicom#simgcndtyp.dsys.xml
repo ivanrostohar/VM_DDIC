@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/GICOM/CNDTYP</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00065</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/GICOM/CNDTYP</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Condition types are defined or displayed via the view cluster</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintenance /GICOM/VC_CNDTYP. There, the multilingual titles are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>directly allocated to the condition types.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Maintenance view /GICOM/VC_CNDTYP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>In order to guarantee the highest flexibility in the creation of a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition, Release 8.0 enables the definition of many different factors</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>directly in the condition maintenance.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>A new condition type is created via the button &quot;New Entry&quot;. Here,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>several parameters must be entered for the determination of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition type. By marking a row in the condition type overview, the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>marked condition type will be used as a template for further condition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>types.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Below the maintainable fields are illustrated:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Condition type: Enter an alphanumerical key for the condition type.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Title condition type: The name of the condition type can be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintained in the column below the definition of the condition types.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>They can be maintained in different languages and will be displayed in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the chosen one.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Validity of a condition type: The Valid from date controls the date</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>from which the condition type can be used. The Valid to corresponds to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the length of period during which the condition type is used. (Preset as</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>31.12.9999)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Condition class: Via the condition class a condition is classified.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Here you define discounts or surcharges, prices, expense reimbursements,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>taxes or extra payments.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Calculation type: Indicates the unit of the condition type.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Percentage conditions are identified with the condition unit</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>“Percentage”. Conditions with a fixed amount (fixed amount conditions)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>are identified with the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,condition unit “Fixed amount”. Further, the unit &quot;Quantity “can be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selected. If this is selected, alternative quantity units can be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determined in the condition maintenance of the AD itself.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Discounts / Prepayments allowed: A Checkbox which controls whether</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the maintenance of a discount or an advance payment is allowed for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>implementation of the condition type.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Scale allowed: Checkbox which controls whether the maintenance of a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>scale is allowed for the implementation of the condition type.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Scale type: Determines the type of scale. A distinction is made</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>between from-scale and to-scale. You can also select &quot;maintainable in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition record&quot;. If this feature is selected, the scale type is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>determined in the condition maintenance of the AD itself.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Scale base: Determines what the entered scale relates on. A</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>distinction is made between a Value scale and a Quantity scale.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Cap claim minimum condition type: The value which is entered here is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the smallest value which can be entered in the agreement maintenance. If</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>you enter a value, you will get a warning if you want to maintain an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>agreement with smaller value.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Cap claim maximum condition type: The value which is entered here is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the highest value which can be entered in the agreement maintenance. If</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>you enter a value, you will get a warning if you want to maintain an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>agreement with higher value.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Verbal condition allowed: Defines whether the condition can be used</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>as a verbal condition.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Condition contract type: The CCS condition contract type, to which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the condition will be mapped.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Application: Application for which the condition contract will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>defined. It can either be M for the purchasing side or V for the sales</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>side.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Ø,,Condition type SAP: SAP condition type to which the gicom condition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>type will be mapped.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

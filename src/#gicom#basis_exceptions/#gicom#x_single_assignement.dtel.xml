@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/X_SINGLE_ASSIGNEMENT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Is only single assignement allowed</DDTEXT>
+    <REPTEXT>Single Assignement</REPTEXT>
+    <SCRTEXT_S>SingleAssg</SCRTEXT_S>
+    <SCRTEXT_M>Single Assignement</SCRTEXT_M>
+    <SCRTEXT_L>Single Assignement</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Is nur eine Zuordnung erlaubt</DDTEXT>
+     <REPTEXT>Eine Zuordnung</REPTEXT>
+     <SCRTEXT_S>Eine Zuord</SCRTEXT_S>
+     <SCRTEXT_M>Eine Zuordnung</SCRTEXT_M>
+     <SCRTEXT_L>Eine Zuordnung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Est la seule affectation unique autorisée</DDTEXT>
+     <REPTEXT>Affectation unique</REPTEXT>
+     <SCRTEXT_S>Affe. uni.</SCRTEXT_S>
+     <SCRTEXT_M>Affectation unique</SCRTEXT_M>
+     <SCRTEXT_L>Affectation unique</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Czy dozwolone jest tylko jedno przypisanie</DDTEXT>
+     <REPTEXT>Pojedyncze przypisanie</REPTEXT>
+     <SCRTEXT_S>PojedPrzyp</SCRTEXT_S>
+     <SCRTEXT_M>Pojed. przypisanie</SCRTEXT_M>
+     <SCRTEXT_L>Pojedyncze przypisanie</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Só é permitida uma atribuição</DDTEXT>
+     <REPTEXT>Atribuição única</REPTEXT>
+     <SCRTEXT_S>AtribÚnica</SCRTEXT_S>
+     <SCRTEXT_M>Atribuição única</SCRTEXT_M>
+     <SCRTEXT_L>Atribuição única</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Solo admite asignación individual</DDTEXT>
+     <REPTEXT>Asignación individual</REPTEXT>
+     <SCRTEXT_S>AsignIndiv</SCRTEXT_S>
+     <SCRTEXT_M>Asignación individ.</SCRTEXT_M>
+     <SCRTEXT_L>Asignación individual</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

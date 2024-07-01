@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_DSO_NODE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface For Badi: /GICOM/BADI_DS_NODE</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NODE_RELATIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get node relations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_NODE_RELATIONS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Get node relations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOCK_NODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lock The Node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOCK_NODE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Lock The Node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Save Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE_DATA</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Save Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Select</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UNLOCK_NODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unlock The Node</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UNLOCK_NODE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Unlock The Node</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NODE_RELATIONS</CMPNAME>
+     <SCONAME>RT_RLS_NOTES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customizing node release notes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_NODE_RELATIONS</CMPNAME>
+     <SCONAME>RT_RLS_NOTES</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Customizing node release notes</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_NODE</CMPNAME>
+     <SCONAME>/GICOM/CX_LOCKED_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Ausnahmeklasse für gesperrte Daten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_NODE</CMPNAME>
+     <SCONAME>/GICOM/CX_LOCKED_DATA</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Ausnahmeklasse für gesperrte Daten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_NODE</CMPNAME>
+     <SCONAME>IS_KEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customizing Node Key Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>LOCK_NODE</CMPNAME>
+     <SCONAME>IS_KEY</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Customizing Node Key Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ES_NODE_DOC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customizing Node Document Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ES_NODE_DOC</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Customizing Node Document Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UNLOCK_NODE</CMPNAME>
+     <SCONAME>IS_KEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customizing Node Key Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UNLOCK_NODE</CMPNAME>
+     <SCONAME>IS_KEY</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Customizing Node Key Structure</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

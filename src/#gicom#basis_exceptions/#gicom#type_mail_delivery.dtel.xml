@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TYPE_MAIL_DELIVERY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TYPE_MAIL_DELIVERY</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Mail delivery type</DDTEXT>
+    <REPTEXT>Mail delivery type</REPTEXT>
+    <SCRTEXT_S>Mail type</SCRTEXT_S>
+    <SCRTEXT_M>Mail delivery type</SCRTEXT_M>
+    <SCRTEXT_L>Mail delivery type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Mail-Zustellungsart</DDTEXT>
+     <REPTEXT>Mail-Zustellungsart</REPTEXT>
+     <SCRTEXT_S>Mailtyp</SCRTEXT_S>
+     <SCRTEXT_M>Mail-Zustellungsart</SCRTEXT_M>
+     <SCRTEXT_L>Mail-Zustellungsart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de livraison du courrier</DDTEXT>
+     <REPTEXT>Type de livraison du courrier</REPTEXT>
+     <SCRTEXT_S>Type cou.</SCRTEXT_S>
+     <SCRTEXT_M>Type livra. du cour.</SCRTEXT_M>
+     <SCRTEXT_L>Type de livraison du courrier</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ dostarczania poczty</DDTEXT>
+     <REPTEXT>Typ dostarczania poczty</REPTEXT>
+     <SCRTEXT_S>Typ poczty</SCRTEXT_S>
+     <SCRTEXT_M>Typ dostarcz. poczty</SCRTEXT_M>
+     <SCRTEXT_L>Typ dostarczania poczty</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de entrega de e-mail</DDTEXT>
+     <REPTEXT>Tipo de entrega de e-mail</REPTEXT>
+     <SCRTEXT_S>Tip.e-mail</SCRTEXT_S>
+     <SCRTEXT_M>Tipo entrega e-mail</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de entrega de e-mail</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de entrega de correo</DDTEXT>
+     <REPTEXT>Clase de entrega de correo</REPTEXT>
+     <SCRTEXT_S>Cl.correo</SCRTEXT_S>
+     <SCRTEXT_M>Clase entrega correo</SCRTEXT_M>
+     <SCRTEXT_L>Clase de entrega de correo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CHDO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <CHDO>
+    <REPORTS_GENERATED>
+     <TCDRPS>
+      <OBJECT>/GICOM/AGRMT</OBJECT>
+      <REPORTNAME>/GICOM/AGRMT</REPORTNAME>
+      <ARBGEB>CD</ARBGEB>
+      <FEHLERNR>600</FEHLERNR>
+      <FGRP>/GICOM/BASIS_SCDO</FGRP>
+      <PREFIX>/GICOM/Y</PREFIX>
+      <UPDATE_FLG>1</UPDATE_FLG>
+     </TCDRPS>
+    </REPORTS_GENERATED>
+    <OBJECTS>
+     <TCDOBS>
+      <OBJECT>/GICOM/AGRMT</OBJECT>
+      <TABNAME>/GICOM/AGRMT</TABNAME>
+      <DOCUD_NOIF>X</DOCUD_NOIF>
+     </TCDOBS>
+    </OBJECTS>
+    <OBJECTS_TEXT>
+     <TCDOBTS>
+      <SPRAS>D</SPRAS>
+      <OBJECT>/GICOM/AGRMT</OBJECT>
+      <OBTEXT>Änderung /GICOM/AGRMT</OBTEXT>
+     </TCDOBTS>
+     <TCDOBTS>
+      <SPRAS>E</SPRAS>
+      <OBJECT>/GICOM/AGRMT</OBJECT>
+      <OBTEXT>Änderungsobjekt für Tabelle /GICOM/AGRMT</OBTEXT>
+     </TCDOBTS>
+     <TCDOBTS>
+      <SPRAS>F</SPRAS>
+      <OBJECT>/GICOM/AGRMT</OBJECT>
+      <OBTEXT>Änderungsobjekt für Tabelle /GICOM/AGRMT</OBTEXT>
+     </TCDOBTS>
+    </OBJECTS_TEXT>
+   </CHDO>
+  </asx:values>
+ </asx:abap>
+</abapGit>

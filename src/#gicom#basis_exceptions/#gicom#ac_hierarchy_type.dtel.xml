@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/AC_HIERARCHY_TYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/AC_HIERARCHY_TYPE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Type of hierarchical searchhelp</DDTEXT>
+    <REPTEXT>Type hierarchical searchhelp</REPTEXT>
+    <SCRTEXT_S>Type h. sh</SCRTEXT_S>
+    <SCRTEXT_M>Type hierarchical sh</SCRTEXT_M>
+    <SCRTEXT_L>Type hierarchical searchhelp</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Typ der hierarchischen Suchhilfe</DDTEXT>
+     <REPTEXT>Typ hierarchischen Suchhilfe</REPTEXT>
+     <SCRTEXT_S>Typ h. sh</SCRTEXT_S>
+     <SCRTEXT_M>Typ hierarchische Sh</SCRTEXT_M>
+     <SCRTEXT_L>Typ hierarchischen Suchhilfe</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type d’aide à la recherche hiérarchique</DDTEXT>
+     <REPTEXT>Type d’aide à la recherche hiérarchique</REPTEXT>
+     <SCRTEXT_S>Ty. ai. h.</SCRTEXT_S>
+     <SCRTEXT_M>Ty. d’ai à rec. hié.</SCRTEXT_M>
+     <SCRTEXT_L>Type d’aide à la recherche hiérarchique</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ wyszukiwania hierarchicznego — pomoc</DDTEXT>
+     <REPTEXT>Typ wyszukiwania hierarchicznego — pomoc</REPTEXT>
+     <SCRTEXT_S>Typ wh-p</SCRTEXT_S>
+     <SCRTEXT_M>Typ wysz.hier.: pom.</SCRTEXT_M>
+     <SCRTEXT_L>Typ wyszukiwania hierarchicznego — pomoc</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de ajuda de pesquisa hierárquica</DDTEXT>
+     <REPTEXT>Tipo ajuda de pesquisa hierárquica</REPTEXT>
+     <SCRTEXT_S>Tipo AP h.</SCRTEXT_S>
+     <SCRTEXT_M>Tipo AP hierárquica</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de ajuda de pesquisa hierárquica</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de ayuda para búsqueda jerárquica</DDTEXT>
+     <REPTEXT>Clase de ayuda para búsqueda jerárquica</REPTEXT>
+     <SCRTEXT_S>T.AyBu.je.</SCRTEXT_S>
+     <SCRTEXT_M>Tp.ay.búsq.jerárq.</SCRTEXT_M>
+     <SCRTEXT_L>Clase de ayuda para búsqueda jerárquica</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

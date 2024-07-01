@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SENDER_GOODS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BU_PARTNER</DOMNAME>
+    <HEADLEN>11</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>11</SCRLEN3>
+    <DDTEXT>Goods disp.</DDTEXT>
+    <REPTEXT>Goods disp.</REPTEXT>
+    <SCRTEXT_S>Goods disp</SCRTEXT_S>
+    <SCRTEXT_M>Goods disp</SCRTEXT_M>
+    <SCRTEXT_L>Goods disp.</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Warensender</DDTEXT>
+     <REPTEXT>Warensender</REPTEXT>
+     <SCRTEXT_S>Ware.Send.</SCRTEXT_S>
+     <SCRTEXT_M>Warensend.</SCRTEXT_M>
+     <SCRTEXT_L>Warensender</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Goods disp.</DDTEXT>
+     <REPTEXT>Goods disp.</REPTEXT>
+     <SCRTEXT_S>Goods disp</SCRTEXT_S>
+     <SCRTEXT_M>Goods disp</SCRTEXT_M>
+     <SCRTEXT_L>Goods disp.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

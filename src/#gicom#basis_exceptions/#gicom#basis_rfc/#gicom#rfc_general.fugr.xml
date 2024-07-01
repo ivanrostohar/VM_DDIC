@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>General function modules</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GICOM/LRFC_GENERALTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GICOM/SAPLRFC_GENERAL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GICOM/RFC_GET_SAP_OBJECT_STAT</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Get status of SAP Object</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_CLIENT</PARAMETER>
+       <DEFAULT>SY-MANDT</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>SYST_MANDT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>CT_SAP_OBJECT</PARAMETER>
+       <TYP>/GICOM/SAP_STATUS_OBJECT_TT</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>CT_SAP_OBJECT_DATA</PARAMETER>
+       <TYP>/GICOM/SAP_STATUS_OBJ_DATA_TT</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>CT_SAP_OBJECT_STATUS</PARAMETER>
+       <TYP>/GICOM/SAP_STATUS_OBJ_STAT_TT</TYP>
+      </RSCHA>
+     </CHANGING>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_FETCH_NUMBERS</PARAMETER>
+       <TYP>SYST_TABIX</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>/GICOM/BAPIRET_TT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_CLIENT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_FETCH_NUMBERS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CT_SAP_OBJECT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CT_SAP_OBJECT_DATA</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CT_SAP_OBJECT_STATUS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

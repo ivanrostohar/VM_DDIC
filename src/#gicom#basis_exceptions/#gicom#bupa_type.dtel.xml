@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/BUPA_TYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/BUPA_TYPE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Business partner type</DDTEXT>
+    <REPTEXT>Business partner type</REPTEXT>
+    <SCRTEXT_S>Bupa type</SCRTEXT_S>
+    <SCRTEXT_M>Bu. partner type</SCRTEXT_M>
+    <SCRTEXT_L>Business partner type</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Businesspartner Typ</DDTEXT>
+     <REPTEXT>Geschäftspartnertyp</REPTEXT>
+     <SCRTEXT_S>Partnertyp</SCRTEXT_S>
+     <SCRTEXT_M>Geschäftspartnertyp</SCRTEXT_M>
+     <SCRTEXT_L>Geschäftspartnertyp</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Type de partenaire commercial</DDTEXT>
+     <REPTEXT>Type de partenaire commercial</REPTEXT>
+     <SCRTEXT_S>Type BUPA</SCRTEXT_S>
+     <SCRTEXT_M>Type partenaire com.</SCRTEXT_M>
+     <SCRTEXT_L>Type de partenaire commercial</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Typ partnera biznesowego</DDTEXT>
+     <REPTEXT>Typ partnera biznesowego</REPTEXT>
+     <SCRTEXT_S>Typ BUPA</SCRTEXT_S>
+     <SCRTEXT_M>Typ partnera BUPA</SCRTEXT_M>
+     <SCRTEXT_L>Typ partnera biznesowego</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de parceiro de negócios</DDTEXT>
+     <REPTEXT>Tipo de parceiro de negócios</REPTEXT>
+     <SCRTEXT_S>Tipo PN</SCRTEXT_S>
+     <SCRTEXT_M>Tipo de PN</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de parceiro de negócios</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de interlocutor comercial</DDTEXT>
+     <REPTEXT>Clase de interlocutor comercial</REPTEXT>
+     <SCRTEXT_S>Clase IC</SCRTEXT_S>
+     <SCRTEXT_M>Clase interl.comerc.</SCRTEXT_M>
+     <SCRTEXT_L>Clase de interlocutor comercial</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

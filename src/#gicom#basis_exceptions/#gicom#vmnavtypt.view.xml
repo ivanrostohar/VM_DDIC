@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/GICOM/VMNAVTYPT</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>/GICOM/TNAVTYPET</ROOTTAB>
+    <DDTEXT>Navigation Type Tiext</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <VIEWGRANT>R</VIEWGRANT>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/GICOM/VMNAVTYPT</VIEWNAME>
+     <TABNAME>/GICOM/TNAVTYPET</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/GICOM/TNAVTYPET</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>CLNT</VIEWFIELD>
+     <TABNAME>/GICOM/TNAVTYPET</TABNAME>
+     <FIELDNAME>CLNT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>TYPE</VIEWFIELD>
+     <TABNAME>/GICOM/TNAVTYPET</TABNAME>
+     <FIELDNAME>TYPE</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <RDONLY>S</RDONLY>
+     <CHECKTABLE>/GICOM/TNAVTYPE</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>LANGU</VIEWFIELD>
+     <TABNAME>/GICOM/TNAVTYPET</TABNAME>
+     <FIELDNAME>LANGU</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <CHECKTABLE>T002</CHECKTABLE>
+     <SHLPORIGIN>P</SHLPORIGIN>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>TITLE</VIEWFIELD>
+     <TABNAME>/GICOM/TNAVTYPET</TABNAME>
+     <FIELDNAME>TITLE</FIELDNAME>
+    </DD27P>
+   </DD27P_TABLE>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD25_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Sprachenabhängige Texte zu Navigationstypen</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Navigation Type Tiext</DDTEXT>
+    </item>
+   </DD25_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

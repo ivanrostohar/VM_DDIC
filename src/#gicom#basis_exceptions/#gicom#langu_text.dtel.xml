@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/LANGU_TEXT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>SPTXT16</DOMNAME>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Language text</DDTEXT>
+    <REPTEXT>Language text</REPTEXT>
+    <SCRTEXT_S>Langu text</SCRTEXT_S>
+    <SCRTEXT_M>Language text</SCRTEXT_M>
+    <SCRTEXT_L>Language text</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Sprachentext</DDTEXT>
+     <REPTEXT>Sprachentext</REPTEXT>
+     <SCRTEXT_S>SprachText</SCRTEXT_S>
+     <SCRTEXT_M>Sprachentext</SCRTEXT_M>
+     <SCRTEXT_L>Sprachentext</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Langue du texte</DDTEXT>
+     <REPTEXT>Langue du texte</REPTEXT>
+     <SCRTEXT_S>Lang. tex.</SCRTEXT_S>
+     <SCRTEXT_M>Langue du texte</SCRTEXT_M>
+     <SCRTEXT_L>Langue du texte</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tekst języka</DDTEXT>
+     <REPTEXT>Tekst języka</REPTEXT>
+     <SCRTEXT_S>Tekst jęz.</SCRTEXT_S>
+     <SCRTEXT_M>Tekst języka</SCRTEXT_M>
+     <SCRTEXT_L>Tekst języka</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Texto do idioma</DDTEXT>
+     <REPTEXT>Texto do idioma</REPTEXT>
+     <SCRTEXT_S>Txt. idio.</SCRTEXT_S>
+     <SCRTEXT_M>Texto do idioma</SCRTEXT_M>
+     <SCRTEXT_L>Texto do idioma</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Texto de idioma</DDTEXT>
+     <REPTEXT>Texto de idioma</REPTEXT>
+     <SCRTEXT_S>Txt.idioma</SCRTEXT_S>
+     <SCRTEXT_M>Texto de idioma</SCRTEXT_M>
+     <SCRTEXT_L>Texto de idioma</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

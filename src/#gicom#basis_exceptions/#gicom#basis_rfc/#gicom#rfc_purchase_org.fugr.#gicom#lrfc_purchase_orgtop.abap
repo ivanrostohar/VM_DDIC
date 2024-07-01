@@ -1,0 +1,3 @@
+FUNCTION-POOL /GICOM/RFC_PURCHASE_ORG.      "MESSAGE-ID ..
+
+* INCLUDE /GICOM/LRFC_PURCHASE_ORGD...       " Local class definition

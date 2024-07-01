@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/COMMENT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/COMMENT</DOMNAME>
+    <HEADLEN>09</HEADLEN>
+    <SCRLEN1>03</SCRLEN1>
+    <SCRLEN2>09</SCRLEN2>
+    <SCRLEN3>09</SCRLEN3>
+    <DDTEXT>Remark</DDTEXT>
+    <REPTEXT>Remark</REPTEXT>
+    <SCRTEXT_S>Rem</SCRTEXT_S>
+    <SCRTEXT_M>Remark</SCRTEXT_M>
+    <SCRTEXT_L>Remark</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Bemerkung</DDTEXT>
+     <REPTEXT>Bemerkung</REPTEXT>
+     <SCRTEXT_S>Bem</SCRTEXT_S>
+     <SCRTEXT_M>Bemerkung</SCRTEXT_M>
+     <SCRTEXT_L>Bemerkung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Remark</DDTEXT>
+     <REPTEXT>Remark</REPTEXT>
+     <SCRTEXT_S>Rem</SCRTEXT_S>
+     <SCRTEXT_M>Remark</SCRTEXT_M>
+     <SCRTEXT_L>Remark</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

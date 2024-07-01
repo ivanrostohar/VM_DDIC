@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/PAYMTERM_DAYS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/DAYS</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Value for days of Payment Terms</DDTEXT>
+    <REPTEXT>Payment Term Days</REPTEXT>
+    <SCRTEXT_S>PTERM Days</SCRTEXT_S>
+    <SCRTEXT_M>Payment Term Days</SCRTEXT_M>
+    <SCRTEXT_L>Payment Term Days</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Wert für Tage der Zahlungsbedingungen</DDTEXT>
+     <REPTEXT>Zahlungsbedingung Tage</REPTEXT>
+     <SCRTEXT_S>ZBedTage</SCRTEXT_S>
+     <SCRTEXT_M>Zahlungsbeding. Tage</SCRTEXT_M>
+     <SCRTEXT_L>Zahlungsbedingung Tage</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Valeur en jours des conditions de paiement</DDTEXT>
+     <REPTEXT>Jours de conditions de paiement</REPTEXT>
+     <SCRTEXT_S>Jou co pai</SCRTEXT_S>
+     <SCRTEXT_M>Jours condi. paiem.</SCRTEXT_M>
+     <SCRTEXT_L>Jours de conditions de paiement</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Wartość liczby dni do terminu płatności</DDTEXT>
+     <REPTEXT>Liczba dni do terminu płatności</REPTEXT>
+     <SCRTEXT_S>L.dniTermP</SCRTEXT_S>
+     <SCRTEXT_M>L.dni do term.płat.</SCRTEXT_M>
+     <SCRTEXT_L>Liczba dni do terminu płatności</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Valor para dias de condições de pagamento</DDTEXT>
+     <REPTEXT>Dias condições de pagamento</REPTEXT>
+     <SCRTEXT_S>Dias CndP</SCRTEXT_S>
+     <SCRTEXT_M>Dias condições pgto.</SCRTEXT_M>
+     <SCRTEXT_L>Dias condições de pagamento</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Valor para días de las condiciones de pago</DDTEXT>
+     <REPTEXT>Cond.pago (días)</REPTEXT>
+     <SCRTEXT_S>Días ConPg</SCRTEXT_S>
+     <SCRTEXT_M>Cond.pago (días)</SCRTEXT_M>
+     <SCRTEXT_L>Cond.pago (días)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/FIELDNAME</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>FDNAME</DOMNAME>
+    <MEMORYID>DFD</MEMORYID>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Fieldname</DDTEXT>
+    <REPTEXT>Fieldname</REPTEXT>
+    <SCRTEXT_S>Fieldname</SCRTEXT_S>
+    <SCRTEXT_M>Fieldname</SCRTEXT_M>
+    <SCRTEXT_L>Fieldname</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Feldname</DDTEXT>
+     <REPTEXT>Feldname</REPTEXT>
+     <SCRTEXT_S>Feld</SCRTEXT_S>
+     <SCRTEXT_M>Feldname</SCRTEXT_M>
+     <SCRTEXT_L>Feldname</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Nom du champ</DDTEXT>
+     <REPTEXT>Nom du champ</REPTEXT>
+     <SCRTEXT_S>Nom champ</SCRTEXT_S>
+     <SCRTEXT_M>Nom du champ</SCRTEXT_M>
+     <SCRTEXT_L>Nom du champ</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Nazwa pola</DDTEXT>
+     <REPTEXT>Nazwa pola</REPTEXT>
+     <SCRTEXT_S>Nazwa pola</SCRTEXT_S>
+     <SCRTEXT_M>Nazwa pola</SCRTEXT_M>
+     <SCRTEXT_L>Nazwa pola</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Nome do campo</DDTEXT>
+     <REPTEXT>Nome do campo</REPTEXT>
+     <SCRTEXT_S>Nome campo</SCRTEXT_S>
+     <SCRTEXT_M>Nome do campo</SCRTEXT_M>
+     <SCRTEXT_L>Nome do campo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Nom.campo</DDTEXT>
+     <REPTEXT>Nom.campo</REPTEXT>
+     <SCRTEXT_S>Nom.campo</SCRTEXT_S>
+     <SCRTEXT_M>Nom.campo</SCRTEXT_M>
+     <SCRTEXT_L>Nom.campo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

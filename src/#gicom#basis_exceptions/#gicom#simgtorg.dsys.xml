@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/GICOM/TORG</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0009</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00194</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/GICOM/TORG</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00009</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The gicom organizational model enables the mapping of both the company</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>structure and article organization of a trade company. In the following,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the gicom organizational model for a business organization is described.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Via customizing the required business organization for the gicom</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational structure from the perspective of the negotiation and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>settlement management can be defined. This organization initially</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>consists of organizational units which are used in the general business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the company - &quot;real organizational units&quot;. &quot;Virtual organizational</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>units&quot; can be maintained as well, which are the organizational units</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>that possibly are only needed within the scope of the Agreements</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>management - for example, the grouping of regional markets for shared</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>promotional activities.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Accordingly, an organizational unit may represent any business unit,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>such as a purchase organization, company code, and factory or in the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>case of the article model also a product hierarchy.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>To map all kinds of agreements, the fields Sender and Receiver are used</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>as dimensions. Sender and Receiver can be organizational units or</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>business partners (Suppliers and Customers), to be able to create</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>different scenarios where agreements at different levels are granted.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>The company structure of a company is displayed by internal / static</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational units. They may but do not always represent a business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object, because also “virtual&quot; levels such as regions are concerned.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>For the simplification of the sender/receiver logic, each business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>partner, supplier and customer receives an orgID. These are the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>so-called external / dynamic organizational units. This occurs</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>automatically at the background.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step1: Organizational levels</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>As a first step for the mapping of a gicom organizational structure the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>gicom organizational levels must be defined. A level is defined by</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>several general attributes, which can be found in the different</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational units. This way, the organizational units which are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>classified as a &quot;market&quot; are identified with different names and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>addresses, but they have the same attributes regarding product sales to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the end customer, they have one manager and they have one accounting</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unit.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Therefore, you must first define the required types of organizational</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>levels, before the organizational units can be defined.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step 2: New creation of organizational levels</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>The organizational levels can be maintained in the view cluster</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintenance /GICOM/VC_TORG.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>The following attributes need to be maintained for every organizational</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>level:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Level defines the priority of the respecting level. The highest-level</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>needs to have the lowest number, e.g. the level “all articles” has level</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>1. All other levels can be set into a hierarchy through the allocation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of corresponding numbers, which means the next lower level gets the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>number 2 etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Organizational level</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Title the title of the organizational level</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Type indicates whether the organizational level and later the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>corresponding unit is a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Article group (internal)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Organizational unit (internal)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Business partner (external)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step 3: Allocation rules of the organizational structure</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Per the definition of the organizational levels there must be rules</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>defined for their allocation. These assignments determine the future</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>structure of an organizational unit and the relationship they may have</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>with other organizational units.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>The allocation rules are defined by putting the pre-defined</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational classes in relation. For this purpose, each possible</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>relation between the respective organizational levels is created once.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>It should be considered that not only direct but also all indirect</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>connection rules need to apply. This means that a class &quot;goods group&quot;,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the direct parent of which is the &quot;main goods group&quot;, depends indirectly</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>on the parent &quot;main goods group&quot;, the &quot;section&quot;, as well as on the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parent thereof, etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Example for the Formation of an Organizational Structure</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>To define which assignment are possible, the table column under the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>definition of the organizational levels is used.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>To maintain a connection between two levels, you need to highlight the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>level which will be the parent in the new connection. After highlighting</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the level, you can switch into the subordinate column “Organizational</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>level hierarchy” and enter the respective child. The level ID of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>child, the validity period and the priority need to be entered. Priority</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and ID need to be correspondent.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step 4: Organizational units</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>A gicom organization of the company structure consists of a network of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>real organizational units, each of which belongs to a specific</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational level and which are related to each other. Each</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational unit is a manifestation of an organizational level - in a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>way that it may represent a market which is allocated to a company code</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>&quot;N0007&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Next to this market there may be many different markets N003, N004, etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>- which all will be identified as gicom organizational level &quot;market&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Also, other organizational levels exist, such as &quot;national subsidiary&quot;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>and &quot;sales channel&quot;, which all are again identified as a real</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational unit, such as national subsidiary &quot;Netherlands&quot; or sales</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>channel &quot;XY market&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Finally, the organizational units are related to each other. This</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>includes mandatory relations such as &quot;A market is allocated to a sales</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>channel&quot; and &quot;A national subsidiary is allocated to the holding&quot;, but</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>also optional relations such as &quot;A market can be allocated to a group&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>For the maintenance of organizational units, the organizational model,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the organizational levels, the organizational assignments and the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational units - customizing must be considered.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>The organizational units are created via the view cluster maintenance</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/GICOM/VC_TORG.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>View cluster maintenance organizational units</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For the new definition of an organizational unit, the following fields</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>must be completed:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Type the object type of the organizational unit. The possibilities are:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Organizational unit (internal)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Article unit (internal)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>Business partner (external)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Object ID: This field displays the key of the organizational unit that</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>was assigned automatically.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Title: Here you enter the name of the organizational unit, which will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>used in the agreement maintenance.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Valid from: Start date of the validity period of the organizational</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unit. In the initial state this is the date of creation. If within the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>scope of an organizational change the master data of an organization are</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>changed and a new version is created the required version can be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selected with help of the &quot;Valid from&quot; date.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Valid to: Start date of the validity period of the organizational unit.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>In the initial condition the date 31/12/9999, which corresponds to an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unlimited period.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Agreements allowed: If agreements can be created for this organizational</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unit, this feature must be activated.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Authority of negotiation: If the organizational unit is an authority of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negotiation, the checkbox must be ticked.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Range of validity: If the organizational unit is a range of validity,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the checkbox must be ticked and a representative company code must be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>entered.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Representative C Code: If the organizational unit is defined as a range</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of validity, the entry of a representative company code is required.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>BO Type: In this field the business object type is defined. This may be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>a company code, a product group, a purchase organization etc.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>BO ID: In this field, you enter the concrete business object, i.e. an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>object ID of the pre-selected type which should be used in this context.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>If a product group was selected previously, enter in this field the ID</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the specific product group which is obtained about this</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational unit.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step4.1: Organizational unit hierarchy</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>As described previously, all organizational units form a hierarchy. To</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>display this hierarchy, you must allocate the subordinated units to the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>higher units. Each allocation will be provided with a priority, in which</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the lowest number represents the highest priority, thus the highest</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>level of a company hierarchy.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>To illustrate this: the highest knot is initially assigned to itself and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>then all subordinated units are allocated to it. When the highest level</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>is &quot;ALL&quot; while the national subsidiaries are below it, these</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>subsidiaries will all be allocated to upper knot. All these assignments</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>are now provided with the same lowest priority, for example 1. In the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>next step, regions are allocated to the national subsidiaries. Each</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>individual company will be assigned with the subordinated regions and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>its own knot. Furthermore, all these connections will be assigned with</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the next priority, for example 2. The process continues until the lowest</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>level is reached.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>The hierarchy can be created in the SM34 view cluster maintenance</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/GICOM/VC_TORG. Here, the needed organizational unit must be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>highlighted, and you can either choose the subordinate column “assigned</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parents” or “assigned children”. Here, you can maintain the children and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>parents of the chosen organizational unit.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>Assigned parents / children</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>In the column “assigned parents” you can enter the parents of the chosen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>unit, the relation type, the valid from date and the priority. The same</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>applies for the maintenance of the children of an organizational unit.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step4.2 Authorities of negotiation, ranges of validity and their</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>assignment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>An organizational unit can have additional features specifying its</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>properties. These features are &quot;Authority of negotiation&quot; and &quot;Range of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Validity&quot;. An Authority of negotiation is an organizational unit for the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negotiation of contracts. An authority of negotiation has the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negotiating competency for one or more ranges of validity. A range of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>validity is an organizational unit, for which an agreement can be valid.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>To define an organizational unit as a range of validity, it should be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>provided with a representative company code. This company code is the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>internal legal contract partner via which contracts are concluded for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>this range of validity.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>The structure of the ranges of validity is the same as the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Organizational structure. An organizational unit is characterized as a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>range of validity via the field &quot;Range of Validity&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>An organizational area is thus an authority of negotiation, when it is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>defined as &quot;Authority of Negotiation&quot;.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>The territories are placed in a hierarchy in the same way as the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>organizational units. This also occurs via the SM34 view cluster</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>maintenance /GICOM/VC_TORG.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>Authority of negotiation</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>For the authority of negotiation hierarchy, you can highlight a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>superordinate unit and determine the subordinate ranges of validity and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>article groups.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>If you want to assign a range of validity, you highlight an authority of</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>negotiation and choose the column “Authority of negotiation – assignment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>rov” afterwards. Now you can enter a range of validity and a period, for</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>which the assignment is valid.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+       <TDLINE>The article group can be maintained in the same manner, via highlighting</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the chosen authority of negotiation and determining a subordinate</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>article group.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>EB</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

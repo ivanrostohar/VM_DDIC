@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SOURCING_TYPE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/SOURCING_TYPE</DOMNAME>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Differentiator</DDTEXT>
+    <REPTEXT>Differentiator</REPTEXT>
+    <SCRTEXT_S>Dffrntiatr</SCRTEXT_S>
+    <SCRTEXT_M>Differentiator</SCRTEXT_M>
+    <SCRTEXT_L>Differentiator</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Differenziator</DDTEXT>
+     <REPTEXT>Differenziator</REPTEXT>
+     <SCRTEXT_S>Dffrnziatr</SCRTEXT_S>
+     <SCRTEXT_M>Differenziator</SCRTEXT_M>
+     <SCRTEXT_L>Differenziator</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Différenciateur</DDTEXT>
+     <REPTEXT>Différencia.</REPTEXT>
+     <SCRTEXT_S>Différenc.</SCRTEXT_S>
+     <SCRTEXT_M>Différenciateur</SCRTEXT_M>
+     <SCRTEXT_L>Différenciateur</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Wyróżnik</DDTEXT>
+     <REPTEXT>Wyróżnik</REPTEXT>
+     <SCRTEXT_S>Wyróżnik</SCRTEXT_S>
+     <SCRTEXT_M>Wyróżnik</SCRTEXT_M>
+     <SCRTEXT_L>Wyróżnik</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Tipo de suprimento</DDTEXT>
+     <REPTEXT>Tp.suprim.</REPTEXT>
+     <SCRTEXT_S>Tp.suprim.</SCRTEXT_S>
+     <SCRTEXT_M>Tipo de suprimento</SCRTEXT_M>
+     <SCRTEXT_L>Tipo de suprimento</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Clase de fuente de aprovisionamiento</DDTEXT>
+     <REPTEXT>Tp.DtFuAp</REPTEXT>
+     <SCRTEXT_S>Tp.DtFuAp</SCRTEXT_S>
+     <SCRTEXT_M>Tp.DtFuAp</SCRTEXT_M>
+     <SCRTEXT_L>Clase de determin. de fuente de aprovis.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

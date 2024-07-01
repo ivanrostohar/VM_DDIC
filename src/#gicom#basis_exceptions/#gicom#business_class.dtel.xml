@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/BUSINESS_CLASS</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/BUSINESS_CLASS</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Business class</DDTEXT>
+    <REPTEXT>Bus.class</REPTEXT>
+    <SCRTEXT_S>Bus.class</SCRTEXT_S>
+    <SCRTEXT_M>Bus.class</SCRTEXT_M>
+    <SCRTEXT_L>Business class</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Geschäftsklasse</DDTEXT>
+     <REPTEXT>Gesch.klasse</REPTEXT>
+     <SCRTEXT_S>Gesch.klas</SCRTEXT_S>
+     <SCRTEXT_M>Gesch.klasse</SCRTEXT_M>
+     <SCRTEXT_L>Geschäftsklasse</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Business class</DDTEXT>
+     <REPTEXT>Bus.class</REPTEXT>
+     <SCRTEXT_S>Bus.class</SCRTEXT_S>
+     <SCRTEXT_M>Bus.class</SCRTEXT_M>
+     <SCRTEXT_L>Business class</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

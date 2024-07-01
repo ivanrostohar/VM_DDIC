@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/NG_LOCK_REASON</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/NG_LOCK_REASON</DOMNAME>
+    <HEADLEN>22</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>22</SCRLEN3>
+    <DDTEXT>Blocking Reasons for Negotiations</DDTEXT>
+    <REPTEXT>Blocking Reason Negot.</REPTEXT>
+    <SCRTEXT_S>BlockRs.NG</SCRTEXT_S>
+    <SCRTEXT_M>Lock.Reas.NG</SCRTEXT_M>
+    <SCRTEXT_L>Blocking Reason Negot.</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Sperrgründe für Verhandlungen</DDTEXT>
+     <REPTEXT>Sperrgrund Verhandlung</REPTEXT>
+     <SCRTEXT_S>Sperrgr.NG</SCRTEXT_S>
+     <SCRTEXT_M>Sperrgrund NG</SCRTEXT_M>
+     <SCRTEXT_L>Sperrgrund Verhandlung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Blocking Reasons for Negotiations</DDTEXT>
+     <REPTEXT>Blocking Reason Negot.</REPTEXT>
+     <SCRTEXT_S>BlockRs.NG</SCRTEXT_S>
+     <SCRTEXT_M>Lock.Reas.NG</SCRTEXT_M>
+     <SCRTEXT_L>Blocking Reason Negot.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group with RFCs for BUPAs</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>/GICOM/LRFC_CUST_MATERIALTOP</SOBJ_NAME>
+    <SOBJ_NAME>/GICOM/SAPLRFC_CUST_MATERIAL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>/GICOM/RFC_SEARCH_MATERIAL</FUNCNAME>
+     <SHORT_TEXT>Search Function Module for Business Partner</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_NAME_1</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/GICOM/NAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_NAME_2</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/GICOM/NAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_PERSON</PARAMETER>
+       <DEFAULT>ABAP_UNDEFINED</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BOOLEAN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_BUSINESSPARTNERS</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/GICOM/BUPA_A_TT</TYP>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>/GICOM/CX_ROOT_DS</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_NAME_1</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_NAME_2</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_PERSON</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_BUSINESSPARTNERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type: Business Partner</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>/GICOM/CX_ROOT_DS</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+     <EXCEPTION_CLASSES>X</EXCEPTION_CLASSES>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

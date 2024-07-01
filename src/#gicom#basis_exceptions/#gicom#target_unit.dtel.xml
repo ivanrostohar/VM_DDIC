@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TARGET_UNIT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/UNIT</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Target setting unit</DDTEXT>
+    <REPTEXT>Target setting unit</REPTEXT>
+    <SCRTEXT_S>T.Set.Unit</SCRTEXT_S>
+    <SCRTEXT_M>Target setting unit</SCRTEXT_M>
+    <SCRTEXT_L>Target setting unit</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Zielvorgabe Einheit</DDTEXT>
+     <REPTEXT>Zielvorgabe Einheit</REPTEXT>
+     <SCRTEXT_S>Zvor. Ein.</SCRTEXT_S>
+     <SCRTEXT_M>Zielvor. Einheit</SCRTEXT_M>
+     <SCRTEXT_L>Zielvorgabe Einheit</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Target setting unit</DDTEXT>
+     <REPTEXT>Target setting unit</REPTEXT>
+     <SCRTEXT_S>T.Set.Unit</SCRTEXT_S>
+     <SCRTEXT_M>Target setting unit</SCRTEXT_M>
+     <SCRTEXT_L>Target setting unit</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

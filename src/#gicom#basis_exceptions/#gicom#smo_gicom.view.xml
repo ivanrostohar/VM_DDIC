@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/GICOM/SMO_GICOM</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>SHMA_ATTRIBUTES</ROOTTAB>
+    <DDTEXT>View for gicom Shared Memory Objects</DDTEXT>
+    <VIEWCLASS>D</VIEWCLASS>
+    <VIEWGRANT>R</VIEWGRANT>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/GICOM/SMO_GICOM</VIEWNAME>
+     <TABNAME>SHMA_ATTRIBUTES</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>SHMA_ATTRIBUTES</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>AREA_NAME</VIEWFIELD>
+     <TABNAME>SHMA_ATTRIBUTES</TABNAME>
+     <FIELDNAME>AREA_NAME</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>DESCRIPT</VIEWFIELD>
+     <TABNAME>SHMA_ATTRIBUTES</TABNAME>
+     <FIELDNAME>DESCRIPT</FIELDNAME>
+    </DD27P>
+   </DD27P_TABLE>
+   <DD28V_TABLE>
+    <DD28V>
+     <CONDNAME>/GICOM/SMO_GICOM</CONDNAME>
+     <POSITION>0001</POSITION>
+     <TABNAME>SHMA_ATTRIBUTES</TABNAME>
+     <FIELDNAME>AREA_NAME</FIELDNAME>
+     <OPERATOR>LK</OPERATOR>
+     <CONSTANTS>&apos;/GICOM/%&apos;</CONSTANTS>
+    </DD28V>
+   </DD28V_TABLE>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD25_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>View für gicom Shared-Memory Objekte</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>View for gicom Shared Memory Objects</DDTEXT>
+    </item>
+   </DD25_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

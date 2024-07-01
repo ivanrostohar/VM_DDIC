@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>/GICOM/VM_USGPFA</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>/GICOM/TUSGPFA</ROOTTAB>
+    <DDTEXT>Usage Profile Assignments</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>C</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>/GICOM/VM_USGPFA</VIEWNAME>
+     <TABNAME>/GICOM/TUSGPFA</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>/GICOM/TUSGPFA</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>CLNT</VIEWFIELD>
+     <TABNAME>/GICOM/TUSGPFA</TABNAME>
+     <FIELDNAME>CLNT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <RDONLY>H</RDONLY>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>ID</VIEWFIELD>
+     <TABNAME>/GICOM/TUSGPFA</TABNAME>
+     <FIELDNAME>ID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>APPLICATION</VIEWFIELD>
+     <TABNAME>/GICOM/TUSGPFA</TABNAME>
+     <FIELDNAME>APPLICATION</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+     <SHLPORIGIN>F</SHLPORIGIN>
+     <VALEXI>X</VALEXI>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>OID_AON</VIEWFIELD>
+     <TABNAME>/GICOM/TUSGPFA</TABNAME>
+     <FIELDNAME>OID_AON</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+   </DD27P_TABLE>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD25_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verwendungsprofilzuweisungen</DDTEXT>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Usage Profile Assignments</DDTEXT>
+    </item>
+   </DD25_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

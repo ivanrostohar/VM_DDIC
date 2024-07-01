@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_DSO_PR_PRCD</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Interface - DSO - Calculation Schema</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_CALC_SCHEMA_WHERE_USED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check Calculation Schema where used</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_CALC_SCHEMA_WHERE_USED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Check Calculation Schema where used</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Delete Calculation Schemas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete Calculation Schemas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Delete Calculation Schemas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Delete Calculation Schemas(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete Calculation Schemas(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Delete Calculation Schemas(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Create New Calculation schemas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create New Calculation schemas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Create New Calculation schemas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Create New Calculation schemas(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create New Calculation schemas(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Create New Calculation schemas(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Select Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Select Data(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select Data(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Select Data(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Update Calculation Schema Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update Calculation Schema Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Update Calculation Schema Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Update Calculation Schema Data(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update Calculation Schema Data(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Update Calculation Schema Data(Draft)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_CALC_SCHEMA_WHERE_USED</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_CALC_SCHEMA_WHERE_USED</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_CALC_SCHEMA_WHERE_USED</CMPNAME>
+     <SCONAME>IV_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pricing Procedure ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_CALC_SCHEMA_WHERE_USED</CMPNAME>
+     <SCONAME>IV_ID</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Pricing Procedure ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_DRAFT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>IT_CALCULATION_SCHEMA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kalkulationsschema (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit Work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT</CMPNAME>
+     <SCONAME>RT_CALCULATION_SCHEMA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kalkulationsschema (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <SCONAME>IT_CALCULATION_SCHEMA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kalkulationsschema (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit Work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>INSERT_DRAFT</CMPNAME>
+     <SCONAME>RT_CALCULATION_SCHEMA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kalkulationsschema (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>ITR_ID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Calculation Schema ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT</CMPNAME>
+     <SCONAME>IT_SELOPT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Selektionsoptionen für Suchhilfen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <SCONAME>ITR_ID</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Calculation Schema ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <SCONAME>IT_SELOPT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Selektionsoptionen für Suchhilfen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_DRAFT</CMPNAME>
+     <SCONAME>RT_PR_PRCD</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kalkulationsschema (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <SCONAME>IT_CALCULATION_SCHEMA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kalkulationsschema (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit Work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE</CMPNAME>
+     <SCONAME>RT_CALCULATION_SCHEMA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kalkulationsschema (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <SCONAME>/GICOM/CX_ROOT_DS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Root Exception for DataSource Implementations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <SCONAME>IT_CALCULATION_SCHEMA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kalkulationsschema (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <SCONAME>IV_COMMIT</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Commit Work</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_DRAFT</CMPNAME>
+     <SCONAME>RT_CALCULATION_SCHEMA</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Kalkulationsschema (Attribute)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

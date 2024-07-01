@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/APPROV</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Negotiation requieres approval</DDTEXT>
+    <REPTEXT>Negotiation requieres approval</REPTEXT>
+    <SCRTEXT_S>Appr. Req.</SCRTEXT_S>
+    <SCRTEXT_M>Neg. req. approval</SCRTEXT_M>
+    <SCRTEXT_L>Negotiation requieres approval</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Verhandlung genehmigungspflichtig</DDTEXT>
+     <REPTEXT>Verhandlung genehmigungspflichtig</REPTEXT>
+     <SCRTEXT_S>Gen.Pflcht</SCRTEXT_S>
+     <SCRTEXT_M>VH genehm.-Pflicht</SCRTEXT_M>
+     <SCRTEXT_L>Verhandlung genehmigungspflichtig</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>La négociation nécessite une approbation</DDTEXT>
+     <REPTEXT>La négociation nécessite une approbation</REPTEXT>
+     <SCRTEXT_S>Appr. Dem.</SCRTEXT_S>
+     <SCRTEXT_M>Appr. dem. nég.</SCRTEXT_M>
+     <SCRTEXT_L>La négociation nécessite une approbation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Negocjacje wymagają zatwierdzenia</DDTEXT>
+     <REPTEXT>Negocjacje wymagają zatwierdzenia</REPTEXT>
+     <SCRTEXT_S>Zatw. wym.</SCRTEXT_S>
+     <SCRTEXT_M>Neg. wym. zatw.</SCRTEXT_M>
+     <SCRTEXT_L>Negocjacje wymagają zatwierdzenia</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Negociação requer aprovação</DDTEXT>
+     <REPTEXT>Negociação requer aprovação</REPTEXT>
+     <SCRTEXT_S>Req. ap.</SCRTEXT_S>
+     <SCRTEXT_M>Neg. requer aprov.</SCRTEXT_M>
+     <SCRTEXT_L>Negociação requer aprovação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>La negociación requiere aprobación</DDTEXT>
+     <REPTEXT>La negociación requiere aprobación</REPTEXT>
+     <SCRTEXT_S>aprov. sl.</SCRTEXT_S>
+     <SCRTEXT_M>Neg.req.aprobación</SCRTEXT_M>
+     <SCRTEXT_L>La negociación requiere aprobación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

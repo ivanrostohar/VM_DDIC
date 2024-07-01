@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/RECEIVER_PAYMENT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BU_PARTNER</DOMNAME>
+    <HEADLEN>27</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>27</SCRLEN3>
+    <DDTEXT>Regulator / Settlement sender</DDTEXT>
+    <REPTEXT>Regulator / Settl. sender</REPTEXT>
+    <SCRTEXT_S>Regu.</SCRTEXT_S>
+    <SCRTEXT_M>Regulator</SCRTEXT_M>
+    <SCRTEXT_L>Regulator / Settl. sender</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Regulierer / Zahlungssender</DDTEXT>
+     <REPTEXT>Regulierer / Zahlungssender</REPTEXT>
+     <SCRTEXT_S>Regu.</SCRTEXT_S>
+     <SCRTEXT_M>Regulierer</SCRTEXT_M>
+     <SCRTEXT_L>Regulierer / Zahlungssender</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Regulator / Settlement sender</DDTEXT>
+     <REPTEXT>Regulator / Settl. sender</REPTEXT>
+     <SCRTEXT_S>Regu.</SCRTEXT_S>
+     <SCRTEXT_M>Regulator</SCRTEXT_M>
+     <SCRTEXT_L>Regulator / Settl. sender</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

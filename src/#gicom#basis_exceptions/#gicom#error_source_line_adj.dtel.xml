@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/ERROR_SOURCE_LINE_ADJ</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ERROR_SOURCE_LINE_ADJ</DOMNAME>
+    <HEADLEN>21</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>19</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>source line adjusted</DDTEXT>
+    <REPTEXT>ERROR_SOURCE_LINE_ADJ</REPTEXT>
+    <SCRTEXT_S>LINE_ADJ</SCRTEXT_S>
+    <SCRTEXT_M>ERR_SOURCE_LINE_ADJ</SCRTEXT_M>
+    <SCRTEXT_L>ERROR_SOURCE_LINE_ADJ</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>source line adjusted</DDTEXT>
+     <REPTEXT>ERROR_SOURCE_LINE_ADJ</REPTEXT>
+     <SCRTEXT_S>LINE_ADJ</SCRTEXT_S>
+     <SCRTEXT_M>ERR_SOURCE_LINE_ADJ</SCRTEXT_M>
+     <SCRTEXT_L>ERROR_SOURCE_LINE_ADJ</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

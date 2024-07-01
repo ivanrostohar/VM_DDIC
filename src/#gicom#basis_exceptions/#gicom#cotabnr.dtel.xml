@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/COTABNR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/KOTABNR</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>03</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Condition Table</DDTEXT>
+    <REPTEXT>Tab</REPTEXT>
+    <SCRTEXT_S>Cnd.-Table</SCRTEXT_S>
+    <SCRTEXT_M>Cond. Table</SCRTEXT_M>
+    <SCRTEXT_L>Condition Table</SCRTEXT_L>
+    <APPLCLASS>VF</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>TABLE_NO</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Konditionstabelle</DDTEXT>
+     <REPTEXT>Tab</REPTEXT>
+     <SCRTEXT_S>Verb.-Tab</SCRTEXT_S>
+     <SCRTEXT_M>Vereinbar.-Tab</SCRTEXT_M>
+     <SCRTEXT_L>Vereinbarungstabelle</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Condition Table</DDTEXT>
+     <REPTEXT>Tab</REPTEXT>
+     <SCRTEXT_S>Cnd.-Table</SCRTEXT_S>
+     <SCRTEXT_M>Cond. Table</SCRTEXT_M>
+     <SCRTEXT_L>Condition Table</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/COTABNR</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <TXTLINES>00019</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/COTABNR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Kombination bestimmter Felder, die den Schlüssel eines</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Konditionssatzes bildet.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>In einem &lt;GL:Kalkulationsschema&gt;Kalkulationsschema&lt;/&gt; legen Sie die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Reihenfolge von Konditionsarten fest. Der jeweiligen Konditionsart kann</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eine &lt;GL:Zugriffsfolge&gt;Zugriffsfolge&lt;/&gt; zugeordnet werden. Diese gibt</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>an, wo genau das System nach den Konditionssätzen suchen soll, die für</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>eine bestimmte Konditionsart (z.B. einen Bonus für einen Kunden)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>relevant sind. Jeder Zugriff in der Zugriffsfolge bezieht sich auf eine</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Konditionstabelle. Anhand der in der Tabelle definierten Felder (d.h.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>des Schlüssels) kann das System die gültigen Konditionssätze</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>herausfinden.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beim Anlegen einer Konditionstabelle definieren Sie ein oder mehrere</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Zielfelder als Tabellenschlüssel. Außerdem müssen Sie dem System die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Information mitgeben, woher es den Wert für das Zielfeld nehmen soll.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Geben Sie hierzu ein Quellfeld an. Quell- und Zielfeld sind in der</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Regel identisch, können aber auch verschieden sein.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ist etwa das Zielfeld &quot;Kunde&quot; Teil des Schlüssels, können Sie z.B.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>festlegen, daß das System als Quellfeld &quot;Warenempfänger&quot; verwenden und</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>den dort befindlichen Wert übernehmen soll.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>/GICOM/COTABNR</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00015</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>/GICOM/COTABNR</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>A combination of fields that defines the key of a condition record.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>For each condition type in a &lt;GL:pricing_procedure&gt;pricing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>procedure&lt;/&gt;, you define an &lt;GL:access_sequence&gt;access sequence&lt;/&gt;. The</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>access sequence tells the system where to look for relevant condition</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>records for a particular condition type (a rebate for a specific</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>customer, for example). Each access in the access sequence refers to a</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition table. The fields defined in the table (the key) help the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>system to locate valid condition records.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>When you create a condition table, you specify one or more target</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fields as the table key. You must also tell the system where to find</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the value for each target field. You do this by specifying source</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fields. The source fields are usually the same as the target fields,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>but they can differ. For example, if the target field &quot;Customer&quot; is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>part of the key, you can specify that the system uses &quot;Ship-to party&quot;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>as the source field and takes the value from there.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_CONST_AGRMT_MODEL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Agreement Model Constants</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_AGRMT_MODEL_OPERATOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Agreement model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_AGRMT_MODEL_OPERATOR</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Agreement model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_AGRMT_MODEL_RECEIVER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Agreement model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_AGRMT_MODEL_RECEIVER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Agreement model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_AGRMT_MODEL_SENDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Agreement model</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_AGRMT_MODEL_SENDER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Agreement model</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/X_DISABLE_INTERNAL_STEP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Flag to disable the internal info step in contract wizard</DDTEXT>
+    <REPTEXT>X disable internal info step</REPTEXT>
+    <SCRTEXT_L>X disable internal info step</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Flag zum Deaktivieren der Internen Info im Vertragswizard</DDTEXT>
+     <REPTEXT>X deaktiviere internen Schritt</REPTEXT>
+     <SCRTEXT_L>X deaktiviere Internen Schritt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Flag to disable the internal info step in contract wizard</DDTEXT>
+     <REPTEXT>X disable internal info step</REPTEXT>
+     <SCRTEXT_L>X disable internal info step</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

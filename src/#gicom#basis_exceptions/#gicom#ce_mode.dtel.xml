@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CE_MODE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/CE_MODE</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Calculation Engine Mode</DDTEXT>
+    <REPTEXT>Calculation Mode</REPTEXT>
+    <SCRTEXT_S>Calc. Mode</SCRTEXT_S>
+    <SCRTEXT_M>Calculation Mode</SCRTEXT_M>
+    <SCRTEXT_L>Calculation Mode</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Bewertungsmodus</DDTEXT>
+     <REPTEXT>Kalkulationsmodus</REPTEXT>
+     <SCRTEXT_S>Kalk.Modus</SCRTEXT_S>
+     <SCRTEXT_M>Kalkulationsmodus</SCRTEXT_M>
+     <SCRTEXT_L>Kalkulationsmodus</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Mode moteur de calcul</DDTEXT>
+     <REPTEXT>Mode de calcul</REPTEXT>
+     <SCRTEXT_S>Calc. Mode</SCRTEXT_S>
+     <SCRTEXT_M>Mode de calcul</SCRTEXT_M>
+     <SCRTEXT_L>Mode de calcul</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tryb mechanizmu obliczeniowego</DDTEXT>
+     <REPTEXT>Tryb obliczeń</REPTEXT>
+     <SCRTEXT_S>Tryb obl.</SCRTEXT_S>
+     <SCRTEXT_M>Tryb obliczeń</SCRTEXT_M>
+     <SCRTEXT_L>Tryb obliczeń</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Modo mecanismo de cálculo</DDTEXT>
+     <REPTEXT>Modo de cálculo</REPTEXT>
+     <SCRTEXT_S>Mod. cálc.</SCRTEXT_S>
+     <SCRTEXT_M>Modo de cálculo</SCRTEXT_M>
+     <SCRTEXT_L>Modo de cálculo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Modo de motor de cálculo</DDTEXT>
+     <REPTEXT>Modo de cálculo</REPTEXT>
+     <SCRTEXT_S>cálc. Modo</SCRTEXT_S>
+     <SCRTEXT_M>Modo de cálculo</SCRTEXT_M>
+     <SCRTEXT_L>Modo de cálculo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

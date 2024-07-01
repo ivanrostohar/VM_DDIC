@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/USAGE_PROFILE_ABBREV</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/USAGE_PROFILE_ABBREV</DOMNAME>
+    <HEADLEN>40</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Usage Profile Abbreviation</DDTEXT>
+    <REPTEXT>Usage Profile Abbreviation</REPTEXT>
+    <SCRTEXT_S>Abbrev.</SCRTEXT_S>
+    <SCRTEXT_M>Usg. Profile Abbrev.</SCRTEXT_M>
+    <SCRTEXT_L>Usage Profile Abbreviation</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Anwendungsprofil Abkürzung</DDTEXT>
+     <REPTEXT>Anwendungsprofil Abkürzung</REPTEXT>
+     <SCRTEXT_S>Abkürzung</SCRTEXT_S>
+     <SCRTEXT_M>Anw.-Profil Abk.</SCRTEXT_M>
+     <SCRTEXT_L>Anwendungsprofil Abkürzung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Abréviation du profil d’utilisation</DDTEXT>
+     <REPTEXT>Abréviation du profil d’utilisation</REPTEXT>
+     <SCRTEXT_S>Abrévi.</SCRTEXT_S>
+     <SCRTEXT_M>Abrév. prof. utilis.</SCRTEXT_M>
+     <SCRTEXT_L>Abréviation profil utilisation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Skrót profilu użytkowania</DDTEXT>
+     <REPTEXT>Skrót profilu użytkowania</REPTEXT>
+     <SCRTEXT_S>Skrót</SCRTEXT_S>
+     <SCRTEXT_M>Skr. profilu użytk.</SCRTEXT_M>
+     <SCRTEXT_L>Skrót profilu użytkowania</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Abreviatura do perfil de utilização</DDTEXT>
+     <REPTEXT>Abreviatura do perfil de utilização</REPTEXT>
+     <SCRTEXT_S>Abr.</SCRTEXT_S>
+     <SCRTEXT_M>Abrev. perfil util.</SCRTEXT_M>
+     <SCRTEXT_L>Abreviatura perfil utilização</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Abreviatura del perfil de utilización</DDTEXT>
+     <REPTEXT>Abreviatura del perfil de utilización</REPTEXT>
+     <SCRTEXT_S>Abrev.</SCRTEXT_S>
+     <SCRTEXT_M>Abrev.perfil util.</SCRTEXT_M>
+     <SCRTEXT_L>Abrev. del perfil de utiliz.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

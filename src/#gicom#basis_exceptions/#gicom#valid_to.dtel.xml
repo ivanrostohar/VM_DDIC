@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/VALID_TO</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/VALID</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Valid to</DDTEXT>
+    <REPTEXT>Valid to</REPTEXT>
+    <SCRTEXT_S>Val. to</SCRTEXT_S>
+    <SCRTEXT_M>Valid to</SCRTEXT_M>
+    <SCRTEXT_L>Valid to</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Gültig bis</DDTEXT>
+     <REPTEXT>Gültig bis</REPTEXT>
+     <SCRTEXT_S>Glt bis</SCRTEXT_S>
+     <SCRTEXT_M>Gültig bis</SCRTEXT_M>
+     <SCRTEXT_L>Gültig bis</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Valable jusqu’à</DDTEXT>
+     <REPTEXT>Valable jusqu’à</REPTEXT>
+     <SCRTEXT_S>Val. à</SCRTEXT_S>
+     <SCRTEXT_M>Valable jusqu’à</SCRTEXT_M>
+     <SCRTEXT_L>Valable jusqu’à</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Obowiązuje do</DDTEXT>
+     <REPTEXT>Obowiązuje do</REPTEXT>
+     <SCRTEXT_S>Obow. do</SCRTEXT_S>
+     <SCRTEXT_M>Obowiązuje do</SCRTEXT_M>
+     <SCRTEXT_L>Obowiązuje do</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Válido até</DDTEXT>
+     <REPTEXT>Válido até</REPTEXT>
+     <SCRTEXT_S>Válido até</SCRTEXT_S>
+     <SCRTEXT_M>Válido até</SCRTEXT_M>
+     <SCRTEXT_L>Válido até</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Válido hasta</DDTEXT>
+     <REPTEXT>Válido hasta</REPTEXT>
+     <SCRTEXT_S>Vál.hasta</SCRTEXT_S>
+     <SCRTEXT_M>Válido hasta</SCRTEXT_M>
+     <SCRTEXT_L>Válido hasta</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

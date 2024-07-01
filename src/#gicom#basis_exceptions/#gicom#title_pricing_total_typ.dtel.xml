@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TITLE_PRICING_TOTAL_TYP</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TITLE</DOMNAME>
+    <HEADLEN>20</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Title of total type</DDTEXT>
+    <REPTEXT>Title of Total Type</REPTEXT>
+    <SCRTEXT_S>Total Type</SCRTEXT_S>
+    <SCRTEXT_M>Total Type</SCRTEXT_M>
+    <SCRTEXT_L>Title of Total Type</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Titel der Summenart</DDTEXT>
+     <REPTEXT>Titel der Summenart</REPTEXT>
+     <SCRTEXT_S>Summenart</SCRTEXT_S>
+     <SCRTEXT_M>Summenart</SCRTEXT_M>
+     <SCRTEXT_L>Titel der Summenart</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Titre du type total</DDTEXT>
+     <REPTEXT>Titre du type total</REPTEXT>
+     <SCRTEXT_S>Type total</SCRTEXT_S>
+     <SCRTEXT_M>Type total</SCRTEXT_M>
+     <SCRTEXT_L>Titre du type total</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Tytuł typu sumy</DDTEXT>
+     <REPTEXT>Tytuł typu sumy</REPTEXT>
+     <SCRTEXT_S>Cena łącz.</SCRTEXT_S>
+     <SCRTEXT_M>Cena łączna</SCRTEXT_M>
+     <SCRTEXT_L>Tytuł typu sumy</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Título de tipo de total</DDTEXT>
+     <REPTEXT>Tít. de tipo de tot.</REPTEXT>
+     <SCRTEXT_S>Tipo tot.</SCRTEXT_S>
+     <SCRTEXT_M>Tipo de total</SCRTEXT_M>
+     <SCRTEXT_L>Título de tipo de total</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Título del tipo de total</DDTEXT>
+     <REPTEXT>Tít. del t. de tot.</REPTEXT>
+     <SCRTEXT_S>T. de tot.</SCRTEXT_S>
+     <SCRTEXT_M>Tipo de total</SCRTEXT_M>
+     <SCRTEXT_L>Título del tipo de total</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

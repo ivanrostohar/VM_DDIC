@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_CONST_ADDEND_ACTIVT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>AGRMT_REL_ACTIVITY</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_CHANGE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status eines Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_CHANGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_CHANGE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_CHANGE_VALIDITY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status eines Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_CHANGE_VALIDITY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_CHANGE_VALIDITY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_INVALID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status eines Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_INVALID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_INVALID</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_NEW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status eines Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_NEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_NEW</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_TERMINATED</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Status eines Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_TERMINATED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ACTIVT_TERMINATED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Status of an Addendum</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

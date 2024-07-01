@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SIM_EXTRACT</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TITLE</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Simulation part description</DDTEXT>
+    <REPTEXT>Simulation part description</REPTEXT>
+    <SCRTEXT_S>Sim.p.Desc</SCRTEXT_S>
+    <SCRTEXT_M>Simulation part desc</SCRTEXT_M>
+    <SCRTEXT_L>Simulation part description</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Bezeichnung Simulations Ausschnitt</DDTEXT>
+     <REPTEXT>Bezeichnung Simulations Ausschnitt</REPTEXT>
+     <SCRTEXT_S>Bez. S. A.</SCRTEXT_S>
+     <SCRTEXT_M>Bez. Sim. Ausschnitt</SCRTEXT_M>
+     <SCRTEXT_L>Bezeichnung Simulations Ausschnitt</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Simulation part description</DDTEXT>
+     <REPTEXT>Simulation part description</REPTEXT>
+     <SCRTEXT_S>Sim.p.Desc</SCRTEXT_S>
+     <SCRTEXT_M>Simulation part desc</SCRTEXT_M>
+     <SCRTEXT_L>Simulation part description</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

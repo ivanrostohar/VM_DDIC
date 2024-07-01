@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/SAP_STATUS_PROFILE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>J_STSMA</DOMNAME>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>15</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Status Profile</DDTEXT>
+    <REPTEXT>StatProf</REPTEXT>
+    <SCRTEXT_S>Stat.Prof.</SCRTEXT_S>
+    <SCRTEXT_M>Status Profile</SCRTEXT_M>
+    <SCRTEXT_L>Status Profile</SCRTEXT_L>
+    <APPLCLASS>BSV</APPLCLASS>
+    <DTELMASTER>E</DTELMASTER>
+    <DEFFDNAME>STAT_PROF</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Statusschema</DDTEXT>
+     <REPTEXT>StSchema</REPTEXT>
+     <SCRTEXT_S>StSchema</SCRTEXT_S>
+     <SCRTEXT_M>Statusschema</SCRTEXT_M>
+     <SCRTEXT_L>Statusschema</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Status Profile</DDTEXT>
+     <REPTEXT>StatProf</REPTEXT>
+     <SCRTEXT_S>Stat.Prof.</SCRTEXT_S>
+     <SCRTEXT_M>Status Profile</SCRTEXT_M>
+     <SCRTEXT_L>Status Profile</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Esquema de status</DDTEXT>
+     <REPTEXT>EsqStat</REPTEXT>
+     <SCRTEXT_S>Esq.status</SCRTEXT_S>
+     <SCRTEXT_M>Esq.status</SCRTEXT_M>
+     <SCRTEXT_L>Esquema de status</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Esquema de status</DDTEXT>
+     <REPTEXT>Esq.st.</REPTEXT>
+     <SCRTEXT_S>Esq.st.</SCRTEXT_S>
+     <SCRTEXT_M>Esquema status</SCRTEXT_M>
+     <SCRTEXT_L>Esquema de status</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

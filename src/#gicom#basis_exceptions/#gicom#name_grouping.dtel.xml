@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/NAME_GROUPING</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/NAME_GROUPING</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Grouping name</DDTEXT>
+    <REPTEXT>Grouping Identifier</REPTEXT>
+    <SCRTEXT_S>ID</SCRTEXT_S>
+    <SCRTEXT_M>Grouping ID</SCRTEXT_M>
+    <SCRTEXT_L>Grouping Identifier</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Gruppierungsname</DDTEXT>
+     <REPTEXT>Gruppierungs-ID</REPTEXT>
+     <SCRTEXT_S>ID</SCRTEXT_S>
+     <SCRTEXT_M>Gruppierungs-ID</SCRTEXT_M>
+     <SCRTEXT_L>Gruppierungs-ID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Nom du groupement</DDTEXT>
+     <REPTEXT>Identifiant du groupement</REPTEXT>
+     <SCRTEXT_S>ID</SCRTEXT_S>
+     <SCRTEXT_M>ID du groupement</SCRTEXT_M>
+     <SCRTEXT_L>Identifiant du groupement</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Nazwa grupowania</DDTEXT>
+     <REPTEXT>Identyfikator grupowania</REPTEXT>
+     <SCRTEXT_S>ID</SCRTEXT_S>
+     <SCRTEXT_M>Id. grupowania</SCRTEXT_M>
+     <SCRTEXT_L>Identyfikator grupowania</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Nome do agrupamento</DDTEXT>
+     <REPTEXT>Identificador do agrupamento</REPTEXT>
+     <SCRTEXT_S>ID</SCRTEXT_S>
+     <SCRTEXT_M>ID do agrupamento</SCRTEXT_M>
+     <SCRTEXT_L>Identificador do agrupamento</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Nombre de la agrupación</DDTEXT>
+     <REPTEXT>Identificador de la agrupación</REPTEXT>
+     <SCRTEXT_S>ID</SCRTEXT_S>
+     <SCRTEXT_M>ID de agrupación</SCRTEXT_M>
+     <SCRTEXT_L>Identificador de la agrupación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

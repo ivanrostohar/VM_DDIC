@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>/GICOM/CL_DSO_PURCHASE_ORG</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Super Class for DSO Purchase Org</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BADI</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get DSO BAdi</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BADI</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Get DSO BAdi</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BADI</CMPNAME>
+     <SCONAME>RB_DSO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>BAdI for Data Source Purchase Organization</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_BADI</CMPNAME>
+     <SCONAME>RB_DSO</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>BAdI for Data Source Purchase Organization</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

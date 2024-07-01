@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/GICOM/IF_CONSTANTS_DIM_CMPLX</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Constants: Dim. Complex</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ARTICLE_GROUP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ der Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ARTICLE_GROUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_ARTICLE_GROUP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_GROUPING</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ der Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_GROUPING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_GROUPING</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MATERIAL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ der Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MATERIAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_MATERIAL</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_RECEIVER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ der Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_RECEIVER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_RECEIVER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SENDER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ der Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SENDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SENDER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SERVICE_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ der Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SERVICE_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SERVICE_TYPE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SOURCING_TYPE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Typ der Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SOURCING_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GC_SOURCING_TYPE</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Type of Dimension</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/CANCEL_INVOICE_NUMBER</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>NUM9</DOMNAME>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>08</SCRLEN2>
+    <SCRLEN3>08</SCRLEN3>
+    <DDTEXT>Cancellation-Invoicenumber</DDTEXT>
+    <REPTEXT>CancelNr</REPTEXT>
+    <SCRTEXT_S>CancelNr</SCRTEXT_S>
+    <SCRTEXT_M>CancelNr</SCRTEXT_M>
+    <SCRTEXT_L>CancelNr</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Storno-Fakturnummer</DDTEXT>
+     <REPTEXT>StornoNr</REPTEXT>
+     <SCRTEXT_S>StornoNr</SCRTEXT_S>
+     <SCRTEXT_M>StornoNr</SCRTEXT_M>
+     <SCRTEXT_L>StornoNr</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Cancellation-Invoicenumber</DDTEXT>
+     <REPTEXT>CancelNr</REPTEXT>
+     <SCRTEXT_S>CancelNr</SCRTEXT_S>
+     <SCRTEXT_M>CancelNr</SCRTEXT_M>
+     <SCRTEXT_L>CancelNr</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

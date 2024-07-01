@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/X_CHANGEABLE_NEGO</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/ABAP_BOOL</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Is changle during negotiation</DDTEXT>
+    <REPTEXT>Changeable in Negotiation</REPTEXT>
+    <SCRTEXT_S>Chg Nego</SCRTEXT_S>
+    <SCRTEXT_M>Changeable Nego.</SCRTEXT_M>
+    <SCRTEXT_L>Changeable in Negotiation</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Ist änderbar während der Verhandlung</DDTEXT>
+     <REPTEXT>Änderbar in Verhandlung</REPTEXT>
+     <SCRTEXT_S>Änd. Verh.</SCRTEXT_S>
+     <SCRTEXT_M>Anderbar. Verhandl.</SCRTEXT_M>
+     <SCRTEXT_L>Änderbar in Verhanldung</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Est modifiable pendant la négociation</DDTEXT>
+     <REPTEXT>Modifiable dans la négociation</REPTEXT>
+     <SCRTEXT_S>Modif nég.</SCRTEXT_S>
+     <SCRTEXT_M>Modifiable nég.</SCRTEXT_M>
+     <SCRTEXT_L>Modifiable dans la négociation</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Można zmienić podczas negocjacji</DDTEXT>
+     <REPTEXT>Możliwość zmiany podczas negocjacji</REPTEXT>
+     <SCRTEXT_S>Moż zm neg</SCRTEXT_S>
+     <SCRTEXT_M>Możl. zmiany neg.</SCRTEXT_M>
+     <SCRTEXT_L>Możliwość zmiany podczas negocjacji</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Pode ser modificado durante a negociação</DDTEXT>
+     <REPTEXT>Modificável na negociação</REPTEXT>
+     <SCRTEXT_S>ModifNeg</SCRTEXT_S>
+     <SCRTEXT_M>Modif.negoc.</SCRTEXT_M>
+     <SCRTEXT_L>Modificável na negociação</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Modificable durante la negociación</DDTEXT>
+     <REPTEXT>Modificable en negociación</REPTEXT>
+     <SCRTEXT_S>Mod. neg.</SCRTEXT_S>
+     <SCRTEXT_M>Modificable negoc.</SCRTEXT_M>
+     <SCRTEXT_L>Modificable en negociación</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

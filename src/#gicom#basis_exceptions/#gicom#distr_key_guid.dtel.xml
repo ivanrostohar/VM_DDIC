@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/DISTR_KEY_GUID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/GUID_C32</DOMNAME>
+    <LOGFLAG>X</LOGFLAG>
+    <HEADLEN>14</HEADLEN>
+    <SCRLEN1>04</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>21</SCRLEN3>
+    <DDTEXT>GUID for Distribution Key</DDTEXT>
+    <REPTEXT>Distr Key GUID</REPTEXT>
+    <SCRTEXT_S>GUID</SCRTEXT_S>
+    <SCRTEXT_M>Distr Key GUID</SCRTEXT_M>
+    <SCRTEXT_L>Distribution Key GUID</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>GUID für Verteilschlüssel</DDTEXT>
+     <REPTEXT>VertSchl GUID</REPTEXT>
+     <SCRTEXT_S>GUID</SCRTEXT_S>
+     <SCRTEXT_M>VertSchl GUID</SCRTEXT_M>
+     <SCRTEXT_L>Verteilschlüssel GUID</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>GUID pour la clé de répartition</DDTEXT>
+     <REPTEXT>GUID clé répa.</REPTEXT>
+     <SCRTEXT_S>GUID</SCRTEXT_S>
+     <SCRTEXT_M>GUID clé répa.</SCRTEXT_M>
+     <SCRTEXT_L>GUID clé de répa.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>GUID dla klucza rozdziału</DDTEXT>
+     <REPTEXT>GUID klucz roz</REPTEXT>
+     <SCRTEXT_S>GUID</SCRTEXT_S>
+     <SCRTEXT_M>GUID klucz roz</SCRTEXT_M>
+     <SCRTEXT_L>GUID klucza rozdz</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>GUID para chave de distribuição</DDTEXT>
+     <REPTEXT>GUID ChvDistr</REPTEXT>
+     <SCRTEXT_S>GUID</SCRTEXT_S>
+     <SCRTEXT_M>GUID ChvDistr</SCRTEXT_M>
+     <SCRTEXT_L>GUID chave distrib.</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>GUID para clave de distribución</DDTEXT>
+     <REPTEXT>GUID cl. dist.</REPTEXT>
+     <SCRTEXT_S>GUID</SCRTEXT_S>
+     <SCRTEXT_M>GUID cl. dist.</SCRTEXT_M>
+     <SCRTEXT_L>GUID clave distrib.</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

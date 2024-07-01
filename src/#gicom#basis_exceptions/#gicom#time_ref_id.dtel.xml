@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/TIME_REF_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/TIME_REF_ID</DOMNAME>
+    <HEADLEN>10</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>ID of a time reference</DDTEXT>
+    <REPTEXT>Time-ID</REPTEXT>
+    <SCRTEXT_S>ID</SCRTEXT_S>
+    <SCRTEXT_M>Time-ID</SCRTEXT_M>
+    <SCRTEXT_L>ID of a time reference</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>ID einer Zeitreferenz</DDTEXT>
+     <REPTEXT>Zeit-ID</REPTEXT>
+     <SCRTEXT_S>ID</SCRTEXT_S>
+     <SCRTEXT_M>Zeit-ID</SCRTEXT_M>
+     <SCRTEXT_L>ID einer Zeitreferenz</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>ID of a time reference</DDTEXT>
+     <REPTEXT>Time-ID</REPTEXT>
+     <SCRTEXT_S>ID</SCRTEXT_S>
+     <SCRTEXT_M>Time-ID</SCRTEXT_M>
+     <SCRTEXT_L>ID of a time reference</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

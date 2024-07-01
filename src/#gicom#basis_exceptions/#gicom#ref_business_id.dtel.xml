@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/GICOM/REF_BUSINESS_ID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/GICOM/BUSINESS_ID</DOMNAME>
+    <HEADLEN>09</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Business process of reference number</DDTEXT>
+    <REPTEXT>Bus.Pr.ID</REPTEXT>
+    <SCRTEXT_S>Ref.Bu.Pr</SCRTEXT_S>
+    <SCRTEXT_M>Ref.Bu.Proc.</SCRTEXT_M>
+    <SCRTEXT_L>Reference Businessprocess</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Geschäftsvorgang der Referenznummer</DDTEXT>
+     <REPTEXT>Ref.Ge-ID</REPTEXT>
+     <SCRTEXT_S>Ref.Ge-ID</SCRTEXT_S>
+     <SCRTEXT_M>Ref.Ge-Vorgang</SCRTEXT_M>
+     <SCRTEXT_L>Referenz Geschäftsvorgang</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Business process of reference number</DDTEXT>
+     <REPTEXT>Bus.Pr.ID</REPTEXT>
+     <SCRTEXT_S>Ref.Bu.Pr</SCRTEXT_S>
+     <SCRTEXT_M>Ref.Bu.Proc.</SCRTEXT_M>
+     <SCRTEXT_L>Reference Businessprocess</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

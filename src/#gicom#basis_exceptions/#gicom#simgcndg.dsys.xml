@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMG/GICOM/CNDG</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0004</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00025</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMG/GICOM/CNDG</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00004</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The condition type groups allow the grouping of condition types. Via</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>condition type groups in the AD you define the condition types allowed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for a contract type which are implemented as a cluster for the contract</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>proof.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step1: Condition type groups</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Condition type groups are created via the view cluster /GICOM/VC_CNDG.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>This facilitates the creation of the assignment, because the assignment</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the condition types to the groups is directly displayed in a graphic</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>view.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>For the assignment, create the condition type group and select the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>group, to which the condition types will be assigned to. In the new</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>section, enter a token and the title of the condition group.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>By clicking &quot;condition type assignment&quot; in the branch below you enter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the corresponding condition types. Only the key of the condition type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>must be entered. The description of the condition types will be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>transferred from the condition type customizing.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>Step2: Assignment of a condition type group to a contract type</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>The assignment of the condition type groups to a contract type is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>performed via the contract type configuration. Detailed information is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>provided in Chapter 3.10.2.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
